@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
-	<skillTree type="classSkillTree" classId="265" parentClassId="264">
-		<!-- Actives -->
-		<skill skillName="Take Life" skillId="31530" skillLevel="1" getLevel="20" />
-		<skill skillName="Furinkazan" skillId="31539" skillLevel="1" getLevel="20" />
-	</skillTree>
-</list>

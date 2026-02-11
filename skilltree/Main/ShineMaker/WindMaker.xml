@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
-	<skillTree type="classSkillTree" classId="233" parentClassId="232">
-		<!-- Actives -->
-		<skill skillName="Fantasia Ring" skillId="31300" skillLevel="1" getLevel="40" />
-	</skillTree>
-</list>

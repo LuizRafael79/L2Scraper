@@ -8,9 +8,17 @@ venv/
 
 # Databases & Scraped Data (Opcional - se quiser manter o repo leve)
 html_items_*/
+items_*/
+skills_*/
+skilltree/
+output*/
 *.db
 databases/*.dat
+*.json
+*.txt
 
 # IDEs
 .vscode/
 .idea/
+
+!scraper_config.json
