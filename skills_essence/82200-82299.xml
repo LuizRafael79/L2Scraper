@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="82201" toLevel="20" name="Defense Property - Upper Armor">
+		<!-- Level 1: <Effect>. P./ M. Atk. ++20. P./ M. Def. ++20 -->
+		<!-- Level 2: <Effect>. P./ M. Atk. ++40. P./ M. Def. ++40 -->
+		<!-- Level 3: <Effect>. P./ M. Atk. ++60. P./ M. Def. ++60 -->
+		<!-- Level 4: <Effect>. P./ M. Atk. ++80. P./ M. Def. ++80 -->
+		<!-- Level 5: <Effect>. P./ M. Atk. ++100. P./ M. Def. ++100 -->
+		<!-- Level 6: <Effect>. P./ M. Atk. ++120. P./ M. Def. ++120. Acquired XP/ SP +1% -->
+		<!-- Level 7: <Effect>. P./ M. Atk. ++140. P./ M. Def. ++140. Acquired XP/ SP +1% -->
+		<!-- Level 8: <Effect>. P./ M. Atk. ++160. P./ M. Def. ++160. Acquired XP/ SP +1% -->
+		<!-- Level 9: <Effect>. P./ M. Atk. ++180. P./ M. Def. ++180. Acquired XP/ SP +1% -->
+		<!-- Level 10: <Effect>. P./ M. Atk. ++200. P./ M. Def. ++200. Acquired XP/ SP +1% -->
+		<!-- Level 11: <Effect>. P./ M. Atk. ++220. P./ M. Def. ++220. Acquired XP/ SP +2% -->
+		<!-- Level 12: <Effect>. P./ M. Atk. ++240. P./ M. Def. ++240. Acquired XP/ SP +3% -->
+		<!-- Level 13: <Effect>. P./ M. Atk. ++260. P./ M. Def. ++260. Acquired XP/ SP +4% -->
+		<!-- Level 14: <Effect>. P./ M. Atk. ++280. P./ M. Def. ++280. Acquired XP/ SP +5% -->
+		<!-- Level 15: <Effect>. P./ M. Atk. ++300. P./ M. Def. ++300. Acquired XP/ SP +6% -->
+		<!-- Level 16: <Effect>. P./ M. Atk. ++320. P./ M. Def. ++320. Acquired XP/ SP +7% -->
+		<!-- Level 17: <Effect>. P./ M. Atk. ++340. P./ M. Def. ++340. Acquired XP/ SP +8% -->
+		<!-- Level 18: <Effect>. P./ M. Atk. ++360. P./ M. Def. ++360. Acquired XP/ SP +9% -->
+		<!-- Level 19: <Effect>. P./ M. Atk. ++380. P./ M. Def. ++380. Acquired XP/ SP +10% -->
+		<!-- Level 20: <Effect>. P./ M. Atk. ++400. P./ M. Def. ++400. Acquired XP/ SP +11% -->
+		<icon>
+			<value level="1">icon.aden_rune_am_i01</value>
+			<value level="2">icon.aden_rune_am_i01</value>
+			<value level="3">icon.aden_rune_am_i01</value>
+			<value level="4">icon.aden_rune_am_i01</value>
+			<value level="5">icon.aden_rune_am_i01</value>
+			<value level="6">icon.aden_rune_am_i02</value>
+			<value level="7">icon.aden_rune_am_i02</value>
+			<value level="8">icon.aden_rune_am_i02</value>
+			<value level="9">icon.aden_rune_am_i02</value>
+			<value level="10">icon.aden_rune_am_i02</value>
+			<value level="11">icon.aden_rune_am_i03</value>
+			<value level="12">icon.aden_rune_am_i03</value>
+			<value level="13">icon.aden_rune_am_i03</value>
+			<value level="14">icon.aden_rune_am_i03</value>
+			<value level="15">icon.aden_rune_am_i03</value>
+			<value level="16">icon.aden_rune_am_i04</value>
+			<value level="17">icon.aden_rune_am_i04</value>
+			<value level="18">icon.aden_rune_am_i04</value>
+			<value level="19">icon.aden_rune_am_i04</value>
+			<value level="20">icon.aden_rune_am_i04</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="82202" toLevel="20" name="Defense Property - Lower Armor">
+		<!-- Level 1: <Effect>. P./ M. Atk. ++20. P./ M. Def. ++20 -->
+		<!-- Level 2: <Effect>. P./ M. Atk. ++40. P./ M. Def. ++40 -->
+		<!-- Level 3: <Effect>. P./ M. Atk. ++60. P./ M. Def. ++60 -->
+		<!-- Level 4: <Effect>. P./ M. Atk. ++80. P./ M. Def. ++80 -->
+		<!-- Level 5: <Effect>. P./ M. Atk. ++100. P./ M. Def. ++100 -->
+		<!-- Level 6: <Effect>. P./ M. Atk. ++120. P./ M. Def. ++120. Acquired XP/ SP +1% -->
+		<!-- Level 7: <Effect>. P./ M. Atk. ++140. P./ M. Def. ++140. Acquired XP/ SP +1% -->
+		<!-- Level 8: <Effect>. P./ M. Atk. ++160. P./ M. Def. ++160. Acquired XP/ SP +1% -->
+		<!-- Level 9: <Effect>. P./ M. Atk. ++180. P./ M. Def. ++180. Acquired XP/ SP +1% -->
+		<!-- Level 10: <Effect>. P./ M. Atk. ++200. P./ M. Def. ++200. Acquired XP/ SP +1% -->
+		<!-- Level 11: <Effect>. P./ M. Atk. ++220. P./ M. Def. ++220. Acquired XP/ SP +2% -->
+		<!-- Level 12: <Effect>. P./ M. Atk. ++240. P./ M. Def. ++240. Acquired XP/ SP +3% -->
+		<!-- Level 13: <Effect>. P./ M. Atk. ++260. P./ M. Def. ++260. Acquired XP/ SP +4% -->
+		<!-- Level 14: <Effect>. P./ M. Atk. ++280. P./ M. Def. ++280. Acquired XP/ SP +5% -->
+		<!-- Level 15: <Effect>. P./ M. Atk. ++300. P./ M. Def. ++300. Acquired XP/ SP +6% -->
+		<!-- Level 16: <Effect>. P./ M. Atk. ++320. P./ M. Def. ++320. Acquired XP/ SP +7% -->
+		<!-- Level 17: <Effect>. P./ M. Atk. ++340. P./ M. Def. ++340. Acquired XP/ SP +8% -->
+		<!-- Level 18: <Effect>. P./ M. Atk. ++360. P./ M. Def. ++360. Acquired XP/ SP +9% -->
+		<!-- Level 19: <Effect>. P./ M. Atk. ++380. P./ M. Def. ++380. Acquired XP/ SP +10% -->
+		<!-- Level 20: <Effect>. P./ M. Atk. ++400. P./ M. Def. ++400. Acquired XP/ SP +11% -->
+		<icon>
+			<value level="1">icon.aden_rune_am_i01</value>
+			<value level="2">icon.aden_rune_am_i01</value>
+			<value level="3">icon.aden_rune_am_i01</value>
+			<value level="4">icon.aden_rune_am_i01</value>
+			<value level="5">icon.aden_rune_am_i01</value>
+			<value level="6">icon.aden_rune_am_i02</value>
+			<value level="7">icon.aden_rune_am_i02</value>
+			<value level="8">icon.aden_rune_am_i02</value>
+			<value level="9">icon.aden_rune_am_i02</value>
+			<value level="10">icon.aden_rune_am_i02</value>
+			<value level="11">icon.aden_rune_am_i03</value>
+			<value level="12">icon.aden_rune_am_i03</value>
+			<value level="13">icon.aden_rune_am_i03</value>
+			<value level="14">icon.aden_rune_am_i03</value>
+			<value level="15">icon.aden_rune_am_i03</value>
+			<value level="16">icon.aden_rune_am_i04</value>
+			<value level="17">icon.aden_rune_am_i04</value>
+			<value level="18">icon.aden_rune_am_i04</value>
+			<value level="19">icon.aden_rune_am_i04</value>
+			<value level="20">icon.aden_rune_am_i04</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="82203" toLevel="20" name="Defense Property - Helmet">
+		<!-- Level 1: <Effect>. P./ M. Atk. ++20. P./ M. Def. ++20 -->
+		<!-- Level 2: <Effect>. P./ M. Atk. ++40. P./ M. Def. ++40 -->
+		<!-- Level 3: <Effect>. P./ M. Atk. ++60. P./ M. Def. ++60 -->
+		<!-- Level 4: <Effect>. P./ M. Atk. ++80. P./ M. Def. ++80 -->
+		<!-- Level 5: <Effect>. P./ M. Atk. ++100. P./ M. Def. ++100 -->
+		<!-- Level 6: <Effect>. P./ M. Atk. ++120. P./ M. Def. ++120. Acquired XP/ SP +1% -->
+		<!-- Level 7: <Effect>. P./ M. Atk. ++140. P./ M. Def. ++140. Acquired XP/ SP +1% -->
+		<!-- Level 8: <Effect>. P./ M. Atk. ++160. P./ M. Def. ++160. Acquired XP/ SP +1% -->
+		<!-- Level 9: <Effect>. P./ M. Atk. ++180. P./ M. Def. ++180. Acquired XP/ SP +1% -->
+		<!-- Level 10: <Effect>. P./ M. Atk. ++200. P./ M. Def. ++200. Acquired XP/ SP +1% -->
+		<!-- Level 11: <Effect>. P./ M. Atk. ++220. P./ M. Def. ++220. Acquired XP/ SP +2% -->
+		<!-- Level 12: <Effect>. P./ M. Atk. ++240. P./ M. Def. ++240. Acquired XP/ SP +3% -->
+		<!-- Level 13: <Effect>. P./ M. Atk. ++260. P./ M. Def. ++260. Acquired XP/ SP +4% -->
+		<!-- Level 14: <Effect>. P./ M. Atk. ++280. P./ M. Def. ++280. Acquired XP/ SP +5% -->
+		<!-- Level 15: <Effect>. P./ M. Atk. ++300. P./ M. Def. ++300. Acquired XP/ SP +6% -->
+		<!-- Level 16: <Effect>. P./ M. Atk. ++320. P./ M. Def. ++320. Acquired XP/ SP +7% -->
+		<!-- Level 17: <Effect>. P./ M. Atk. ++340. P./ M. Def. ++340. Acquired XP/ SP +8% -->
+		<!-- Level 18: <Effect>. P./ M. Atk. ++360. P./ M. Def. ++360. Acquired XP/ SP +9% -->
+		<!-- Level 19: <Effect>. P./ M. Atk. ++380. P./ M. Def. ++380. Acquired XP/ SP +10% -->
+		<!-- Level 20: <Effect>. P./ M. Atk. ++400. P./ M. Def. ++400. Acquired XP/ SP +11% -->
+		<icon>
+			<value level="1">icon.aden_rune_am_i01</value>
+			<value level="2">icon.aden_rune_am_i01</value>
+			<value level="3">icon.aden_rune_am_i01</value>
+			<value level="4">icon.aden_rune_am_i01</value>
+			<value level="5">icon.aden_rune_am_i01</value>
+			<value level="6">icon.aden_rune_am_i02</value>
+			<value level="7">icon.aden_rune_am_i02</value>
+			<value level="8">icon.aden_rune_am_i02</value>
+			<value level="9">icon.aden_rune_am_i02</value>
+			<value level="10">icon.aden_rune_am_i02</value>
+			<value level="11">icon.aden_rune_am_i03</value>
+			<value level="12">icon.aden_rune_am_i03</value>
+			<value level="13">icon.aden_rune_am_i03</value>
+			<value level="14">icon.aden_rune_am_i03</value>
+			<value level="15">icon.aden_rune_am_i03</value>
+			<value level="16">icon.aden_rune_am_i04</value>
+			<value level="17">icon.aden_rune_am_i04</value>
+			<value level="18">icon.aden_rune_am_i04</value>
+			<value level="19">icon.aden_rune_am_i04</value>
+			<value level="20">icon.aden_rune_am_i04</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="82204" toLevel="20" name="Defense Property - Gloves">
+		<!-- Level 1: <Effect>. P./ M. Atk. ++20. P./ M. Def. ++20 -->
+		<!-- Level 2: <Effect>. P./ M. Atk. ++40. P./ M. Def. ++40 -->
+		<!-- Level 3: <Effect>. P./ M. Atk. ++60. P./ M. Def. ++60 -->
+		<!-- Level 4: <Effect>. P./ M. Atk. ++80. P./ M. Def. ++80 -->
+		<!-- Level 5: <Effect>. P./ M. Atk. ++100. P./ M. Def. ++100 -->
+		<!-- Level 6: <Effect>. P./ M. Atk. ++120. P./ M. Def. ++120. Acquired XP/ SP +1% -->
+		<!-- Level 7: <Effect>. P./ M. Atk. ++140. P./ M. Def. ++140. Acquired XP/ SP +1% -->
+		<!-- Level 8: <Effect>. P./ M. Atk. ++160. P./ M. Def. ++160. Acquired XP/ SP +1% -->
+		<!-- Level 9: <Effect>. P./ M. Atk. ++180. P./ M. Def. ++180. Acquired XP/ SP +1% -->
+		<!-- Level 10: <Effect>. P./ M. Atk. ++200. P./ M. Def. ++200. Acquired XP/ SP +1% -->
+		<!-- Level 11: <Effect>. P./ M. Atk. ++220. P./ M. Def. ++220. Acquired XP/ SP +2% -->
+		<!-- Level 12: <Effect>. P./ M. Atk. ++240. P./ M. Def. ++240. Acquired XP/ SP +3% -->
+		<!-- Level 13: <Effect>. P./ M. Atk. ++260. P./ M. Def. ++260. Acquired XP/ SP +4% -->
+		<!-- Level 14: <Effect>. P./ M. Atk. ++280. P./ M. Def. ++280. Acquired XP/ SP +5% -->
+		<!-- Level 15: <Effect>. P./ M. Atk. ++300. P./ M. Def. ++300. Acquired XP/ SP +6% -->
+		<!-- Level 16: <Effect>. P./ M. Atk. ++320. P./ M. Def. ++320. Acquired XP/ SP +7% -->
+		<!-- Level 17: <Effect>. P./ M. Atk. ++340. P./ M. Def. ++340. Acquired XP/ SP +8% -->
+		<!-- Level 18: <Effect>. P./ M. Atk. ++360. P./ M. Def. ++360. Acquired XP/ SP +9% -->
+		<!-- Level 19: <Effect>. P./ M. Atk. ++380. P./ M. Def. ++380. Acquired XP/ SP +10% -->
+		<!-- Level 20: <Effect>. P./ M. Atk. ++400. P./ M. Def. ++400. Acquired XP/ SP +11% -->
+		<icon>
+			<value level="1">icon.aden_rune_am_i01</value>
+			<value level="2">icon.aden_rune_am_i01</value>
+			<value level="3">icon.aden_rune_am_i01</value>
+			<value level="4">icon.aden_rune_am_i01</value>
+			<value level="5">icon.aden_rune_am_i01</value>
+			<value level="6">icon.aden_rune_am_i02</value>
+			<value level="7">icon.aden_rune_am_i02</value>
+			<value level="8">icon.aden_rune_am_i02</value>
+			<value level="9">icon.aden_rune_am_i02</value>
+			<value level="10">icon.aden_rune_am_i02</value>
+			<value level="11">icon.aden_rune_am_i03</value>
+			<value level="12">icon.aden_rune_am_i03</value>
+			<value level="13">icon.aden_rune_am_i03</value>
+			<value level="14">icon.aden_rune_am_i03</value>
+			<value level="15">icon.aden_rune_am_i03</value>
+			<value level="16">icon.aden_rune_am_i04</value>
+			<value level="17">icon.aden_rune_am_i04</value>
+			<value level="18">icon.aden_rune_am_i04</value>
+			<value level="19">icon.aden_rune_am_i04</value>
+			<value level="20">icon.aden_rune_am_i04</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="82205" toLevel="20" name="Defense Property - Boots">
+		<!-- Level 1: <Effect>. P./ M. Atk. ++20. P./ M. Def. ++20 -->
+		<!-- Level 2: <Effect>. P./ M. Atk. ++40. P./ M. Def. ++40 -->
+		<!-- Level 3: <Effect>. P./ M. Atk. ++60. P./ M. Def. ++60 -->
+		<!-- Level 4: <Effect>. P./ M. Atk. ++80. P./ M. Def. ++80 -->
+		<!-- Level 5: <Effect>. P./ M. Atk. ++100. P./ M. Def. ++100 -->
+		<!-- Level 6: <Effect>. P./ M. Atk. ++120. P./ M. Def. ++120. Acquired XP/ SP +1% -->
+		<!-- Level 7: <Effect>. P./ M. Atk. ++140. P./ M. Def. ++140. Acquired XP/ SP +1% -->
+		<!-- Level 8: <Effect>. P./ M. Atk. ++160. P./ M. Def. ++160. Acquired XP/ SP +1% -->
+		<!-- Level 9: <Effect>. P./ M. Atk. ++180. P./ M. Def. ++180. Acquired XP/ SP +1% -->
+		<!-- Level 10: <Effect>. P./ M. Atk. ++200. P./ M. Def. ++200. Acquired XP/ SP +1% -->
+		<!-- Level 11: <Effect>. P./ M. Atk. ++220. P./ M. Def. ++220. Acquired XP/ SP +2% -->
+		<!-- Level 12: <Effect>. P./ M. Atk. ++240. P./ M. Def. ++240. Acquired XP/ SP +3% -->
+		<!-- Level 13: <Effect>. P./ M. Atk. ++260. P./ M. Def. ++260. Acquired XP/ SP +4% -->
+		<!-- Level 14: <Effect>. P./ M. Atk. ++280. P./ M. Def. ++280. Acquired XP/ SP +5% -->
+		<!-- Level 15: <Effect>. P./ M. Atk. ++300. P./ M. Def. ++300. Acquired XP/ SP +6% -->
+		<!-- Level 16: <Effect>. P./ M. Atk. ++320. P./ M. Def. ++320. Acquired XP/ SP +7% -->
+		<!-- Level 17: <Effect>. P./ M. Atk. ++340. P./ M. Def. ++340. Acquired XP/ SP +8% -->
+		<!-- Level 18: <Effect>. P./ M. Atk. ++360. P./ M. Def. ++360. Acquired XP/ SP +9% -->
+		<!-- Level 19: <Effect>. P./ M. Atk. ++380. P./ M. Def. ++380. Acquired XP/ SP +10% -->
+		<!-- Level 20: <Effect>. P./ M. Atk. ++400. P./ M. Def. ++400. Acquired XP/ SP +11% -->
+		<icon>
+			<value level="1">icon.aden_rune_am_i01</value>
+			<value level="2">icon.aden_rune_am_i01</value>
+			<value level="3">icon.aden_rune_am_i01</value>
+			<value level="4">icon.aden_rune_am_i01</value>
+			<value level="5">icon.aden_rune_am_i01</value>
+			<value level="6">icon.aden_rune_am_i02</value>
+			<value level="7">icon.aden_rune_am_i02</value>
+			<value level="8">icon.aden_rune_am_i02</value>
+			<value level="9">icon.aden_rune_am_i02</value>
+			<value level="10">icon.aden_rune_am_i02</value>
+			<value level="11">icon.aden_rune_am_i03</value>
+			<value level="12">icon.aden_rune_am_i03</value>
+			<value level="13">icon.aden_rune_am_i03</value>
+			<value level="14">icon.aden_rune_am_i03</value>
+			<value level="15">icon.aden_rune_am_i03</value>
+			<value level="16">icon.aden_rune_am_i04</value>
+			<value level="17">icon.aden_rune_am_i04</value>
+			<value level="18">icon.aden_rune_am_i04</value>
+			<value level="19">icon.aden_rune_am_i04</value>
+			<value level="20">icon.aden_rune_am_i04</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">25</value>
+					<value level="3">40</value>
+					<value level="4">55</value>
+					<value level="5">70</value>
+					<value level="6">100</value>
+					<value level="7">120</value>
+					<value level="8">140</value>
+					<value level="9">160</value>
+					<value level="10">180</value>
+					<value level="11">210</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">290</value>
+					<value level="16">320</value>
+					<value level="17">340</value>
+					<value level="18">360</value>
+					<value level="19">380</value>
+					<value level="20">400</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="82206" toLevel="20" name="Defense Property - Upper/ Lower Armor">
+		<!-- Level 1: <Effect>. P./ M. Atk. ++36. P./ M. Def. ++36 -->
+		<!-- Level 2: <Effect>. P./ M. Atk. ++72. P./ M. Def. ++72 -->
+		<!-- Level 3: <Effect>. P./ M. Atk. ++108. P./ M. Def. ++108 -->
+		<!-- Level 4: <Effect>. P./ M. Atk. ++144. P./ M. Def. ++144 -->
+		<!-- Level 5: <Effect>. P./ M. Atk. ++180. P./ M. Def. ++180 -->
+		<!-- Level 6: <Effect>. P./ M. Atk. ++216. P./ M. Def. ++216. Acquired XP/ SP +1% -->
+		<!-- Level 7: <Effect>. P./ M. Atk. ++252. P./ M. Def. ++252. Acquired XP/ SP +1% -->
+		<!-- Level 8: <Effect>. P./ M. Atk. ++288. P./ M. Def. ++288. Acquired XP/ SP +1% -->
+		<!-- Level 9: <Effect>. P./ M. Atk. ++324. P./ M. Def. ++324. Acquired XP/ SP +1% -->
+		<!-- Level 10: <Effect>. P./ M. Atk. ++360. P./ M. Def. ++360. Acquired XP/ SP +1% -->
+		<!-- Level 11: <Effect>. P./ M. Atk. ++396. P./ M. Def. ++396. Acquired XP/ SP +2% -->
+		<!-- Level 12: <Effect>. P./ M. Atk. ++432. P./ M. Def. ++432. Acquired XP/ SP +3% -->
+		<!-- Level 13: <Effect>. P./ M. Atk. ++468. P./ M. Def. ++468. Acquired XP/ SP +4% -->
+		<!-- Level 14: <Effect>. P./ M. Atk. ++504. P./ M. Def. ++504. Acquired XP/ SP +5% -->
+		<!-- Level 15: <Effect>. P./ M. Atk. ++540. P./ M. Def. ++540. Acquired XP/ SP +6% -->
+		<!-- Level 16: <Effect>. P./ M. Atk. ++576. P./ M. Def. ++576. Acquired XP/ SP +7% -->
+		<!-- Level 17: <Effect>. P./ M. Atk. ++612. P./ M. Def. ++612. Acquired XP/ SP +8% -->
+		<!-- Level 18: <Effect>. P./ M. Atk. ++648. P./ M. Def. ++648. Acquired XP/ SP +9% -->
+		<!-- Level 19: <Effect>. P./ M. Atk. ++684. P./ M. Def. ++684. Acquired XP/ SP +10% -->
+		<!-- Level 20: <Effect>. P./ M. Atk. ++720. P./ M. Def. ++720. Acquired XP/ SP +11% -->
+		<icon>
+			<value level="1">icon.aden_rune_am_i01</value>
+			<value level="2">icon.aden_rune_am_i01</value>
+			<value level="3">icon.aden_rune_am_i01</value>
+			<value level="4">icon.aden_rune_am_i01</value>
+			<value level="5">icon.aden_rune_am_i01</value>
+			<value level="6">icon.aden_rune_am_i02</value>
+			<value level="7">icon.aden_rune_am_i02</value>
+			<value level="8">icon.aden_rune_am_i02</value>
+			<value level="9">icon.aden_rune_am_i02</value>
+			<value level="10">icon.aden_rune_am_i02</value>
+			<value level="11">icon.aden_rune_am_i03</value>
+			<value level="12">icon.aden_rune_am_i03</value>
+			<value level="13">icon.aden_rune_am_i03</value>
+			<value level="14">icon.aden_rune_am_i03</value>
+			<value level="15">icon.aden_rune_am_i03</value>
+			<value level="16">icon.aden_rune_am_i04</value>
+			<value level="17">icon.aden_rune_am_i04</value>
+			<value level="18">icon.aden_rune_am_i04</value>
+			<value level="19">icon.aden_rune_am_i04</value>
+			<value level="20">icon.aden_rune_am_i04</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">18</value>
+					<value level="2">45</value>
+					<value level="3">72</value>
+					<value level="4">99</value>
+					<value level="5">126</value>
+					<value level="6">180</value>
+					<value level="7">216</value>
+					<value level="8">252</value>
+					<value level="9">288</value>
+					<value level="10">324</value>
+					<value level="11">378</value>
+					<value level="12">414</value>
+					<value level="13">450</value>
+					<value level="14">486</value>
+					<value level="15">522</value>
+					<value level="16">576</value>
+					<value level="17">612</value>
+					<value level="18">648</value>
+					<value level="19">684</value>
+					<value level="20">720</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">18</value>
+					<value level="2">45</value>
+					<value level="3">72</value>
+					<value level="4">99</value>
+					<value level="5">126</value>
+					<value level="6">180</value>
+					<value level="7">216</value>
+					<value level="8">252</value>
+					<value level="9">288</value>
+					<value level="10">324</value>
+					<value level="11">378</value>
+					<value level="12">414</value>
+					<value level="13">450</value>
+					<value level="14">486</value>
+					<value level="15">522</value>
+					<value level="16">576</value>
+					<value level="17">612</value>
+					<value level="18">648</value>
+					<value level="19">684</value>
+					<value level="20">720</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/skills.xsd">
+	<skill id="50035" displayId="36319" toLevel="6" name="Tales of Hero - Ancient Wisdom">
+		<!-- Reach the 300th level of Tales of Hero and gain ancient wisdom. Acquired adena +15%, acquired XP/ SP +90%, P./ M. Def. +200 per character's level (max +0@0:200), received damage -7%. -->
+		<icon>icon.s_item_special_hero_book</icon>
+		<operateType>A2</operateType>
+		<abnormalType>TALES_OF_HERO</abnormalType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+			<value level="5">5</value>
+			<value level="6">6</value>
+		</abnormalLevel>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-2</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>7</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<blockActionUseSkill>true</blockActionUseSkill>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+	<skill id="50036" displayId="37206" toLevel="10" name="Tales of Hero - Book of Knowledge">
+		<!-- Reach the 300th level of Tales of Hero and gain ancient wisdom. Acquired adena +15%, acquired XP/ SP +90%, P./ M. Def. +200 per character's level (max +0@0:200), received damage -7%. -->
+		<icon>icon.s_item_special_hero_book</icon>
+		<operateType>A2</operateType>
+		<abnormalType>TALES_OF_HERO_WANDERINGS</abnormalType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+			<value level="4">4</value>
+			<value level="5">5</value>
+			<value level="6">6</value>
+			<value level="7">7</value>
+			<value level="8">8</value>
+			<value level="9">9</value>
+			<value level="10">10</value>
+		</abnormalLevel>
+		<basicProperty>NONE</basicProperty>
+		<magicCriticalRate>5</magicCriticalRate>
+		<specialLevel>-2</specialLevel>
+		<hitCancelTime>0</hitCancelTime>
+		<magicLevel>99</magicLevel>
+		<abnormalLevel>7</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<blockActionUseSkill>true</blockActionUseSkill>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+	</skill>
+</list>

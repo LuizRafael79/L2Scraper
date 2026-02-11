@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="28300" toLevel="1" name="Transform: Kat the Cat">
+		<!-- Transforms into Kat the Cat. -->
+		<icon>icon.skilltransform1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="28301" toLevel="1" name="Aqua Elf's Present">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28302" toLevel="1" name="Miraculous Magic Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28303" toLevel="1" name="Scroll: Enchant Freya's Staff">
+		<!-- A scroll for enchanting Freya's Staff. In case of failure, the weapon is destroyed. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28304" toLevel="1" name="Pumpkin Seed">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="28305" toLevel="1" name="Honey Pumpkin Seed">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="28306" toLevel="1" name="Monster Energy">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>200</castRange>
+		<effectPoint>-150</effectPoint>
+		<reuseDelay>2000</reuseDelay>
+	</skill>
+	<skill id="28307" toLevel="1" name="Halloween Pumpkin - Level Up">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28308" toLevel="1" name="Halloween Pumpkin - Poison">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28309" toLevel="3" name="Mysterious Ancient Herb Drink">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>500</reuseDelay>
+	</skill>
+	<skill id="28310" toLevel="1" name="Mysterious Ancient Herb Drink">
+		<!-- Due to the herb drink's magical effect, P. Atk. +100%, M. Atk. +400%, P. Def. +2837, M. Def. +1785, Speed +7, Vampiric Rage effect +5%. -->
+		<icon>BranchSys2.icon.etc_vampiric_rage_herb_i01</icon>
+		<operateType>A1</operateType>
+		<castRange>2000</castRange>
+		<effectPoint>100</effectPoint>
+		<hitTime>100</hitTime>
+		<reuseDelay>2000</reuseDelay>
+	</skill>
+	<skill id="28311" toLevel="1" name="Freya's Lucky Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28312" toLevel="1" name="Sirra's Lucky Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28313" toLevel="1" name="Snowman's Lucky Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28314" toLevel="1" name="Freya's Fortune Wand">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28315" toLevel="2" name="Santa Girl's Gift">
+		<!-- Level 1: Santa Girl's gift buff. For 3 h., acquired XP/ SP +30%, Vitality bonus +30%, P. Atk./ M. Atk./ P. Def./ M. Def. +15%. Once the buff expires, you obtain Santa Girl's Gift Pouch. Note!. You cannot receive the pouch if you are dead when the buff expires or if there is not enough free slots in your inventory. -->
+		<!-- Level 2: Once the buff expires, you obtain Santa Girl's Gift Pouch. Note!. You cannot receive the pouch if you are dead when the buff expires or if there is not enough free slots in your inventory. -->
+		<icon>BranchSys.Icon.Br_santa_gift_click_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="28316" toLevel="1" name="Christmas Buff Kit">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="28317" toLevel="1" name="Santa Girl's Magic Pack">
+		<icon>BranchSys.icon.br_valentine_agathion_pack_i00</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28318" toLevel="1" name="Santa Girl's Gift Pouch">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>1000</reuseDelay>
+	</skill>
+	<skill id="28319" toLevel="1" name="Red's Elysium Blessing">
+		<!-- For 4 h., Max HP/ MP/ CP +30%, P. Atk./ M. Atk./ P. Def./ M. Def. +30%, Atk. Spd./ Casting Spd. +10%, Speed +20, Attribute Attack/ Resistance +100, damage +10%, P./ M. Skill Power +10%, acquired XP/ SP +50%, Vitality bonus +4 h.0, received damage -4 h.1, Skill MP Consumption -4 h.2. The effect remains after death. -->
+		<icon>icon.ev_libra_red_buff1</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="28320" toLevel="1" name="Dragon Enchant Pack">
+		<!-- Double-click to obtain a random item. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28321" toLevel="1" name="Dragon Leather Pouch">
+		<!-- Double-click to obtain a random item. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28322" toLevel="1" name="Sibi's Suspicious Supplies">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28323" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_helmet_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28324" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t801_u_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28325" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t801_l_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28326" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t801_g_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28327" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t801_b_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28328" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_leather_helmet_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28329" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t802_u_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28330" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t802_l_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28331" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t802_g_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28332" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t802_b_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28333" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_circlet_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28334" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t803_u_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28335" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t803_l_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28336" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t803_g_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28337" toLevel="1" name="Additional Ability Might">
+		<!-- P. Atk. +2%, M. Atk. +4%. -->
+		<icon>icon.armor_t803_b_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>110</magicLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="28338" toLevel="1" name="Energy-infused Ultimate Jewelry Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28339" toLevel="1" name="Anniversary Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28340" toLevel="1" name="Ertheia's Miraculous Wind Scroll">
+		<!-- For 60 min., Max HP +30%, Max MP +30%, Max CP +30%, P. Def. +30%, M. Def. +30%, P. Atk. +10%, M. Atk. +20%, skill cooldown -10%, Wind Attack/ Resistance +20. Does not stack with Art of Seduction. -->
+		<icon>icon.ev_charge_scroll</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="28341" toLevel="1" name="Freya's Fortune Wand">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28342" toLevel="1" name="Snowman's Lucky Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28343" toLevel="1" name="Freya's Lucky Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28344" toLevel="1" name="Krishna Weapon Fragment Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28345" toLevel="1" name="Krishna Crafting Recipe Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28346" toLevel="1" name="Appearance Stone: Freya's Outfit">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28347" toLevel="1" name="Appearance Stone: Freya's Ice Flower">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28348" toLevel="1" name="Freya's Lucky Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28349" toLevel="1" name="Sirra's Lucky Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28350" toLevel="1" name="Snowman's Lucky Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28351" toLevel="1" name="Freya's Fortune Wand">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28352" toLevel="1" name="Transformation Scroll: Kat the Cat">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="28353" toLevel="1" name="Expertise Rune - ALL">
+		<!-- When stored in the inventory, it enables you equip all grade items without any penalty. -->
+		<icon>icon.ev_charge_run</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<passiveConditions>
+			<condition name="OpNotOlympiad" />
+		</passiveConditions>
+	</skill>
+	<skill id="28354" toLevel="1" name="Angel Cat's Blessing">
+		<!-- For 60 min., P. Atk. +5%, M. Atk. +20%, P. Def. +5%, M. Def. +5%, Atk. Spd. +5%, Casting Spd. +5%, Max HP/ MP +5%, acquired XP/ SP +30%. -->
+		<icon>icon.skilltransform4</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>1800000</reuseDelay>
+	</skill>
+	<skill id="28355" toLevel="1" name="Passion Treasure Chest">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28356" toLevel="1" name="Special Golden Magic Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28358" toLevel="1" name="+3 Dragon's Earring Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28359" toLevel="1" name="+3 Dragon's Ring Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28360" toLevel="1" name="+3 Dragon's Necklace Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="28361" toLevel="1" name="Mysterious Safe">
+		<!-- Double-click to obtain an item. -->
+		<icon>icon.bm_strongbox</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="28362" toLevel="1" name="Shiny Gold Bar Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>500</reuseDelay>
+	</skill>
+	<skill id="28363" toLevel="1" name="Happy Growth Scroll">
+		<!-- For 30 min., acquired XP/ SP +30%, Vitality bonus +30%, P. Atk./ M. Atk./ P. Def./ M. Def. +30%. -->
+		<icon>icon.etc_charm_of_luck_i00</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="28364" toLevel="1" name="Amazing Anniversary Gift">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>500</reuseDelay>
+	</skill>
+	<skill id="28365" toLevel="1" name="Anniversary Attendance Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>500</reuseDelay>
+	</skill>
+	<skill id="28366" toLevel="1" name="Anniversary Earring Gift Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>500</reuseDelay>
+	</skill>
+	<skill id="28367" toLevel="1" name="Anniversary Ring Gift Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>500</reuseDelay>
+	</skill>
+	<skill id="28368" toLevel="1" name="Anniversary Necklace Gift Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>500</reuseDelay>
+	</skill>
+	<skill id="28369" toLevel="1" name="Blazing Sun Chest">
+		<!-- Double-click to obtain an item. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>500</reuseDelay>
+	</skill>
+	<skill id="28370" toLevel="1" name="Hardin's Miracle Sack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>500</reuseDelay>
+	</skill>
+</list>

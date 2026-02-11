@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="96949" name="Fallen Angel's Ring - Challenge Points" type="EtcItem">
+		<!-- Fallen Angel's Ring: <font color=EEAA22>Can be obtained upon failing to enchant an item to +3 and higher</font>. -->
+		<set name="icon" val="icon.ench_challenge_point_01" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="96950" name="Fallen Angel's Earring - Challenge points" type="EtcItem">
+		<!-- Fallen Angel's Earring: <font color=EEAA22>Can be obtained upon failing to enchant an item to +3 and higher</font>. -->
+		<set name="icon" val="icon.ench_challnege_point_bm_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="96951" name="Test - Challenge Points" additionalName="Lv. 3" type="EtcItem">
+		<!-- For Test -->
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="96958" name="Test - Challenge Points" additionalName="Lv. 4" type="EtcItem">
+		<!-- For Test -->
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="96959" name="Test - Challenge Points" additionalName="Lv. 5" type="EtcItem">
+		<!-- For Test -->
+		<set name="icon" val="icon.bm_challenger_wp_trade_ticket" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

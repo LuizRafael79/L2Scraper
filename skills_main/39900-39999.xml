@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="39900" toLevel="1" name="Omega's Fishing Shot">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="39901" toLevel="1" name="Scroll: Enchant Amber">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="39902" toLevel="1" name="Red Maple Scroll">
+		<!-- A gentle autumn wind is playing with red maple leaves... For 30 min., Critical Rate for basic attacks and P./ M. skills +5%, power of basic attacks and P./ M. skills +10%, P./ M. Def. +10%, acquired XP/ SP +30%. Note!. The effect remains after death, after switching to a dual class or entering instance zones. Removed when entering the Olympiad or the Ceremony of Chaos. -->
+		<icon>icon.bless_of_maple_i00</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="39903" toLevel="1" name="Chestnut Scroll">
+		<!-- Allows you to obtain Chestnuts in Giran's garden. Attack Chestnut Tree to get them. Duration: 30 sec. -->
+		<icon>icon.ev_21th_chestnut_scroll</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="39904" toLevel="1" name="21st Anniversary Chestnut Cookie">
+		<!-- For 30 min., Attribute Attack/ Resistance +100, Critical Rate for basic attacks and P./ M. skills +5%, Critical Damage for basic attacks and P./ M. skills +5%, received Critical Damage from basic attacks and P./ M. skills -5%. The effect remains after death, after switching to a dual class or entering instance zones. Removed when entering the Olympiad or the Ceremony of Chaos. -->
+		<icon>icon.ev_21th_cake</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="39905" toLevel="1" name="Scroll: Enchant Silvery Accessory">
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="39906" toLevel="1" name="Tower of Insolence's Time Stone">
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="39907" toLevel="1" name="Christmas Snowball">
+		<!-- Throw a Snowball at Santa Claus to get New Year gifts. -->
+		<icon>icon.ev_2023_christmas_gift</icon>
+		<operateType>A1</operateType>
+		<castRange>500</castRange>
+		<hitTime>1000</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>3000</reuseDelay>
+	</skill>
+	<skill id="39908" toLevel="1" name="Blue Snake's Rune">
+		<!-- When in inventory, there is a chance to summon Blue Snake on killing a common monster. Additionally, acquired XP/ SP +20%. -->
+		<icon>icon.ev_2025_newyear_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="39909" toLevel="1" name="Blue Snake's Rune - Draw">
+		<operateType>A1</operateType>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="39910" toLevel="20" name="Faded Legendary Orc Rune - Lv. 1">
+		<!-- Level 1: Weapon P. Atk. +3, Weapon M. Atk. +3 -->
+		<!-- Level 2: Weapon P. Atk. +6, Weapon M. Atk. +6 -->
+		<!-- Level 3: Weapon P. Atk. +9, Weapon M. Atk. +9 -->
+		<!-- Level 4: Weapon P. Atk. +12, Weapon M. Atk. +12 -->
+		<!-- Level 5: Weapon P. Atk. +15, Weapon M. Atk. +15, Armor P. Def. +1, Accessory M. Def. +1 -->
+		<!-- Level 6: Weapon P. Atk. +18, Weapon M. Atk. +18, Armor P. Def. +2, Accessory M. Def. +2 -->
+		<!-- Level 7: Weapon P. Atk. +21, Weapon M. Atk. +21, Armor P. Def. +3, Accessory M. Def. +3 -->
+		<!-- Level 8: Weapon P. Atk. +24, Weapon M. Atk. +24, Armor P. Def. +4, Accessory M. Def. +4, Accuracy +5 -->
+		<!-- Level 9: Weapon P. Atk. +27, Weapon M. Atk. +27, Armor P. Def. +5, Accessory M. Def. +5, Accuracy +5 -->
+		<!-- Level 10: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10 -->
+		<!-- Level 11: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +3, Attribute Resistance +3 -->
+		<!-- Level 12: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +6, Attribute Resistance +6 -->
+		<!-- Level 13: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +9, Attribute Resistance +9 -->
+		<!-- Level 14: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +12, Attribute Resistance +12 -->
+		<!-- Level 15: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +15, Attribute Resistance +15, acquired XP/ SP +1% -->
+		<!-- Level 16: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +18, Attribute Resistance +18, acquired XP/ SP +3% -->
+		<!-- Level 17: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +21, Attribute Resistance +21, acquired XP/ SP +5% -->
+		<!-- Level 18: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +24, Attribute Resistance +24, acquired XP/ SP +7% -->
+		<!-- Level 19: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +27, Attribute Resistance +27, acquired XP/ SP +9%, all Critical Rate +1% -->
+		<!-- Level 20: Weapon P. Atk. +30, Weapon M. Atk. +30, Armor P. Def. +6, Accessory M. Def. +6, Accuracy +10, Attribute Attack +30, Attribute Resistance +30, acquired XP/ SP +12%, all Critical Rate +2% -->
+		<icon>
+			<value level="1">icon.ev_season_orc_legend_lune</value>
+			<value level="2">icon.ev_season_orc_legend_lune</value>
+			<value level="3">icon.ev_season_orc_legend_lune</value>
+			<value level="4">icon.ev_season_orc_legend_lune</value>
+			<value level="5">icon.ev_season_orc_legend_lune_5</value>
+			<value level="6">icon.ev_season_orc_legend_lune_5</value>
+			<value level="7">icon.ev_season_orc_legend_lune_5</value>
+			<value level="8">icon.ev_season_orc_legend_lune_5</value>
+			<value level="9">icon.ev_season_orc_legend_lune_5</value>
+			<value level="10">icon.ev_season_orc_legend_lune_10</value>
+			<value level="11">icon.ev_season_orc_legend_lune_10</value>
+			<value level="12">icon.ev_season_orc_legend_lune_10</value>
+			<value level="13">icon.ev_season_orc_legend_lune_10</value>
+			<value level="14">icon.ev_season_orc_legend_lune_10</value>
+			<value level="15">icon.ev_season_orc_legend_lune_15</value>
+			<value level="16">icon.ev_season_orc_legend_lune_15</value>
+			<value level="17">icon.ev_season_orc_legend_lune_15</value>
+			<value level="18">icon.ev_season_orc_legend_lune_15</value>
+			<value level="19">icon.ev_season_orc_legend_lune_15</value>
+			<value level="20">icon.ev_season_orc_legend_lune_20</value>
+		</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="39911" toLevel="1" name="Scroll: Enchant Common Dream Mark">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="39912" toLevel="1" name="Green World of Aden">
+		<!-- The magic scroll created by Alchemist Roti for the hero who made Aden green again. For 10 min., all attack power +15%, P./ M. Def. +15%, acquired XP/ SP +35%. Note!. Removed when entering the Olympiad or the Ceremony of Chaos. The effect can be removed with Alt + Left Mouse Button. -->
+		<icon>icon.ev_13th_paper_field</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="39913" toLevel="3" name="Summon Tree">
+		<!-- Summons Fully-grown Tree or Firewood Bundle. -->
+		<operateType>A1</operateType>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="39914" toLevel="1" name="Heine's Hourglass">
+		<!-- For 30 min., acquired XP/ SP while hunting +100%. Does not stack with Fall of the Dragon, Dandy's Home Run Ball, and Nevit's Shining Gold Hourglass. Cooldown: 5 min. To remove the effect, press Alt + Left Mouse Button. -->
+		<icon>icon.ev_fish_bonus_exp_up</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="39915" toLevel="1" name="Heine's Special Potion">
+		<!-- XP +3,891,060, SP +17,602. Required level: 85+. -->
+		<icon>BranchSys.icon.br_vitality_potion_i00</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="39916" toLevel="5" name="Frog Flute">
+		<!-- Summon Frog -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>7000</reuseDelay>
+	</skill>
+	<skill id="39917" toLevel="1" name="Scroll: Enchant Sweet Accessory">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="39918" toLevel="1" name="Gran Kain's Shining Scroll: Enchant Sweet Accessory">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="39919" toLevel="1" name="Gran Kain's Scroll: Enchant Talisman Elysia">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="39920" toLevel="1" name="Maple Cake">
+		<!-- For 30 min., Attribute Attack/ Resistance +100, all Critical Rate +5%, all Critical Damage +5%, all received Critical Damage -5%. The effect remains after death, after switching to a dual class or entering instance zones. Removed when entering the Olympiad or the Ceremony of Chaos. -->
+		<icon>icon.ev_22nd_cake</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="39921" toLevel="1" name="Yellow Color Splash">
+		<!-- Paint the <font color="77FF99">Green Nymph</font> yellow!. <font color="ECECEC"><Target></font>. <font color="77FF99">Green Nymph</font>. <font color="FED7A0">Golden Nymph</font>. <font color="999999"><Cannot be used></font>. <font color="FFFB99">Yellow Nymph</font> -->
+		<icon>icon.s_ev_22nd_paintshot_yellow</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>1500</castRange>
+		<hitTime>300</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>300</reuseDelay>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="39922" toLevel="1" name="Red Color Splash">
+		<!-- Paint the <font color="FFFB99">Yellow Nymph</font> red!. <font color="ECECEC"><Target></font>. <font color="FFFB99">Yellow Nymph</font>. <font color="FED7A0">Golden Nymph</font>. <font color="999999"><Cannot be used></font>. <font color="77FF99">Green Nymph</font> -->
+		<icon>icon.s_ev_22nd_paintshot_red</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>1500</castRange>
+		<hitTime>300</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>300</reuseDelay>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="39923" toLevel="1" name="Autumn Tapestry">
+		<!-- Paint the Nymphs the colors of sunset!. <font color="ECECEC"><Target></font>. <font color="77FF99">Green Nymph</font>. <font color="FFFB99">Yellow Nymph</font>. <font color="FED7A0">Golden Nymph</font>. <font color="999999"><Cannot be used></font>. None -->
+		<icon>icon.s_ev_22nd_paint_fiesta</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>300</hitTime>
+		<coolTime>300</coolTime>
+		<reuseDelay>11000</reuseDelay>
+		<effectPoint>1</effectPoint>
+	</skill>
+</list>

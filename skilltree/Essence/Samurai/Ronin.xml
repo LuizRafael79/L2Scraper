@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="262" parentClassId="261">
+		<skill skillName="HP Recovery" skillId="45176" skillLevel="2" getLevel="40" levelUpSp="80">
+			<item id="90045,98423" count="5" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="MP Recovery" skillId="45177" skillLevel="2" getLevel="40" levelUpSp="80">
+			<item id="90045,98423" count="5" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Potion Mastery" skillId="45184" skillLevel="1" getLevel="40">
+			<item id="90045,98423" count="5" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Single Flash" skillId="89101" skillLevel="4" getLevel="40" levelUpSp="80" />
+		<skill skillName="Pursuit" skillId="89113" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Wind" skillId="89117" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Forest" skillId="89118" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Fire" skillId="89119" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Mountain" skillId="89120" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Giant" skillId="89182" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Will to Victory" skillId="89183" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Heart of Sword" skillId="89186" skillLevel="2" getLevel="40" levelUpSp="80" />
+		
+		<skill skillName="Strike" skillId="89137" skillLevel="1" getLevel="45" levelUpSp="120" />
+		
+		<skill skillName="Single Flash" skillId="89101" skillLevel="5" getLevel="47" levelUpSp="200" />
+		
+		<skill skillName="Katana Master" skillId="89187" skillLevel="3" getLevel="48" levelUpSp="200" />
+		
+		<skill skillName="Samurai Armor Master" skillId="89188" skillLevel="3" getLevel="49" levelUpSp="200" />
+		
+		<skill skillName="Potion Mastery" skillId="45184" skillLevel="2" getLevel="50">
+			<item id="90045,98423" count="10" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Slashing of Strow Dummy" skillId="89177" skillLevel="1" getLevel="50" levelUpSp="300" />
+		
+		<skill skillName="Strike" skillId="89137" skillLevel="2" getLevel="51" levelUpSp="300" />
+		<skill skillName="Self-awareness" skillId="89178" skillLevel="1" getLevel="51" levelUpSp="300" />
+		
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="300">
+			<item id="8618,95495" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 1 -->
+		</skill>
+		<skill skillName="Sword Seizure" skillId="89179" skillLevel="1" getLevel="52" levelUpSp="300" />
+		
+		<skill skillName="Single Flash" skillId="89101" skillLevel="6" getLevel="54" levelUpSp="400" />
+		
+		<skill skillName="Strike" skillId="89137" skillLevel="3" getLevel="55" levelUpSp="400" />
+		
+		<skill skillName="Pursuit" skillId="89113" skillLevel="3" getLevel="57" levelUpSp="500" />
+		
+		<skill skillName="Katana Master" skillId="89187" skillLevel="4" getLevel="58" levelUpSp="500" />
+		
+		<skill skillName="Samurai Armor Master" skillId="89188" skillLevel="4" getLevel="59" levelUpSp="700" />
+		
+		<skill skillName="HP Recovery" skillId="45176" skillLevel="3" getLevel="60" levelUpSp="700">
+			<item id="90045,98423" count="23" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="MP Recovery" skillId="45177" skillLevel="3" getLevel="60" levelUpSp="700">
+			<item id="90045,98423" count="23" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Potion Mastery" skillId="45184" skillLevel="3" getLevel="60">
+			<item id="90045,98423" count="15" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Strike" skillId="89137" skillLevel="4" getLevel="60" levelUpSp="700" />
+		<skill skillName="Katana Master" skillId="89187" skillLevel="5" getLevel="60" levelUpSp="700" />
+		
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="2" getLevel="61" levelUpSp="700">
+			<item id="8619,95496" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 2 -->
+		</skill>
+		<skill skillName="Single Flash" skillId="89101" skillLevel="7" getLevel="61" levelUpSp="700" />
+		<skill skillName="Samurai Armor Master" skillId="89188" skillLevel="5" getLevel="61" levelUpSp="700" />
+		
+		<skill skillName="Pursuit" skillId="89113" skillLevel="4" getLevel="62" levelUpSp="800" />
+		<skill skillName="Katana Master" skillId="89187" skillLevel="6" getLevel="62" levelUpSp="800" />
+		
+		<skill skillName="Samurai Armor Master" skillId="89188" skillLevel="6" getLevel="63" levelUpSp="800" />
+		
+		<skill skillName="Katana Master" skillId="89187" skillLevel="7" getLevel="64" levelUpSp="1000" />
+		
+		<skill skillName="Samurai Armor Master" skillId="89188" skillLevel="7" getLevel="65" levelUpSp="1000" />
+		
+		<skill skillName="Katana Master" skillId="89187" skillLevel="8" getLevel="66" levelUpSp="1200" />
+		
+		<skill skillName="Samurai Armor Master" skillId="89188" skillLevel="8" getLevel="67" levelUpSp="1200" />
+		
+		<skill skillName="Single Flash" skillId="89101" skillLevel="8" getLevel="68" levelUpSp="1600" />
+		<skill skillName="Pursuit" skillId="89113" skillLevel="5" getLevel="68" levelUpSp="1600" />
+		<skill skillName="Katana Master" skillId="89187" skillLevel="9" getLevel="68" levelUpSp="1600" />
+		
+		<skill skillName="Samurai Armor Master" skillId="89188" skillLevel="9" getLevel="69" levelUpSp="1600" />
+		
+		<skill skillName="Single Flash" skillId="89101" skillLevel="9" getLevel="70" levelUpSp="2000" />
+		<skill skillName="Atsumori" skillId="89136" skillLevel="1" getLevel="70" levelUpSp="2000" />
+		<skill skillName="Katana Master" skillId="89187" skillLevel="10" getLevel="70" levelUpSp="2000" />
+		
+		<skill skillName="Samurai Armor Master" skillId="89188" skillLevel="10" getLevel="71" levelUpSp="2000" />
+		
+		<skill skillName="Pursuit" skillId="89113" skillLevel="6" getLevel="72" levelUpSp="2200" />
+		
+		<skill skillName="Single Flash" skillId="89101" skillLevel="10" getLevel="73" levelUpSp="2200" />
+		<skill skillName="Katana Master" skillId="89187" skillLevel="11" getLevel="73" levelUpSp="2200" />
+		
+		<skill skillName="Samurai Armor Master" skillId="89188" skillLevel="11" getLevel="74" levelUpSp="2200" />
+	</skillTree>
+</list>

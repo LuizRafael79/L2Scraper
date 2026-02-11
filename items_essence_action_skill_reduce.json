@@ -1,0 +1,5410 @@
+[
+  {
+    "id": "729",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "730",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "734",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "735",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "736",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "947",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "948",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "951",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "952",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "955",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "956",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "959",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "960",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1060",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1061",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1073",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1374",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1375",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1538",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1539",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1540",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1829",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1830",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1831",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1832",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1833",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "1834",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3889",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3926",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3927",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3928",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3929",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3930",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3931",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3932",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3933",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3934",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3935",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3936",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3958",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "3959",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4218",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4411",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4412",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4413",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4414",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4415",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4416",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4417",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4677",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4678",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4679",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "4680",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5010",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5197",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5198",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5199",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5200",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5201",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5202",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5203",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5204",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5234",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5235",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5236",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5237",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5238",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5239",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5240",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5241",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5242",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5243",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5244",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5245",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5246",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5247",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5248",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5283",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5342",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5343",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5562",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5563",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5564",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5565",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5566",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5583",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5584",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5585",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5586",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5587",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5589",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5591",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5592",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5593",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5594",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5595",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5703",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5803",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5804",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5805",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5858",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "5859",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6035",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6036",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6037",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6389",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6390",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6391",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6403",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6406",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6407",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6569",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6570",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6571",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6572",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6573",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6574",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6575",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6576",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6577",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "6578",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7117",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7118",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7119",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7120",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7121",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7122",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7123",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7124",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7125",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7126",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7127",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7129",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7130",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "7131",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "10650",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "14559",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "15366",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "15367",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "15368",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "15369",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "20728",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "22221",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "22222",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "22223",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "22224",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29008",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29009",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29010",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29011",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29012",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29013",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29014",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29015",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29016",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29017",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29018",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29019",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29020",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29021",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29022",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29029",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29030",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29031",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29032",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29149",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29150",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29151",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29152",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29153",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29154",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29155",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29505",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29506",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29507",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29508",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29517",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29518",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29519",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29545",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29546",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29547",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29548",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29549",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29550",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29552",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29553",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29554",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29555",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29565",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29647",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29648",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29649",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29650",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29651",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29652",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29653",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29654",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29655",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29669",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29670",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29671",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29672",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29673",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29674",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29675",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29676",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29684",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29685",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29686",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29687",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29688",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29689",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29690",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29691",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29695",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29696",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29697",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29698",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29699",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29700",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29740",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29741",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29742",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29743",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29817",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29818",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29819",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29820",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29821",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29822",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29823",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29824",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29825",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29826",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29827",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29828",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29829",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29830",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29831",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29832",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29833",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29834",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29835",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29836",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29837",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29838",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29839",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29840",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29841",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29842",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29843",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29844",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29845",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29846",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29847",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29848",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29849",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29850",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29851",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29852",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29853",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29854",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29855",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29856",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29857",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29858",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29859",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29860",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29861",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29862",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29863",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29864",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29865",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29866",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29867",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29868",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29869",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29870",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29871",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29872",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29873",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29874",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29875",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29876",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29877",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29878",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29879",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29880",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29881",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29882",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29883",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29884",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29885",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29886",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29887",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29888",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29889",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29890",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29891",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29892",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29893",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29894",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29895",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29896",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29897",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29898",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29899",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29900",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29901",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29902",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29903",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29904",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29905",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29906",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29907",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29908",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29909",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29910",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29911",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29912",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29913",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29914",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29915",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29916",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29917",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29918",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29919",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29920",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29921",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29922",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29923",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29924",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29925",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29926",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29927",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29928",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29929",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29930",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29931",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29932",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29933",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29934",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29935",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29936",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29937",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29938",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29939",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29940",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29941",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29942",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29943",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29944",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29945",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29946",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29947",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29948",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29949",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29950",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29951",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29952",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29953",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29954",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29955",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29956",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29957",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29958",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29959",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29960",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29961",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29962",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29963",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29964",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29965",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29966",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29967",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29968",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29969",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29970",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29971",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29972",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29973",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29974",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29975",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29976",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "29977",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33806",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33807",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33808",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33809",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33810",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33812",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33813",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33814",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33815",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "33816",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "34070",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "34072",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "35669",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "37543",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "37550",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "37552",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "37553",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "46254",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "46444",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "46459",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "46474",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "46489",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "46504",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "47928",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "47929",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "48046",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "48047",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49012",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49013",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49014",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49015",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49016",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49017",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49018",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49019",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49020",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49023",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49024",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49025",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49036",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49068",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49080",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49081",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49084",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49086",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49087",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49089",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49090",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49091",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49092",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49093",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49094",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49095",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49096",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49097",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49098",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49099",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49100",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49101",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49102",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49103",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49104",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49105",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49106",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49107",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49130",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49418",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49419",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49420",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49435",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49457",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49460",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49461",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49462",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49463",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49464",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49469",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49470",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49481",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49482",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49483",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49484",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49485",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49486",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49488",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49496",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49499",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49500",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49501",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49502",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49503",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49518",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49526",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49528",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49533",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49534",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49537",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49538",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49539",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49540",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49542",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49550",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49585",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49594",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49595",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49596",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49663",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49674",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49690",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49691",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49693",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49694",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49695",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49696",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49697",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49757",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49764",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49768",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49770",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49772",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49773",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49774",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49777",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49778",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49779",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49780",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49781",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49782",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49784",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49797",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49799",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49845",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49846",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49847",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49851",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49854",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "49860",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70040",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70041",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70042",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70043",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70044",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70045",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70047",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70048",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70049",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70050",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70051",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70052",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70053",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70054",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70055",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70056",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70057",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70058",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70059",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70060",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70061",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70062",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70063",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70064",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70065",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70066",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70067",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70068",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70069",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70070",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70071",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70072",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70073",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70074",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70075",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70076",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70077",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70078",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70079",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70080",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70081",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70082",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70083",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70084",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70085",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70086",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70087",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70088",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70089",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70090",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70091",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70092",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70102",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70103",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70104",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70105",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70107",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70110",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70111",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70113",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "70159",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "71030",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "71031",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72111",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72333",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72334",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72335",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72336",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72345",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72351",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72364",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72388",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72389",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72390",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72391",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72396",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72429",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72430",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72447",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72456",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72468",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72470",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72485",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72504",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72509",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72526",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72530",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72531",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72566",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72572",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72573",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72575",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "72591",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90032",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90033",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90043",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90044",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90137",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90138",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90143",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90144",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90146",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90148",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90149",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90164",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90165",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90166",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90168",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90169",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90170",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90173",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90183",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90184",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90185",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90186",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90188",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90273",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90310",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90401",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90407",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90408",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90409",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90410",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90415",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90438",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90439",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90440",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90441",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90442",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90443",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90444",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90445",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90446",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90447",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90448",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90449",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90450",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90451",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90452",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90453",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90454",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90494",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90495",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90499",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90506",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90508",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90519",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90520",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90729",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90730",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90766",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90794",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90816",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90817",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90828",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90829",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90830",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90831",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90855",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90874",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90875",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90879",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90882",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90917",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90918",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90919",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90949",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90954",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90955",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90956",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90958",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90959",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90960",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90963",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90986",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90990",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90995",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90996",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90997",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "90998",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91027",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91028",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91030",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91106",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91107",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91109",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91110",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91124",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91133",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91134",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91135",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91136",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91155",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91156",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91157",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91158",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91184",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91185",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91186",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91187",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91188",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91189",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91190",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91191",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91192",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91197",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91198",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91199",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91200",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91213",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91214",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91215",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91218",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91219",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91228",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91229",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91237",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91249",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91250",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91251",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91252",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91259",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91260",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91262",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91263",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91264",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91265",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91266",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91267",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91268",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91269",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91270",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91271",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91272",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91273",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91274",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91275",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91276",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91277",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91278",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91279",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91280",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91281",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91283",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91284",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91285",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91286",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91287",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91288",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91298",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91299",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91300",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91301",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91391",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91400",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91401",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91402",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91403",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91404",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91405",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91412",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91413",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91464",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91465",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91466",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91467",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91468",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91469",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91470",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91471",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91575",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91623",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91641",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91646",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91647",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91648",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91649",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91650",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91651",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91660",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91661",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91662",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91664",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91665",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91666",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91668",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91669",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91670",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91671",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91689",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91690",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91691",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91712",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91713",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91717",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91718",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91722",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91725",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91726",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91727",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91736",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91741",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91756",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91757",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91768",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91776",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91777",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91778",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91780",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91781",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91789",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91793",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91794",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91824",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91825",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91826",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91827",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91830",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91831",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91832",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91833",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91839",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91840",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91841",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91842",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91843",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91844",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91845",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91846",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91847",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91852",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91856",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91857",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91858",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91859",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91860",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91861",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91863",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91867",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91868",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91910",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91911",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91912",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91917",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91918",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91919",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91951",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91966",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91967",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91971",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91972",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91973",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91974",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91975",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91977",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "91978",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92017",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92033",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92397",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92398",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92401",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92402",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92409",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92410",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92482",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "92991",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93003",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93004",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93005",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93006",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93007",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93008",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93009",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93010",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93011",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93012",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93038",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93040",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93043",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93045",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93046",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93060",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93067",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93068",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93069",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93070",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93071",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93072",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93073",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93074",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93081",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93098",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93133",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93145",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93146",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93255",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93256",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93257",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93258",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93268",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93269",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93270",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93271",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93274",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93302",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93319",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93329",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93335",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93336",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93338",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93339",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93340",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93341",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93342",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93343",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93344",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93345",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93366",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93370",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93406",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93407",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93408",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93409",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93410",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93411",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93452",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93453",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93458",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93485",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93486",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93616",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93617",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93618",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93619",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93620",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93621",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93622",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93623",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93624",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93625",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93626",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93627",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93662",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93663",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93664",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93665",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93666",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93667",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93668",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93669",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93670",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93671",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93672",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93673",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93674",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93675",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93687",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93689",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93690",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93691",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93696",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93708",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93714",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93737",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93738",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93747",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93748",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93749",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93750",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93751",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93752",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93753",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93756",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93848",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93849",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93918",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93931",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93932",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93941",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93948",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93949",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93950",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93966",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93967",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93976",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93977",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93997",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "93998",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94041",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94043",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94142",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94169",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94191",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94192",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94193",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94200",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94202",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94203",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94204",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94205",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94206",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94207",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94221",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94268",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94269",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94270",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94271",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94274",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94305",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94306",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94341",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94380",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94381",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94382",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94383",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94384",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94385",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94386",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94479",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94480",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94484",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94485",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94517",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94559",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94562",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94566",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94567",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94635",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94665",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94683",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94719",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94720",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94721",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94722",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94723",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94730",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94753",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94766",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94767",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94776",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94778",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94807",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94810",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94814",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94835",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94838",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94872",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "94879",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95427",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95502",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95570",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95586",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95587",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95588",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95589",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95590",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95591",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95592",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95593",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95594",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95595",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95596",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95597",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95598",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95638",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95688",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95693",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95700",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95701",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95702",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95703",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95704",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95705",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95706",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95707",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95708",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95709",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95710",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95711",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95712",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95713",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95720",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95721",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95738",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95739",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95740",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95848",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95853",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95906",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "95910",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96002",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96085",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96086",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96095",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96096",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96097",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96098",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96106",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96108",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96113",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96122",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96349",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96354",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96656",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96696",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96697",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96698",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96728",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96729",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96797",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96819",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96924",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96941",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96943",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96944",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96945",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96946",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96947",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96948",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96949",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96950",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96951",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96952",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96953",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96958",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "96959",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97012",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97013",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97014",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97015",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97016",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97017",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97018",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97019",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97020",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97021",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97022",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97023",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97036",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97125",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97126",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97127",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97152",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97203",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97204",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97224",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97230",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97231",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97265",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97274",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97276",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97277",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97278",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97369",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97399",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97400",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97415",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97416",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97417",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97418",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97423",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97425",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97432",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97433",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97434",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97438",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97449",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97581",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97639",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97747",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97799",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97800",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97859",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97860",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97943",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97944",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97945",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97946",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97947",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97948",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97949",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97950",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97974",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "97981",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98000",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98033",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98073",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98087",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98088",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98130",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98131",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98132",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98133",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98134",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98204",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98210",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98211",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98215",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98231",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98250",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98253",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98315",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98424",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98425",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98472",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98473",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98573",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98611",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98615",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98617",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98624",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98625",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98730",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98805",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98806",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98807",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98808",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98849",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98966",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98970",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "98971",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "99000",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "99001",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "99810",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "99878",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "99917",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "99951",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "99994",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "100100",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "100467",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "100567",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "100568",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "100663",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "100668",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "100954",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101205",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101206",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101208",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101228",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101289",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101382",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101383",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101384",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101385",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101386",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101387",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101405",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101532",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101541",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101542",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101549",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101563",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101564",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101644",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101800",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101801",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101807",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101809",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "101810",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102016",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102017",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102018",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102019",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102020",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102021",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102022",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102023",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102024",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102057",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102091",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102281",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102456",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102457",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102458",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102459",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102460",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102727",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102728",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102732",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "102920",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103333",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103747",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103748",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103749",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103750",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103751",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103752",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103753",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103754",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103755",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103756",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103757",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103758",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103759",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103760",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103891",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103939",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "103940",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104021",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104022",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104023",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104024",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104025",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104026",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104027",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104028",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104029",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104050",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104051",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104052",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104166",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104167",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104168",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104169",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104170",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104171",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104172",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104173",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104174",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104175",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104176",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104177",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104178",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104179",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104343",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104976",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "104977",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "105290",
+    "default_action": "SKILL_REDUCE"
+  },
+  {
+    "id": "105291",
+    "default_action": "SKILL_REDUCE"
+  }
+]

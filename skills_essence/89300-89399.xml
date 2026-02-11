@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="89301" toLevel="2" name="Shining Transformation: Soul Hound">
+		<!-- Level 1: <Skill with fixed cooldown>. A transformation that allows you to use the power of light. P. Atk. +280. M. Atk. +130. Atk. Spd. +40. Casting Spd. +40. P. Def. +5%. M. Def. +5%. Speed +10. When using a rapier, basic attack range +60. -->
+		<!-- Level 2: <Skill with fixed cooldown>. A transformation that allows you to use the power of light. Right after the skill use, recovers +10002 MP. P. Atk. +1000. M. Atk. +500. Atk. Spd. +150. Casting Spd. +150. P. Def. +10%. M. Def. +10%. Speed +20. Max HP +20%. Momentarily recovers bonus HP. Skill Power +5%. Skill Critical Rate +10%. Skill Critical Damage +4%. Received Skill Critical Rate -7%. Received Skill Critical Damage +10000. When using a rapier, basic attack range +10001. MP Recovery Rate +10004. With a certain chance, triggers <font color="FF8000">Transformation Attack</font> on hitting with the following skills:. - <font color="00DCFF">Soul Spark</font>/ <font color="00DCFF">Ultimate Thunder Soul Spark</font>. - <font color="00DCFF">Soul Piercing</font>/ <font color="00DCFF">Ultimate Soul Piercing</font>. <font color="FF8000">Transformation Attack</font>. Deals M. damage to the target. Power +10003. -->
+		<icon>icon.s_shine_transform_hound</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>900000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<hpConsume>50</hpConsume>
+	</skill>
+	<skill id="89302" toLevel="2" name="Shadow Transformation: Soul Hound">
+		<!-- Level 1: <Skill with fixed cooldown>. A transformation that allows you to use the power of darkness. P. Atk. +130. M. Atk. +280. Atk. Spd. +40. Casting Spd. +40. P. Def. +5%. M. Def. +5%. Speed +10. When using a rapier, basic attack range +60. -->
+		<!-- Level 2: <Skill with fixed cooldown>. A transformation that allows you to use the power of darkness. Right after the skill use, recovers +5002 MP. P. Atk. +500. M. Atk. +1000. Atk. Spd. +150. Casting Spd. +150. P. Def. +10%. M. Def. +10%. Speed +20. Max HP +20%. Momentarily recovers bonus HP. Skill Power +5%. Skill Critical Rate +5%. Skill Critical Damage +7%. Received Skill Critical Rate -3%. Received Skill Critical Damage +5000. When using a rapier, basic attack range +5001. MP Recovery Rate +5004. With a certain chance, triggers <font color="FF8000">Transformation Attack</font> on hitting with the following skills:. - <font color="00DCFF">Soul Spark</font>/ <font color="00DCFF">Ultimate Thunder Soul Spark</font>. - <font color="00DCFF">Soul Piercing</font>/ <font color="00DCFF">Ultimate Soul Piercing</font>. <font color="FF8000">Transformation Attack</font>. Deals M. damage to the target. Power +5003. -->
+		<icon>icon.s_shadow_transform_hound</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>900000</reuseDelay>
+		<effectPoint>1</effectPoint>
+		<mpConsume>50</mpConsume>
+	</skill>
+	<skill id="89309" toLevel="1" name="Resonance Tempest">
+		<!-- Deals a mighty blow charged with tempest lightnings. Deals M. damage to the target and nearby enemies 2 times. Power 253. Deals P. damage to the target and nearby enemies. Power 170%. Ignores Shield Defense. Ignores 10% of the target's defense. PvP: Attacks up to 3 targets. PvE: Attacks up to 3 targets. -->
+		<!-- Level 1 - SubLevel 1001: Deals a mighty blow charged with tempest lightnings. Deals M. damage to the target and nearby enemies <font color="C270F6">2</font> times. Power <font color="C270F6">276</font>. Deals P. damage to the target and nearby enemies. Power <font color="C270F6">178%</font>. Ignores Shield Defense. Ignores 10% of the target's defense. PvP: Attacks up to <font color="C270F6">5</font> targets. PvE: Attacks up to <font color="C270F6">5</font> targets. <font color="C270F6"><Enchant effect>. Increases attack power. Increases number of targets.</font> -->
+		<!-- Level 1 - SubLevel 1002: Deals a mighty blow charged with tempest lightnings. Deals M. damage to the target and nearby enemies <font color="C270F6">2</font> times. Power <font color="C270F6">299</font>. Deals P. damage to the target and nearby enemies. Power <font color="C270F6">184%</font>. Ignores Shield Defense. Ignores 10% of the target's defense. PvP: Attacks up to <font color="C270F6">6</font> targets. PvE: Attacks up to <font color="C270F6">6</font> targets. <font color="C270F6"><Enchant effect>. Increases attack power. Increases number of targets.</font> -->
+		<!-- Level 1 - SubLevel 1003: Deals a mighty blow charged with tempest lightnings. Deals M. damage to the target and nearby enemies <font color="C270F6">2</font> times. Power <font color="C270F6">322</font>. Deals P. damage to the target and nearby enemies. Power <font color="C270F6">189%</font>. Ignores Shield Defense. Ignores 10% of the target's defense. PvP: Attacks up to <font color="C270F6">7</font> targets. PvE: Attacks up to <font color="C270F6">7</font> targets. <font color="C270F6"><Enchant effect>. Increases attack power. Increases number of targets.</font> -->
+		<icon>icon.s_resonance_tempest</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-2500</effectPoint>
+	</skill>
+	<skill id="89310" toLevel="2" name="Not used - Light Veil: Inquisitor">
+		<!-- Level 1: A light veil full of power. <Light Veil Lv. 1>. P. Atk. +130. Atk. Spd. +30. Casting Spd. +40. P. Def. +5%. M. Def. +5%. Speed +10. When using a rapier, basic attack range +60. -->
+		<!-- Level 2: A light veil full of power. <Light Veil Lv. 2>. P. Atk. +500. Atk. Spd. +200. Casting Spd. +120. P. Def. +10%. M. Def. +10%. Speed +15. Max HP +20%. Momentarily recovers bonus HP. P. Skill Power +10%. Skill Critical Damage +200. Received Skill Critical Rate -3%. Received Skill Critical Damage -3%. When using a rapier, basic attack range 60. Recovers 3% MP. Recovers +5001 HP every +5000 sec. Recovers +5002 MP every +5000 sec. -->
+		<icon>icon.s_shine_transform_hound</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="89311" toLevel="2" name="Not used - Shadow Veil: Inquisitor">
+		<!-- Level 1: A shadow veil full of power. <Shadow Veil Lv. 1>. M. Atk. +280. Atk. Spd. +80. Casting Spd. +120. Speed +15 -->
+		<!-- Level 2: A shadow veil full of power. <Shadow Veil Lv. 2>. M. Atk. +500. Atk. Spd. +150. Casting Spd. +250. Speed +20. P. Skill Critical Damage +200. M. Skill Critical Damage +10%. M. Skill Power +10% -->
+		<icon>icon.s_shadow_transform_hound</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="89313" toLevel="2" name="Not used - Light Soul's Physical Attack: Inquisitor">
+		<!-- While the buff is active, with a certain chance triggers Light Soul when attacking a monster. Trigger rate 10%. Attacks the target and nearby enemies. Power 150%. Ignores Shield Defense. Ignores 10% of the target's defense. PvP: Attacks up to 3 targets. PvE: Attacks up to 3 targets. -->
+		<icon>icon.s_shine_soul_p_attack_hound</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<reuseDelay>60000</reuseDelay>
+		<effectPoint>760</effectPoint>
+		<hpConsume>50</hpConsume>
+	</skill>
+	<skill id="89314" toLevel="2" name="Not used - Shadow Soul's Magical Attack: Inquisitor">
+		<!-- While the buff is active, with a certain chance triggers Shadow Soul when attacking a monster. Trigger rate 10%. Deals M. damage to the target and nearby enemies. Power 150. PvP: Attacks up to 3 targets. PvE: Attacks up to 3 targets. -->
+		<icon>s_shadow_soul_m_attack_hound</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<reuseDelay>60000</reuseDelay>
+		<effectPoint>760</effectPoint>
+		<mpConsume>50</mpConsume>
+	</skill>
+	<skill id="89315" toLevel="2" name="Not used - Light Soul's Physical Attack: Inquisitor - Drain Demo">
+		<icon>icon.s_shine_soul_p_attack_hound</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="89316" toLevel="2" name="Not used - Light Soul's Physical Attack Area Algorithm">
+		<operateType>A1</operateType>
+		<effectPoint>-9999</effectPoint>
+	</skill>
+	<skill id="89317" toLevel="2" name="Not used - Light Soul's Physical Attack: Inquisitor">
+		<icon>icon.s_shine_soul_p_attack_hound</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<reuseDelay>3000</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+	</skill>
+	<skill id="89318" toLevel="2" name="Not used - Light Soul's Physical Attack - Mass Demo">
+		<operateType>A1</operateType>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="89319" toLevel="2" name="Not used - Shadow Soul's Magical Attack: Inquisitor - Drain Demo">
+		<icon>s_shadow_soul_m_attack_hound</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="89320" toLevel="2" name="Not used - Shadow Soul's Physical Attack Area Algorithm">
+		<operateType>A1</operateType>
+		<effectPoint>-9999</effectPoint>
+	</skill>
+	<skill id="89321" toLevel="2" name="Not used - Shadow Soul's Physical Attack: Inquisitor">
+		<icon>s_shadow_soul_m_attack_hound</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<reuseDelay>3000</reuseDelay>
+		<effectPoint>-9999</effectPoint>
+	</skill>
+	<skill id="89322" toLevel="2" name="Not used - Shadow Soul's Physical Attack - Mass Demo">
+		<operateType>A1</operateType>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="89323" toLevel="1" name="Leopold">
+		<!-- Skill Power +3% -->
+		<icon>icon.s_leopold</icon>
+		<operateType>A1</operateType>
+		<effectPoint>900</effectPoint>
+	</skill>
+	<skill id="89333" toLevel="1" name="Transformation Attack">
+		<!-- Deals M. damage to the target. Power 250. -->
+		<icon>icon.skill11361</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<effectPoint>-750</effectPoint>
+	</skill>
+	<skill id="89334" toLevel="2" name="Light Master: Soul Hound">
+		<!-- Level 1: P. Atk. +3%. P. Skill Critical Damage +2%. P. Skill damage bonus in PvE +2% -->
+		<!-- Level 2: P. Atk. +7%. P. Skill Critical Damage +5%. P. Skill damage bonus in PvE +5% -->
+		<icon>icon.s_shine_soul_p_attack_hound</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="89335" toLevel="2" name="Shadow Master: Soul Hound">
+		<!-- Level 1: M. Atk. +3%. M. Skill Critical Damage +2%. M. Skill Damage in PvE +2% -->
+		<!-- Level 2: M. Atk. +7%. M. Skill Critical Damage +5%. M. Skill Damage in PvE +5% -->
+		<icon>icon.s_shadow_soul_m_attack_hound</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="89336" toLevel="1" name="Soul Hound's Training">
+		<!-- Enhances Soul Hound's abilities. P. Atk. +4%. M. Atk. +4% -->
+		<!-- Level 1 - SubLevel 1001: Enhances the abilities of a Soul Hound. P. Atk. <font color="C270F6">+5%</font>. M. Atk. <font color="C270F6">+5%</font>. <font color="C270F6">Max HP +200</font>. <font color="C270F6">Max MP +200</font>. <font color="C270F6">P. Def. +200</font>. </font>. <Enchant effect>. Increases P. Atk. Increases M. Atk. Adds Max HP. Adds Max MP. Adds P. Def.</font> -->
+		<!-- Level 1 - SubLevel 1002: Enhances the abilities of a Soul Hound. P. Atk. <font color="C270F6">+6%</font>. M. Atk. <font color="C270F6">+6%</font>. Max HP <font color="C270F6">+400</font>. Max MP <font color="C270F6">+400</font>. P. Def. <font color="C270F6">+400</font>. <font color="C270F6"><Enchant effect>. Increases P. Atk. Increases M. Atk. Increases Max HP. Increases Max MP. Increases P. Def.</font> -->
+		<!-- Level 1 - SubLevel 1003: Enhances the abilities of a Soul Hound. P. Atk. <font color="C270F6">+7%</font>. M. Atk. <font color="C270F6">+7%</font>. Max HP <font color="C270F6">+700</font>. Max MP <font color="C270F6">+700</font>. P. Def. <font color="C270F6">+700</font>. <font color="C270F6"><Enchant effect>. Increases P. Atk. Increases M. Atk. Increases Max HP. Increases Max MP. Increases P. Def.</font> -->
+		<icon>icon.skill30516</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="89337" toLevel="10" name="Soul Chase">
+		<icon>icon.skill0479</icon>
+		<operateType>A1</operateType>
+		<effectPoint>
+			<value level="1">-400</value>
+			<value level="2">-500</value>
+			<value level="3">-590</value>
+			<value level="4">-670</value>
+			<value level="5">-740</value>
+			<value level="6">-760</value>
+			<value level="7">-800</value>
+			<value level="8">-850</value>
+			<value level="9">-880</value>
+			<value level="10">-900</value>
+		</effectPoint>
+	</skill>
+	<skill id="89338" toLevel="10" name="Soul Chase: Ranged">
+		<!-- Level 1: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 3200. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<!-- Level 2: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 3631. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<!-- Level 3: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 4140. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<!-- Level 4: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 4719. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<!-- Level 5: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 5357. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<!-- Level 6: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 6013. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<!-- Level 7: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 6704. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<!-- Level 8: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 7437. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<!-- Level 9: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 8205. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<!-- Level 10: <<font color="FF8000">Rush skill</font>>. <font color="FFFF00">Lightning Valor effect</font>. Increases rush range. Charges at the target from afar. Attacks the target. Power 9000. Ignores Shield Defense. Ignores 10% of the target's defense. Can only be used if the distance to the target is more than 200. -->
+		<icon>icon.skill0479</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>800</hitTime>
+		<coolTime>200</coolTime>
+		<reuseDelay>3000</reuseDelay>
+		<effectPoint>
+			<value level="1">-400</value>
+			<value level="2">-500</value>
+			<value level="3">-590</value>
+			<value level="4">-670</value>
+			<value level="5">-740</value>
+			<value level="6">-760</value>
+			<value level="7">-800</value>
+			<value level="8">-850</value>
+			<value level="9">-880</value>
+			<value level="10">-900</value>
+		</effectPoint>
+		<mpConsume>
+			<value level="1">35</value>
+			<value level="2">35</value>
+			<value level="3">38</value>
+			<value level="4">41</value>
+			<value level="5">44</value>
+			<value level="6">46</value>
+			<value level="7">48</value>
+			<value level="8">50</value>
+			<value level="9">52</value>
+			<value level="10">55</value>
+		</mpConsume>
+	</skill>
+	<skill id="89339" toLevel="10" name="Soul Chase: Ranged">
+		<icon>icon.skill0479</icon>
+		<operateType>A1</operateType>
+		<effectPoint>
+			<value level="1">-400</value>
+			<value level="2">-500</value>
+			<value level="3">-590</value>
+			<value level="4">-670</value>
+			<value level="5">-740</value>
+			<value level="6">-760</value>
+			<value level="7">-800</value>
+			<value level="8">-850</value>
+			<value level="9">-880</value>
+			<value level="10">-900</value>
+		</effectPoint>
+	</skill>
+</list>

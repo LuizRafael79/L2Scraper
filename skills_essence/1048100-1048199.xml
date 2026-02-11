@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="1048100" toLevel="1" name="Money Laundering">
+		<!-- Allows you to obtain money from mafia's funds. -->
+		<icon>icon.skill11030</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>800</castRange>
+		<hitTime>15000</hitTime>
+		<reuseDelay>30000</reuseDelay>
+		<effectPoint>-2</effectPoint>
+	</skill>
+	<skill id="1048101" toLevel="1" name="Wanted">
+		<!-- Lets you find and inflict a mortal wound on Mafia Leader Luciano. Other players can attack you. All received Critical Damage +1000 -->
+		<icon>icon.bm2018_ninja_i01</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-500</effectPoint>
+	</skill>
+	<skill id="1048102" toLevel="1" name="Wanted">
+		<!-- Lets you find and inflict a mortal wound on Mafia Leader Luciano. Other players can attack you. All received Critical Damage +1000 -->
+		<icon>icon.bm2018_ninja_i01</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>900</castRange>
+		<hitTime>1200</hitTime>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>-500</effectPoint>
+	</skill>
+	<skill id="1048103" toLevel="1" name="Spy's Defense Lv. 1">
+		<!-- Level 1: P./ M. Def. +5000. All received Critical Rate -20%. All received Critical Damage -2000. The skill's level can be increased up to 5. -->
+		<!-- Level 2: P./ M. Def. +6000. All received Critical Rate -30%. All received Critical Damage -2200. The skill's level can be increased up to 5. -->
+		<!-- Level 3: P./ M. Def. +7000. All received Critical Rate -35%. All received Critical Damage -2400. The skill's level can be increased up to 5. -->
+		<!-- Level 4: P./ M. Def. +8500. All received Critical Rate -40%. All received Critical Damage -2700. The skill's level can be increased up to 5. -->
+		<!-- Level 5: P./ M. Def. +10,000. All received Critical Rate -50%. All received Critical Damage -3000. The skill's level cannot be increased. -->
+		<icon>icon.bm2018_bluemusketeer_i01</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="1048104" toLevel="1" name="White Washing Completed">
+		<!-- Wanted for participation in fishy deals and machinations. Can be targeted by other characters. Defense is greatly decreased. -->
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<reuseDelay>1000</reuseDelay>
+		<effectPoint>-500</effectPoint>
+	</skill>
+	<skill id="1048105" toLevel="1" name="Vicious Strike">
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>800</coolTime>
+		<reuseDelay>6000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048106" toLevel="1" name="Aura Spike">
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1200</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+	</skill>
+	<skill id="1048107" toLevel="1" name="Bomb">
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>3000</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048108" toLevel="1" name="Melee Advantage">
+		<!-- Speed +30. Acquired XP/ SP +30% -->
+		<icon>icon.s_tricker_speed_up</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="1048109" toLevel="1" name="Mace Attack">
+		<!-- Attacks the target. -->
+		<icon>icon.s_vulkan_blunt_batting_high</icon>
+		<operateType>A1</operateType>
+		<castRange>300</castRange>
+		<hitTime>300</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-9</effectPoint>
+		<mpConsume>11</mpConsume>
+	</skill>
+	<skill id="1048110" toLevel="1" name="Heavy Burden">
+		<!-- <<font color="FF8000">Rush skill</font>> Attacks the target applying <font color="FFFFFF">Vulcan's Soul</font> that explodes in 3 sec. <font color="FFFFFF">Vulcan's Soul</font> deals AoE damage. -->
+		<icon>icon.s_vulkan_heavy_approach_high</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>800</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-540</effectPoint>
+	</skill>
+	<skill id="1048111" toLevel="1" name="Heavy Burden">
+		<icon>icon.s_vulkan_heavy_approach_high</icon>
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<effectPoint>-540</effectPoint>
+	</skill>
+	<skill id="1048112" toLevel="1" name="Vulcan's Soul">
+		<!-- Explodes in 3 sec. -->
+		<icon>icon.s_trigger_heavy_approach1_step_high</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-891</effectPoint>
+	</skill>
+	<skill id="1048113" toLevel="1" name="Vulcan's Soul">
+		<icon>icon.s_trigger_heavy_approach1_step_high</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-891</effectPoint>
+	</skill>
+	<skill id="1048114" toLevel="1" name="Vulcan's Soul">
+		<icon>icon.s_trigger_heavy_approach1_step_high</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-891</effectPoint>
+	</skill>
+	<skill id="1048115" toLevel="1" name="Mace Smash">
+		<!-- <font color="FFFF00">For the guardian:</font>. P./ M. Def. +80 -->
+		<icon>icon.s_vulkan_blunt_smash_high</icon>
+		<operateType>A1</operateType>
+		<hitTime>800</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="1048116" toLevel="1" name="Iron Age">
+		<!-- <Knockback skill>. Attacks the target and nearby enemies. Applies <font color="FFFFFF">Vulcan's True Spirit</font> that explodes in 3 sec. Anomaly: Knockdown. Duration: 3 sec. <font color="FFFFFF">Vulcan's True Spirit</font>. The target with <font color="FFFFFF">Vulcan's Soul</font> applied explodes immediately dealing AoE damage. Anomaly: Knockdown. Duration: 3 sec. -->
+		<icon>icon.s_vulkan_iron_age_high</icon>
+		<operateType>A1</operateType>
+		<castRange>300</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-684</effectPoint>
+	</skill>
+	<skill id="1048117" toLevel="1" name="Iron Age">
+		<!-- You have suffered a powerful hit from Vulcan and knocked down. -->
+		<icon>icon.snpc_vulkan_iron_age_high</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-891</effectPoint>
+	</skill>
+	<skill id="1048118" toLevel="1" name="Iron Age">
+		<!-- Knockdown Block/ Resistance +20% -->
+		<icon>icon.snpc_vulkan_iron_age_high</icon>
+		<operateType>A1</operateType>
+		<effectPoint>400</effectPoint>
+	</skill>
+	<skill id="1048119" toLevel="1" name="Vulcan's True Spirit">
+		<!-- Explodes in 3 sec. knocking everybody down. -->
+		<icon>icon.s_trigger_heavy_approach1_step_high</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-891</effectPoint>
+	</skill>
+	<skill id="1048120" toLevel="1" name="Vulcan's True Spirit">
+		<icon>icon.s_trigger_heavy_approach1_step_high</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-891</effectPoint>
+	</skill>
+	<skill id="1048121" toLevel="1" name="Vulcan's True Spirit">
+		<icon>icon.s_trigger_heavy_approach1_step_high</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-891</effectPoint>
+	</skill>
+	<skill id="1048122" toLevel="1" name="Vulcan's True Spirit">
+		<!-- Vulcan's True Spirit explodes and then dissipates. -->
+		<icon>icon.s_vulkan_iron_age_high</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-891</effectPoint>
+	</skill>
+	<skill id="1048123" toLevel="1" name="Whip Crack">
+		<!-- <<font color="00FF00">Changing skill</font>>. The attack type is based on the distance to the target. -->
+		<icon>icon.s_whiplash</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="1048124" toLevel="1" name="Paranoia - Common">
+		<icon>icon.s_paranoia</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>2000</hitTime>
+		<effectPoint>-10</effectPoint>
+	</skill>
+	<skill id="1048125" toLevel="1" name="Paranoia - Obsession">
+		<icon>icon.s_paranoia</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>2000</hitTime>
+		<effectPoint>-10</effectPoint>
+	</skill>
+	<skill id="1048126" toLevel="1" name="Avalanche">
+		<!-- <Hold skill>. Attacks the target and nearby enemies 484 times. Applies <font color="FFFFFF">Icing</font>. <font color="FFFFFF">Icing</font>. Anomaly: Hold. Duration: 5 sec. -->
+		<icon>icon.s_avalanche</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>3500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048127" toLevel="1" name="Icing">
+		<!-- The avalanche has immobilized you. -->
+		<icon>icon.s_avalanche</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048128" toLevel="1" name="True Massacre">
+		<icon>icon.s_carnage_play</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="1048129" toLevel="1" name="Whip Crack - Melee">
+		<icon>icon.s_whiplash</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-1</effectPoint>
+		<mpConsume>10</mpConsume>
+	</skill>
+	<skill id="1048130" toLevel="1" name="Whip Crack - Ranged">
+		<icon>icon.s_whiplash</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-1</effectPoint>
+		<mpConsume>10</mpConsume>
+	</skill>
+	<skill id="1048131" toLevel="1" name="True Massacre - Not Used">
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="1048132" toLevel="1" name="Mace Smash Effect">
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="1048133" toLevel="1" name="Mace Smash - Buff">
+		<!-- <font color="FFFF00">For the guardian:</font>. P./ M. Def. +80 -->
+		<icon>icon.s_vulkan_blunt_smash_high</icon>
+		<operateType>A1</operateType>
+		<hitTime>800</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="1048134" toLevel="1" name="Knocks nearby enemies down.">
+		<!-- Knocks the enemy back. -->
+		<icon>icon.skill0003</icon>
+		<operateType>A1</operateType>
+		<hitTime>2000</hitTime>
+		<effectPoint>-250</effectPoint>
+	</skill>
+	<skill id="1048135" toLevel="1" name="Berserker">
+		<!-- Increases the boss' stats. -->
+		<icon>icon.skill10274</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<reuseDelay>600000</reuseDelay>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="1048136" toLevel="1" name="Crush Watermelons!">
+		<icon>icon.fafurion_raging_waves_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048137" toLevel="7" name="Crush Watermelons!">
+		<icon>icon.fafurion_raging_waves_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="1048138" toLevel="1" name="Cold Energy">
+		<!-- A reward for a brave adventurer who defeated Heat. P. Atk. +200. M. Atk. +200. P. Def. +200. M. Def. +200. Atk. Spd. +15. Casting Spd. +15. Speed +2. Acquired XP/ SP +20% -->
+		<icon>icon.skill6301</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="1048139" toLevel="1" name="Heat Eruption">
+		<icon>icon.skill0834</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048140" toLevel="1" name="Heat Eruption">
+		<!-- Knockdown Status -->
+		<icon>icon.skill0834</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048141" toLevel="1" name="High Temperature Strike">
+		<icon>icon.skill30007</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048142" toLevel="1" name="Antharas' Basic Attack">
+		<operateType>A1</operateType>
+		<castRange>50</castRange>
+		<hitTime>2200</hitTime>
+		<coolTime>800</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048143" toLevel="1" name="Antharas' Basic Attack">
+		<operateType>A1</operateType>
+		<castRange>50</castRange>
+		<hitTime>2200</hitTime>
+		<coolTime>800</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048144" toLevel="1" name="Antharas: Tail Strike">
+		<!-- A fan-shaped area/ Aerial Yoke and Stun. -->
+		<icon>icon.skill32713</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048145" toLevel="1" name="Antharas' Tail Knockback">
+		<icon>icon.skill32713</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048146" toLevel="1" name="Antharas: Power Stamp">
+		<!-- An area around you/ Knockback. -->
+		<icon>icon.skill32715</icon>
+		<operateType>A1</operateType>
+		<hitTime>8000</hitTime>
+		<coolTime>4500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048147" toLevel="1" name="Antharas: Power Stamp - Knockback">
+		<icon>icon.skill32715</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048148" toLevel="1" name="Antharas' Stone Prison">
+		<!-- <Imprisonment skill>. Puts the target into Bone Cage. Imprisoned enemies cannot be attacked. They cannot move, attack, teleport, target, use skills, recover HP/ MP/ CP. When the effect expires:. PvP: Max HP/ MP -10%. PvE: Deals P. damage. Power 8500. Ignores Shield Defense. Ignores 25% of the target's defense. When Bone Cage expires, makes an explosion that deals damage equal to 200% of your P. Atk. -->
+		<icon>icon.flame_bone_prison</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>400</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>20000</reuseDelay>
+		<effectPoint>-550</effectPoint>
+	</skill>
+	<skill id="1048149" toLevel="1" name="Antharas' Ranged Prison">
+		<!-- Immobilizes and stuns the target. -->
+		<icon>icon.skill4106</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>6000</hitTime>
+		<coolTime>2000</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048150" toLevel="1" name="Antharas: Meteor">
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>8000</hitTime>
+		<reuseDelay>6000</reuseDelay>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="1048151" toLevel="1" name="Antharas' Meteor Knockback">
+		<!-- Antharas' Meteor Knockback demoralizes the enemy. -->
+		<icon>icon.skill6274</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-900</effectPoint>
+	</skill>
+	<skill id="1048152" toLevel="2" name="Antharas: Meteor">
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>4000</hitTime>
+		<reuseDelay>6000</reuseDelay>
+		<effectPoint>
+			<value level="1">-1</value>
+			<value level="2">-1000</value>
+		</effectPoint>
+	</skill>
+	<skill id="1048153" toLevel="1" name="Antharas' Anger 1">
+		<!-- Buff -->
+		<icon>icon.skill32724</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="1048154" toLevel="1" name="Antharas' Anger 2">
+		<!-- Buff -->
+		<icon>icon.skill32724</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="1048155" toLevel="1" name="Antharas' Earth Scratch">
+		<!-- A fan-shaped area/ Knockback. -->
+		<icon>icon.skill32716</icon>
+		<operateType>A1</operateType>
+		<hitTime>5000</hitTime>
+		<coolTime>4500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048156" toLevel="1" name="Antharas' Earth Scratch - Knockback">
+		<icon>icon.skill32716</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048157" toLevel="2" name="Disobedience to Antharas">
+		<!-- Level 1: Your unwavering will does not let Antharas prevail. <Effect>. For a certain time, you are immune to petrification, knockback and Antharas' Curse Poison. Speed +30% -->
+		<!-- Level 2: Your unwavering will does not let Antharas prevail. <Effect>. For a certain time, you are immune to petrification, knockback and Antharas' Curse Poison. P. Atk. +30%. M. Atk. +30%. Speed +30% -->
+		<icon>
+			<value level="1">icon.s_npc_raid_antaras_protect_skill</value>
+			<value level="2">icon.s_npc_raid_antaras_protect_skill2</value>
+		</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="1048158" toLevel="1" name="Antharas' Breath">
+		<icon>icon.skill4111</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>1000</castRange>
+		<hitTime>3200</hitTime>
+		<coolTime>1800</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048159" toLevel="1" name="Antharas' Petrification">
+		<!-- Antharas' Petrifying Challenge -->
+		<icon>icon.s_perion_chain</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>4000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048160" toLevel="1" name="Antharas' Petrification">
+		<icon>icon.s_perion_chain</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048161" toLevel="4" name="Antharas' Curse Poison">
+		<!-- Instantly decreases HP. -->
+		<icon>icon.skill4109</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>600</castRange>
+		<hitTime>100</hitTime>
+		<effectPoint>-150</effectPoint>
+	</skill>
+	<skill id="1048162" toLevel="1" name="Self-destruction">
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048163" toLevel="1" name="Valakas: Trample">
+		<!-- A fan-shaped attack with the left paw. -->
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048164" toLevel="1" name="Valakas: Trample">
+		<!-- A fan-shaped attack with the right paw. -->
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048165" toLevel="1" name="Valakas: Heavy Trample">
+		<!-- A fan-shaped attack with the left paw. -->
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048166" toLevel="1" name="Valakas: Heavy Trample">
+		<!-- A fan-shaped attack with the right paw. -->
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048167" toLevel="1" name="Valakas' Breath">
+		<!-- A breath attack that pushes enemies in a straight line. -->
+		<icon>icon.skill4683</icon>
+		<operateType>A1</operateType>
+		<hitTime>4000</hitTime>
+		<coolTime>3500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048168" toLevel="1" name="Valakas' Breath">
+		<!-- Knockback -->
+		<icon>icon.skill4683</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048169" toLevel="1" name="Valakas' Powerful Breath">
+		<!-- A fan-shaped breath attack that pushes enemies. -->
+		<icon>icon.skill4683</icon>
+		<operateType>A1</operateType>
+		<hitTime>4000</hitTime>
+		<coolTime>3500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048170" toLevel="1" name="Valakas' Powerful Breath">
+		<!-- Knockback -->
+		<icon>icon.skill4683</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048171" toLevel="1" name="Valakas: Tail Strike">
+		<!-- A tail attack from the back in a straight line. -->
+		<icon>icon.skill4688</icon>
+		<operateType>A1</operateType>
+		<hitTime>4000</hitTime>
+		<coolTime>3500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048172" toLevel="1" name="Valakas: Tail Strike">
+		<!-- Knockback -->
+		<icon>icon.skill4688</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048173" toLevel="1" name="Valakas Tail Rash">
+		<!-- A fan-shaped attack from the back with a tail. -->
+		<icon>icon.skill4688</icon>
+		<operateType>A1</operateType>
+		<hitTime>4000</hitTime>
+		<coolTime>3500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048174" toLevel="1" name="Valakas Tail Rash">
+		<!-- Knockback -->
+		<icon>icon.skill4688</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048175" toLevel="1" name="Valakas: Earthquake">
+		<!-- AoE attack with the front paw that pushes surrounding enemies. -->
+		<icon>icon.skill31135</icon>
+		<operateType>A1</operateType>
+		<hitTime>5000</hitTime>
+		<coolTime>4500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048176" toLevel="1" name="Valakas: Earthquake">
+		<!-- Knockback -->
+		<icon>icon.skill31135</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048177" toLevel="1" name="Valakas: Inhale">
+		<!-- AoE attack with wings that pulls surrounding enemies. -->
+		<icon>icon.skill5012</icon>
+		<operateType>A1</operateType>
+		<hitTime>4000</hitTime>
+		<coolTime>3500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048178" toLevel="1" name="Valakas: Inhale">
+		<!-- Pull -->
+		<icon>icon.skill5012</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048179" toLevel="1" name="Valakas: Summon Meteor">
+		<!-- Presentation Skill. -->
+		<icon>icon.skill4689</icon>
+		<operateType>A1</operateType>
+		<hitTime>5000</hitTime>
+		<coolTime>4500</coolTime>
+	</skill>
+	<skill id="1048180" toLevel="1" name="Valakas: Meteor">
+		<!-- AoE Meteor attack around an invisible NPC. -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+		<coolTime>2500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048181" toLevel="1" name="Valakas: Meteor">
+		<!-- Knock Down -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048182" toLevel="1" name="Valakas: Meteor">
+		<!-- Damage -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048183" toLevel="1" name="Valakas' Fire Tornado Effect">
+		<!-- A skill for the demonstration of fire pillar. -->
+		<icon>icon.s_valakas_tornado</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="1048184" toLevel="1" name="Valakas' Fire Tornado">
+		<!-- A circular attack with a fire pillar. -->
+		<icon>icon.s_valakas_tornado</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048185" toLevel="1" name="Valakas' Meteor Immunity">
+		<!-- Blocks damage from Valakas' Meteor. -->
+		<icon>icon.skill30971</icon>
+		<operateType>A2</operateType>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="1048186" toLevel="1" name="Camille: Joust Lunge">
+		<!-- A piercing spear attack across a long narrow area. -->
+		<icon>icon.s_camille_lunge</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048187" toLevel="1" name="Camille: Horizon Bash">
+		<!-- A sweeping AoE spear attack. -->
+		<icon>icon.s_camille_bash</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048188" toLevel="1" name="Camille: Horseshoe Trampling">
+		<!-- A hoof attack that pushes enemies in a straight line. -->
+		<icon>icon.skill16869</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048189" toLevel="1" name="Camille: Horseshoe Trampling">
+		<!-- Knockback -->
+		<icon>icon.skill16869</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048190" toLevel="1" name="Camille: Gigantic Horse Kick">
+		<!-- Attacks with hind hoofs in a straight line lifting the target into the air. -->
+		<icon>icon.skill16870</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048191" toLevel="1" name="Camille: Gigantic Horse Kick">
+		<!-- Knockback -->
+		<icon>icon.skill16870</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048192" toLevel="1" name="Camille: Summon Meteor">
+		<!-- Sustained skill for the demonstration of the learned spell. -->
+		<icon>icon.skill16871</icon>
+		<operateType>A1</operateType>
+		<hitTime>15000</hitTime>
+		<coolTime>14500</coolTime>
+	</skill>
+	<skill id="1048193" toLevel="1" name="Camille: Meteor">
+		<!-- AoE Meteor attack around an invisible NPC (Camille). -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+		<coolTime>2500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048194" toLevel="1" name="Camille: Meteor">
+		<!-- Knock Down -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048195" toLevel="1" name="Camille: Meteor">
+		<!-- Damage -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048196" toLevel="1" name="Camille' Meteor Immunity">
+		<!-- Blocks damage from Camille's Meteor. -->
+		<icon>icon.skill30971</icon>
+		<operateType>A2</operateType>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="1048197" toLevel="1" name="Blazing Zone">
+		<!-- Don't get caught in boiling lava. -->
+		<icon>icon.lava_area</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-150</effectPoint>
+	</skill>
+	<skill id="1048198" toLevel="1" name="Camille: Joust Lunge">
+		<!-- A piercing spear attack across a long narrow area. -->
+		<icon>icon.s_camille_lunge</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+		<coolTime>2500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048199" toLevel="1" name="Camille: Horizon Bash">
+		<!-- A sweeping AoE spear attack. -->
+		<icon>icon.s_camille_bash</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+		<coolTime>2500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+</list>

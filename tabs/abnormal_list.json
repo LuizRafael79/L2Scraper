@@ -1,0 +1,7488 @@
+{
+    "12": [
+        {
+            "name": "a_u014_abno_stone",
+            "package": "LineageEffect"
+        }
+    ],
+    "33": [
+        {
+            "name": "m_u202_abno_invincibility",
+            "package": "LineageEffect"
+        }
+    ],
+    "34": [
+        {
+            "name": "a_u017_abno_spdn",
+            "package": "LineageEffect"
+        }
+    ],
+    "35": [
+        {
+            "name": "a_u017_abno_spdn",
+            "package": "LineageEffect"
+        }
+    ],
+    "41": [
+        {
+            "name": "a_u023_ave_stigma",
+            "package": "LineageEffect"
+        }
+    ],
+    "42": [
+        {
+            "name": "a_u025_ave_sp_down",
+            "package": "LineageEffect"
+        }
+    ],
+    "48": [
+        {
+            "name": "d_ave_mp_shield",
+            "package": "LineageEffect"
+        }
+    ],
+    "62": [
+        {
+            "name": "Ave_hurricane_self",
+            "package": "LineageEffect"
+        }
+    ],
+    "68": [
+        {
+            "name": "d_nochat_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "69": [
+        {
+            "name": "d_herb_power_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "70": [
+        {
+            "name": "d_herb_magic_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "71": [
+        {
+            "name": "u_tali_deco_p",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_tali_deco_wing",
+            "package": "LineageEffect"
+        }
+    ],
+    "73": [
+        {
+            "name": "d_tali_deco_c",
+            "package": "LineageEffect"
+        }
+    ],
+    "74": [
+        {
+            "name": "d_tali_deco_d",
+            "package": "LineageEffect"
+        }
+    ],
+    "75": [
+        {
+            "name": "d_tali_deco_e",
+            "package": "LineageEffect"
+        }
+    ],
+    "76": [
+        {
+            "name": "d_tali_deco_f",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "d_tali_deco_g",
+            "package": "LineageEffect"
+        }
+    ],
+    "78": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "79": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "80": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "81": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "82": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "85": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "86": [
+        {
+            "name": "u_card_pcdeco",
+            "package": "LineageEffect"
+        }
+    ],
+    "89": [
+        {
+            "name": "u_wday_event_choco",
+            "package": "LineageEffect"
+        }
+    ],
+    "90": [
+        {
+            "name": "u_wday_event_candy",
+            "package": "LineageEffect"
+        }
+    ],
+    "91": [
+        {
+            "name": "u_wday_event_cookie",
+            "package": "LineageEffect"
+        }
+    ],
+    "92": [
+        {
+            "name": "u_gam_0star",
+            "package": "LineageEffect"
+        }
+    ],
+    "93": [
+        {
+            "name": "u_gam_1star",
+            "package": "LineageEffect"
+        }
+    ],
+    "94": [
+        {
+            "name": "u_gam_2star",
+            "package": "LineageEffect"
+        }
+    ],
+    "95": [
+        {
+            "name": "u_gam_3star",
+            "package": "LineageEffect"
+        }
+    ],
+    "96": [
+        {
+            "name": "u_gam_4star",
+            "package": "LineageEffect"
+        }
+    ],
+    "97": [
+        {
+            "name": "u_gam_5star",
+            "package": "LineageEffect"
+        }
+    ],
+    "98": [
+        {
+            "name": "u_ave_dualing_buff",
+            "package": "LineageEffect"
+        }
+    ],
+    "99": [
+        {
+            "name": "u_ave_freezing",
+            "package": "LineageEffect"
+        }
+    ],
+    "101": [
+        {
+            "name": "u_yogi_event_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "102": [
+        {
+            "name": "u_hellocat1_event_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "103": [
+        {
+            "name": "u_hellocat2_event_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "104": [
+        {
+            "name": "u_hellocat3_event_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "105": [
+        {
+            "name": "u_10th_event_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "106": [
+        {
+            "name": "u_santa_socks_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "107": [
+        {
+            "name": "u_santa_tree_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "108": [
+        {
+            "name": "u_santa_snowman_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "109": [
+        {
+            "name": "u_ro_bluff_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "110": [
+        {
+            "name": "u_he_protect_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "111": [
+        {
+            "name": "u_su_sumcross_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "112": [
+        {
+            "name": "u_er_wi_windstun_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "113": [
+        {
+            "name": "u_er_wi_stormsign2_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "114": [
+        {
+            "name": "u_er_wi_stormsign1_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "117": [
+        {
+            "name": "u_er_wi_windhide_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "118": [
+        {
+            "name": "u_er_wi_psypower_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "119": [
+        {
+            "name": "u_er_wi_squall_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "120": [
+        {
+            "name": "u_er_wi_illuwind_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "123": [
+        {
+            "name": "u_er_wa_gstrong_up",
+            "package": "LineageEffect"
+        }
+    ],
+    "124": [
+        {
+            "name": "u_er_wa_pmental_hand_trail",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_er_wa_pmental_hand_trail",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_er_wa_pmental_foot_trail",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_er_wa_pmental_foot_trail",
+            "package": "LineageEffect"
+        }
+    ],
+    "125": [
+        {
+            "name": "u_er_wi_hold_ave",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_er_wi_lightning2_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "127": [
+        {
+            "name": "u_er_wa_spaceref_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "128": [
+        {
+            "name": "u_he_aspect_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "141": [
+        {
+            "name": "u_ave_paladin_def",
+            "package": "LineageEffect"
+        }
+    ],
+    "142": [
+        {
+            "name": "u_ave_guardian_def",
+            "package": "LineageEffect"
+        }
+    ],
+    "143": [
+        {
+            "name": "u_realtar2_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "144": [
+        {
+            "name": "u_ave_divinity",
+            "package": "LineageEffect"
+        }
+    ],
+    "145": [
+        {
+            "name": "u_ave_shilprotection",
+            "package": "LineageEffect"
+        }
+    ],
+    "146": [
+        {
+            "name": "u_event_star_ca",
+            "package": "LineageEffect"
+        }
+    ],
+    "147": [
+        {
+            "name": "u_event_star1_ta",
+            "package": "LineageEffect"
+        }
+    ],
+    "148": [
+        {
+            "name": "u_event_star2_ta",
+            "package": "LineageEffect"
+        }
+    ],
+    "149": [
+        {
+            "name": "u_event_star3_ta",
+            "package": "LineageEffect"
+        }
+    ],
+    "150": [
+        {
+            "name": "u_event_star4_ta",
+            "package": "LineageEffect"
+        }
+    ],
+    "151": [
+        {
+            "name": "u_event_star5_ta",
+            "package": "LineageEffect"
+        }
+    ],
+    "152": [
+        {
+            "name": "u_ave_absorb_shield",
+            "package": "LineageEffect"
+        }
+    ],
+    "153": [
+        {
+            "name": "u_kn_phoenix_aura",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "ave_auraB_buff",
+            "package": "LineageEffect3"
+        }
+    ],
+    "154": [
+        {
+            "name": "u_kn_revenge_aura",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_flower_deco_d_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "155": [
+        {
+            "name": "u_kn_evas_aura",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_flower_deco_f_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "156": [
+        {
+            "name": "u_kn_templa_aura",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_flower_deco_g_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "157": [
+        {
+            "name": "u_ave_longbow",
+            "package": "LineageEffect"
+        }
+    ],
+    "158": [
+        {
+            "name": "u_ave_widesword",
+            "package": "LineageEffect"
+        }
+    ],
+    "159": [
+        {
+            "name": "u_ave_bigfist",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_ave_bigfist",
+            "package": "LineageEffect"
+        }
+    ],
+    "160": [
+        {
+            "name": "u_ave_shadowstep",
+            "package": "LineageEffect"
+        }
+    ],
+    "161": [
+        {
+            "name": "u_tornado_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "162": [
+        {
+            "name": "u_ave_snow_slow",
+            "package": "LineageEffect"
+        }
+    ],
+    "163": [
+        {
+            "name": "u_ave_snow_hold",
+            "package": "LineageEffect"
+        }
+    ],
+    "164": [
+        {
+            "name": "b_effect_dummy",
+            "package": "LineageEffect3"
+        }
+    ],
+    "165": [
+        {
+            "name": "u_ave_tornado_slow",
+            "package": "LineageEffect"
+        }
+    ],
+    "166": [
+        {
+            "name": "u_ave_astatine_water",
+            "package": "LineageEffect"
+        }
+    ],
+    "167": [
+        {
+            "name": "u_bigbd_cat_npc",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_bigbd_cat_right",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_bigbd_cat_right",
+            "package": "LineageEffect"
+        }
+    ],
+    "168": [
+        {
+            "name": "u_bigbd_unicorn_npc",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_bigbd_unicorn_horn",
+            "package": "LineageEffect"
+        }
+    ],
+    "169": [
+        {
+            "name": "u_bigbd_demon_npc",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_bigbd_demon_left",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_bigbd_demon_left",
+            "package": "LineageEffect"
+        }
+    ],
+    "170": [
+        {
+            "name": "u_bigbd_cat_pc",
+            "package": "LineageEffect"
+        }
+    ],
+    "171": [
+        {
+            "name": "u_bigbd_unicorn_pc",
+            "package": "LineageEffect"
+        }
+    ],
+    "172": [
+        {
+            "name": "u_bigbd_demon_pc",
+            "package": "LineageEffect"
+        }
+    ],
+    "181": [
+        {
+            "name": "u_ave_dragon_ultimate",
+            "package": "LineageEffect"
+        }
+    ],
+    "183": [
+        {
+            "name": "y_infinite_shield1_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "184": [
+        {
+            "name": "y_infinite_shield2_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "185": [
+        {
+            "name": "y_infinite_shield3_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "186": [
+        {
+            "name": "y_infinite_shield4_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "187": [
+        {
+            "name": "u_ave_absorb2_shield",
+            "package": "LineageEffect2"
+        }
+    ],
+    "190": [
+        {
+            "name": "d_tali_deco_d",
+            "package": "LineageEffect"
+        }
+    ],
+    "193": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "194": [
+        {
+            "name": "angry_golem_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "195": [
+        {
+            "name": "y_wa_unbreakable_sonic_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "196": [
+        {
+            "name": "s_heroic_holy_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "197": [
+        {
+            "name": "s_heroic_silence_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "s_heroic_silence2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "198": [
+        {
+            "name": "s_heroic_fear_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "s_heroic_fear2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "199": [
+        {
+            "name": "s_heroic_fear_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "s_heroic_fear2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "200": [
+        {
+            "name": "ave_brooch",
+            "package": "LineageEffect2"
+        }
+    ],
+    "201": [
+        {
+            "name": "ave_brooch_b",
+            "package": "LineageEffect2"
+        }
+    ],
+    "206": [
+        {
+            "name": "y_infinite_shield4_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "207": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "208": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "209": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "210": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "215": [
+        {
+            "name": "y_ro_counter_traspie_ave_smok",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "y_ro_counter_traspie_ave_round",
+            "package": "LineageEffect2"
+        }
+    ],
+    "217": [
+        {
+            "name": "y_ro_ghost_reflect_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "218": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "219": [
+        {
+            "name": "y_ave_ice_elementaldestroy",
+            "package": "LineageEffect2"
+        }
+    ],
+    "220": [
+        {
+            "name": "y_ave_dormant_user",
+            "package": "LineageEffect2"
+        }
+    ],
+    "221": [
+        {
+            "name": "y_ave_nuwbie_user",
+            "package": "LineageEffect2"
+        }
+    ],
+    "222": [
+        {
+            "name": "y_ave_13th_buff",
+            "package": "LineageEffect2"
+        }
+    ],
+    "224": [
+        {
+            "name": "s_arena_unseal_a",
+            "package": "LineageEffect2"
+        }
+    ],
+    "225": [
+        {
+            "name": "s_arena_unseal_b",
+            "package": "LineageEffect2"
+        }
+    ],
+    "226": [
+        {
+            "name": "s_arena_unseal_c",
+            "package": "LineageEffect2"
+        }
+    ],
+    "227": [
+        {
+            "name": "s_arena_unseal_d",
+            "package": "LineageEffect2"
+        }
+    ],
+    "228": [
+        {
+            "name": "s_arena_unseal_e",
+            "package": "LineageEffect2"
+        }
+    ],
+    "229": [
+        {
+            "name": "y_in_battle_rhapsody_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "230": [
+        {
+            "name": "ave_in_a_decal",
+            "package": "LineageEffect"
+        }
+    ],
+    "231": [
+        {
+            "name": "ave_in_b_decal",
+            "package": "LineageEffect"
+        }
+    ],
+    "232": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "234": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "247": [
+        {
+            "name": "y_kn_power_blocking_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "248": [
+        {
+            "name": "y_kn_focus_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "249": [
+        {
+            "name": "y_kn_true_vanguard_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "250": [
+        {
+            "name": "y_kn_shield_wall_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "251": [
+        {
+            "name": "u_er_wa_pmental_foot_trail_blue",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "u_er_wa_pmental_foot_trail_blue",
+            "package": "LineageEffect"
+        }
+    ],
+    "235": [
+        {
+            "name": "j_spirit_king_wind_ave_b",
+            "package": "LineageEffect2"
+        }
+    ],
+    "236": [
+        {
+            "name": "s_earthking_barrier1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "237": [
+        {
+            "name": "s_earthking_barrier2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "254": [
+        {
+            "name": "j_spirit_king_wind_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "253": [
+        {
+            "name": "d_changeshape_transform",
+            "package": "LineageEffect"
+        }
+    ],
+    "255": [
+        {
+            "name": "e_u098_buff_ta_deco",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "e_u098_right_deco",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "e_u098_left_deco",
+            "package": "LineageEffect"
+        }
+    ],
+    "256": [
+        {
+            "name": "j_orfen_energy1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "257": [
+        {
+            "name": "j_orfen_energy2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "258": [
+        {
+            "name": "j_orfen_energy3_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "259": [
+        {
+            "name": "j_orfen_energy4_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "260": [
+        {
+            "name": "j_orfen_energy5_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "263": [
+        {
+            "name": "j_unholy_barrier_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "266": [
+        {
+            "name": "h_rudolph_a_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "267": [
+        {
+            "name": "h_rudolph_b_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "268": [
+        {
+            "name": "h_rudolph_c_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "269": [
+        {
+            "name": "h_olympiad_medal_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "270": [
+        {
+            "name": "h_olympiad_sport_a_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "271": [
+        {
+            "name": "h_olympiad_sport_b_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "272": [
+        {
+            "name": "h_olympiad_sport_c_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "273": [
+        {
+            "name": "d_chaos_match_ave",
+            "package": "LineageEffect"
+        },
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "274": [
+        {
+            "name": "s_trans_deco_r",
+            "package": "LineageEffect2"
+        }
+    ],
+    "275": [
+        {
+            "name": "s_trans_deco_b",
+            "package": "LineageEffect2"
+        }
+    ],
+    "276": [
+        {
+            "name": "s_trans_deco_y",
+            "package": "LineageEffect2"
+        }
+    ],
+    "277": [
+        {
+            "name": "s_trans_deco_g",
+            "package": "LineageEffect2"
+        }
+    ],
+    "278": [
+        {
+            "name": "s_trans_deco_p",
+            "package": "LineageEffect2"
+        }
+    ],
+    "279": [
+        {
+            "name": "s_trans_deco_p",
+            "package": "LineageEffect2"
+        }
+    ],
+    "280": [
+        {
+            "name": "s_trans_deco_w",
+            "package": "LineageEffect2"
+        }
+    ],
+    "281": [
+        {
+            "name": "s_trans_deco_r",
+            "package": "LineageEffect2"
+        }
+    ],
+    "282": [
+        {
+            "name": "s_trans_deco_w",
+            "package": "LineageEffect2"
+        }
+    ],
+    "283": [
+        {
+            "name": "h_d_hpdown_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "284": [
+        {
+            "name": "h_d_hpmpdown_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "286": [
+        {
+            "name": "s_kissnheart_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "287": [
+        {
+            "name": "j_earth_barrier_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "288": [
+        {
+            "name": "j_lilith_dark_barrier_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "289": [
+        {
+            "name": "j_earth_barrier_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "290": [
+        {
+            "name": "j_crofin_queen_invincibility_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "291": [
+        {
+            "name": "h_d_mpdown_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "292": [
+        {
+            "name": "h_worldcup_red_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "293": [
+        {
+            "name": "h_worldcup_blue_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "296": [
+        {
+            "name": "h_f_surgewave_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "297": [
+        {
+            "name": "h_f_bless_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "298": [
+        {
+            "name": "j_antaras_rage_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "302": [
+        {
+            "name": "h_g_barrier_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "304": [
+        {
+            "name": "h_fireworks_001t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "305": [
+        {
+            "name": "h_fireworks_002t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "306": [
+        {
+            "name": "h_fireworks_003t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "307": [
+        {
+            "name": "h_fireworks_004t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "308": [
+        {
+            "name": "h_fireworks_005t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "309": [
+        {
+            "name": "h_fireworks_006t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "310": [
+        {
+            "name": "h_fireworks_007t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "311": [
+        {
+            "name": "h_fireworks_008t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "312": [
+        {
+            "name": "h_fireworks_009t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "313": [
+        {
+            "name": "h_fireworks_010t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "314": [
+        {
+            "name": "h_fireworks_011t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "315": [
+        {
+            "name": "h_fireworks_012t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "316": [
+        {
+            "name": "h_fireworks_013t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "317": [
+        {
+            "name": "h_fireworks_014t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "318": [
+        {
+            "name": "h_fireworks_015t",
+            "package": "LineageEffect2"
+        }
+    ],
+    "319": [
+        {
+            "name": "h_p_cake_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "323": [
+        {
+            "name": "h_zariche_prison_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "325": [
+        {
+            "name": "h_xmas_heart_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "326": [
+        {
+            "name": "h_xmas_hand_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "327": [
+        {
+            "name": "h_luckybag_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "328": [
+        {
+            "name": "heroic_miracle_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "329": [
+        {
+            "name": "h_pocketpig_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "330": [
+        {
+            "name": "ave_black_stance",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "ave_black_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "331": [
+        {
+            "name": "kamael_black_transform",
+            "package": "LineageEffect2"
+        }
+    ],
+    "332": [
+        {
+            "name": "ave_white_stance",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "ave_white_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "333": [
+        {
+            "name": "kamael_white_transform",
+            "package": "LineageEffect2"
+        }
+    ],
+    "334": [
+        {
+            "name": "ave_long_rapier_white",
+            "package": "LineageEffect"
+        }
+    ],
+    "335": [
+        {
+            "name": "ave_long_rapier_black",
+            "package": "LineageEffect"
+        }
+    ],
+    "336": [
+        {
+            "name": "h_zariche_prisonB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "337": [
+        {
+            "name": "h_blueheart_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "338": [
+        {
+            "name": "h_attack_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "339": [
+        {
+            "name": "h_shield_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "340": [
+        {
+            "name": "h_berserker_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "341": [
+        {
+            "name": "h_tali_deco_gold",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_tali_deco_goldwing",
+            "package": "LineageEffect2"
+        }
+    ],
+    "342": [
+        {
+            "name": "h_gold_star1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "343": [
+        {
+            "name": "h_gold_star2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "344": [
+        {
+            "name": "h_gold_star3_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "345": [
+        {
+            "name": "h_gold_star4_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "346": [
+        {
+            "name": "h_gold_star5_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "347": [
+        {
+            "name": "ave_raid_area",
+            "package": "LineageEffect2"
+        }
+    ],
+    "348": [
+        {
+            "name": "h_heart_aden_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "349": [
+        {
+            "name": "h_adenbag_coin_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "350": [
+        {
+            "name": "kamael_black_transform",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "kamael_shadow_wing",
+            "package": "LineageEffect3"
+        }
+    ],
+    "351": [
+        {
+            "name": "kamael_white_transform",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "kamael_white_wing",
+            "package": "LineageEffect3"
+        }
+    ],
+    "352": [
+        {
+            "name": "h_death_effect_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "353": [
+        {
+            "name": "ave_white_knight",
+            "package": "LineageEffect2"
+        }
+    ],
+    "354": [
+        {
+            "name": "u_er_wi_windhide_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "387": [
+        {
+            "name": "JDK_body_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_eye_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        }
+    ],
+    "388": [
+        {
+            "name": "h_DK_boneprison_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_boneprison_B_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "390": [
+        {
+            "name": "h_DK_ignition_human_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "391": [
+        {
+            "name": "h_DK_ignition_elf_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "392": [
+        {
+            "name": "h_DK_ignition_darkelf_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "393": [
+        {
+            "name": "h_DK_acceleration_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "394": [
+        {
+            "name": "h_DK_burn_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "395": [
+        {
+            "name": "h_DK_freezingarea_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "396": [
+        {
+            "name": "h_DK_shock_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "397": [
+        {
+            "name": "h_DK_perfectshiled_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "398": [
+        {
+            "name": "h_DK_frostbite_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "399": [
+        {
+            "name": "h_DK_boneprison_squela_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "400": [
+        {
+            "name": "h_b_HasteB_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_b_Haste_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "401": [
+        {
+            "name": "fs_stigma_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "fs_stigma_head_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "403": [
+        {
+            "name": "fort_flag_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "404": [
+        {
+            "name": "h_event_moon_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "409": [
+        {
+            "name": "h_r_barrier_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "410": [
+        {
+            "name": "h_r_fire_debuff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "411": [
+        {
+            "name": "h_p_fire_debuff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "418": [
+        {
+            "name": "h_event_pumpkin_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "419": [
+        {
+            "name": "h_event_pumpkinB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "420": [
+        {
+            "name": "ave_poison_ground_g",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "ave_poison_cloud_g",
+            "package": "LineageEffect2"
+        }
+    ],
+    "421": [
+        {
+            "name": "ave_poison_ground_b",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "ave_poison_cloud_b",
+            "package": "LineageEffect2"
+        }
+    ],
+    "422": [
+        {
+            "name": "ave_poison_ground_p",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "ave_poison_cloud_p",
+            "package": "LineageEffect2"
+        }
+    ],
+    "423": [
+        {
+            "name": "ave_poison_ground_r",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "ave_poison_cloud_r",
+            "package": "LineageEffect2"
+        }
+    ],
+    "385": [
+        {
+            "name": "ranker_deco_human",
+            "package": "LineageEffect2"
+        }
+    ],
+    "424": [
+        {
+            "name": "ranker_deco_orc",
+            "package": "LineageEffect2"
+        }
+    ],
+    "425": [
+        {
+            "name": "h_debuff_selfB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "426": [
+        {
+            "name": "h_aura_debuffB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "427": [
+        {
+            "name": "h_ultimate_defenceB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "428": [
+        {
+            "name": "ranker_deco_elf",
+            "package": "LineageEffect2"
+        }
+    ],
+    "429": [
+        {
+            "name": "ranker_deco_darkelf",
+            "package": "LineageEffect2"
+        }
+    ],
+    "430": [
+        {
+            "name": "ranker_deco_dwarf",
+            "package": "LineageEffect2"
+        }
+    ],
+    "431": [
+        {
+            "name": "h_y_magnetic_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "433": [
+        {
+            "name": "h_r_natural_beast_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "435": [
+        {
+            "name": "h_berserkerB_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "436": [
+        {
+            "name": "h_berserkerC_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "437": [
+        {
+            "name": "u_ave_divinity",
+            "package": "LineageEffect"
+        }
+    ],
+    "438": [
+        {
+            "name": "y_ro_ghost_reflect_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "439": [
+        {
+            "name": "s_event_kite_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "441": [
+        {
+            "name": "h_b_symphony_sword_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "442": [
+        {
+            "name": "h_b_symphony_sword_defence_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "443": [
+        {
+            "name": "h_b_symphony_sword_buffA_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_b_symphony_sword_buffA2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "444": [
+        {
+            "name": "h_b_symphony_sword_buffB_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_b_symphony_sword_buffB2_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_b_symphony_sword_buffC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "445": [
+        {
+            "name": "h_g_poison_dance_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "446": [
+        {
+            "name": "h_g_poison_dance_debuffA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "447": [
+        {
+            "name": "h_g_poison_dance_debuffB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "448": [
+        {
+            "name": "h_r_poison_dance_buffB_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_r_poison_dance_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "450": [
+        {
+            "name": "h_b_chocolate_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "451": [
+        {
+            "name": "h_p_chain_block_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_p_chain_blockB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "452": [
+        {
+            "name": "h_event_mask_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "454": [
+        {
+            "name": "h_r_orc_titan_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "455": [
+        {
+            "name": "h_r_gigantic_weapon_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "456": [
+        {
+            "name": "h_r_wild_roar_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "457": [
+        {
+            "name": "h_b_totem_puma_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "458": [
+        {
+            "name": "h_y_totem_rabbit_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "459": [
+        {
+            "name": "h_g_totem_ogre_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "460": [
+        {
+            "name": "h_y_orc_hp_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "461": [
+        {
+            "name": "h_b_orc_hp_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "462": [
+        {
+            "name": "v_orc_immolation_body_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_orc_immolation_hand_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_orc_immolation_hand_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "463": [
+        {
+            "name": "h_r_orc_war_roar_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "465": [
+        {
+            "name": "v_orc_touch_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "466": [
+        {
+            "name": "h_b_party_uniteA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "468": [
+        {
+            "name": "v_orc_debuff_master_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "469": [
+        {
+            "name": "v_orc_flame_blast_a_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "470": [
+        {
+            "name": "v_orc_flame_blast_b_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "471": [
+        {
+            "name": "h_b_party_uniteB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "472": [
+        {
+            "name": "h_r_blood_linkA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "473": [
+        {
+            "name": "h_r_blood_linkB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "474": [
+        {
+            "name": "v_orc_cold_flame_a_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "475": [
+        {
+            "name": "v_orc_cold_flame_b_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "477": [
+        {
+            "name": "h_b_spiritwind_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "478": [
+        {
+            "name": "h_w_seacreature_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "479": [
+        {
+            "name": "v_event_2020_summer_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "481": [
+        {
+            "name": "h_SY_board_ranker_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "482": [
+        {
+            "name": "h_SY_boardD_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "483": [
+        {
+            "name": "h_SY_boardC_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "484": [
+        {
+            "name": "h_SY_boardB_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "485": [
+        {
+            "name": "h_SY_boardA_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "486": [
+        {
+            "name": "h_g_affinityA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "487": [
+        {
+            "name": "h_g_affinityB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "488": [
+        {
+            "name": "v_SY_ele_guard_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "489": [
+        {
+            "name": "h_SY_elemental_storm_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "490": [
+        {
+            "name": "v_SY_ele_transition_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "491": [
+        {
+            "name": "h_SY_elemental_recovery_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "492": [
+        {
+            "name": "h_SY_freezing_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "493": [
+        {
+            "name": "v_SY_burst_time_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "496": [
+        {
+            "name": "s_mass_salvation_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "497": [
+        {
+            "name": "h_b_expel_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "498": [
+        {
+            "name": "s_banish_debuff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "499": [
+        {
+            "name": "h_b_protection_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "500": [
+        {
+            "name": "h_r_protection_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "501": [
+        {
+            "name": "h_b_protection_mana_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "502": [
+        {
+            "name": "h_y_rolling_diceA_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_y_rolling_diceA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "503": [
+        {
+            "name": "h_y_rolling_diceB_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_y_rolling_diceB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "504": [
+        {
+            "name": "h_y_rolling_diceC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "505": [
+        {
+            "name": "h_r_meteor_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "507": [
+        {
+            "name": "h_SY_elemental_roar_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "508": [
+        {
+            "name": "wh_heal_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "509": [
+        {
+            "name": "h_SY_elemental_dust_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "510": [
+        {
+            "name": "s_mentor_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "511": [
+        {
+            "name": "ranker_deco_sylph",
+            "package": "LineageEffect2"
+        }
+    ],
+    "513": [
+        {
+            "name": "h_SY_elemental_mark_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "514": [
+        {
+            "name": "z_ice_screen_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "515": [
+        {
+            "name": "v_ice_onehand_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_ice_onehand_02_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_ice_onehand_finsh_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "516": [
+        {
+            "name": "h_b_ice_twohand_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_b_ice_twohandB_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "517": [
+        {
+            "name": "v_ice_long_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_ice_long_02_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_ice_long_finsh_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "518": [
+        {
+            "name": "v_fortune_time_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "519": [
+        {
+            "name": "v_fortune_time_debuff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "520": [
+        {
+            "name": "v_gold_stone_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "522": [
+        {
+            "name": "v_vital_gain_lv1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "523": [
+        {
+            "name": "v_vital_gain_lv2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "524": [
+        {
+            "name": "v_vital_gain_lv3_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "525": [
+        {
+            "name": "v_vital_gain_lv4_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "526": [
+        {
+            "name": "v_vital_gain_lv5_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "527": [
+        {
+            "name": "h_b_overdrive_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "529": [
+        {
+            "name": "h_luckybag2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "530": [
+        {
+            "name": "v_lindvior_body_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_lindvior_hand_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_lindvior_hand_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "531": [
+        {
+            "name": "v_disron_victory_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "532": [
+        {
+            "name": "h_p_aegis_armor_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "540": [
+        {
+            "name": "v_worldcastlewar_hero_weapon_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "541": [
+        {
+            "name": "v_earased_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "542": [
+        {
+            "name": "h_r_imprison_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "543": [
+        {
+            "name": "h_r_nemesis_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "544": [
+        {
+            "name": "h_y_protection_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "545": [
+        {
+            "name": "h_p_protection_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "546": [
+        {
+            "name": "h_w_protection_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "547": [
+        {
+            "name": "h_b_heaven_seal_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "549": [
+        {
+            "name": "v_knight_phoenix_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_knight_phoenix_02_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "550": [
+        {
+            "name": "v_knight_hell_hand_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_knight_hell_hand_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "551": [
+        {
+            "name": "v_knight_shelter_02_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "552": [
+        {
+            "name": "v_knight_shelter_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "553": [
+        {
+            "name": "v_knight_condemn_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "554": [
+        {
+            "name": "h_y_ultimate_defence_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "555": [
+        {
+            "name": "DK2_equal_aura_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "556": [
+        {
+            "name": "DK2_rage_aura_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "557": [
+        {
+            "name": "h_DK2_sardonic_fortitudeA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "558": [
+        {
+            "name": "h_DK2_sardonic_fortitudeB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "559": [
+        {
+            "name": "s_dragon_slayer_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "560": [
+        {
+            "name": "v_darion_reflection_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "561": [
+        {
+            "name": "v_darion_roar_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "562": [
+        {
+            "name": "v_darion_cubic_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "563": [
+        {
+            "name": "v_beres_focusing_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "564": [
+        {
+            "name": "v_beres_cure_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "566": [
+        {
+            "name": "v_rogue_phantom_01_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "567": [
+        {
+            "name": "v_rogue_phantom_02_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "568": [
+        {
+            "name": "v_rogue_phantom_03_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "569": [
+        {
+            "name": "v_rogue_fury_blade_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "570": [
+        {
+            "name": "v_rogue_synchro_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "571": [
+        {
+            "name": "h_p_reverse_pulling_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_p_reverse_pullingB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "574": [
+        {
+            "name": "h_p_fast_assault_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "575": [
+        {
+            "name": "h_r_bluff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "576": [
+        {
+            "name": "v_rogue_critical_wound_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "578": [
+        {
+            "name": "h_p_protection_of_dark_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "579": [
+        {
+            "name": "h_p_protection_of_eva_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "580": [
+        {
+            "name": "v_DK2_Ultimate_defence_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "581": [
+        {
+            "name": "v_DK2_roar_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "582": [
+        {
+            "name": "h_aura_debuffB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "583": [
+        {
+            "name": "ave_aura_debuff",
+            "package": "LineageEffect"
+        }
+    ],
+    "584": [
+        {
+            "name": "h_y_sagittariusA_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_y_sagittariusB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "585": [
+        {
+            "name": "h_b_moonlightA_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_b_moonlightB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "586": [
+        {
+            "name": "h_p_ghostA_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_p_ghostB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "587": [
+        {
+            "name": "h_r_tricksterA_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_r_tricksterB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "588": [
+        {
+            "name": "v_archer_true_target_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "589": [
+        {
+            "name": "v_archer_shape_shooter_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "590": [
+        {
+            "name": "h_r_spike_shot_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "591": [
+        {
+            "name": "v_archer_chain_arrest_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "592": [
+        {
+            "name": "v_archer_arrow_shower_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "594": [
+        {
+            "name": "v_wizard_mystic_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "595": [
+        {
+            "name": "v_wizard_soul_gard_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_wizard_soul_gard_ground_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "596": [
+        {
+            "name": "v_wizard_deep_sleep_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "597": [
+        {
+            "name": "s_event_moon_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "598": [
+        {
+            "name": "v_darion_reflection_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "599": [
+        {
+            "name": "v_OR_burning_beast_fire_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_OR_burning_beast_fire_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_OR_burning_beast_fire_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_OR_burning_beast_ground_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "602": [
+        {
+            "name": "h_y_blessing_of_emperor_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "603": [
+        {
+            "name": "h_b_blessing_of_guardian_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "604": [
+        {
+            "name": "h_p_blessing_of_lord_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "605": [
+        {
+            "name": "h_b_lifelink_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "606": [
+        {
+            "name": "h_p_servitor_ultimate_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "607": [
+        {
+            "name": "ave_star_x01_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "608": [
+        {
+            "name": "ave_star_x02_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "609": [
+        {
+            "name": "ave_star_x03_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "610": [
+        {
+            "name": "ave_star_x04_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "611": [
+        {
+            "name": "ave_star_x05_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "612": [
+        {
+            "name": "ave_star_x06_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "613": [
+        {
+            "name": "ave_star_x07_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "614": [
+        {
+            "name": "ave_star_x08_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "615": [
+        {
+            "name": "ave_star_x09_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "616": [
+        {
+            "name": "ave_star_x10_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "617": [
+        {
+            "name": "ave_star_x11_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "618": [
+        {
+            "name": "ave_star_x12_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "619": [
+        {
+            "name": "ave_star_x13_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "620": [
+        {
+            "name": "ave_star_x14_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "621": [
+        {
+            "name": "ave_star_x15_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "622": [
+        {
+            "name": "ave_star_x16_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "623": [
+        {
+            "name": "ave_star_x17_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "624": [
+        {
+            "name": "ave_star_x18_ev",
+            "package": "LineageEffect2"
+        }
+    ],
+    "625": [
+        {
+            "name": "v_protection_condition_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "626": [
+        {
+            "name": "v_war_contender_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_war_contender_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "627": [
+        {
+            "name": "v_war_sword_art_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "628": [
+        {
+            "name": "h_b_wide_sweep_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_b_wide_sweep_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "629": [
+        {
+            "name": "h_b_spear_prison_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "630": [
+        {
+            "name": "v_war_anger_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "631": [
+        {
+            "name": "war_roar_screen_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "632": [
+        {
+            "name": "opal_debuff_barrier_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "633": [
+        {
+            "name": "v_OR_burning_beast_ground_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "634": [
+        {
+            "name": "v_baium_lightening_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "635": [
+        {
+            "name": "h_r_redsprite_screen",
+            "package": "LineageEffect2"
+        }
+    ],
+    "636": [
+        {
+            "name": "h_b_fragarach_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "639": [
+        {
+            "name": "h_p_disarm_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "640": [
+        {
+            "name": "h_p_overwhelmingA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "641": [
+        {
+            "name": "h_p_overwhelmingB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "642": [
+        {
+            "name": "h_b_soulsign_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "644": [
+        {
+            "name": "h_p_devil_standing1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "645": [
+        {
+            "name": "h_p_devil_standing2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "646": [
+        {
+            "name": "h_p_devil_equip_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "647": [
+        {
+            "name": "h_r_firesword_equip_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "649": [
+        {
+            "name": "h_y_transform_crusader_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "650": [
+        {
+            "name": "h_y_transform_crusaderA_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_y_transform_crusaderA2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "651": [
+        {
+            "name": "h_y_transform_crusaderB_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_y_transform_crusaderB2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "652": [
+        {
+            "name": "h_y_transform_crusaderC_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_y_transform_crusaderC_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_y_transform_crusaderC2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "653": [
+        {
+            "name": "h_p_unique_silence_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "654": [
+        {
+            "name": "h_y_stigma_of_sodmz_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "655": [
+        {
+            "name": "h_r_stigma_of_sptdan_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "656": [
+        {
+            "name": "h_y_amadeus_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "657": [
+        {
+            "name": "h_y_amadeusB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "658": [
+        {
+            "name": "h_r_flamenco_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "659": [
+        {
+            "name": "h_r_flamencoB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "667": [
+        {
+            "name": "h_y_madness_beatB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "668": [
+        {
+            "name": "h_r_madness_waltzB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "669": [
+        {
+            "name": "b_BD_silence_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "670": [
+        {
+            "name": "h_y_dance_of_medusa_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "672": [
+        {
+            "name": "h_r_poison_dance_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "673": [
+        {
+            "name": "h_r_poison_dance_buffC_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_r_poison_dance_buffD_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "674": [
+        {
+            "name": "h_r_poison_dance_debuffA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "675": [
+        {
+            "name": "h_r_poison_dance_debuffB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "676": [
+        {
+            "name": "h_b_protection_shieldB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "677": [
+        {
+            "name": "h_b_protection_shieldC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "679": [
+        {
+            "name": "h_r_protection_shieldB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "680": [
+        {
+            "name": "h_r_protection_shieldC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "682": [
+        {
+            "name": "h_b_protection_manaB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "683": [
+        {
+            "name": "h_b_protection_manaC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "688": [
+        {
+            "name": "h_y_protection_shieldB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "689": [
+        {
+            "name": "h_y_protection_shieldC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "691": [
+        {
+            "name": "h_p_protection_shieldB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "692": [
+        {
+            "name": "h_p_protection_shieldC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "694": [
+        {
+            "name": "h_w_protection_shieldB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "695": [
+        {
+            "name": "h_w_protection_shieldC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "699": [
+        {
+            "name": "h_b_oman_boss_buff1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "700": [
+        {
+            "name": "h_p_oman_boss_buff2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "701": [
+        {
+            "name": "h_r_oman_boss_buff3_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_r_oman_boss_buff3B_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "702": [
+        {
+            "name": "h_r_protection_of_dark_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "703": [
+        {
+            "name": "heaven_cloth_equip_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "704": [
+        {
+            "name": "heaven_cloth_trigger_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "710": [
+        {
+            "name": "h_r_kelbim_astatine_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "711": [
+        {
+            "name": "h_y_kelbim_astatine_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "712": [
+        {
+            "name": "h_b_kelbim_astatine_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "713": [
+        {
+            "name": "h_p_kelbim_astatine_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "714": [
+        {
+            "name": "h_w_kelbim_astatine_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "715": [
+        {
+            "name": "b_wp_dragon_vala_debuff_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_wp_dragon_vala_debuff_end",
+            "package": "LineageEffect3"
+        }
+    ],
+    "716": [
+        {
+            "name": "b_wp_dragon_fafu_debuff_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_wp_dragon_fafu_debuff_end",
+            "package": "LineageEffect3"
+        }
+    ],
+    "717": [
+        {
+            "name": "h_b_ice_dualsword_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_b_ice_twohandB_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "718": [
+        {
+            "name": "b_wp_dragon_lind_debuff_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_wp_dragon_lind_debuff_end",
+            "package": "LineageEffect3"
+        }
+    ],
+    "719": [
+        {
+            "name": "h_b_ultimate_defence_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "720": [
+        {
+            "name": "h_b_ultimate_defenceB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "721": [
+        {
+            "name": "h_r_ultimate_defence_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "722": [
+        {
+            "name": "h_p_ultimate_defence_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "724": [
+        {
+            "name": "h_b_spear_prison_1e_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "725": [
+        {
+            "name": "h_b_spear_prison_1e_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "726": [
+        {
+            "name": "h_b_spear_prison_3e_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "727": [
+        {
+            "name": "v_b_soulsign_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "728": [
+        {
+            "name": "v_b_soulsign_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "729": [
+        {
+            "name": "v_archer_flame_arrow_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "730": [
+        {
+            "name": "v_archer_flame_arrow_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "731": [
+        {
+            "name": "v_archer_arrow_shower_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "732": [
+        {
+            "name": "v_archer_arrow_shower_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "733": [
+        {
+            "name": "v_archer_piercing_arrow_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "734": [
+        {
+            "name": "v_archer_piercing_arrow_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "735": [
+        {
+            "name": "v_archer_chain_arrest_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "736": [
+        {
+            "name": "v_archer_chain_arrest_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "737": [
+        {
+            "name": "v_b_nocturn_of_eva_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "738": [
+        {
+            "name": "v_b_nocturn_of_eva_e1lv_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "740": [
+        {
+            "name": "h_asn_erosion1A_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "741": [
+        {
+            "name": "h_asn_erosion2A_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "742": [
+        {
+            "name": "h_asn_erosion3A_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "743": [
+        {
+            "name": "h_asn_erosion1B_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "744": [
+        {
+            "name": "h_asn_erosion2B_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "745": [
+        {
+            "name": "h_asn_erosion3B_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "746": [
+        {
+            "name": "h_asn_enroachment1A_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "747": [
+        {
+            "name": "h_asn_enroachment2A_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "748": [
+        {
+            "name": "h_asn_enroachment3A_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "749": [
+        {
+            "name": "h_asn_enroachment1B_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "750": [
+        {
+            "name": "h_asn_enroachment2B_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "751": [
+        {
+            "name": "h_asn_enroachment3B_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "753": [
+        {
+            "name": "h_asn_time_distortion_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_asn_time_distortion_screen",
+            "package": "LineageEffect2"
+        }
+    ],
+    "754": [
+        {
+            "name": "h_asn_suppression_novice_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "755": [
+        {
+            "name": "h_asn_suppression_warrior_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "756": [
+        {
+            "name": "h_asn_suppression_knight_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "757": [
+        {
+            "name": "h_asn_suppression_bard_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "758": [
+        {
+            "name": "h_asn_suppression_rogue_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "759": [
+        {
+            "name": "h_asn_suppression_archer_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "760": [
+        {
+            "name": "h_asn_suppression_hunter_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "761": [
+        {
+            "name": "h_asn_suppression_deathknight_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "762": [
+        {
+            "name": "h_asn_suppression_enchanter_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "763": [
+        {
+            "name": "h_asn_suppression_wizard_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "764": [
+        {
+            "name": "h_asn_suppression_summoner_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "765": [
+        {
+            "name": "h_asn_suppression_healer_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "766": [
+        {
+            "name": "h_asn_suppression_shaman_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "767": [
+        {
+            "name": "h_asn_suppression_kamael_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "768": [
+        {
+            "name": "h_asn_suppression_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "771": [
+        {
+            "name": "asn_shoulder_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "asn_shoulder_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "asn_eyedeco_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "772": [
+        {
+            "name": "v_ns_raid_tombstone_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "773": [
+        {
+            "name": "dethrone_event_a_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "774": [
+        {
+            "name": "dethrone_event_b_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "775": [
+        {
+            "name": "h_asn_as_mode_screen",
+            "package": "LineageEffect2"
+        }
+    ],
+    "776": [
+        {
+            "name": "h_asn_shape_blade_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "777": [
+        {
+            "name": "h_asn_secret_bookA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "778": [
+        {
+            "name": "h_asn_secret_bookB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "779": [
+        {
+            "name": "h_asn_secret_bookC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "781": [
+        {
+            "name": "h_r_dethrone_fire_holy_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "782": [
+        {
+            "name": "h_b_dethrone_fire_barrier_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "783": [
+        {
+            "name": "h_r_sayhas_seer_judgmentA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "784": [
+        {
+            "name": "h_r_ghost_whisperA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "785": [
+        {
+            "name": "v_rare_storm_walker_self_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "786": [
+        {
+            "name": "v_rare_storm_walker_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "787": [
+        {
+            "name": "h_p_summon_force_of_arcana1A_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_p_summon_force_of_arcana2A_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "788": [
+        {
+            "name": "h_b_summon_force_of_elemental1A_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_b_summon_force_of_elemental2A_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "789": [
+        {
+            "name": "h_r_summon_prestige_of_spectralA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "790": [
+        {
+            "name": "v_rare_fist_of_paagrio_body_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_rare_fist_of_paagrio_hand_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_rare_fist_of_paagrio_hand_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "791": [
+        {
+            "name": "v_rare_fist_of_tera_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "792": [
+        {
+            "name": "h_w_hierophant_redemption_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "793": [
+        {
+            "name": "h_g_doomcryer_redemption_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "794": [
+        {
+            "name": "h_r_dominator_redemption_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "795": [
+        {
+            "name": "h_y_swordmuse_inspiration_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "796": [
+        {
+            "name": "h_p_spectraldancer_inspiration_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "797": [
+        {
+            "name": "v_rare_doom_blade_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "798": [
+        {
+            "name": "h_g_dethrone_fire_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "803": [
+        {
+            "name": "h_b__trialbuff01_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "804": [
+        {
+            "name": "h_b__trialbuff02_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "805": [
+        {
+            "name": "h_b__trialbuff03_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "806": [
+        {
+            "name": "h_b__trialbuff04_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "808": [
+        {
+            "name": "h_r_berserker_shield_buff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "809": [
+        {
+            "name": "h_r_berserker_sigil_debuff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "810": [
+        {
+            "name": "h_r_berserker_sigil_buff_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_r_berserker_sigil_buff2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "811": [
+        {
+            "name": "h_r_berserker_shield_buff_lv7_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "813": [
+        {
+            "name": "h_r_berserker_sigil_buff_lv7_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_r_berserker_sigil_buff2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "814": [
+        {
+            "name": "h_p_ssgevent_wine_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "815": [
+        {
+            "name": "ave_talisman5_baium",
+            "package": "LineageEffect2"
+        }
+    ],
+    "816": [
+        {
+            "name": "ave_gran_kain_pendent",
+            "package": "LineageEffect2"
+        }
+    ],
+    "817": [
+        {
+            "name": "ave_gran_kain_pendent_5Lv",
+            "package": "LineageEffect2"
+        }
+    ],
+    "818": [
+        {
+            "name": "h_r_champion_of_titanA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "819": [
+        {
+            "name": "v_titan_intense_pressure1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "820": [
+        {
+            "name": "v_titan_intense_pressure2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "821": [
+        {
+            "name": "v_titan_intense_pressure3_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "822": [
+        {
+            "name": "v_titan_true_toughness1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "823": [
+        {
+            "name": "v_titan_true_toughness2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "824": [
+        {
+            "name": "v_titan_true_toughness3_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "825": [
+        {
+            "name": "v_titan_destroy_roar_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "827": [
+        {
+            "name": "v_event_candy01_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "828": [
+        {
+            "name": "v_event_candy02_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "829": [
+        {
+            "name": "v_event_teaser_grade_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "830": [
+        {
+            "name": "v_event_teaser_L_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "831": [
+        {
+            "name": "v_win_summon_spirit_navi_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "832": [
+        {
+            "name": "h_adenbag_coin_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "833": [
+        {
+            "name": "h_r_ruby_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "835": [
+        {
+            "name": "JDK_body_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_eye_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        }
+    ],
+    "836": [
+        {
+            "name": "JDK_body_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_eye_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_red",
+            "package": "LineageEffect2"
+        }
+    ],
+    "837": [
+        {
+            "name": "jdk_body_fire_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_eye_fire_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        }
+    ],
+    "838": [
+        {
+            "name": "jdk_body_fire_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_eye_fire_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_blue",
+            "package": "LineageEffect2"
+        }
+    ],
+    "839": [
+        {
+            "name": "jdk_body_fire_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_eye_fire_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        }
+    ],
+    "840": [
+        {
+            "name": "jdk_body_fire_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_eye_fire_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco_purple",
+            "package": "LineageEffect2"
+        }
+    ],
+    "841": [
+        {
+            "name": "fs_stigma_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "fs_stigma_head_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "fs_stigmaB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "842": [
+        {
+            "name": "h_DK_boneprison_re_A_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_boneprison_re_B_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "843": [
+        {
+            "name": "h_DK_ice_boneprison_re_A_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_ice_boneprison_re_B_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "844": [
+        {
+            "name": "h_DK_lazer_boneprison_re_A_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_lazer_boneprison_re_B_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "846": [
+        {
+            "name": "h_DK_perfectshiled_re_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_perfectshiled_re_B_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "847": [
+        {
+            "name": "h_DK_ice_perfectshiled_re_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_ice_perfectshiled_re_B_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "848": [
+        {
+            "name": "h_DK_dark_perfectshiled_re_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_dark_perfectshiled_re_B_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "849": [
+        {
+            "name": "v_DK_fistoffury_human_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "850": [
+        {
+            "name": "v_DK_fistoffury_elf_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "851": [
+        {
+            "name": "v_DK_fistoffury_darkelf_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "852": [
+        {
+            "name": "h_DK_re_burningfield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "853": [
+        {
+            "name": "h_DK_re_freezingarea_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "854": [
+        {
+            "name": "h_DK_re_lightningstorm_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "856": [
+        {
+            "name": "h_DK_boneprison_re_B_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_boneprison_re_C_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "857": [
+        {
+            "name": "h_DK_ice_boneprison_re_B_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_ice_boneprison_re_C_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "858": [
+        {
+            "name": "h_DK_lazer_boneprison_re_B_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_DK_lazer_boneprison_re_C_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "859": [
+        {
+            "name": "h_shineM_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "860": [
+        {
+            "name": "h_shineM_buffA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "861": [
+        {
+            "name": "h_shineM_debuffA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "862": [
+        {
+            "name": "h_shineM_debuffB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "863": [
+        {
+            "name": "h_shineM_weakness_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "864": [
+        {
+            "name": "h_g_archer_gust_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "865": [
+        {
+            "name": "h_r_archer_flame_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "866": [
+        {
+            "name": "h_r_archer_ignition_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "867": [
+        {
+            "name": "h_r_archer_flame_wind_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "868": [
+        {
+            "name": "h_b_archer_humidity_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "869": [
+        {
+            "name": "h_b_archer_chill_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "870": [
+        {
+            "name": "h_b_archer_spray_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "871": [
+        {
+            "name": "h_b_archer_wind_damage_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "872": [
+        {
+            "name": "h_b_archer_wind_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "873": [
+        {
+            "name": "h_w_archer_storm_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "874": [
+        {
+            "name": "h_r_archer_blaze_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "875": [
+        {
+            "name": "h_r_archer_explosion_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "876": [
+        {
+            "name": "h_b_archer_cold_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "877": [
+        {
+            "name": "h_b_archer_blizzard_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "878": [
+        {
+            "name": "h_b_archer_wind_cutter_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "879": [
+        {
+            "name": "h_b_archer_typhoon_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "880": [
+        {
+            "name": "h_b_archer_focus_arrow_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "881": [
+        {
+            "name": "h_b_archer_focus_arrow1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "882": [
+        {
+            "name": "h_b_archer_focus_arrow2_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "883": [
+        {
+            "name": "h_b_archer_focus_arrow3_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "884": [
+        {
+            "name": "h_b_archer_focus_arrow4_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "885": [
+        {
+            "name": "h_b_archer_focus_arrow5_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "886": [
+        {
+            "name": "v_arc_moon_rising_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "887": [
+        {
+            "name": "v_arc_moon_full_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "888": [
+        {
+            "name": "h_p_big_bow_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "h_p_big_bowB_ta",
+            "package": "LineageEffect2"
+        }
+    ],
+    "889": [
+        {
+            "name": "v_arc_rock_on_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "890": [
+        {
+            "name": "v_arc_piercing_flame_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "891": [
+        {
+            "name": "v_arc_piercing_aqua_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "892": [
+        {
+            "name": "v_arc_piercing_storm_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "893": [
+        {
+            "name": "v_gale_helmet_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "894": [
+        {
+            "name": "h_b_dano_hairbuff_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "895": [
+        {
+            "name": "s_perion_necklace_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "s_perion_time_screen",
+            "package": "LineageEffect2"
+        }
+    ],
+    "897": [
+        {
+            "name": "v_boss_perion_worship_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "898": [
+        {
+            "name": "v_boss_perion_chain_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "899": [
+        {
+            "name": "v_dual_contender_master_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "901": [
+        {
+            "name": "v_dual_blade_assult_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "902": [
+        {
+            "name": "v_dual_spirit_blade_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "903": [
+        {
+            "name": "v_dual_sonic_seal_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_dual_sonic_seal_02ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "906": [
+        {
+            "name": "ave_talisman6_baium",
+            "package": "LineageEffect2"
+        }
+    ],
+    "907": [
+        {
+            "name": "ave_talisman8_baium",
+            "package": "LineageEffect2"
+        }
+    ],
+    "908": [
+        {
+            "name": "ave_talisman10_baium",
+            "package": "LineageEffect2"
+        }
+    ],
+    "909": [
+        {
+            "name": "v_boss_vala_berserk_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_boss_vala_berserk_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_boss_vala_berserk_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_boss_vala_berserk_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_boss_vala_berserk_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_boss_vala_berserk_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_boss_vala_berserk_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_boss_vala_berserk_ave",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "v_boss_vala_berserk_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "911": [
+        {
+            "name": "h_valakas_re_barrier_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "912": [
+        {
+            "name": "h_b_mystic_pride_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "913": [
+        {
+            "name": "h_b_mystic_frost_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "914": [
+        {
+            "name": "v_mystic_freezing_field_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "915": [
+        {
+            "name": "v_mystic_winter_dreamer_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "916": [
+        {
+            "name": "v_mystic_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "917": [
+        {
+            "name": "h_b_mystic_spare1_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "918": [
+        {
+            "name": "h_b_wizard_mystic_spare_screen",
+            "package": "LineageEffect2"
+        }
+    ],
+    "919": [
+        {
+            "name": "h_b_mystic_debuffA_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "920": [
+        {
+            "name": "h_b_mystic_debuffB_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "921": [
+        {
+            "name": "h_b_mystic_debuffC_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "922": [
+        {
+            "name": "h_b_mystic_debuffD_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "923": [
+        {
+            "name": "h_b_ice_helixC_ra",
+            "package": "LineageEffect2"
+        }
+    ],
+    "927": [
+        {
+            "name": "v_he_sacro_shield_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "928": [
+        {
+            "name": "v_he_armor_lv1_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "armor_shield1_end",
+            "package": "LineageEffect3"
+        }
+    ],
+    "929": [
+        {
+            "name": "v_he_armor_lv2_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "armor_shield2_end",
+            "package": "LineageEffect3"
+        }
+    ],
+    "930": [
+        {
+            "name": "v_he_armor_lv3_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "armor_shield3_end",
+            "package": "LineageEffect3"
+        }
+    ],
+    "931": [
+        {
+            "name": "v_he_decoy_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "932": [
+        {
+            "name": "v_he_light_prison_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "934": [
+        {
+            "name": "h_He_flame_orb_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_em_sphere_despawn_red",
+            "package": "LineageEffect3"
+        }
+    ],
+    "935": [
+        {
+            "name": "h_He_Freezing_orb_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_em_sphere_despawn",
+            "package": "LineageEffect3"
+        }
+    ],
+    "936": [
+        {
+            "name": "h_He_blazing_tempest_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "937": [
+        {
+            "name": "h_He_glacial_strike_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "938": [
+        {
+            "name": "h_HE_y_bloom1_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_HE_y_bloom_end_ta",
+            "package": "LineageEffect3"
+        }
+    ],
+    "939": [
+        {
+            "name": "h_HE_y_bloom2_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_HE_y_bloom_end_ta",
+            "package": "LineageEffect3"
+        }
+    ],
+    "940": [
+        {
+            "name": "h_HE_y_bloom3_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_HE_y_bloom_end_ta",
+            "package": "LineageEffect3"
+        }
+    ],
+    "941": [
+        {
+            "name": "h_HE_y_bloom4_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_HE_y_bloom_end_ta",
+            "package": "LineageEffect3"
+        }
+    ],
+    "942": [
+        {
+            "name": "h_He_natural_spiritB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "943": [
+        {
+            "name": "h_He_light_authority_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_He_light_authority_ta",
+            "package": "LineageEffect3"
+        }
+    ],
+    "944": [
+        {
+            "name": "h_r_flame_of_gauntlet_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "945": [
+        {
+            "name": "v_he_sacred_templar_01wing_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "946": [
+        {
+            "name": "v_he_sacred_templar_02wing_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "947": [
+        {
+            "name": "v_he_sacred_templar_03wing_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "950": [
+        {
+            "name": "v_he_sacro_guardian_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "957": [
+        {
+            "name": "v_he_summon_guardian_end",
+            "package": "LineageEffect3"
+        }
+    ],
+    "958": [
+        {
+            "name": "b_highelf_tree_deco",
+            "package": "LineageEffect3"
+        }
+    ],
+    "959": [
+        {
+            "name": "b_highelf_tree_red_deco",
+            "package": "LineageEffect3"
+        }
+    ],
+    "960": [
+        {
+            "name": "ranker_deco_mhighelf",
+            "package": "LineageEffect3"
+        }
+    ],
+    "961": [
+        {
+            "name": "ranker_deco_fhighelf",
+            "package": "LineageEffect3"
+        }
+    ],
+    "962": [
+        {
+            "name": "h_b_eva_water_screen",
+            "package": "LineageEffect3"
+        }
+    ],
+    "967": [
+        {
+            "name": "b_rogue_sword_01_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "968": [
+        {
+            "name": "b_rogue_sword_02_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "969": [
+        {
+            "name": "b_rogue_wound_scar_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "970": [
+        {
+            "name": "b_rogue_clover_01_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "971": [
+        {
+            "name": "b_rogue_clover_02_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "972": [
+        {
+            "name": "b_rogue_clover_03_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "973": [
+        {
+            "name": "b_rogue_clover_04_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "976": [
+        {
+            "name": "s_perion_shield_lv1_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "977": [
+        {
+            "name": "s_perion_shield_lv2_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "978": [
+        {
+            "name": "s_perion_shield_lv3_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "979": [
+        {
+            "name": "h_ev_20th_rose_win1_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "980": [
+        {
+            "name": "h_ev_20th_rose_win2_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "981": [
+        {
+            "name": "h_ev_20th_rose_win3_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "982": [
+        {
+            "name": "h_ev_20th_rose_win4_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "983": [
+        {
+            "name": "h_ev_20th_rose_win5_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "984": [
+        {
+            "name": "h_ev_20th_rose_win6_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "985": [
+        {
+            "name": "h_ev_20th_rose_win7_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "986": [
+        {
+            "name": "h_ev_20th_rose_win8_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "987": [
+        {
+            "name": "h_ev_20th_rose_win9_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "988": [
+        {
+            "name": "h_ev_20th_rose_win10_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "989": [
+        {
+            "name": "h_ev_20th_rose_win11_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "990": [
+        {
+            "name": "h_ev_20th_rose_win12_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "991": [
+        {
+            "name": "h_ev_20th_rose_win13_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "992": [
+        {
+            "name": "h_ev_20th_rose_win14_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "993": [
+        {
+            "name": "h_ev_20th_rose_win15_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "994": [
+        {
+            "name": "h_ev_20th_rose_win16_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "995": [
+        {
+            "name": "h_ev_20th_rose_win17_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "996": [
+        {
+            "name": "h_ev_20th_rose_win18_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "997": [
+        {
+            "name": "h_ev_20th_rose_win19_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "998": [
+        {
+            "name": "h_ev_20th_rose_win20_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1001": [
+        {
+            "name": "b_vulcan_lava_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1003": [
+        {
+            "name": "v_fortune_time_blessed_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1004": [
+        {
+            "name": "v_fortune_mark02_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1005": [
+        {
+            "name": "v_fortune_mark01_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1006": [
+        {
+            "name": "v_evaT_master_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_evaT_master_02ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1007": [
+        {
+            "name": "v_evaT_shelter_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_evaT_wing_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_evaT_shelter_02ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1009": [
+        {
+            "name": "v_evaT_novaBuff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1010": [
+        {
+            "name": "v_evaT_stigma_mark_01ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_evaT_stigma_water_01ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_evaT_stigma_delete_aveend",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1011": [
+        {
+            "name": "v_evaT_stigma_mark_02ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_evaT_stigma_water_02ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_evaT_stigma_delete_aveend",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1013": [
+        {
+            "name": "v_evaT_streamArmor_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1015": [
+        {
+            "name": "b_ET_bless_buff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1017": [
+        {
+            "name": "b_ET_defence_shield_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1020": [
+        {
+            "name": "h_r_apocalypse_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1021": [
+        {
+            "name": "h_r_shilen_statueA_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_r_shilen_statueA2_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1022": [
+        {
+            "name": "h_r_lightning_break_waveA_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1023": [
+        {
+            "name": "h_r_lightning_break_waveB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1024": [
+        {
+            "name": "h_r_shilen_tempest_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1025": [
+        {
+            "name": "h_r_mez_red_storm_paralyze_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1026": [
+        {
+            "name": "h_r_curse_of_shilen_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1027": [
+        {
+            "name": "h_r_darkness_shield_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1028": [
+        {
+            "name": "h_r_shilen_statueB_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_r_shilen_statueB2_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1029": [
+        {
+            "name": "b_ST_defence_shield_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1031": [
+        {
+            "name": "b_smoke_spawn_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_chaotic_ether_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1032": [
+        {
+            "name": "b_ave_barrier2_shield",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1033": [
+        {
+            "name": "b_ave_barrier_shield",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1034": [
+        {
+            "name": "h_g_reload_acceleration_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1035": [
+        {
+            "name": "v_vulcan_ironageC_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1036": [
+        {
+            "name": "v_vulcan_ironage_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1037": [
+        {
+            "name": "b_vulcan_lava_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_circle_3second_200_grid_decal",
+            "package": "LineageEffect2"
+        }
+    ],
+    "1038": [
+        {
+            "name": "b_purple_wind_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1040": [
+        {
+            "name": "h_r_aura_buff_selfB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1041": [
+        {
+            "name": "b_kn_shield_wall_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1042": [
+        {
+            "name": "b_kn_shield_hexagon_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1043": [
+        {
+            "name": "h_b_ultimate_defenceC_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1044": [
+        {
+            "name": "u_flower_deco_fA_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1045": [
+        {
+            "name": "u_flower_deco_fB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1046": [
+        {
+            "name": "ave_auraC_buff",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1047": [
+        {
+            "name": "u_flower_deco_dB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1048": [
+        {
+            "name": "v_asn_combo_attack_debuff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1049": [
+        {
+            "name": "h_r_artisan_of_speed_debuff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1050": [
+        {
+            "name": "h_g_artisan_of_speed_buff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1053": [
+        {
+            "name": "v_ele_swiftweekness1lv_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1054": [
+        {
+            "name": "h_p_rainbow_syndrome_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1055": [
+        {
+            "name": "v_ele_swiftweekness2lv_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1059": [
+        {
+            "name": "b_foot_water_bubble",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_foot_water_bubble",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_foot_water_bubble",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1060": [
+        {
+            "name": "b_edge_effect_aqua",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1061": [
+        {
+            "name": "v_healer_LightShield_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1062": [
+        {
+            "name": "h_b_lightning_break_blue_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1063": [
+        {
+            "name": "h_CD_y_eclipse_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1064": [
+        {
+            "name": "h_CD_w_eclipseA_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1065": [
+        {
+            "name": "h_CD_w_serenity_master_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1066": [
+        {
+            "name": "h_CD_p_chaos_debuff1A_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_CD_p_chaos_debuff1B_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1067": [
+        {
+            "name": "h_CD_p_chaos_debuff2A_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_CD_p_chaos_debuff2B_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1068": [
+        {
+            "name": "h_CD_p_chaos_debuff3A_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_CD_p_chaos_debuff3B_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1069": [
+        {
+            "name": "h_CD_p_darkness_falls_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1070": [
+        {
+            "name": "v_CD_shining_chainheal_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1071": [
+        {
+            "name": "v_CD_chainblast_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1072": [
+        {
+            "name": "b_CD_debuff_whisper_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1078": [
+        {
+            "name": "fort_flag_gold_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1089": [
+        {
+            "name": "b_WW_deco_eyeA",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_WW_deco_handA",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_WW_deco_bodyA",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1090": [
+        {
+            "name": "b_WW_deco_eyeB",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_WW_deco_handB",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_WW_deco_bodyB",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1091": [
+        {
+            "name": "b_WW_deco_eyeC",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_WW_deco_handC",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_WW_deco_bodyC",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1101": [
+        {
+            "name": "h_WW_wolf_scar1_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1102": [
+        {
+            "name": "h_WW_wolf_scar2_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1103": [
+        {
+            "name": "h_WW_wolf_scar3_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1105": [
+        {
+            "name": "h_WW_insanity_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_WW_insanity_eye_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1106": [
+        {
+            "name": "b_WW_speed_buff_wolf_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1107": [
+        {
+            "name": "v_WW_transform_HtoW",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_WW_giganticWolf_screen",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1108": [
+        {
+            "name": "v_WW_transform_HtoW",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_WW_giganticWolf_screen",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1109": [
+        {
+            "name": "v_WW_transform_HtoW",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_WW_giganticWolf_screen",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1111": [
+        {
+            "name": "ranker_deco_werewolf",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1112": [
+        {
+            "name": "h_WW_divesting_disarm1_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1113": [
+        {
+            "name": "h_WW_divesting_disarm2_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1114": [
+        {
+            "name": "h_WW_divesting_disarm3_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1117": [
+        {
+            "name": "b_chaotic_ether_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_chaotic_ether_end",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1118": [
+        {
+            "name": "h_r_Demolition_shot_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1119": [
+        {
+            "name": "v_dwarf_volcanism_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1120": [
+        {
+            "name": "v_dwarf_infinity_force_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1121": [
+        {
+            "name": "v_dwarf_quenching_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1122": [
+        {
+            "name": "v_dwarf_counterbalance_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1123": [
+        {
+            "name": "b_ev_chestnuts_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1124": [
+        {
+            "name": "s_spacia_deco_c",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "s_red_tornado_deco",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1125": [
+        {
+            "name": "h_y_npc_light_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "s_holy_tornado_deco",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1126": [
+        {
+            "name": "h_b_npc_dark_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "s_purple_tornado_deco",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1127": [
+        {
+            "name": "h_y_npc_light_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "s_holy_tornado_deco",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1128": [
+        {
+            "name": "h_g_npc_green_deco",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "s_green_tornado_deco",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1129": [
+        {
+            "name": "h_y_npc_light_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "s_holy_tornado_deco",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1130": [
+        {
+            "name": "h_r_protection_of_dark_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "1131": [
+        {
+            "name": "s_em_reward1_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1132": [
+        {
+            "name": "s_em_reward2_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1133": [
+        {
+            "name": "s_em_reward3_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1134": [
+        {
+            "name": "s_em_reward4_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1135": [
+        {
+            "name": "fafurion_water_stone_on",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1136": [
+        {
+            "name": "fafurion_water_stone_on",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1137": [
+        {
+            "name": "b_wolf_rune_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1141": [
+        {
+            "name": "v_volcanic_division_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1142": [
+        {
+            "name": "v_forst_division_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1143": [
+        {
+            "name": "v_strom_division_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1144": [
+        {
+            "name": "v_black_division_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1145": [
+        {
+            "name": "v_soul_division_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1146": [
+        {
+            "name": "v_systema_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1147": [
+        {
+            "name": "v_event_flower_1step",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1148": [
+        {
+            "name": "v_event_flower_2step",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1149": [
+        {
+            "name": "v_event_flower_3step",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1150": [
+        {
+            "name": "v_event_flower_1step",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_event_flower_2step",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_event_flower_3step",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_event_flower_4step",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_event_flower_big_ra",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1151": [
+        {
+            "name": "v_event_flower_able",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1152": [
+        {
+            "name": "h_b_avalanche_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1153": [
+        {
+            "name": "h_r_mystic_frost_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1154": [
+        {
+            "name": "v_vulcan_ironageB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1157": [
+        {
+            "name": "v_cape_ca_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_cape_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1158": [
+        {
+            "name": "h_b_brooch_C_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_b_brooch_D_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1161": [
+        {
+            "name": "h_RV_parasite_roseA_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1162": [
+        {
+            "name": "h_RV_parasite_roseB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1163": [
+        {
+            "name": "h_RV_parasite_roseC_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1164": [
+        {
+            "name": "h_RV_solid_rose_barrier_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1165": [
+        {
+            "name": "h_RV_reflect_illusion_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1166": [
+        {
+            "name": "h_RV_nightmare_infusion_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1167": [
+        {
+            "name": "h_RV_nightmare_rose_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1168": [
+        {
+            "name": "b_RV_rose_vine_debuff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1169": [
+        {
+            "name": "h_RV_queens_garden_debuffA_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1170": [
+        {
+            "name": "h_RV_queens_garden_debuffB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1171": [
+        {
+            "name": "b_RV_atk_buff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1172": [
+        {
+            "name": "b_RV_atk_buff_highA_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_RV_atk_buff_highB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1173": [
+        {
+            "name": "h_RV_queens_garden_holdA_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1175": [
+        {
+            "name": "b_RV_body_power_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1176": [
+        {
+            "name": "b_RV_body_power_high_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1177": [
+        {
+            "name": "b_RV_body_trail_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1178": [
+        {
+            "name": "h_RV_queens_garden_holdB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1179": [
+        {
+            "name": "b_RV_rose_vine_flower_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1180": [
+        {
+            "name": "b_RV_rose_vine_flower_red_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1181": [
+        {
+            "name": "b_RV_rose_vine_flower_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1182": [
+        {
+            "name": "ranker_deco_rosevain",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1183": [
+        {
+            "name": "b_wp_dragon_anta_debuff_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_wp_dragon_anta_debuff_end",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1184": [
+        {
+            "name": "b_theon_blue_mark_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1185": [
+        {
+            "name": "b_kael_red_mark_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1186": [
+        {
+            "name": "b_ho_evil_totem_barrier_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_ho_evil_totem_barrier_ta",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1187": [
+        {
+            "name": "v_evolution_1lv_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1188": [
+        {
+            "name": "v_evolution_2lv_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1189": [
+        {
+            "name": "v_evolution_3lv_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1190": [
+        {
+            "name": "v_evolution_4lv_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1191": [
+        {
+            "name": "v_WK_stigma_01_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1192": [
+        {
+            "name": "v_WK_stigma_02_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1193": [
+        {
+            "name": "v_WK_activation_01_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1194": [
+        {
+            "name": "v_WK_activation_02_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1195": [
+        {
+            "name": "v_WK_activation_03_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1196": [
+        {
+            "name": "v_WK_activation_11_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1197": [
+        {
+            "name": "v_WK_activation_12_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1198": [
+        {
+            "name": "v_WK_activation_13_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1199": [
+        {
+            "name": "v_WK_activation_21_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_WK_activation_21_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1200": [
+        {
+            "name": "v_WK_activation_22_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_WK_activation_22_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1201": [
+        {
+            "name": "v_WK_activation_23_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "v_WK_activation_23_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1202": [
+        {
+            "name": "v_WK_activation_31_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1203": [
+        {
+            "name": "v_WK_activation_32_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1204": [
+        {
+            "name": "v_WK_activation_33_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1205": [
+        {
+            "name": "v_song_of_earth_debuff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1206": [
+        {
+            "name": "v_song_of_earth_buff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1207": [
+        {
+            "name": "v_dance_of_warrior_debuff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1208": [
+        {
+            "name": "v_dance_of_warrior_buff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1211": [
+        {
+            "name": "h_p_champion_of_titan_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1212": [
+        {
+            "name": "b_aga_super_earth_shield_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1213": [
+        {
+            "name": "b_gk_berserker_buff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1214": [
+        {
+            "name": "b_gk_fire_shield_buff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1216": [
+        {
+            "name": "v_noblesse_oblige_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1215": [
+        {
+            "name": "b_SY_barrier2_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1217": [
+        {
+            "name": "b_FW_volcanic_basic_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1218": [
+        {
+            "name": "b_FW_forst_basic_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1219": [
+        {
+            "name": "b_FW_strom_basic_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1220": [
+        {
+            "name": "b_FW_black_basic_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1221": [
+        {
+            "name": "b_FW_soul_basic_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1222": [
+        {
+            "name": "v_heavy_rain",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1223": [
+        {
+            "name": "h_w_immortal_ringA_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1224": [
+        {
+            "name": "h_w_immortal_ringB_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1225": [
+        {
+            "name": "h_w_immortal_ringC_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1226": [
+        {
+            "name": "h_r_balluan_fire_area1_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_r_balluan_fire_area2_ave",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "h_r_balluan_fire_area3_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1227": [
+        {
+            "name": "h_b_balluan_ice_area_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1228": [
+        {
+            "name": "b_boss_anta_buff_strengthA_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1230": [
+        {
+            "name": "b_strong_buff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1231": [
+        {
+            "name": "h_y_lollipop_self_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1234": [
+        {
+            "name": "ave_talisman2025_A",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "b_tali_deco_emeraldwing",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1235": [
+        {
+            "name": "ave_talisman2025_B",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1236": [
+        {
+            "name": "s_ev_luckytree_ave_body",
+            "package": "LineageEffect3"
+        },
+        {
+            "name": "s_ev_luckytree_ave_head",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1237": [
+        {
+            "name": "v_22an_greentree_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1238": [
+        {
+            "name": "v_22an_yellowtree_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1239": [
+        {
+            "name": "v_22an_redtree_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1240": [
+        {
+            "name": "v_22an_goldtree_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1241": [
+        {
+            "name": "v_CR_atsumori_buff_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1242": [
+        {
+            "name": "b_CR_bleed_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1243": [
+        {
+            "name": "v_CR_determination_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1244": [
+        {
+            "name": "v_CR_armor1lv",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1245": [
+        {
+            "name": "v_CR_armor2lv",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1246": [
+        {
+            "name": "v_CR_armor3lv",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1247": [
+        {
+            "name": "v_CR_Flag",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1248": [
+        {
+            "name": "v_CR_oni_thunder_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1249": [
+        {
+            "name": "ranker_deco_crow",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1251": [
+        {
+            "name": "v_CR_oni_hear_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1256": [
+        {
+            "name": "v_CR_pursuit_airborne",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1258": [
+        {
+            "name": "h_b_raid_boss_shield_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1259": [
+        {
+            "name": "s_specter_ave",
+            "package": "LineageEffect3"
+        }
+    ],
+    "1260": [
+        {
+            "name": "y_infinite_shield4_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "10001": [
+        {
+            "name": "br_y_1_accessory",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10002": [
+        {
+            "name": "br_y_1_accessory",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10003": [
+        {
+            "name": "br_y_1_accessory",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10004": [
+        {
+            "name": "br_y_2_accessory",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10005": [
+        {
+            "name": "br_y_2_accessory",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10006": [
+        {
+            "name": "br_y_2_accessory",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10007": [
+        {
+            "name": "br_y_3_accessory",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10008": [
+        {
+            "name": "br_y_3_accessory",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10009": [
+        {
+            "name": "br_y_3_accessory",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10019": [
+        {
+            "name": "br_y_tali_deco_hand",
+            "package": "LineageEffect_br"
+        },
+        {
+            "name": "br_y_tali_deco_wing",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10021": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10022": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10023": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10024": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10025": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10026": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10027": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10028": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10029": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10030": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10031": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10032": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10033": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10034": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10035": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10036": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10037": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10038": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10039": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10040": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10041": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10042": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10043": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10044": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10045": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10046": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10047": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10048": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10049": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10050": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10051": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10052": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10053": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10054": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10055": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10056": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10057": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10058": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10059": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10060": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10061": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10062": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10063": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10064": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10065": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10066": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10067": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10068": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10069": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10070": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10071": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10072": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10073": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10074": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10075": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10076": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10077": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10078": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10079": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10080": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10081": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10082": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10083": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10084": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10085": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10086": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10087": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10088": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10089": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10090": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10091": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10092": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10093": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10094": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10095": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10096": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10097": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10098": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10099": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10100": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10101": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10102": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10103": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10104": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10105": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10106": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10107": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10108": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10109": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10110": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10111": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10112": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10113": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10114": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10115": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10116": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10117": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10118": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10119": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10120": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10121": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10122": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10123": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10124": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10125": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10126": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10127": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10128": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10129": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10130": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10131": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10132": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10133": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10134": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10135": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10136": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10137": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10138": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10139": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10140": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10141": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10142": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10143": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10144": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10145": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10146": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10147": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10148": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10149": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10150": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10151": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10152": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10153": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10154": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10155": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10156": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10157": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10158": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10159": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10160": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10161": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10162": [
+        {
+            "name": "JDK_body_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_eye_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10168": [
+        {
+            "name": "s_trans_deco",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10169": [
+        {
+            "name": "br_trans_lv2_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10170": [
+        {
+            "name": "br_trans_lv3_deco",
+            "package": "LineageEffect_br"
+        }
+    ],
+    "10171": [
+        {
+            "name": "h_r_protection_shield_ave",
+            "package": "LineageEffect2"
+        }
+    ],
+    "10172": [
+        {
+            "name": "y_infinite_shield4_ave",
+            "package": "LineageEffect"
+        }
+    ],
+    "10174": [
+        {
+            "name": "JDK_body_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_eye_fire",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        },
+        {
+            "name": "JDK_fire_deco",
+            "package": "LineageEffect2"
+        }
+    ]
+}

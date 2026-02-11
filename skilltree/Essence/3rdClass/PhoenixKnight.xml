@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="90" parentClassId="5">
+		<skill skillName="Aggression Aura" skillId="18" skillLevel="38" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Aggression" skillId="28" skillLevel="50" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Holy Strike" skillId="49" skillLevel="26" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Sacrifice" skillId="69" skillLevel="26" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="46" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="12" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Ultimate Defense" skillId="110" skillLevel="3" getLevel="76" levelUpSp="5400">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Weapon Mastery" skillId="141" skillLevel="5" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Shield Mastery" skillId="153" skillLevel="5" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Final Fortress" skillId="291" skillLevel="12" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Fortitude" skillId="335" skillLevel="3" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Shackle" skillId="402" skillLevel="11" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="6" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Powerful Charge" skillId="764" skillLevel="1" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Shield Strike" skillId="984" skillLevel="16" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Shield" skillId="1040" skillLevel="4" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Might" skillId="1068" skillLevel="4" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" levelUpSp="5400">
+			<item id="8620,96093" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 3 -->
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="76" levelUpSp="5400">
+			<item id="8621,96094" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 4 -->
+		</skill>
+		<skill skillName="Mount Golden Lion" skillId="1833" skillLevel="1" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Shield Charge" skillId="1898" skillLevel="1" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Chain Strike" skillId="10015" skillLevel="1" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Acumen" skillId="45104" skillLevel="4" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Empower" skillId="45105" skillLevel="4" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Wild Magic" skillId="45106" skillLevel="3" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Wind Walk" skillId="45107" skillLevel="3" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Magic Barrier" skillId="45108" skillLevel="3" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Focus" skillId="45109" skillLevel="4" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Death Whisper" skillId="45110" skillLevel="4" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Haste" skillId="45111" skillLevel="3" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Berserker Spirit" skillId="45112" skillLevel="3" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Clarity" skillId="45113" skillLevel="4" getLevel="76" levelUpSp="5400">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Evolution Defense" skillId="45188" skillLevel="1" getLevel="76">
+			<item id="57" count="5000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Detection" skillId="45190" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="57" count="5000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Master of Aggression" skillId="45203" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Expanded Potential of Dyes" skillId="45269" skillLevel="1" getLevel="76">
+			<item id="96613,96614" count="1" /> <!-- Spellbook: Expanded Potential of Dyes -->
+		</skill>
+		<skill skillName="Phoenix Help" skillId="45369" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="105275,105276,105277,105278" count="1" /> <!-- Enhanced Spellbook -->
+		</skill>
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="1" getLevel="76">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Throwing" skillId="47273" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<removeSkill id="49" onlyReplaceByLearn="true" /> <!-- Holy Strike -->
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Power of Life" skillId="47274" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Battle Will" skillId="47277" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Knight's Power" skillId="47280" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Shield Stun" skillId="47282" skillLevel="3" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Knight's Magic Resistance" skillId="47296" skillLevel="3" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Knight's Armor Mastery" skillId="47297" skillLevel="5" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Knight's Weapon Mastery" skillId="47298" skillLevel="5" getLevel="76" levelUpSp="5400" />
+		<skill skillName="Phoenix Shield" skillId="47307" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="96289,96290" count="1" /> <!-- Spellbook: Phoenix Shield -->
+		</skill>
+		<skill skillName="Phoenix Strike" skillId="47315" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Mass Chain Strike" skillId="53003" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Critical Vulnerability Decrease" skillId="53004" skillLevel="1" getLevel="76" levelUpSp="5400">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		
+		<skill skillName="Aggression Aura" skillId="18" skillLevel="39" getLevel="77" levelUpSp="5400" />
+		<skill skillName="Aggression" skillId="28" skillLevel="51" getLevel="77" levelUpSp="5400" />
+		<skill skillName="Holy Strike" skillId="49" skillLevel="27" getLevel="77" levelUpSp="5400" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="47" getLevel="77" levelUpSp="5400" />
+		<skill skillName="Final Fortress" skillId="291" skillLevel="13" getLevel="77" levelUpSp="5400" />
+		<skill skillName="Vengeance" skillId="368" skillLevel="1" getLevel="77" levelUpSp="5400">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Shackle" skillId="402" skillLevel="12" getLevel="77" levelUpSp="5400" />
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="7" getLevel="77" levelUpSp="5400" />
+		<skill skillName="Shield Strike" skillId="984" skillLevel="17" getLevel="77" levelUpSp="5400" />
+		
+		<skill skillName="Aggression Aura" skillId="18" skillLevel="40" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Aggression" skillId="28" skillLevel="52" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Holy Strike" skillId="49" skillLevel="28" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Sacrifice" skillId="69" skillLevel="27" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="48" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="13" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Focus Mind" skillId="191" skillLevel="7" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Final Fortress" skillId="291" skillLevel="14" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Touch of Life" skillId="341" skillLevel="1" getLevel="78" levelUpSp="12700">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Shackle" skillId="402" skillLevel="13" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="8" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Shield Strike" skillId="984" skillLevel="18" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="2" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Masterpiece Shield" skillId="47281" skillLevel="1" getLevel="78" levelUpSp="12700">
+			<item id="105275,105276,105277,105278" count="1" /> <!-- Enhanced Spellbook -->
+		</skill>
+		<skill skillName="Shield Stun" skillId="47282" skillLevel="4" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Knight's Armor Mastery" skillId="47297" skillLevel="6" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Knight's Weapon Mastery" skillId="47298" skillLevel="6" getLevel="78" levelUpSp="12700" />
+		<skill skillName="Critical Vulnerability Decrease" skillId="53004" skillLevel="2" getLevel="78" levelUpSp="12700" />
+		
+		<skill skillName="Holy Strike" skillId="49" skillLevel="29" getLevel="79" levelUpSp="12700" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="49" getLevel="79" levelUpSp="12700" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="14" getLevel="79" levelUpSp="12700" />
+		<skill skillName="Final Fortress" skillId="291" skillLevel="15" getLevel="79" levelUpSp="12700" />
+		<skill skillName="Shackle" skillId="402" skillLevel="14" getLevel="79" levelUpSp="12700" />
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="9" getLevel="79" levelUpSp="12700" />
+		<skill skillName="Shield of Faith" skillId="528" skillLevel="1" getLevel="79" levelUpSp="12700">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="19" getLevel="79" levelUpSp="12700" />
+		<skill skillName="Shield Throwing" skillId="47273" skillLevel="2" getLevel="79" levelUpSp="12700" />
+		<skill skillName="Mass Chain Strike" skillId="53003" skillLevel="2" getLevel="79" levelUpSp="12700" />
+		
+		<skill skillName="Aggression Aura" skillId="18" skillLevel="41" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Aggression" skillId="28" skillLevel="53" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Holy Strike" skillId="49" skillLevel="30" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Sacrifice" skillId="69" skillLevel="28" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="50" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="15" getLevel="80" levelUpSp="12700">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Final Fortress" skillId="291" skillLevel="16" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Shackle" skillId="402" skillLevel="15" getLevel="80" levelUpSp="12700">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="10" getLevel="80" levelUpSp="12700">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="20" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Phoenix Protection" skillId="1621" skillLevel="1" getLevel="80" levelUpSp="12700" />
+		<skill skillName="HP Recovery" skillId="45176" skillLevel="4" getLevel="80" levelUpSp="12700">
+			<item id="103802,103804" count="1" /> <!-- Spellbook: HP Recovery -->
+		</skill>
+		<skill skillName="MP Recovery" skillId="45177" skillLevel="4" getLevel="80" levelUpSp="12700">
+			<item id="103803,103805" count="1" /> <!-- Spellbook: MP Recovery -->
+		</skill>
+		<skill skillName="Evolution Power" skillId="45189" skillLevel="1" getLevel="80">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="2" getLevel="80">
+			<item id="57" count="40000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="3" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Shield Stun" skillId="47282" skillLevel="5" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Knight's Magic Resistance" skillId="47296" skillLevel="4" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Knight's Armor Mastery" skillId="47297" skillLevel="7" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Knight's Weapon Mastery" skillId="47298" skillLevel="7" getLevel="80" levelUpSp="12700" />
+		<skill skillName="Critical Vulnerability Decrease" skillId="53004" skillLevel="3" getLevel="80" levelUpSp="12700" />
+		<skill skillName="White Guardian Transformation" skillId="54102" skillLevel="1" getLevel="80">
+			<item id="92401,95502" count="1" /> <!-- Spellbook: White Guardian -->
+		</skill>
+		
+		<skill skillName="Aggression Aura" skillId="18" skillLevel="42" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Aggression" skillId="28" skillLevel="54" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Sacrifice" skillId="69" skillLevel="29" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="51" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="16" getLevel="81" levelUpSp="160000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Mastery" skillId="153" skillLevel="6" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Final Fortress" skillId="291" skillLevel="17" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="16" getLevel="81" levelUpSp="160000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="11" getLevel="81" levelUpSp="160000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="21" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Phoenix Protection" skillId="1621" skillLevel="2" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Shield Throwing" skillId="47273" skillLevel="3" getLevel="81" levelUpSp="160000" />
+		
+		<skill skillName="Aggression Aura" skillId="18" skillLevel="43" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Aggression" skillId="28" skillLevel="55" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Sacrifice" skillId="69" skillLevel="30" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="52" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="17" getLevel="82" levelUpSp="170000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Final Fortress" skillId="291" skillLevel="18" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="17" getLevel="82" levelUpSp="170000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="12" getLevel="82" levelUpSp="170000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="22" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Phoenix Protection" skillId="1621" skillLevel="3" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Chain Strike" skillId="10015" skillLevel="2" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Battle Will" skillId="47277" skillLevel="2" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="4" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Shield Stun" skillId="47282" skillLevel="6" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Knight's Magic Resistance" skillId="47296" skillLevel="5" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Knight's Armor Mastery" skillId="47297" skillLevel="8" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Knight's Weapon Mastery" skillId="47298" skillLevel="8" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Mass Chain Strike" skillId="53003" skillLevel="3" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Critical Vulnerability Decrease" skillId="53004" skillLevel="4" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Knight's Protection" skillId="53010" skillLevel="6" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Dragon Slayer Appearance" skillId="54231" skillLevel="1" getLevel="82">
+			<item id="96300,96780" count="1" /> <!-- Spellbook: Dragon Slayer -->
+		</skill>
+		
+		<skill skillName="Aggression Aura" skillId="18" skillLevel="44" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Aggression" skillId="28" skillLevel="56" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Sacrifice" skillId="69" skillLevel="31" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="53" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="18" getLevel="83" levelUpSp="240000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Final Fortress" skillId="291" skillLevel="19" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="18" getLevel="83" levelUpSp="240000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="13" getLevel="83" levelUpSp="240000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="23" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Phoenix Protection" skillId="1621" skillLevel="4" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Phoenix Help" skillId="45369" skillLevel="2" getLevel="83" levelUpSp="240000">
+			<item id="105275,105276,105277,105278" count="1" /> <!-- Enhanced Spellbook -->
+		</skill>
+		<skill skillName="Shield Throwing" skillId="47273" skillLevel="4" getLevel="83" levelUpSp="240000" />
+		
+		<skill skillName="Aggression Aura" skillId="18" skillLevel="45" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Aggression" skillId="28" skillLevel="57" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Sacrifice" skillId="69" skillLevel="32" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="54" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="19" getLevel="84" levelUpSp="240000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Final Fortress" skillId="291" skillLevel="20" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Fortitude" skillId="335" skillLevel="4" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="19" getLevel="84" levelUpSp="240000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="14" getLevel="84" levelUpSp="240000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="24" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Phoenix Protection" skillId="1621" skillLevel="5" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Shield Charge" skillId="1898" skillLevel="2" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Chain Strike" skillId="10015" skillLevel="3" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Battle Will" skillId="47277" skillLevel="3" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="5" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Masterpiece Shield" skillId="47281" skillLevel="2" getLevel="84" levelUpSp="240000">
+			<item id="105275,105276,105277,105278" count="1" /> <!-- Enhanced Spellbook -->
+		</skill>
+		<skill skillName="Shield Stun" skillId="47282" skillLevel="7" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Knight's Magic Resistance" skillId="47296" skillLevel="6" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Knight's Armor Mastery" skillId="47297" skillLevel="9" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Knight's Weapon Mastery" skillId="47298" skillLevel="9" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Critical Vulnerability Decrease" skillId="53004" skillLevel="5" getLevel="84" levelUpSp="240000" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="55" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="20" getLevel="85" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Final Fortress" skillId="291" skillLevel="21" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="20" getLevel="85" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="15" getLevel="85" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Phoenix Power" skillId="712" skillLevel="1" getLevel="85" levelUpSp="840000">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="25" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Detection" skillId="45190" skillLevel="2" getLevel="85" levelUpSp="840000">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="1" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="2" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="3" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="4" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="5" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="3" getLevel="85">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Throwing" skillId="47273" skillLevel="5" getLevel="85" levelUpSp="840000" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="56" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="21" getLevel="86" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Focus Mind" skillId="191" skillLevel="8" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Final Fortress" skillId="291" skillLevel="22" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="21" getLevel="86" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="16" getLevel="86" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="26" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Chain Strike" skillId="10015" skillLevel="4" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: Increased Weight Limit" skillId="45235" skillLevel="1" getLevel="86">
+			<item id="93064" count="1" /> <!-- Spellbook: Glorious Warrior: Increased Weight Limit - Sealed -->
+		</skill>
+		<skill skillName="Power of Life" skillId="47274" skillLevel="2" getLevel="86" levelUpSp="840000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Battle Will" skillId="47277" skillLevel="4" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="6" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Shield Stun" skillId="47282" skillLevel="8" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Knight's Magic Resistance" skillId="47296" skillLevel="7" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Knight's Armor Mastery" skillId="47297" skillLevel="10" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Knight's Weapon Mastery" skillId="47298" skillLevel="10" getLevel="86" levelUpSp="840000" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="57" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="22" getLevel="87" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Final Fortress" skillId="291" skillLevel="23" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="22" getLevel="87" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="17" getLevel="87" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="27" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Shield Throwing" skillId="47273" skillLevel="6" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Mount Glorious Steed" skillId="54200" skillLevel="1" getLevel="87">
+			<item id="93059" count="1" /> <!-- Spellbook: Mount Glorious Steed - Sealed -->
+		</skill>
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="58" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="23" getLevel="88" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Final Fortress" skillId="291" skillLevel="24" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Fortitude" skillId="335" skillLevel="5" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="23" getLevel="88" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="18" getLevel="88" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="28" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Shield Charge" skillId="1898" skillLevel="3" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Chain Strike" skillId="10015" skillLevel="5" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Detection" skillId="45190" skillLevel="3" getLevel="88" levelUpSp="840000">
+			<item id="57" count="30000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Inventory Bonus" skillId="45234" skillLevel="1" getLevel="88">
+			<item id="93063" count="1" /> <!-- Spellbook: Glorious Warrior: Inventory Bonus - Sealed -->
+		</skill>
+		<skill skillName="Glorious Warrior: Special Teleport" skillId="45472" skillLevel="1" getLevel="88">
+			<item id="98838" count="1" /> <!-- Spellbook: Glorious Warrior: Special Teleport - Sealed -->
+		</skill>
+		<skill skillName="Battle Will" skillId="47277" skillLevel="5" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="7" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Shield Stun" skillId="47282" skillLevel="9" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Knight's Magic Resistance" skillId="47296" skillLevel="8" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Knight's Armor Mastery" skillId="47297" skillLevel="11" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Knight's Weapon Mastery" skillId="47298" skillLevel="11" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Knight's Protection" skillId="53010" skillLevel="7" getLevel="88" levelUpSp="840000" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="59" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="24" getLevel="89" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Final Fortress" skillId="291" skillLevel="25" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="24" getLevel="89" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="19" getLevel="89" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="29" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: My Teleport Extension" skillId="45473" skillLevel="1" getLevel="89">
+			<item id="98839" count="1" /> <!-- Spellbook: Glorious Warrior: My Teleport Extension - Sealed -->
+		</skill>
+		<skill skillName="Shield Throwing" skillId="47273" skillLevel="7" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Knight's Power" skillId="47280" skillLevel="2" getLevel="89" levelUpSp="840000">
+			<item id="57" count="30000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mount Shining Lady" skillId="54202" skillLevel="1" getLevel="89">
+			<item id="93061" count="1" /> <!-- Spellbook: Mount Shining Lady - Sealed -->
+		</skill>
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="60" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Sanctuary" skillId="97" skillLevel="25" getLevel="90" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Final Fortress" skillId="291" skillLevel="26" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Shackle" skillId="402" skillLevel="25" getLevel="90" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Mass Shackling" skillId="404" skillLevel="20" getLevel="90" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Shield Strike" skillId="984" skillLevel="30" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Shield Charge" skillId="1898" skillLevel="4" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Chain Strike" skillId="10015" skillLevel="6" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="1" getLevel="90">
+			<item id="94046" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 1 - Sealed -->
+		</skill>
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="4" getLevel="90">
+			<item id="57" count="200000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior's Title: Sky-blue" skillId="45474" skillLevel="1" getLevel="90" autoGet="true" />
+		<skill skillName="Power of Life" skillId="47274" skillLevel="3" getLevel="90" levelUpSp="840000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Battle Will" skillId="47277" skillLevel="6" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="8" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Shield Stun" skillId="47282" skillLevel="10" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Knight's Magic Resistance" skillId="47296" skillLevel="9" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Knight's Armor Mastery" skillId="47297" skillLevel="12" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Knight's Weapon Mastery" skillId="47298" skillLevel="12" getLevel="90" levelUpSp="840000" />
+		
+		<skill skillName="Shield Charge" skillId="1898" skillLevel="5" getLevel="91" levelUpSp="1500000" />
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="2" getLevel="91">
+			<item id="95890" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 2 - Sealed -->
+		</skill>
+		<skill skillName="Glorious Warrior: XP Recovery" skillId="47240" skillLevel="1" getLevel="91">
+			<item id="98841" count="1" /> <!-- Spellbook: Glorious Warrior: XP Recovery - Sealed -->
+		</skill>
+		<skill skillName="Power of Life" skillId="47274" skillLevel="4" getLevel="91" levelUpSp="840000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="9" getLevel="91" levelUpSp="1500000">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Knight's Protection" skillId="53010" skillLevel="8" getLevel="91" levelUpSp="840000">
+			<item id="57" count="20000000" /> <!-- Adena -->
+		</skill>
+		
+		<skill skillName="Shield Charge" skillId="1898" skillLevel="6" getLevel="92" levelUpSp="1700000" />
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="3" getLevel="92">
+			<item id="95891" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 3 - Sealed -->
+		</skill>
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="10" getLevel="92" levelUpSp="1700000">
+			<item id="57" count="15000000" /> <!-- Adena -->
+		</skill>
+		
+		<skill skillName="Shield Charge" skillId="1898" skillLevel="7" getLevel="93" levelUpSp="2000000" />
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="4" getLevel="93">
+			<item id="98834" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 4 - Sealed -->
+		</skill>
+		<skill skillName="Glorious Warrior: Quick Escape" skillId="45429" skillLevel="1" getLevel="93">
+			<item id="98837" count="1" /> <!-- Spellbook: Glorious Warrior: Quick Escape - Sealed -->
+		</skill>
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="11" getLevel="93" levelUpSp="2000000">
+			<item id="57" count="20000000" /> <!-- Adena -->
+		</skill>
+		
+		<skill skillName="Shield Charge" skillId="1898" skillLevel="8" getLevel="94" levelUpSp="2400000" />
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="5" getLevel="94">
+			<item id="98835" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 5 - Sealed -->
+		</skill>
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="12" getLevel="94" levelUpSp="2400000">
+			<item id="57" count="50000000" /> <!-- Adena -->
+		</skill>
+		
+		<skill skillName="Shield Charge" skillId="1898" skillLevel="9" getLevel="95" levelUpSp="2900000" />
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="6" getLevel="95">
+			<item id="98836" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 6 - Sealed -->
+		</skill>
+		<skill skillName="Knight's Assault" skillId="47279" skillLevel="13" getLevel="95" levelUpSp="2900000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+	</skillTree>
+</list>

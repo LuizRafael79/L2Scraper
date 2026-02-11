@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="21400" toLevel="1" name="Wondrous Lindvior Defense Tattoo">
+		<!-- P./ M. Def. +20% when fighting Lindvior. -->
+		<icon>BranchSys3.icon1.g_premium_hena_boss_lindvior</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21401" toLevel="1" name="Wondrous Buff Boost Tattoo - Noblesse Blessing">
+		<!-- Buffs/ debuffs remain after death, except Noblesse Blessing and Lucky Charm. Consumes 5 Spirit Ore. -->
+		<icon>icon.skill1323</icon>
+		<operateType>A2</operateType>
+		<targetType>TARGET</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>3600</abnormalTime>
+		<abnormalType>PRESERVE_ABNORMAL</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>1</effectPoint>
+		<effectRange>900</effectRange>
+		<hitTime>4000</hitTime>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<itemConsumeCount>5</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<mpConsume>55</mpConsume>
+		<mpInitialConsume>14</mpInitialConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="NoblesseBless" />
+		</effects>
+	</skill>
+	<skill id="21402" toLevel="1" name="Wondrous Human Dye - Unbind">
+		<!-- Removes all debuffs and makes you immune to debuffs for 10 sec. -->
+		<icon>icon.skill1904</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>RACE_HUMAN1</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>0</effectPoint>
+		<hitTime>200</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>POISON,9;ROOT_MAGICALLY,9;ROOT_PHYSICALLY,9;BLEEDING,9;STUN,9</dispel>
+			</effect>
+			<effect name="DefenceTrait">
+				<POISON>100</POISON>
+				<BLEED>100</BLEED>
+				<SHOCK>100</SHOCK>
+				<HOLD>100</HOLD>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21403" toLevel="1" name="Wondrous Elf Dye - Prevision">
+		<!-- For 15 sec., P./ M. Evasion +90 and Speed +50. -->
+		<icon>icon.skill1907</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>RACE_ELF1</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>0</effectPoint>
+		<hitTime>200</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>90</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>90</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>50</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21404" toLevel="1" name="Wondrous Dark Elf Dye - Disparition">
+		<!-- Removes all debuffs and prevents enemies from targeting you for 5 sec. -->
+		<icon>icon.skill1912</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>RACE_DARKELF1</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>0</effectPoint>
+		<hitTime>200</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="DebuffBlock" />
+			<effect name="DispelByCategory">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>10</max>
+			</effect>
+			<effect name="Untargetable" />
+			<effect name="ResistDispelByCategory">
+				<amount>-80</amount>
+				<slot>BUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21405" toLevel="1" name="Wondrous Orc Dye - Savagery">
+		<!-- For 60 sec., P. Atk. +10%, M. Atk. +20%, Atk. Spd. +10%, Casting Spd. +10%., P./ M. Def. -10%. -->
+		<icon>icon.skill1914</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<abnormalType>RACE_ORC1</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0.2</hitCancelTime>
+		<hitTime>200</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21406" toLevel="1" name="Wondrous Dwarf Dye - Endurance">
+		<!-- For 5 sec., reflects 50% of received damage and recovers 460 HP per second. -->
+		<icon>icon.skill1920</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>RACE_DWAF1</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitCancelTime>0.2</hitCancelTime>
+		<hitTime>200</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="HealOverTime">
+				<power>460</power>
+				<ticks>1</ticks>
+			</effect>
+			<effect name="DamageShield">
+				<amount>50</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21407" toLevel="1" name="Wondrous Kamael Dye - Soul Protection">
+		<!-- For 60 sec., blocks up to 3 debuffs. -->
+		<icon>icon.skill1925</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<abnormalType>RACE_KAMAEL1</abnormalType>
+		<activateRate>0</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>2</effectPoint>
+		<hitCancelTime>0.2</hitCancelTime>
+		<hitTime>200</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="AbnormalShield">
+				<times>3</times>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21408" toLevel="1" name="Cancel Wondrous Dye's Effect">
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="21409" toLevel="1" name="Summon Agathion Three-headed Dragon">
+		<!-- Releases the agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>1575</npcId> <!-- Three-headed Dragon -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21410" toLevel="1" name="Cloak of the Chosen: Blessed Escape">
+		<!-- Enables Blessed Escape. Cooldown: 1 h. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>200</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>3600000</reuseDelay>
+		<conditions>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Escape">
+				<escapeType>TOWN</escapeType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21411" toLevel="1" name="Appearance Stone: Halloween Outfit">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="21412" toLevel="1" name="Appearance Stone: Halloween Weapon">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="21413" toLevel="1" name="Miraculous Halloween Potion">
+		<!-- For 1 h., changes the armor appearance to that of Halloween Outfit. -->
+		<icon>icon.etc_whiteday_herb</icon>
+		<operateType>A2</operateType>
+		<effectPoint>100</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>60000</reuseDelay>
+	</skill>
+	<skill id="21414" toLevel="1" name="Halloween: Outfit">
+		<!-- Received damage -3%, LUC +1, Attribute Resistance +10. -->
+		<icon>icon.ev_wp_halloween</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>-3</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>10</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>10</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>10</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>10</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>10</amount>
+				<attribute>DARK</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>10</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21415" toLevel="1" name="Halloween: Weapon">
+		<!-- Increases all Damage by 3%, LUC +1, and Attribute Attack +30. -->
+		<icon>icon.ev_wp_halloween</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="AttackAttributeAdd">
+				<amount>30</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21416" toLevel="1" name="Visual Enchant Stone: Debuff Resistance">
+		<!-- Debuff Reflect +3%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="ReflectSkill">
+				<amount>3</amount>
+				<type>PHYSICAL</type>
+			</effect>
+			<effect name="ReflectSkill">
+				<amount>3</amount>
+				<type>MAGIC</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21417" toLevel="1" name="Visual Enchant Stone: Debuff Resistance">
+		<!-- Debuff Reflect +5%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="ReflectSkill">
+				<amount>5</amount>
+				<type>PHYSICAL</type>
+			</effect>
+			<effect name="ReflectSkill">
+				<amount>5</amount>
+				<type>MAGIC</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21418" toLevel="1" name="Visual Enchant Stone: Debuff Resistance">
+		<!-- Debuff Reflect +10%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="ReflectSkill">
+				<amount>10</amount>
+				<type>PHYSICAL</type>
+			</effect>
+			<effect name="ReflectSkill">
+				<amount>10</amount>
+				<type>MAGIC</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21419" toLevel="1" name="Visual Enchant Stone: Damage Reflection Resistance">
+		<!-- Damage Reflection Resistance +5%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DamageShieldResist">
+				<amount>5</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21420" toLevel="1" name="Visual Enchant Stone: Damage Reflection Resistance">
+		<!-- Damage Reflection Resistance +7%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DamageShieldResist">
+				<amount>7</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21421" toLevel="1" name="Visual Enchant Stone: Damage Reflection Resistance">
+		<!-- Damage Reflection Resistance +15. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DamageShieldResist">
+				<amount>15</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21422" toLevel="1" name="Visual Enchant Stone: Ranged Attack Resistance">
+		<!-- Bow/ Crossbow Resistance +3. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceTrait">
+				<BOW>3</BOW>
+				<CROSSBOW>3</CROSSBOW>
+				<TWOHANDCROSSBOW>3</TWOHANDCROSSBOW>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21423" toLevel="1" name="Visual Enchant Stone: Ranged Attack Resistance">
+		<!-- Bow/ Crossbow Resistance +5. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceTrait">
+				<BOW>5</BOW>
+				<CROSSBOW>5</CROSSBOW>
+				<TWOHANDCROSSBOW>5</TWOHANDCROSSBOW>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21424" toLevel="1" name="Visual Enchant Stone: Ranged Attack Resistance">
+		<!-- Bow/ Crossbow Resistance +10. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceTrait">
+				<BOW>10</BOW>
+				<CROSSBOW>10</CROSSBOW>
+				<TWOHANDCROSSBOW>10</TWOHANDCROSSBOW>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21425" toLevel="1" name="Visual Enchant Stone: P. Def.">
+		<!-- P. Def. +3%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21426" toLevel="1" name="Visual Enchant Stone: P. Def.">
+		<!-- P. Def. +5%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21427" toLevel="1" name="Visual Enchant Stone: P. Def.">
+		<!-- P. Def. +10%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21428" toLevel="1" name="Visual Enchant Stone: M. Def.">
+		<!-- M. Def. +3%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21429" toLevel="1" name="Visual Enchant Stone: M. Def.">
+		<!-- M. Def. +5%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21430" toLevel="1" name="Visual Enchant Stone: M. Def.">
+		<!-- M. Def. +10%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21431" toLevel="1" name="Visual Enchant Stone: Attribute Resistance">
+		<!-- Attribute Resistance +5. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>5</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>5</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>5</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>5</amount>
+				<attribute>WIND</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21432" toLevel="1" name="Visual Enchant Stone: Attribute Resistance">
+		<!-- Attribute Resistance +7. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>7</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>7</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>7</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>7</amount>
+				<attribute>WIND</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21433" toLevel="1" name="Visual Enchant Stone: Attribute Resistance">
+		<!-- Attribute Resistance +15. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>WIND</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21434" toLevel="1" name="Visual Enchant Stone: Received Healing">
+		<!-- Received Healing +3%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="HealEffect">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21435" toLevel="1" name="Visual Enchant Stone: Received Healing">
+		<!-- Received Healing +7%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="HealEffect">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21436" toLevel="1" name="Visual Enchant Stone: Received Healing">
+		<!-- Received Healing +15%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="HealEffect">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21437" toLevel="1" name="Visual Enchant Stone: Max HP">
+		<!-- Max HP +3%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MaxHp">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21438" toLevel="1" name="Visual Enchant Stone: Max HP">
+		<!-- Max HP +7%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MaxHp">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21439" toLevel="1" name="Visual Enchant Stone: Max HP">
+		<!-- Max HP +15%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MaxHp">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21440" toLevel="1" name="Visual Enchant Stone: Max MP">
+		<!-- Max MP +3%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MaxMp">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21441" toLevel="1" name="Visual Enchant Stone: Max MP">
+		<!-- Max MP +5%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MaxMp">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21442" toLevel="1" name="Visual Enchant Stone: Max MP">
+		<!-- Max MP +10%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MaxMp">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21443" toLevel="1" name="Visual Enchant Stone: Max CP">
+		<!-- Max CP +3%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MaxCp">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21444" toLevel="1" name="Visual Enchant Stone: Max CP">
+		<!-- Max CP +7%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MaxCp">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21445" toLevel="1" name="Visual Enchant Stone: Max CP">
+		<!-- Max CP +15%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MaxCp">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21446" toLevel="1" name="Visual Enchant Stone: Speed">
+		<!-- Max Speed +3. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="Speed">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21447" toLevel="1" name="Visual Enchant Stone: Speed">
+		<!-- Speed +7. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="Speed">
+				<amount>7</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21448" toLevel="1" name="Visual Enchant Stone: Speed">
+		<!-- Max Speed +15. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="Speed">
+				<amount>15</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21449" toLevel="1" name="Visual Enchant Stone: HP Recovery">
+		<!-- HP Recovery Rate +5%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="HpRegen">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21450" toLevel="1" name="Visual Enchant Stone: HP Recovery">
+		<!-- HP Recovery Rate +8%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="HpRegen">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21451" toLevel="1" name="Visual Enchant Stone: HP Recovery">
+		<!-- HP Recovery Rate +16%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="HpRegen">
+				<amount>16</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21452" toLevel="1" name="Visual Enchant Stone: MP Recovery">
+		<!-- MP Recovery Rate +3%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MpRegen">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21453" toLevel="1" name="Visual Enchant Stone: MP Recovery">
+		<!-- MP Recovery Rate +4%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MpRegen">
+				<amount>4</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21454" toLevel="1" name="Visual Enchant Stone: MP Recovery">
+		<!-- MP Recovery Rate +8%. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="MpRegen">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21455" toLevel="1" name="Visual Enchant Stone: Evasion">
+		<!-- P./ M. Evasion +3. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21456" toLevel="1" name="Visual Enchant Stone: Evasion">
+		<!-- P./ M. Evasion +4. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>4</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>4</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21457" toLevel="1" name="Visual Enchant Stone: Evasion">
+		<!-- P./ M. Evasion +8. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>8</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21458" toLevel="1" name="Visual Enchant Stone: Low-grade/ Option 15">
+		<!-- Low-grade/ Option 15. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21459" toLevel="1" name="Visual Enchant Stone: Mid-grade/ Option 15">
+		<!-- Mid-grade/ Option 15. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21460" toLevel="1" name="Visual Enchant Stone: High-grade/ Option 15">
+		<!-- High-grade/ Option 15. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21461" toLevel="1" name="Visual Enchant Stone: Low-grade/ Option 16">
+		<!-- Low-grade/ Option 16. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21462" toLevel="1" name="Visual Enchant Stone: Mid-grade/ Option 16">
+		<!-- Mid-grade/ Option 16. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21463" toLevel="1" name="Visual Enchant Stone: High-grade/ Option 16">
+		<!-- High-grade/ Option 16. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21464" toLevel="1" name="Visual Enchant Stone: Low-grade/ Option 17">
+		<!-- Low-grade/ Option 17. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21465" toLevel="1" name="Visual Enchant Stone: Mid-grade/ Option 17">
+		<!-- Mid-grade/ Option 17. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21466" toLevel="1" name="Visual Enchant Stone: High-grade/ Option 17">
+		<!-- High-grade/ Option 17. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21467" toLevel="1" name="Visual Enchant Stone: Low-grade/ Option 18">
+		<!-- Low-grade/ Option 18. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21468" toLevel="1" name="Visual Enchant Stone: Mid-grade/ Option 18">
+		<!-- Mid-grade/ Option 18. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21469" toLevel="1" name="Visual Enchant Stone: High-grade/ Option 18">
+		<!-- High-grade/ Option 18. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21470" toLevel="1" name="Visual Enchant Stone: Low-grade/ Option 19">
+		<!-- Low-grade/ Option 19. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21471" toLevel="1" name="Visual Enchant Stone: Mid-grade/ Option 19">
+		<!-- Mid-grade/ Option 19. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21472" toLevel="1" name="Visual Enchant Stone: High-grade/ Option 19">
+		<!-- High-grade/ Option 19. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21473" toLevel="1" name="Visual Enchant Stone: Low-grade/ Option 20">
+		<!-- Low-grade/ Option 20. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21474" toLevel="1" name="Visual Enchant Stone: Mid-grade/ Option 20">
+		<!-- Mid-grade/ Option 20. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21475" toLevel="1" name="Visual Enchant Stone: High-grade/ Option 20">
+		<!-- High-grade/ Option 20. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="21476" toLevel="1" name="Cloak of the Chosen">
+		<!-- STR +3, DEX +3, CON +3, INT +3, WIT +3, MEN +3, received PvP damage -15%, weight limit +25,600, inventory slots +36. -->
+		<icon>icon.vesper_cloack_i00</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>-15</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>WIT</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="WeightLimit">
+				<amount>25600</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="EnlargeSlot">
+				<amount>36</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21477" toLevel="4" name="Power of Abundance">
+		<!-- Level 1: For 60 sec., P. Atk. +15%, M. Atk. +15%, Skill Power +15%, Skill Critical Rate +15%, when the talisman is equipped. -->
+		<!-- Level 2: For 60 sec., P. Atk. +16%, M. Atk. +16%, Skill Power +16%, Skill Critical Rate +16%, when the talisman is equpped. -->
+		<!-- Level 3: For 60 sec., P. Atk. +17%, M. Atk. +17%, Skill Power +17%, Skill Critical Rate +17%, when the talisman is equipped. -->
+		<!-- Level 4: For 60 sec., P. Atk. +20%, M. Atk. +20%, Skill Power +20%, Skill Critical Rate +20%, when the talisman is equipped. -->
+		<icon>
+			<value level="1">BranchIcon.Icon.g_therich_i00</value>
+			<value level="2">BranchIcon.Icon.g_therich_i01</value>
+			<value level="3">BranchIcon.Icon.g_therich_i02</value>
+			<value level="4">BranchIcon.Icon.g_therich_i03</value>
+		</icon>
+		<operateType>A2</operateType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>
+			<value level="1">60</value>
+			<value level="2">60</value>
+			<value level="3">60</value>
+			<value level="4">60</value>
+		</abnormalTime>
+		<abnormalType>TALISMAN_SPECIAL</abnormalType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<effectPoint>532</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<mpConsume>8</mpConsume>
+		<mpInitialConsume>2</mpInitialConsume>
+		<reuseDelay>600000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<conditions>
+			<condition name="OpNotInEvent" />
+		</conditions>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>SAYHA_BUFF,-1</dispel>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">16</value>
+					<value level="3">17</value>
+					<value level="4">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">16</value>
+					<value level="3">17</value>
+					<value level="4">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">16</value>
+					<value level="3">17</value>
+					<value level="4">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">16</value>
+					<value level="3">17</value>
+					<value level="4">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">16</value>
+					<value level="3">17</value>
+					<value level="4">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21478" toLevel="1" name="Summon Agathion Griffin">
+		<!-- Releases the agathion's seal. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>16055</npcId> <!-- Griffin -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21479" toLevel="1" name="Agathion Teleport: Aden">
+		<!-- Teleports to Aden. Can be used only when the agathion is summoned. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<conditions>
+			<condition name="OpCanEscape" />
+			<condition name="OpAlignment">
+				<affectType>CASTER</affectType>
+				<alignment>LAWFUL</alignment>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>147450</x>
+				<y>27064</y>
+				<z>-2208</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21480" toLevel="1" name="Agathion Teleport: Rune">
+		<!-- Teleports to Rune. Can be used only when the agathion is summoned. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<conditions>
+			<condition name="OpCanEscape" />
+			<condition name="OpAlignment">
+				<affectType>CASTER</affectType>
+				<alignment>LAWFUL</alignment>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>44070</x>
+				<y>-50243</y>
+				<z>-791</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21481" toLevel="1" name="Agathion Teleport: Giran">
+		<!-- Teleports to Giran. Can be used only when the agathion is summoned. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<conditions>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>82698</x>
+				<y>148638</y>
+				<z>-3468</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="21482" toLevel="1" name="Agathion Griffin's Blessed Egg">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>1000</coolTime>
+		<hitTime>2700</hitTime>
+	</skill>
+	<skill id="21483" toLevel="1" name="Blessed Griffin Egg">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="21484" toLevel="1" name="Fancy Fishing Rod">
+		<!-- Acquired XP/ SP +50% -->
+		<icon>BranchIcon.icon.weapon_g_fishing_rod</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+	</skill>
+</list>

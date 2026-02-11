@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="267" parentClassId="266">
+		<!-- Actives -->
+		<skill skillName="Thousand Wounds" skillId="31531" skillLevel="1" getLevel="76" />
+	</skillTree>
+</list>

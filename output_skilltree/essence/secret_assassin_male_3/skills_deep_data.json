@@ -1,0 +1,3525 @@
+{
+  "class_slug": "secret_assassin_male_3",
+  "xml_class_name": "AssassinMale3",
+  "removed_session": {
+    "unique_names": [],
+    "note": "Resolve names via skillname.dat in builder"
+  },
+  "categories": {
+    "physical_skills": [
+      {
+        "skill_id": "87155",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87155_1_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Blast",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "autoget": true
+      },
+      {
+        "skill_id": "87301",
+        "level": "11",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_11_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900"
+      },
+      {
+        "skill_id": "87301",
+        "level": "12",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_12_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "78",
+        "sp_consumption": "13700"
+      },
+      {
+        "skill_id": "87301",
+        "level": "13",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_13_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "80",
+        "sp_consumption": "13700"
+      },
+      {
+        "skill_id": "87301",
+        "level": "14",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_14_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "82",
+        "sp_consumption": "170000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "15",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_15_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "84",
+        "sp_consumption": "240000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "16",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_16_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "86",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "17",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_17_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "87",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "18",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_18_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "88",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "19",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_19_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "89",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "20",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_20_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "90",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "21",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_21_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "91",
+        "sp_consumption": "1500000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "22",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_22_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "92",
+        "sp_consumption": "1700000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "23",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_23_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "93",
+        "sp_consumption": "2000000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "24",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_24_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "94",
+        "sp_consumption": "2400000"
+      },
+      {
+        "skill_id": "87301",
+        "level": "25",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87301_25_0.html",
+        "type": "ACTIVE",
+        "name": "Blow",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "95",
+        "sp_consumption": "2900000"
+      },
+      {
+        "skill_id": "87307",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87307_1_0.html",
+        "type": "ACTIVE",
+        "name": "Assassination",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105286",
+            "item_name": "Rare Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87309",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87309_1_0.html",
+        "type": "ACTIVE",
+        "name": "Clone Dance",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105286",
+            "item_name": "Rare Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87309",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87309_2_0.html",
+        "type": "ACTIVE",
+        "name": "Clone Dance",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "85",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87309",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87309_3_0.html",
+        "type": "ACTIVE",
+        "name": "Clone Dance",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "90",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87319",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87319_1_0.html",
+        "type": "ACTIVE",
+        "name": "Relentless Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "98423",
+            "item_name": "Magic Tablet"
+          }
+        ]
+      },
+      {
+        "skill_id": "87319",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87319_2_0.html",
+        "type": "ACTIVE",
+        "name": "Relentless Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "79",
+        "sp_consumption": "13700"
+      },
+      {
+        "skill_id": "87319",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87319_3_0.html",
+        "type": "ACTIVE",
+        "name": "Relentless Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "82",
+        "sp_consumption": "170000"
+      },
+      {
+        "skill_id": "87319",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87319_4_0.html",
+        "type": "ACTIVE",
+        "name": "Relentless Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "84",
+        "sp_consumption": "240000"
+      },
+      {
+        "skill_id": "87319",
+        "level": "5",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87319_5_0.html",
+        "type": "ACTIVE",
+        "name": "Relentless Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "86",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87319",
+        "level": "6",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87319_6_0.html",
+        "type": "ACTIVE",
+        "name": "Relentless Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "88",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87319",
+        "level": "7",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87319_7_0.html",
+        "type": "ACTIVE",
+        "name": "Relentless Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "90",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87319",
+        "level": "8",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87319_8_0.html",
+        "type": "ACTIVE",
+        "name": "Relentless Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "92",
+        "sp_consumption": "1700000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "6",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_6_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "77",
+        "sp_consumption": "5900"
+      },
+      {
+        "skill_id": "87304",
+        "level": "7",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_7_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "79",
+        "sp_consumption": "13700"
+      },
+      {
+        "skill_id": "87304",
+        "level": "8",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_8_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "81",
+        "sp_consumption": "160000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "9",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_9_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "83",
+        "sp_consumption": "240000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "10",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_10_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "85",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "11",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_11_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "86",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "12",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_12_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "87",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "13",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_13_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "88",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "14",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_14_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "89",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "15",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_15_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "90",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "16",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_16_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "91",
+        "sp_consumption": "1500000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "17",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_17_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "92",
+        "sp_consumption": "1700000"
+      },
+      {
+        "skill_id": "87304",
+        "level": "18",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87304_18_0.html",
+        "type": "ACTIVE",
+        "name": "Shadow Attack",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "93",
+        "sp_consumption": "2000000"
+      }
+    ],
+    "buffs": [
+      {
+        "skill_id": "87345",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87345_1_0.html",
+        "type": "ACTIVE",
+        "name": "Resolve to Kill",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105286",
+            "item_name": "Rare Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87361",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87361_2_0.html",
+        "type": "ACTIVE",
+        "name": "Erosion",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105278",
+            "item_name": "Enhanced Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87362",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87362_2_0.html",
+        "type": "ACTIVE",
+        "name": "Murder Attempt",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105278",
+            "item_name": "Enhanced Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87367",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87367_2_0.html",
+        "type": "ACTIVE",
+        "name": "Sharp Blade",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900"
+      },
+      {
+        "skill_id": "87367",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87367_3_0.html",
+        "type": "ACTIVE",
+        "name": "Sharp Blade",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "82",
+        "sp_consumption": "170000"
+      },
+      {
+        "skill_id": "87464",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87464_3_0.html",
+        "type": "ACTIVE",
+        "name": "Magic Barrier",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87465",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87465_3_0.html",
+        "type": "ACTIVE",
+        "name": "Haste",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87466",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87466_4_0.html",
+        "type": "ACTIVE",
+        "name": "Acumen",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87467",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87467_3_0.html",
+        "type": "ACTIVE",
+        "name": "Wind Walk",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87468",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87468_3_0.html",
+        "type": "ACTIVE",
+        "name": "Berserker Spirit",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87471",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87471_3_0.html",
+        "type": "ACTIVE",
+        "name": "Wild Magic",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87473",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87473_4_0.html",
+        "type": "ACTIVE",
+        "name": "HP Recovery",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "80",
+        "sp_consumption": "13700",
+        "consume_items": [
+          {
+            "item_id": "103804",
+            "item_name": "Spellbook: HP Recovery"
+          }
+        ]
+      },
+      {
+        "skill_id": "87474",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87474_4_0.html",
+        "type": "ACTIVE",
+        "name": "MP Recovery",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "80",
+        "sp_consumption": "13700",
+        "consume_items": [
+          {
+            "item_id": "103805",
+            "item_name": "Spellbook: MP Recovery"
+          }
+        ]
+      }
+    ],
+    "transformationmounting_skills": [
+      {
+        "skill_id": "54246",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/54246_1_0.html",
+        "type": "ACTIVE",
+        "name": "Silver Wolf",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900"
+      },
+      {
+        "skill_id": "54102",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/54102_1_0.html",
+        "type": "ACTIVE",
+        "name": "White Guardian Transformation",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Dominator",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "80",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "95502",
+            "item_name": "Spellbook: White Guardian"
+          }
+        ]
+      },
+      {
+        "skill_id": "54231",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/54231_1_0.html",
+        "type": "ACTIVE",
+        "name": "Dragon Slayer Appearance",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "82",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "96780",
+            "item_name": "Spellbook: Dragon Slayer"
+          }
+        ]
+      },
+      {
+        "skill_id": "54200",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/54200_1_0.html",
+        "type": "ACTIVE",
+        "name": "Mount Glorious Steed",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver"
+        ],
+        "required_level": "87",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "93059",
+            "item_name": "Spellbook: Mount Glorious Steed"
+          }
+        ]
+      },
+      {
+        "skill_id": "54202",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/54202_1_0.html",
+        "type": "ACTIVE",
+        "name": "Mount Shining Lady",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver"
+        ],
+        "required_level": "89",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "93061",
+            "item_name": "Spellbook: Mount Shining Lady"
+          }
+        ]
+      }
+    ],
+    "other_skills_active": [
+      {
+        "skill_id": "45190",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45190_1_0.html",
+        "type": "ACTIVE",
+        "name": "Detection",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Wind Rider",
+          "Cardinal",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900"
+      },
+      {
+        "skill_id": "45190",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45190_2_0.html",
+        "type": "ACTIVE",
+        "name": "Detection",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Wind Rider",
+          "Cardinal",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "85",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "45190",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45190_3_0.html",
+        "type": "ACTIVE",
+        "name": "Detection",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Wind Rider",
+          "Cardinal",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "88",
+        "sp_consumption": "840000"
+      }
+    ],
+    "special_skills_active": [
+      {
+        "skill_id": "87323",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87323_1_0.html",
+        "type": "ACTIVE",
+        "name": "Return Motion",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105282",
+            "item_name": "Superior Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87351",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87351_1_0.html",
+        "type": "ACTIVE",
+        "name": "Time Distortion",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "98492",
+            "item_name": "Spellbook: Time Distortion"
+          }
+        ]
+      },
+      {
+        "skill_id": "87351",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87351_2_0.html",
+        "type": "ACTIVE",
+        "name": "Time Distortion: Master",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "99897",
+            "item_name": "Spellbook: Time Distortion: Master"
+          }
+        ]
+      },
+      {
+        "skill_id": "87381",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87381_1_0.html",
+        "type": "ACTIVE",
+        "name": "Constraint",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105286",
+            "item_name": "Rare Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "45361",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45361_1_0.html",
+        "type": "ACTIVE",
+        "name": "Glorious Warrior: Enhanced Abilities",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "90",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "94046",
+            "item_name": "Spellbook: Glorious Warrior: Enhanced Abilities Lv. 1"
+          }
+        ]
+      },
+      {
+        "skill_id": "45361",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45361_2_0.html",
+        "type": "ACTIVE",
+        "name": "Glorious Warrior: Enhanced Abilities",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "91",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "95890",
+            "item_name": "Spellbook: Glorious Warrior: Enhanced Abilities Lv. 2"
+          }
+        ]
+      },
+      {
+        "skill_id": "45361",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45361_3_0.html",
+        "type": "ACTIVE",
+        "name": "Glorious Warrior: Enhanced Abilities",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "92",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "95891",
+            "item_name": "Spellbook: Glorious Warrior: Enhanced Abilities Lv. 3"
+          }
+        ]
+      },
+      {
+        "skill_id": "45361",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45361_4_0.html",
+        "type": "ACTIVE",
+        "name": "Glorious Warrior: Enhanced Abilities",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "93",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "98834",
+            "item_name": "Spellbook: Glorious Warrior: Enhanced Abilities Lv. 4"
+          }
+        ]
+      },
+      {
+        "skill_id": "45361",
+        "level": "5",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45361_5_0.html",
+        "type": "ACTIVE",
+        "name": "Glorious Warrior: Enhanced Abilities",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "94",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "98835",
+            "item_name": "Spellbook: Glorious Warrior: Enhanced Abilities Lv. 5"
+          }
+        ]
+      },
+      {
+        "skill_id": "45361",
+        "level": "6",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45361_6_0.html",
+        "type": "ACTIVE",
+        "name": "Glorious Warrior: Enhanced Abilities",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "95",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "98836",
+            "item_name": "Spellbook: Glorious Warrior: Enhanced Abilities Lv. 6"
+          }
+        ]
+      }
+    ],
+    "levelup_achievement_glory_skill": [
+      {
+        "skill_id": "45235",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45235_1_0.html",
+        "type": "PASSIVE",
+        "name": "Glorious Warrior: Increased Weight Limit",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "86",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "93064",
+            "item_name": "Spellbook: Glorious Warrior: Increased Weight Limit"
+          }
+        ]
+      },
+      {
+        "skill_id": "45234",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45234_1_0.html",
+        "type": "PASSIVE",
+        "name": "Glorious Warrior: Inventory Bonus",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "88",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "93063",
+            "item_name": "Spellbook: Glorious Warrior: Inventory Bonus"
+          }
+        ]
+      },
+      {
+        "skill_id": "45472",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45472_1_0.html",
+        "type": "PASSIVE",
+        "name": "Glorious Warrior: Special Teleport",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "88",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "98838",
+            "item_name": "Spellbook: Glorious Warrior: Special Teleport"
+          }
+        ]
+      },
+      {
+        "skill_id": "45473",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45473_1_0.html",
+        "type": "PASSIVE",
+        "name": "Glorious Warrior: My Teleport Extension",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "89",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "98839",
+            "item_name": "Spellbook: Glorious Warrior: My Teleport Extension"
+          }
+        ]
+      },
+      {
+        "skill_id": "45474",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45474_1_0.html",
+        "type": "PASSIVE",
+        "name": "Glorious Warrior's Title: Sky-blue",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "90",
+        "autoget": true
+      },
+      {
+        "skill_id": "47240",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/47240_1_0.html",
+        "type": "PASSIVE",
+        "name": "Glorious Warrior: XP Recovery",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "91",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "98841",
+            "item_name": "Spellbook: Glorious Warrior: XP Recovery"
+          }
+        ]
+      },
+      {
+        "skill_id": "45429",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45429_1_0.html",
+        "type": "PASSIVE",
+        "name": "Glorious Warrior: Quick Escape",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "93",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "98837",
+            "item_name": "Spellbook: Glorious Warrior: Quick Escape"
+          }
+        ]
+      }
+    ],
+    "doll_effect": [
+      {
+        "skill_id": "45188",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45188_1_0.html",
+        "type": "PASSIVE",
+        "name": "Evolution Defense",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "76",
+        "sp_consumption": "0"
+      },
+      {
+        "skill_id": "45408",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45408_1_0.html",
+        "type": "PASSIVE",
+        "name": "Blessed by Sayha",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "76",
+        "sp_consumption": "0"
+      },
+      {
+        "skill_id": "45408",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45408_2_0.html",
+        "type": "PASSIVE",
+        "name": "Blessed by Sayha",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "80",
+        "sp_consumption": "0"
+      },
+      {
+        "skill_id": "45408",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45408_3_0.html",
+        "type": "PASSIVE",
+        "name": "Blessed by Sayha",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "85",
+        "sp_consumption": "0"
+      },
+      {
+        "skill_id": "45408",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45408_4_0.html",
+        "type": "PASSIVE",
+        "name": "Blessed by Sayha",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "90",
+        "sp_consumption": "0"
+      },
+      {
+        "skill_id": "87461",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87461_4_0.html",
+        "type": "PASSIVE",
+        "name": "Might",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87462",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87462_4_0.html",
+        "type": "PASSIVE",
+        "name": "Shield",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87463",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87463_4_0.html",
+        "type": "PASSIVE",
+        "name": "Empower",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87469",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87469_4_0.html",
+        "type": "PASSIVE",
+        "name": "Focus",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87470",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87470_4_0.html",
+        "type": "PASSIVE",
+        "name": "Death Whisper",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87472",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87472_4_0.html",
+        "type": "PASSIVE",
+        "name": "Clarity",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105274",
+            "item_name": "Common Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "45189",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45189_1_0.html",
+        "type": "PASSIVE",
+        "name": "Evolution Power",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "80",
+        "sp_consumption": "0"
+      },
+      {
+        "skill_id": "45271",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45271_1_0.html",
+        "type": "PASSIVE",
+        "name": "Extended Life",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "85",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "105282",
+            "item_name": "Superior Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "45271",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45271_2_0.html",
+        "type": "PASSIVE",
+        "name": "Extended Life",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Templar",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Wind Rider",
+          "Samurai",
+          "Ghost Hunter",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "85",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "105282",
+            "item_name": "Superior Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "45271",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45271_3_0.html",
+        "type": "PASSIVE",
+        "name": "Extended Life",
+        "full_class_name": [
+          "Death Knight",
+          "Dreadnought",
+          "Duelist",
+          "Death Knight",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Phoenix Knight",
+          "Shillien Templar",
+          "Spectral Dancer",
+          "Sword Muse",
+          "Samurai",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Warg"
+        ],
+        "required_level": "85",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "105282",
+            "item_name": "Superior Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "45271",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45271_4_0.html",
+        "type": "PASSIVE",
+        "name": "Extended Life",
+        "full_class_name": [
+          "Death Knight",
+          "Dreadnought",
+          "Duelist",
+          "Death Knight",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Phoenix Knight",
+          "Shillien Templar",
+          "Samurai",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Warg"
+        ],
+        "required_level": "85",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "105282",
+            "item_name": "Superior Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "45271",
+        "level": "5",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45271_5_0.html",
+        "type": "PASSIVE",
+        "name": "Extended Life",
+        "full_class_name": [
+          "Death Knight",
+          "Death Knight",
+          "Eva's Templar",
+          "Hell Knight",
+          "Death Knight",
+          "Phoenix Knight",
+          "Shillien Templar",
+          "Samurai",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Warg"
+        ],
+        "required_level": "85",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "105282",
+            "item_name": "Superior Spellbook (Time-limited)"
+          }
+        ]
+      }
+    ],
+    "unique_skills": [
+      {
+        "skill_id": "87390",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87390_1_0.html",
+        "type": "PASSIVE",
+        "name": "Acquiring Kill Points",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "autoget": true
+      },
+      {
+        "skill_id": "87391",
+        "level": "9",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_9_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900"
+      },
+      {
+        "skill_id": "87391",
+        "level": "10",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_10_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "79",
+        "sp_consumption": "13700"
+      },
+      {
+        "skill_id": "87391",
+        "level": "11",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_11_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "82",
+        "sp_consumption": "170000"
+      },
+      {
+        "skill_id": "87391",
+        "level": "12",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_12_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "85",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87391",
+        "level": "13",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_13_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "87",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87391",
+        "level": "14",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_14_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "89",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87391",
+        "level": "15",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_15_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "90",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87391",
+        "level": "16",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_16_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "91",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87391",
+        "level": "17",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_17_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "92",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87391",
+        "level": "18",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87391_18_0.html",
+        "type": "PASSIVE",
+        "name": "Dagger Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "93",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87392",
+        "level": "9",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_9_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900"
+      },
+      {
+        "skill_id": "87392",
+        "level": "10",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_10_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "79",
+        "sp_consumption": "13700"
+      },
+      {
+        "skill_id": "87392",
+        "level": "11",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_11_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "82",
+        "sp_consumption": "170000"
+      },
+      {
+        "skill_id": "87392",
+        "level": "12",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_12_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "85",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87392",
+        "level": "13",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_13_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "87",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87392",
+        "level": "14",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_14_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "89",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87392",
+        "level": "15",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_15_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "90",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87392",
+        "level": "16",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_16_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "91",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87392",
+        "level": "17",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_17_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "92",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87392",
+        "level": "18",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87392_18_0.html",
+        "type": "PASSIVE",
+        "name": "Light Armor Expert",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "93",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87394",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87394_1_0.html",
+        "type": "PASSIVE",
+        "name": "Path of the Assassin",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "autoget": true
+      },
+      {
+        "skill_id": "87395",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87395_1_0.html",
+        "type": "PASSIVE",
+        "name": "Blow Boost",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105278",
+            "item_name": "Enhanced Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87396",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87396_1_0.html",
+        "type": "PASSIVE",
+        "name": "Shadow Boost",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105282",
+            "item_name": "Superior Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87397",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87397_1_0.html",
+        "type": "PASSIVE",
+        "name": "Maximum Critical",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "98423",
+            "item_name": "Magic Tablet"
+          }
+        ]
+      },
+      {
+        "skill_id": "87397",
+        "level": "2",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87397_2_0.html",
+        "type": "PASSIVE",
+        "name": "Maximum Critical",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "85",
+        "sp_consumption": "840000"
+      },
+      {
+        "skill_id": "87397",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87397_3_0.html",
+        "type": "PASSIVE",
+        "name": "Maximum Critical",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "90",
+        "sp_consumption": "840000",
+        "consume_items": [
+          {
+            "item_id": "105282",
+            "item_name": "Superior Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "87399",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87399_1_0.html",
+        "type": "PASSIVE",
+        "name": "Shadow Ally",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "autoget": true
+      },
+      {
+        "skill_id": "87400",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/87400_1_0.html",
+        "type": "PASSIVE",
+        "name": "Noda's Hidden Power",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105282",
+            "item_name": "Superior Spellbook (Time-limited)"
+          }
+        ]
+      },
+      {
+        "skill_id": "88082",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/88082_1_0.html",
+        "type": "PASSIVE",
+        "name": "Detect Vulnerability",
+        "full_class_name": [
+          "Assassin",
+          "Assassin"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "105278",
+            "item_name": "Enhanced Spellbook (Time-limited)"
+          }
+        ]
+      }
+    ],
+    "other_skills_passive": [
+      {
+        "skill_id": "1405",
+        "level": "3",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/1405_3_0.html",
+        "type": "PASSIVE",
+        "name": "Divine Inspiration",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "96093",
+            "item_name": "Spellbook: Divine Inspiration Lv. 3"
+          }
+        ]
+      },
+      {
+        "skill_id": "1405",
+        "level": "4",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/1405_4_0.html",
+        "type": "PASSIVE",
+        "name": "Divine Inspiration",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "76",
+        "sp_consumption": "5900",
+        "consume_items": [
+          {
+            "item_id": "96094",
+            "item_name": "Spellbook: Divine Inspiration Lv. 4"
+          }
+        ]
+      },
+      {
+        "skill_id": "45269",
+        "level": "1",
+        "sublevel": "0",
+        "href": "/essence/skills/secret_assassin_male_3/45269_1_0.html",
+        "type": "PASSIVE",
+        "name": "Expanded Potential of Dyes",
+        "full_class_name": [
+          "Adventurer",
+          "Arcana Lord",
+          "Archmage",
+          "Death Knight",
+          "Dominator",
+          "Doombringer",
+          "Doomcryer",
+          "Dreadnought",
+          "Duelist",
+          "Elemental Master",
+          "Death Knight",
+          "Eva's Saint",
+          "Eva's Templar",
+          "Fortune Seeker",
+          "Ghost Sentinel",
+          "Grand Khavatari",
+          "Hell Knight",
+          "Death Knight",
+          "Maestro",
+          "Moonlight Sentinel",
+          "Mystic Muse",
+          "Vanguard Rider",
+          "Phoenix Knight",
+          "Sagittarius",
+          "Shillien Saint",
+          "Shillien Templar",
+          "Soul Hound",
+          "Soultaker",
+          "Spectral Dancer",
+          "Spectral Master",
+          "Storm Blaster",
+          "Storm Screamer",
+          "Sword Muse",
+          "Titan",
+          "Trickster",
+          "Wind Rider",
+          "Cardinal",
+          "Samurai",
+          "Ghost Hunter",
+          "Hierophant",
+          "Blood Rose",
+          "Divine Templar",
+          "Assassin",
+          "Assassin",
+          "Element Weaver",
+          "Warg"
+        ],
+        "required_level": "76",
+        "sp_consumption": "0",
+        "consume_items": [
+          {
+            "item_id": "96614",
+            "item_name": "Spellbook: Expanded Potential of Dyes"
+          }
+        ]
+      }
+    ]
+  }
+}

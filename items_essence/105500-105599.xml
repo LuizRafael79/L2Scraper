@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="105500" name="Legendary Doll Summon Coupon - Samurai" additionalName="Sealed" type="EtcItem">
+		<!-- When used, summons the <font color=eeaa22>legendary Samurai Doll</font> with a 100% chance. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_fixed_lv6" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105501" name="Legendary Doll Summon Coupon - Valakas" additionalName="Sealed" type="EtcItem">
+		<!-- When used, summons the <font color=eeaa22>legendary Valakas Doll</font> with a 100% chance. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_fixed_lv6" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105502" name="Legendary Doll Summon Coupon - Fafurion" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon the <font color=eeaa22>legendary Fafurion Doll</font> with a 100% chance. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_fixed_lv6" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105503" name="Valakas Treasure Chest" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105504" name="Valakas Glittering Treasure Chest" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105505" name="Valakas Treasure Chest" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105506" name="Valakas Glittering Treasure Chest" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105507" name="+5 ~ +7 Agathion Pack: Ignis" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.agathion_fire_1" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105508" name="+8 ~ +10 Agathion Pack: Ignis" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.agathion_fire_1" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105509" name="Package: Fire Spirit King Ignis" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.agathion_high_ignis" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105510" name="Package: Doll Summon Coupon - Valakas (Heroic - Legendary) (Sealed)" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_fixed_lv6" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105511" name="Package: Doll Summon Coupon - Fafurion (Heroic - Legendary) (Sealed)" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_fixed_lv6" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105512" name="Common Craft - Adena Pack" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.adena_box_i01" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105513" name="Common Craft - Adena Pack" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.adena_box_i01" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105514" name="300 Million Adena Pack" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.adena_box_i01" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105515" name="500,000 Adena Pouch" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_crystal_spice_blessed_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105516" name="1 Million Adena Pouch" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_crystal_spice_blessed_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105517" name="3 Million Adena Pouch" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_crystal_spice_blessed_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105518" name="50 Million Adena Pouch" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_golden_spice_blessed_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105519" name="100 Million Adena Pack" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.adena_box_i01" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105520" name="500 Million Adena Pack" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.adena_box_i01" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105521" name="Common Craft: Master's Collection Mark (100 pcs.)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_battle_support_coin_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105522" name="Doll Summon Coupon (Common) - 1 time" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon <font color=dddddd>1 common doll</font>. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_lv1" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105523" name="Doll Summon Coupon (Enhanced) - 1-time" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon <font color=77FF99>1 enhanced doll</font>. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_lv3" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105524" name="Doll Summon Coupon (Superior) - 1-time" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon <font color=FF9955>1 superior doll</font>. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_lv3_2" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105525" name="Doll Summon Coupon (Rare) - 1 time" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon <font color=5599FF>1 rare doll</font>. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_lv4" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105526" name="Doll Summon Coupon (Heroic) - 1 time" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon <font color=FF6666>1 heroic doll</font>. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_lv5" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105527" name="Doll Summon Coupon (Legendary) - 1-time" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon <font color=F00FFF>1 legendary doll</font>. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_lv6" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105528" name="Doll Summon Coupon (Mythic) - 1-time" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon <font color=FFFF00>1 mythic doll</font>. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_lv7" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105529" name="Enhanced Skill Enchant Charging Stone (20%)" type="EtcItem">
+		<!-- Recovers <font color=00FF00>20%</font> of enchant points for enhanced skills. -->
+		<set name="icon" val="icon.energy_condenser_i04" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105530" name="Unique Skill Enchant Charging Stone (20%)" type="EtcItem">
+		<!-- Recovers <font color=00FF00>20%</font> of enchant points for unique skills. -->
+		<set name="icon" val="icon.energy_condenser_i05" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105531" name="Rare Skill Enchant Charging Stone (20%)" type="EtcItem">
+		<!-- Recovers <font color=00FF00>20%</font> of enchant points for rare skills. -->
+		<set name="icon" val="icon.energy_condenser_i06" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105532" name="Common Craft - +5 ~ +9 Spirit Agathion Coupon Pack" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_agathion_ticket_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105533" name="Doll Summon Coupon (Heroic - Legendary) - 1-time (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon 1 doll from <font color=FF6666>heroic</font> to <font color=F00FFF>legendary</font> grade. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_lv5" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105534" name="Samurai Celebration Box I (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105535" name="Samurai Celebration Box II (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105536" name="Samurai Celebration Box III (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105537" name="Samurai's Wisdom Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="BranchSys.br_gold_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105538" name="Weekly Supply Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_box_joy_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105539" name="Package: Growth Support (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105540" name="Samurai's Courage Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105541" name="Guardian's Equipment Support Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_marguene_collection_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105542" name="Guardian Support Box (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_marguene_collection_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105543" name="Kit: Inventory Expansion and Private Warehouse Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.npoint_earring_of_lind_30day_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105544" name="Upper Special Armor Coupon (Sealed) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 Upper Special Armor (Sealed) of your choice. -->
+		<set name="icon" val="icon.rare_armor_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105545" name="Lower Special Armor Coupon (Sealed) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 Lower Special Armor (Sealed) of your choice. -->
+		<set name="icon" val="icon.rare_armor_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105546" name="High Priest Cyrax's Treasure Chest" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105547" name="Fafurion's Treasure Chest" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_blue" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105548" name="Fafurion's Glittering Treasure Chest" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_blue" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105549" name="Antharas Treasure Chest" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_gold" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105550" name="Antharas' Glittering Treasure Chest" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_gold" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105551" name="Package: +5 Hunter's Earring" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.accessary_earing_of_blessing_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105552" name="Special Armor Coupon" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain one piece of special armor <font color=ff6666>(unexchangeable)</font> of your choice. -->
+		<set name="icon" val="icon.rare_armor_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105553" name="Special Armor Coupon" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 Special Armor <font color=00FF00>(exchangeable)</font> of your choice. -->
+		<set name="icon" val="icon.rare_armor_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105554" name="Package: +10 Frost Lord's Sword (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Sword <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_sword" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105555" name="Package: +10 Frost Lord's Two-handed Sword (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Two-handed Sword <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_two_hand_sword" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105556" name="Package: +10 Frost Lord's Axe (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Axe <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_blunt" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105557" name="Package: +10 Frost Lord's Dagger (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Dagger <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_dagger" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105558" name="Package: +10 Frost Lord's Spear (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Spear <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_pole" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105559" name="Package: +10 Frost Lord's Bow (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Bow <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_bow" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105560" name="Package: +10 Frost Lord's Blade Fists (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Blade Fists <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_dualfist" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105561" name="Package: +10 Frost Lord's Magic Blunt Weapon (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Magic Blunt Weapon <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_staff" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105562" name="Package: +10 Frost Lord's Staff (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Staff <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_two_hand_staff" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105563" name="Package: +10 Frost Lord's Ancient Sword (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Ancient Sword <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_ancientsword" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105564" name="Package: +10 Frost Lord's Rapier (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Rapier <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_rapier" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105565" name="Package: +10 Frost Lord's Pistols (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Pistols <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_shooter" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105566" name="Package: +10 Frost Lord's Dual Swords (Sealed)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain +10 Frost Lord's Dual Swords <font color=ff6666>(unexchangeable)</font>. -->
+		<set name="icon" val="icon.frozen_weapon_dual_sword" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105567" name="+10 Frost Lord's Weapon Coupon (Sealed) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain a +10 Frost Lord's weapon <font color=ff6666>(unexchangeable)</font> of your choice. -->
+		<set name="icon" val="icon.frozen_weapon_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105568" name="Dragon Weapon Pack Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 Dragon Weapon <font color=ff6666>(unexchangeable)</font> of your choice. -->
+		<set name="icon" val="icon.dragon_weapon_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105569" name="Transcendent Equipment Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.aka_manaf_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105570" name="Transcendent Weapon Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.zariche_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105571" name="Rare Armor Coupon (Sealed) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 piece of Wild Wind/ Red Flame/ Sea/ Berserker's Armor <font color=ff6666>(unexchangeable)</font> of your choice. -->
+		<set name="icon" val="icon.icon.rare_armor_ticket_i01" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105572" name="Doll Summon Coupon (Common - Heroic) - 11-time (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to summon 11 dolls from <font color=DDDDDD>common</font> to <font color=FF6666>heroic</font> grade. -->
+		<set name="icon" val="icon.doll_summon_11_ticket_lv1" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105573" name="Monster Weapon: Invisible Feather" additionalName="Not available" type="Weapon">
+		<!-- The item is not available. A monster weapon. -->
+		<set name="icon" val="icon.etc_ertheia2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="pAtk">92</stat>
+			<stat type="mAtk">54</stat>
+			<stat type="pAtkSpd">379</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="105574" name="Mother Tree's Orphanage Time Stone" type="EtcItem">
+		<!-- Prolongs your session zone's raid for 60 min. <Hunting zone>. Mother Tree's Orphanage. <font color=ff6666>Note!</font>. Required level: 80+. Cooldown: 10 sec. -->
+		<set name="icon" val="icon.timezone_refill_new_i02" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105575" name="Mother Tree's Orphanage Time Stone" additionalName="Sealed" type="EtcItem">
+		<!-- Prolongs your session zone's raid for 60 min. <Hunting zone>. Mother Tree's Orphanage. <font color=ff6666>Note!</font>. Required level: 80+. Cooldown: 10 sec. -->
+		<set name="icon" val="icon.timezone_refill_new_i02" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105576" name="Mother Tree's Orphanage Time Stone (Time-limited)" type="EtcItem">
+		<!-- Prolongs your session zone's raid for 60 min. <Hunting zone>. Mother Tree's Orphanage. <font color=ff6666>Note!</font>. Required level: 80+. Cooldown: 10 sec. -->
+		<set name="icon" val="icon.timezone_refill_new_i02" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105577" name="Mother Tree's Orphanage Time Stone (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Prolongs your session zone's raid for 60 min. <Hunting zone>. Mother Tree's Orphanage. <font color=ff6666>Note!</font>. Required level: 80+. Cooldown: 10 sec. -->
+		<set name="icon" val="icon.timezone_refill_new_i02" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105578" name="November Samurai Pass Special Kit (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105579" name="Shiny Samurai November Pass Kit (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105580" name="Rare November Pass Special Kit (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105581" name="Shiny Rare November Pass Kit (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105582" name="Package: Pass' Heroic Doll Summon Coupon (Time-limited)" type="EtcItem">
+		<!-- Double-click to obtain 1 <font color=FF6666>Heroic Doll Summon Coupon</font>. Some dolls cannot be summoned. <font color=ff6666>Note!</font>. The package can be sold through the world trade, but its contents are <font color=ff6666>untradeable</font>. -->
+		<set name="icon" val="icon.doll_summon_1_ticket_fixed_lv5" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105583" name="+1 ~ +3 Queen Ant's Ring Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_gold_lure_special_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105584" name="+1 ~ +3 Core's Ring Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_gold_lure_special_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105585" name="+1 ~ +3 Orfen's Earring Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_gold_lure_special_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105586" name="+1 ~ +3 Baium's Ring Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_gold_lure_special_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105587" name="+1 ~ +3 Zaken's Earring Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_gold_lure_special_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105588" name="+1 ~ +3 Frintezza's Necklace Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_gold_lure_special_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105589" name="+1 ~ +3 Antharas' Earring Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_gold_lure_special_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105590" name="+1 ~ +3 Aztacan's Earring Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_gold_lure_special_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105591" name="+1 ~ +3 Ferion's Necklace Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_gold_lure_special_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105592" name="+1 ~ +3 Rare Accessory Challenge Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain a useful item of your choice. -->
+		<set name="icon" val="icon.etc_nobless_teleport_coupon_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105593" name="Selection Coupon: Scroll: Enchant Rare Accessories (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain a useful item of your choice. -->
+		<set name="icon" val="icon.etc_royal_membership_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105594" name="Selection Coupon: Jewel Lv. 6-7 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain a useful item of your choice. -->
+		<set name="icon" val="icon.bm_jewel_ticket" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105595" name="Growth Kit (Lv. 54)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain the following. <Prerequisite>. Required level: 54+. -->
+		<set name="icon" val="icon.bm_ensoulbox_soul_of_undead" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105596" name="Lineage 2 Festival Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_sayha_gold_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105597" name="Gift Lucky Package (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_sayha_silver_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105598" name="Dye Booster (Enhanced - Superior) Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="105599" name="Lineage 2 Festival Ticket (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="BranchSys2.Icon.br_weddin_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="114" parentClassId="48">
+		<skill skillName="Force Burst" skillId="17" skillLevel="35" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Force Storm" skillId="35" skillLevel="29" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Force Blaster" skillId="54" skillLevel="50" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="46" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Cripple" skillId="95" skillLevel="28" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Ogre's Essence" skillId="109" skillLevel="2" getLevel="76" levelUpSp="6100">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Weapon Mastery" skillId="141" skillLevel="5" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Burning Fist" skillId="280" skillLevel="41" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Iron Fist" skillId="281" skillLevel="38" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Puma Spirit Totem" skillId="282" skillLevel="2" getLevel="76" levelUpSp="6100">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="46" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Rabbit Spirit Totem" skillId="298" skillLevel="2" getLevel="76" levelUpSp="6100">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Raging Force" skillId="346" skillLevel="1" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Hawk Nature" skillId="425" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Master of Combat" skillId="430" skillLevel="1" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Final Secret" skillId="917" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Rush" skillId="994" skillLevel="3" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" levelUpSp="6100">
+			<item id="8620,96093" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 3 -->
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="76" levelUpSp="6100">
+			<item id="8621,96094" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 4 -->
+		</skill>
+		<skill skillName="Mount Black Bear" skillId="1837" skillLevel="1" getLevel="76" levelUpSp="6100" />
+		<skill skillName="Focus" skillId="45121" skillLevel="4" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Death Whisper" skillId="45122" skillLevel="4" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Chant of Haste" skillId="45123" skillLevel="3" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Chant of Wind Walk" skillId="45124" skillLevel="3" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Chant of Magic Barrier" skillId="45125" skillLevel="3" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Might" skillId="45126" skillLevel="4" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Shield" skillId="45127" skillLevel="4" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Chant of Berserker Spirit" skillId="45128" skillLevel="3" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Clarity" skillId="45129" skillLevel="4" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Chant of Acumen" skillId="45135" skillLevel="4" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Empower" skillId="45136" skillLevel="4" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Chant of Wild Magic" skillId="45137" skillLevel="3" getLevel="76" levelUpSp="6100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Evolution Defense" skillId="45188" skillLevel="1" getLevel="76">
+			<item id="57" count="5000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Detection" skillId="45190" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<item id="57" count="5000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Expanded Potential of Dyes" skillId="45269" skillLevel="1" getLevel="76">
+			<item id="96613,96614" count="1" /> <!-- Spellbook: Expanded Potential of Dyes -->
+		</skill>
+		<skill skillName="Khavatari Spirit" skillId="45279" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="1" getLevel="76">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<removeSkill id="3" onlyReplaceByLearn="true" /> <!-- Power Strike -->
+			<removeSkill id="29" onlyReplaceByLearn="true" /> <!-- Iron Punch -->
+			<removeSkill id="81" onlyReplaceByLearn="true" /> <!-- Punch of Doom -->
+			<removeSkill id="17" onlyReplaceByLearn="true" /> <!-- Force Burst -->
+			<removeSkill id="280" onlyReplaceByLearn="true" /> <!-- Burning Fist -->
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<removeSkill id="346" onlyReplaceByLearn="true" /> <!-- Raging Force -->
+			<removeSkill id="54" onlyReplaceByLearn="true" /> <!-- Force Blaster -->
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Blazing Strike" skillId="45425" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<removeSkill id="95" onlyReplaceByLearn="true" /> <!-- Cripple -->
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Cacophony of War" skillId="45439" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<removeSkill id="420" onlyReplaceByLearn="true" /> <!-- Zealot -->
+			<removeSkill id="440" onlyReplaceByLearn="true" /> <!-- Braveheart -->
+			<item id="94508,95551" count="1" /> <!-- Spellbook: Cacophony of War -->
+		</skill>
+		<skill skillName="Cacophony of War" skillId="45439" skillLevel="2" getLevel="76" levelUpSp="6100">
+			<item id="102290,102291" count="1" /> <!-- Spellbook: Cacophony of War: Master -->
+		</skill>
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<item id="105275,105276,105277,105278" count="1" /> <!-- Enhanced Spellbook -->
+		</skill>
+		<skill skillName="Rushing Retreat" skillId="88110" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<item id="105275,105276,105277,105278" count="1" /> <!-- Enhanced Spellbook -->
+		</skill>
+		<skill skillName="Final Secret: Grand Khavatari" skillId="88113" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<removeSkill id="917" onlyReplaceByLearn="true" /> <!-- Final Secret -->
+			<item id="105275,105276,105277,105278" count="1" /> <!-- Enhanced Spellbook -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<removeSkill id="210" onlyReplaceByLearn="true" /> <!-- Fist Weapon Mastery -->
+			<removeSkill id="141" onlyReplaceByLearn="true" /> <!-- Weapon Mastery -->
+			<removeSkill id="168" onlyReplaceByLearn="true" /> <!-- Attack Speed Boost -->
+			<removeSkill id="222" onlyReplaceByLearn="true" /> <!-- Fury Fists -->
+			<removeSkill id="120" onlyReplaceByLearn="true" /> <!-- Stunning Fist -->
+			<removeSkill id="281" onlyReplaceByLearn="true" /> <!-- Iron Fist -->
+		</skill>
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<removeSkill id="233" onlyReplaceByLearn="true" /> <!-- Light Armor Mastery -->
+			<removeSkill id="142" onlyReplaceByLearn="true" /> <!-- Armor Mastery -->
+		</skill>
+		<skill skillName="Enhanced Hurricane" skillId="88123" skillLevel="1" getLevel="76" levelUpSp="6100">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		
+		<skill skillName="Force Burst" skillId="17" skillLevel="36" getLevel="77" levelUpSp="6100" />
+		<skill skillName="Force Storm" skillId="35" skillLevel="30" getLevel="77" levelUpSp="6100" />
+		<skill skillName="Force Blaster" skillId="54" skillLevel="51" getLevel="77" levelUpSp="6100" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="47" getLevel="77" levelUpSp="6100" />
+		<skill skillName="Burning Fist" skillId="280" skillLevel="42" getLevel="77" levelUpSp="6100" />
+		<skill skillName="Iron Fist" skillId="281" skillLevel="39" getLevel="77" levelUpSp="6100" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="47" getLevel="77" levelUpSp="6100" />
+		<skill skillName="Wondrous Power" skillId="443" skillLevel="1" getLevel="77" levelUpSp="6100">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="2" getLevel="77" levelUpSp="6100" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="2" getLevel="77" levelUpSp="6100" />
+		
+		<skill skillName="Force Burst" skillId="17" skillLevel="37" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Force Storm" skillId="35" skillLevel="31" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Force Blaster" skillId="54" skillLevel="52" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="48" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Cripple" skillId="95" skillLevel="29" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Burning Fist" skillId="280" skillLevel="43" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Iron Fist" skillId="281" skillLevel="40" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="48" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Raging Force" skillId="346" skillLevel="2" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Braveheart" skillId="440" skillLevel="1" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="3" getLevel="78" levelUpSp="14200" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="3" getLevel="78" levelUpSp="14200" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="49" getLevel="79" levelUpSp="14200" />
+		<skill skillName="Burning Fist" skillId="280" skillLevel="44" getLevel="79" levelUpSp="14200" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="49" getLevel="79" levelUpSp="14200" />
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="2" getLevel="79" levelUpSp="14200" />
+		
+		<skill skillName="Force Blaster" skillId="54" skillLevel="53" getLevel="80" levelUpSp="14200" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="50" getLevel="80" levelUpSp="14200" />
+		<skill skillName="Cripple" skillId="95" skillLevel="30" getLevel="80" levelUpSp="14200">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="45" getLevel="80" levelUpSp="14200" />
+		<skill skillName="Iron Fist" skillId="281" skillLevel="41" getLevel="80" levelUpSp="14200" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="50" getLevel="80" levelUpSp="14200" />
+		<skill skillName="Raging Force" skillId="346" skillLevel="3" getLevel="80" levelUpSp="14200" />
+		<skill skillName="Master of Combat" skillId="430" skillLevel="2" getLevel="80" levelUpSp="14200">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="HP Recovery" skillId="45176" skillLevel="4" getLevel="80" levelUpSp="14200">
+			<item id="103802,103804" count="1" /> <!-- Spellbook: HP Recovery -->
+		</skill>
+		<skill skillName="MP Recovery" skillId="45177" skillLevel="4" getLevel="80" levelUpSp="14200">
+			<item id="103803,103805" count="1" /> <!-- Spellbook: MP Recovery -->
+		</skill>
+		<skill skillName="Evolution Power" skillId="45189" skillLevel="1" getLevel="80">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="2" getLevel="80">
+			<item id="57" count="40000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Life Force Harmony: Grand Khavatari" skillId="45409" skillLevel="1" getLevel="80" levelUpSp="14200">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="White Guardian Transformation" skillId="54102" skillLevel="1" getLevel="80">
+			<item id="92401,95502" count="1" /> <!-- Spellbook: White Guardian -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="4" getLevel="80" levelUpSp="14200" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="4" getLevel="80" levelUpSp="14200" />
+		
+		<skill skillName="Force Blaster" skillId="54" skillLevel="54" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="51" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="31" getLevel="81" levelUpSp="160000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="46" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Iron Fist" skillId="281" skillLevel="42" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="51" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Full Knockdown" skillId="1896" skillLevel="1" getLevel="81" levelUpSp="160000">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="3" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="5" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="5" getLevel="81" levelUpSp="160000" />
+		
+		<skill skillName="Force Blaster" skillId="54" skillLevel="55" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="52" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="32" getLevel="82" levelUpSp="170000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="47" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Iron Fist" skillId="281" skillLevel="43" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="52" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Raging Force" skillId="346" skillLevel="4" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Full Knockdown" skillId="1896" skillLevel="2" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="2" getLevel="82" levelUpSp="170000">
+			<item id="57" count="2500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="2" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Dragon Slayer Appearance" skillId="54231" skillLevel="1" getLevel="82">
+			<item id="96300,96780" count="1" /> <!-- Spellbook: Dragon Slayer -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="6" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="6" getLevel="82" levelUpSp="170000" />
+		
+		<skill skillName="Force Blaster" skillId="54" skillLevel="56" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="53" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="33" getLevel="83" levelUpSp="240000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="48" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Iron Fist" skillId="281" skillLevel="44" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="53" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Full Knockdown" skillId="1896" skillLevel="3" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Blazing Strike" skillId="45425" skillLevel="2" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="7" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="7" getLevel="83" levelUpSp="240000" />
+		
+		<skill skillName="Force Blaster" skillId="54" skillLevel="57" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="54" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="34" getLevel="84" levelUpSp="240000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="49" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Iron Fist" skillId="281" skillLevel="45" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="54" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Raging Force" skillId="346" skillLevel="5" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Full Knockdown" skillId="1896" skillLevel="4" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="3" getLevel="84" levelUpSp="240000">
+			<item id="57" count="3000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="8" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="8" getLevel="84" levelUpSp="240000" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="55" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="35" getLevel="85" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="50" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="55" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Detection" skillId="45190" skillLevel="2" getLevel="85" levelUpSp="840000">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="1" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="2" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="3" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="3" getLevel="85">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="3" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="4" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="9" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="9" getLevel="85" levelUpSp="840000" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="56" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="36" getLevel="86" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="51" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="56" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: Increased Weight Limit" skillId="45235" skillLevel="1" getLevel="86">
+			<item id="93064" count="1" /> <!-- Spellbook: Glorious Warrior: Increased Weight Limit - Sealed -->
+		</skill>
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="4" getLevel="86" levelUpSp="840000">
+			<item id="57" count="3500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Blazing Strike" skillId="45425" skillLevel="3" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="10" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="10" getLevel="86" levelUpSp="840000" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="57" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="37" getLevel="87" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="52" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="57" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="4" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Mount Glorious Steed" skillId="54200" skillLevel="1" getLevel="87">
+			<item id="93059" count="1" /> <!-- Spellbook: Mount Glorious Steed - Sealed -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="11" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="11" getLevel="87" levelUpSp="840000" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="58" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="38" getLevel="88" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="53" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="58" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Detection" skillId="45190" skillLevel="3" getLevel="88" levelUpSp="840000">
+			<item id="57" count="30000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Inventory Bonus" skillId="45234" skillLevel="1" getLevel="88">
+			<item id="93063" count="1" /> <!-- Spellbook: Glorious Warrior: Inventory Bonus - Sealed -->
+		</skill>
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="5" getLevel="88" levelUpSp="840000">
+			<item id="57" count="4000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Special Teleport" skillId="45472" skillLevel="1" getLevel="88">
+			<item id="98838" count="1" /> <!-- Spellbook: Glorious Warrior: Special Teleport - Sealed -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="12" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="12" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Master of Combat: Orc" skillId="88638" skillLevel="1" getLevel="88" levelUpSp="840000">
+			<removeSkill id="430" onlyReplaceByLearn="true" /> <!-- Master of Combat -->
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="59" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="39" getLevel="89" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="54" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="59" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: My Teleport Extension" skillId="45473" skillLevel="1" getLevel="89">
+			<item id="98839" count="1" /> <!-- Spellbook: Glorious Warrior: My Teleport Extension - Sealed -->
+		</skill>
+		<skill skillName="Mount Shining Lady" skillId="54202" skillLevel="1" getLevel="89">
+			<item id="93061" count="1" /> <!-- Spellbook: Mount Shining Lady - Sealed -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="13" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="13" getLevel="89" levelUpSp="840000" />
+		
+		<skill skillName="Emergency Rescue" skillId="70" skillLevel="60" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Cripple" skillId="95" skillLevel="40" getLevel="90" levelUpSp="840000">
+			<item id="57" count="500000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Fist" skillId="280" skillLevel="55" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="60" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="1" getLevel="90">
+			<item id="94046" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 1 - Sealed -->
+		</skill>
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="4" getLevel="90">
+			<item id="57" count="200000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="6" getLevel="90" levelUpSp="840000">
+			<item id="57" count="5000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="5" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Blazing Strike" skillId="45425" skillLevel="4" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior's Title: Sky-blue" skillId="45474" skillLevel="1" getLevel="90" autoGet="true" />
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="5" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="14" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="14" getLevel="90" levelUpSp="840000" />
+		
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="61" getLevel="91" levelUpSp="1500000">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="2" getLevel="91">
+			<item id="95890" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 2 - Sealed -->
+		</skill>
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="6" getLevel="91" levelUpSp="1500000">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Blazing Strike" skillId="45425" skillLevel="5" getLevel="91" levelUpSp="1500000">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: XP Recovery" skillId="47240" skillLevel="1" getLevel="91">
+			<item id="98841" count="1" /> <!-- Spellbook: Glorious Warrior: XP Recovery - Sealed -->
+		</skill>
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="6" getLevel="91" levelUpSp="1500000">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="15" getLevel="91" levelUpSp="1500000">
+			<item id="90045,98423" count="18" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="15" getLevel="91" levelUpSp="1500000">
+			<item id="90045,98423" count="18" /> <!-- Magic Tablet -->
+		</skill>
+		
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="62" getLevel="92" levelUpSp="1700000">
+			<item id="57" count="15000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="3" getLevel="92">
+			<item id="95891" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 3 - Sealed -->
+		</skill>
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="7" getLevel="92" levelUpSp="1700000">
+			<item id="57" count="15000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="7" getLevel="92" levelUpSp="1700000">
+			<item id="57" count="15000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Blazing Strike" skillId="45425" skillLevel="6" getLevel="92" levelUpSp="1700000">
+			<item id="57" count="15000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="7" getLevel="92" levelUpSp="1700000">
+			<item id="57" count="15000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="16" getLevel="92" levelUpSp="1700000">
+			<item id="90045,98423" count="18" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="16" getLevel="92" levelUpSp="1700000">
+			<item id="90045,98423" count="18" /> <!-- Magic Tablet -->
+		</skill>
+		
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="63" getLevel="93" levelUpSp="2000000">
+			<item id="57" count="20000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="4" getLevel="93">
+			<item id="98834" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 4 - Sealed -->
+		</skill>
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="8" getLevel="93" levelUpSp="2000000">
+			<item id="57" count="20000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="8" getLevel="93" levelUpSp="2000000">
+			<item id="57" count="20000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Blazing Strike" skillId="45425" skillLevel="7" getLevel="93" levelUpSp="2000000">
+			<item id="57" count="20000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Quick Escape" skillId="45429" skillLevel="1" getLevel="93">
+			<item id="98837" count="1" /> <!-- Spellbook: Glorious Warrior: Quick Escape - Sealed -->
+		</skill>
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="8" getLevel="93" levelUpSp="2000000">
+			<item id="57" count="20000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Khavatari's Attack Mastery" skillId="88118" skillLevel="17" getLevel="93" levelUpSp="2000000">
+			<item id="90045,98423" count="18" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Khavatari's Armor Mastery" skillId="88119" skillLevel="17" getLevel="93" levelUpSp="2000000">
+			<item id="90045,98423" count="18" /> <!-- Magic Tablet -->
+		</skill>
+		
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="64" getLevel="94" levelUpSp="2400000">
+			<item id="57" count="50000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="5" getLevel="94">
+			<item id="98835" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 5 - Sealed -->
+		</skill>
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="9" getLevel="94" levelUpSp="2400000">
+			<item id="57" count="50000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="9" getLevel="94" levelUpSp="2400000">
+			<item id="57" count="50000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Blazing Strike" skillId="45425" skillLevel="8" getLevel="94" levelUpSp="2400000">
+			<item id="57" count="50000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="9" getLevel="94" levelUpSp="2400000">
+			<item id="57" count="50000000" /> <!-- Adena -->
+		</skill>
+		
+		<skill skillName="Hurricane Assault" skillId="284" skillLevel="65" getLevel="95" levelUpSp="2900000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="6" getLevel="95">
+			<item id="98836" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 6 - Sealed -->
+		</skill>
+		<skill skillName="Burning Strike" skillId="45423" skillLevel="10" getLevel="95" levelUpSp="2900000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Burning Assault" skillId="45424" skillLevel="10" getLevel="95" levelUpSp="2900000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Blazing Strike" skillId="45425" skillLevel="9" getLevel="95" levelUpSp="2900000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Jump Attack" skillId="88108" skillLevel="10" getLevel="95" levelUpSp="2900000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+	</skillTree>
+</list>

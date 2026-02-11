@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="235" parentClassId="234">
+		<!-- Actives -->
+		<skill skillName="Shining Surprise" skillId="31299" skillLevel="1" getLevel="85" />
+		<skill skillName="Shining Surprise" skillId="31299" skillLevel="2" getLevel="90" levelUpSp="37" />
+		<skill skillName="Shining Surprise" skillId="31299" skillLevel="3" getLevel="100" levelUpSp="8809" />
+		<skill skillName="Shining Surprise" skillId="31299" skillLevel="4" getLevel="103" levelUpSp="30447" />
+		<skill skillName="Shining Surprise" skillId="31299" skillLevel="5" getLevel="106" levelUpSp="105225" />
+		<skill skillName="Shining Surprise" skillId="31299" skillLevel="6" getLevel="109" levelUpSp="181830" />
+		<skill skillName="Shining Surprise" skillId="31299" skillLevel="7" getLevel="112" levelUpSp="436393" />
+		<skill skillName="Shining Surprise" skillId="31299" skillLevel="8" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Shining Surprise" skillId="31299" skillLevel="9" getLevel="118" levelUpSp="436393" />
+		<skill skillName="Funky Star" skillId="31301" skillLevel="1" getLevel="85" />
+		<skill skillName="Funky Star" skillId="31301" skillLevel="2" getLevel="95" levelUpSp="100" />
+		<skill skillName="Funky Star" skillId="31301" skillLevel="3" getLevel="101" levelUpSp="21143" />
+		<skill skillName="Funky Star" skillId="31301" skillLevel="4" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Funky Star" skillId="31301" skillLevel="5" getLevel="108" levelUpSp="151525" />
+		<skill skillName="Funky Star" skillId="31301" skillLevel="6" getLevel="111" levelUpSp="436393" />
+		<skill skillName="Funky Star" skillId="31301" skillLevel="7" getLevel="114" levelUpSp="436393" />
+		<skill skillName="Funky Star" skillId="31301" skillLevel="8" getLevel="117" levelUpSp="436393" />
+		<skill skillName="Funky Star" skillId="31301" skillLevel="9" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Fantasia Time" skillId="31307" skillLevel="1" getLevel="85" />
+		<skill skillName="Fantasia Time" skillId="31307" skillLevel="2" getLevel="103" levelUpSp="30447" />
+		<skill skillName="Fantasia Time" skillId="31307" skillLevel="3" getLevel="108" levelUpSp="151525" />
+		<skill skillName="Fantasia Time" skillId="31307" skillLevel="4" getLevel="113" levelUpSp="436393" />
+		<skill skillName="Fantasia Time" skillId="31307" skillLevel="5" getLevel="116" levelUpSp="436393" />
+		<skill skillName="Fantasia Time" skillId="31307" skillLevel="6" getLevel="120" levelUpSp="436393">
+			<item id="39738,81887" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Trick Fiesta" skillId="31305" skillLevel="1" getLevel="85" />
+		<skill skillName="Trick Fiesta" skillId="31305" skillLevel="2" getLevel="95" levelUpSp="100" />
+		<skill skillName="Trick Fiesta" skillId="31305" skillLevel="3" getLevel="101" levelUpSp="21143" />
+		<skill skillName="Trick Fiesta" skillId="31305" skillLevel="4" getLevel="104" levelUpSp="36536" />
+		<skill skillName="Trick Fiesta" skillId="31305" skillLevel="5" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Trick Fiesta" skillId="31305" skillLevel="6" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Trick Fiesta" skillId="31305" skillLevel="7" getLevel="113" levelUpSp="436393" />
+		<skill skillName="Trick Fiesta" skillId="31305" skillLevel="8" getLevel="116" levelUpSp="436393" />
+		<skill skillName="Trick Fiesta" skillId="31305" skillLevel="9" getLevel="119" levelUpSp="436393" />
+		<skill skillName="Figure Fiesta" skillId="31304" skillLevel="1" getLevel="85" />
+		<skill skillName="Figure Fiesta" skillId="31304" skillLevel="2" getLevel="95" levelUpSp="100" />
+		<skill skillName="Figure Fiesta" skillId="31304" skillLevel="3" getLevel="101" levelUpSp="21143" />
+		<skill skillName="Figure Fiesta" skillId="31304" skillLevel="4" getLevel="104" levelUpSp="36536" />
+		<skill skillName="Figure Fiesta" skillId="31304" skillLevel="5" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Figure Fiesta" skillId="31304" skillLevel="6" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Figure Fiesta" skillId="31304" skillLevel="7" getLevel="113" levelUpSp="436393" />
+		<skill skillName="Figure Fiesta" skillId="31304" skillLevel="8" getLevel="116" levelUpSp="436393" />
+		<skill skillName="Figure Fiesta" skillId="31304" skillLevel="9" getLevel="119" levelUpSp="436393" />
+		<skill skillName="Mana Twinkle" skillId="31286" skillLevel="1" getLevel="85" />
+		<skill skillName="Mana Twinkle" skillId="31286" skillLevel="2" getLevel="102" levelUpSp="25372" />
+		<skill skillName="Mana Twinkle" skillId="31286" skillLevel="3" getLevel="106" levelUpSp="105225" />
+		<skill skillName="Mana Twinkle" skillId="31286" skillLevel="4" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Shining Touch" skillId="31298" skillLevel="2" getLevel="85" levelUpSp="0" />
+		<skill skillName="Shining Touch" skillId="31298" skillLevel="3" getLevel="100" levelUpSp="8809" />
+		<skill skillName="Shining Touch" skillId="31298" skillLevel="4" getLevel="103" levelUpSp="30447" />
+		<skill skillName="Shining Touch" skillId="31298" skillLevel="5" getLevel="106" levelUpSp="105225" />
+		<skill skillName="Shining Touch" skillId="31298" skillLevel="6" getLevel="109" levelUpSp="181830" />
+		<skill skillName="Shining Touch" skillId="31298" skillLevel="7" getLevel="112" levelUpSp="436393" />
+		<skill skillName="Shining Touch" skillId="31298" skillLevel="8" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Shining Touch" skillId="31298" skillLevel="9" getLevel="118" levelUpSp="436393" />
+		<skill skillName="Fantasia Ring" skillId="31300" skillLevel="2" getLevel="85" levelUpSp="0" />
+		<skill skillName="Fantasia Ring" skillId="31300" skillLevel="3" getLevel="101" levelUpSp="21143" />
+		<skill skillName="Fantasia Ring" skillId="31300" skillLevel="4" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Fantasia Ring" skillId="31300" skillLevel="5" getLevel="108" levelUpSp="151525" />
+		<skill skillName="Fantasia Ring" skillId="31300" skillLevel="6" getLevel="111" levelUpSp="436393" />
+		<skill skillName="Fantasia Ring" skillId="31300" skillLevel="7" getLevel="114" levelUpSp="436393" />
+		<skill skillName="Fantasia Ring" skillId="31300" skillLevel="8" getLevel="117" levelUpSp="436393" />
+		<skill skillName="Fantasia Ring" skillId="31300" skillLevel="9" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Starlight Bubbles" skillId="31303" skillLevel="1" getLevel="105" levelUpSp="87688">
+			<item id="39738,81887" count="8" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Starlight Bubbles" skillId="31303" skillLevel="2" getLevel="110" levelUpSp="436393">
+			<item id="39738,81887" count="8" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Starlight Bubbles" skillId="31303" skillLevel="3" getLevel="115" levelUpSp="436393">
+			<item id="39738,81887" count="8" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Starlight Bubbles" skillId="31303" skillLevel="4" getLevel="120" levelUpSp="436393">
+			<item id="39738,81887" count="8" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Sweet Signal" skillId="31302" skillLevel="1" getLevel="110" levelUpSp="436393">
+			<item id="39738,81887" count="8" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Enter Shine Maker" skillId="31308" skillLevel="1" getLevel="110" levelUpSp="87688">
+			<item id="81453,82356" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Enter Shine Maker" skillId="31308" skillLevel="2" getLevel="115" levelUpSp="436393">
+			<item id="81453,82356" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Shine Maker's Glory" skillId="31264" skillLevel="1" getLevel="120" levelUpSp="436393">
+			<item id="81453,82356" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Shining Triangle" skillId="31285" skillLevel="2" getLevel="85" levelUpSp="0" />
+		<skill skillName="Shining Triangle" skillId="31285" skillLevel="3" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Twinkle Time" skillId="31306" skillLevel="2" getLevel="85" />
+		<skill skillName="Twinkle Time" skillId="31306" skillLevel="3" getLevel="102" levelUpSp="25372" />
+		<skill skillName="Twinkle Time" skillId="31306" skillLevel="4" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Twinkle Time" skillId="31306" skillLevel="5" getLevel="112" levelUpSp="436393" />
+		<skill skillName="Twinkle Time" skillId="31306" skillLevel="6" getLevel="117" levelUpSp="436393">
+			<item id="39738,81887" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Bright Jump" skillId="31281" skillLevel="2" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Sparkling Jump" skillId="31282" skillLevel="2" getLevel="105" levelUpSp="87688" />
+		
+		<!-- Passives -->
+		<skill skillName="Maker's Mystic Charm" skillId="31295" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Maker's Mystic Charm" skillId="31295" skillLevel="2" getLevel="100" levelUpSp="8809" />
+		<skill skillName="Maker's Mystic Charm" skillId="31295" skillLevel="3" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Maker's Mystic Charm" skillId="31295" skillLevel="4" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Shine Maker's Defense Mastery" skillId="31296" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Shine Maker's Defense Mastery" skillId="31296" skillLevel="2" getLevel="100" levelUpSp="8809" />
+		<skill skillName="Shine Maker's Defense Mastery" skillId="31296" skillLevel="3" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Shine Maker's Defense Mastery" skillId="31296" skillLevel="4" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Mystic Robe Mastery" skillId="31294" skillLevel="2" getLevel="90" levelUpSp="37" />
+		<skill skillName="Mystic Robe Mastery" skillId="31294" skillLevel="3" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Mystic Robe Mastery" skillId="31294" skillLevel="4" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Mystic Robe Mastery" skillId="31294" skillLevel="5" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Mystic Robe Mastery" skillId="31294" skillLevel="6" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Mystic Robe Mastery" skillId="31294" skillLevel="7" getLevel="118" levelUpSp="436393" />
+		<skill skillName="Mystic Robe Mastery" skillId="31294" skillLevel="8" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Mystic Weapon Mastery" skillId="31292" skillLevel="2" getLevel="90" levelUpSp="37" />
+		<skill skillName="Mystic Weapon Mastery" skillId="31292" skillLevel="3" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Mystic Weapon Mastery" skillId="31292" skillLevel="4" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Mystic Weapon Mastery" skillId="31292" skillLevel="5" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Mystic Weapon Mastery" skillId="31292" skillLevel="6" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Mystic Weapon Mastery" skillId="31292" skillLevel="7" getLevel="118" levelUpSp="436393" />
+		<skill skillName="Mystic Weapon Mastery" skillId="31292" skillLevel="8" getLevel="120" levelUpSp="436393" />
+		
+		<!-- Dual Class -->
+		<skill skillName="Dual Class - Renewed Energy of Power" skillId="30820" skillLevel="1" getLevel="85" getDualClassLevel="85" levelUpSp="0" autoGet="false" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="1" getLevel="85" getDualClassLevel="85" levelUpSp="0" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="2" getLevel="90" getDualClassLevel="90" levelUpSp="37" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="3" getLevel="95" getDualClassLevel="95" levelUpSp="100" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="4" getLevel="99" getDualClassLevel="99" levelUpSp="500" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="5" getLevel="101" getDualClassLevel="101" levelUpSp="21143" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="6" getLevel="103" getDualClassLevel="103" levelUpSp="30447" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="7" getLevel="105" getDualClassLevel="105" levelUpSp="87688" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="8" getLevel="107" getDualClassLevel="107" levelUpSp="126271" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="9" getLevel="109" getDualClassLevel="109" levelUpSp="181830" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="10" getLevel="110" getDualClassLevel="110" levelUpSp="436393" />
+		
+		<!-- Eraton & Masia -->
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="1" getLevel="115" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="2" getLevel="116" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="3" getLevel="117" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="4" getLevel="118" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="5" getLevel="119" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="1" getLevel="110" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="2" getLevel="111" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="3" getLevel="112" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="4" getLevel="113" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="5" getLevel="114" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		
+		<!-- Orc Village -->
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="1" getLevel="85" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="2" getLevel="120" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="3" getLevel="122" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="4" getLevel="124" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="5" getLevel="126" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="6" getLevel="128" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="7" getLevel="130" autoGet="true" />
+	</skillTree>
+</list>

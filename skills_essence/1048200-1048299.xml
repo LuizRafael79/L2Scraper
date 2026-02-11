@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="1048200" toLevel="1" name="Camille: Horseshoe Trampling">
+		<!-- A hoof attack that pushes enemies in a straight line. -->
+		<icon>icon.skill16869</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+		<coolTime>2500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048201" toLevel="1" name="Camille: Gigantic Horse Kick">
+		<!-- Attacks with hind hoofs in a straight line lifting the target into the air. -->
+		<icon>icon.skill16870</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>3000</hitTime>
+		<coolTime>2500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048202" toLevel="1" name="Camille: Gigantic Horse Kick">
+		<!-- Knockback -->
+		<icon>icon.skill16870</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048203" toLevel="1" name="Antharas Fear">
+		<!-- The target runs away in fear. -->
+		<icon>icon.skill1092</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048204" toLevel="1" name="Valakas: Trample">
+		<!-- A fan-shaped attack with the left paw. -->
+		<operateType>A1</operateType>
+		<castRange>400</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048205" toLevel="1" name="Valakas: Trample">
+		<!-- A fan-shaped attack with the right paw. -->
+		<operateType>A1</operateType>
+		<castRange>400</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048206" toLevel="1" name="Valakas: Heavy Trample">
+		<!-- A fan-shaped attack with the left paw. -->
+		<operateType>A1</operateType>
+		<castRange>400</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048207" toLevel="1" name="Valakas: Heavy Trample">
+		<!-- A fan-shaped attack with the right paw. -->
+		<operateType>A1</operateType>
+		<castRange>400</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048231" toLevel="2" name="Vulcan's Vicious Strike">
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>150</castRange>
+		<hitTime>1500</hitTime>
+		<effectPoint>-1000</effectPoint>
+		<mpConsume>79</mpConsume>
+	</skill>
+	<skill id="1048232" toLevel="2" name="Vulcan's Power Strike">
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>800</coolTime>
+		<reuseDelay>6000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048233" toLevel="2" name="Vulcan's Shot">
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>2000</hitTime>
+		<effectPoint>-200</effectPoint>
+	</skill>
+	<skill id="1048234" toLevel="2" name="Vulcan's Attack of Darkness">
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048235" toLevel="1" name="Vulcan's Magic Attack">
+		<operateType>A1</operateType>
+		<castRange>120</castRange>
+		<hitTime>1300</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>1000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048236" toLevel="1" name="Vulcan's Magic Spike">
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1200</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+	</skill>
+	<skill id="1048237" toLevel="2" name="Vulcan's Stun Attack">
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1080</hitTime>
+		<coolTime>720</coolTime>
+		<reuseDelay>13000</reuseDelay>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="1048238" toLevel="1" name="Stun">
+		<!-- Stuns the enemy. -->
+		<icon>icon.skill0100</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048239" toLevel="3" name="Lava Eruption">
+		<!-- While staying in the Blazing Zone created by the Fire Dragon's fiery power, drains HP over time. -->
+		<icon>icon.skill_i.lava_area</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048240" toLevel="2" name="Vulcan's Smash">
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>800</coolTime>
+		<reuseDelay>6000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048241" toLevel="2" name="Vulcan Earth Breaker">
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048242" toLevel="2" name="Vulcan's Bite">
+		<operateType>A1</operateType>
+		<castRange>100</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>1000</reuseDelay>
+		<effectPoint>-750</effectPoint>
+	</skill>
+	<skill id="1048243" toLevel="1" name="Blue Team">
+		<!-- The Contest Forest's blue team. -->
+		<icon>icon.skill_i.relics_c_skill</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="1048244" toLevel="1" name="Red Team">
+		<!-- The Contest Forest's red team. -->
+		<icon>icon.skill_i.relics_b_skill</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="1048245" toLevel="1" name="">
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="1048246" toLevel="1" name="Valakas' Hellfire">
+		<!-- AoE Meteor attack around an invisible NPC. -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+		<hitTime>10000</hitTime>
+		<coolTime>9500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048247" toLevel="1" name="Valakas' Hellfire">
+		<!-- Knock Down -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048248" toLevel="1" name="Valakas' Hellfire">
+		<!-- Damage -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="1048249" toLevel="1" name="Flame area">
+		<!-- A burn effect applied by Valakas' fire attack. -->
+		<icon>icon.lava_area</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-150</effectPoint>
+	</skill>
+	<skill id="1048250" toLevel="2" name="Power Strike">
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>800</coolTime>
+		<reuseDelay>6000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048251" toLevel="2" name="Power Shot">
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>1500</hitTime>
+		<effectPoint>-900</effectPoint>
+	</skill>
+	<skill id="1048252" toLevel="2" name="Ranged Attack">
+		<icon>icon.skill0774</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>800</coolTime>
+		<reuseDelay>8000</reuseDelay>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048254" toLevel="2" name="Strike">
+		<!-- Level 1: Attacks the target. Power 7488. Ignores Shield Defense. Ignores 16% of the target's defense. -->
+		<!-- Level 2: Attacks the target. Power 8064. Ignores Shield Defense. Ignores 16% of the target's defense. -->
+		<icon>icon.s_crow_strike</icon>
+		<operateType>A1</operateType>
+		<castRange>200</castRange>
+		<hitTime>1800</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>
+			<value level="1">-770</value>
+			<value level="2">-830</value>
+		</effectPoint>
+	</skill>
+	<skill id="1048255" toLevel="2" name="Twist">
+		<!-- Level 1: Attacks nearby enemies twice. Power 6739. Ignores Shield Defense. Ignores 16% of the target's defense. PvP: Attacks up to 4 targets. PvE: Attacks up to 4 targets. -->
+		<!-- Level 2: Attacks nearby enemies twice. Power 7257. Ignores Shield Defense. Ignores 16% of the target's defense. PvP: Attacks up to 4 targets. PvE: Attacks up to 4 targets. -->
+		<icon>icon.s_crow_range_basic</icon>
+		<operateType>A1</operateType>
+		<hitTime>2800</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>
+			<value level="1">-770</value>
+			<value level="2">-830</value>
+		</effectPoint>
+	</skill>
+	<skill id="1048256" toLevel="2" name="Powerful Soul Attack">
+		<!-- Deals heavy damage to surrounding enemies. -->
+		<icon>icon.skill1167</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>500</castRange>
+		<hitTime>3000</hitTime>
+		<coolTime>1000</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="1048257" toLevel="2" name="Soul Strike">
+		<operateType>A1</operateType>
+		<castRange>150</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-2</effectPoint>
+	</skill>
+	<skill id="1048259" toLevel="25" name="Forgotten Truth">
+		<!-- Attacks all enemies on hit way ? times. Power <font color="B39E7B">?</font>. Critical Damage <font color="B39E7B">x?.0</font>. Ignores Shield Defense. Ignores ?% of the target's defense.</font>. Doesn't apply to PvP targets because it's Forgotten Truth. -->
+		<icon>icon.s_drawing1</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>250</castRange>
+		<coolTime>250</coolTime>
+		<effectPoint>
+			<value level="1">-100</value>
+			<value level="2">-200</value>
+			<value level="3">-300</value>
+			<value level="4">-400</value>
+			<value level="5">-470</value>
+			<value level="6">-540</value>
+			<value level="7">-610</value>
+			<value level="8">-680</value>
+			<value level="9">-700</value>
+			<value level="10">-730</value>
+			<value level="11">-760</value>
+			<value level="12">-780</value>
+			<value level="13">-800</value>
+			<value level="14">-820</value>
+			<value level="15">-840</value>
+			<value level="16">-860</value>
+			<value level="17">-870</value>
+			<value level="18">-880</value>
+			<value level="19">-890</value>
+			<value level="20">-900</value>
+			<value level="21">-910</value>
+			<value level="22">-920</value>
+			<value level="23">-930</value>
+			<value level="24">-940</value>
+			<value level="25">-950</value>
+		</effectPoint>
+		<effectRange>400</effectRange>
+		<hitTime>750</hitTime>
+		<isMagic>0</isMagic>
+		<mpConsume>
+			<value level="1">10</value>
+			<value level="2">20</value>
+			<value level="3">25</value>
+			<value level="4">30</value>
+			<value level="5">35</value>
+			<value level="6">39</value>
+			<value level="7">41</value>
+			<value level="8">43</value>
+			<value level="9">44</value>
+			<value level="10">45</value>
+			<value level="11">46</value>
+			<value level="12">47</value>
+			<value level="13">48</value>
+			<value level="14">49</value>
+			<value level="15">52</value>
+			<value level="16">52</value>
+			<value level="17">53</value>
+			<value level="18">55</value>
+			<value level="19">56</value>
+			<value level="20">57</value>
+			<value level="21">58</value>
+			<value level="22">59</value>
+			<value level="23">60</value>
+			<value level="24">61</value>
+			<value level="25">62</value>
+		</mpConsume>
+		<reuseDelay>1000</reuseDelay>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>
+					<value level="1">400</value>
+					<value level="2">474</value>
+					<value level="3">562</value>
+					<value level="4">985</value>
+					<value level="5">1540</value>
+					<value level="6">2080</value>
+					<value level="7">3030</value>
+					<value level="8">4380</value>
+					<value level="9">4700</value>
+					<value level="10">5020</value>
+					<value level="11">5800</value>
+					<value level="12">6201</value>
+					<value level="13">6602</value>
+					<value level="14">7004</value>
+					<value level="15">7407</value>
+					<value level="16">7809</value>
+					<value level="17">8002</value>
+					<value level="18">8205</value>
+					<value level="19">8410</value>
+					<value level="20">8630</value>
+					<value level="21">8830</value>
+					<value level="22">9030</value>
+					<value level="23">9230</value>
+					<value level="24">9430</value>
+					<value level="25">9630</value>
+				</power>
+				<ignoreShieldDefence>true</ignoreShieldDefence>
+				<pDefMod>0.85</pDefMod>
+				<criticalChance>15</criticalChance>
+				<repeatCount>2</repeatCount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="1048260" toLevel="1" name="Cognition">
+		<!-- You are enlightened for a short time period. Transforms Single Flash to <font color="B39E7B">Forgotten Truth</font>. -->
+		<icon>icon.s_drawing2</icon>
+		<operateType>A2</operateType>
+		<targetType>TARGET</targetType>
+		<abnormalLevel>
+			<value level="1">1</value>
+		</abnormalLevel>
+		<abnormalTime>800</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<hitTime>800</hitTime>
+		<coolTime>200</coolTime>
+		<conditions>
+			<condition name="EquipWeapon">
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+			</condition>
+		</conditions>
+		<effects>		
+			<effect name="ReplaceSkillBySkill">
+				<existingSkillId>89101</existingSkillId> <!-- Single Flash -->
+				<replacementSkillId>1048259</replacementSkillId> <!-- Forgotten Truth -->
+			</effect>
+		</effects>		
+	</skill>
+	<skill id="1048261" toLevel="1" name="Weighed Decision">
+		<icon>icon.skill32724</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="1048262" toLevel="1" name="Valakas' Hellfire Call">
+		<!-- Presentation Skill. -->
+		<icon>icon.skill4689</icon>
+		<operateType>A1</operateType>
+		<hitTime>5000</hitTime>
+		<coolTime>4500</coolTime>
+	</skill>
+	<skill id="1048263" toLevel="2" name="Wind Shot">
+		<!-- Releases an arrow enchanted by the power of the wind. -->
+		<icon>icon.s_wind_shot</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>1500</hitTime>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>-1700</effectPoint>
+	</skill>
+	<skill id="1048264" toLevel="2" name="Hurricane">
+		<!-- Summons an air vortex. -->
+		<icon>icon.skill1239</icon>
+		<operateType>A1</operateType>
+		<castRange>700</castRange>
+		<hitTime>1500</hitTime>
+		<reuseDelay>2000</reuseDelay>
+		<effectPoint>-210</effectPoint>
+		<mpConsume>8</mpConsume>
+	</skill>
+</list>

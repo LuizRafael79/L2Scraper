@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Databases & Scraped Data (Opcional - se quiser manter o repo leve)
+html_items_*/
+*.db
+databases/*.dat
+
+# IDEs
+.vscode/
+.idea/

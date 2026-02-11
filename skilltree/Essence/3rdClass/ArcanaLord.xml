@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="96" parentClassId="14">
+		<skill skillName="Shield" skillId="1040" skillLevel="4" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Might" skillId="1068" skillLevel="4" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Servitor Recharge" skillId="1126" skillLevel="35" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Servitor Heal" skillId="1127" skillLevel="46" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Weakness" skillId="1164" skillLevel="20" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Blaze" skillId="1220" skillLevel="27" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Servitor Ultimate Defense" skillId="1299" skillLevel="3" getLevel="76" levelUpSp="8100">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Warrior Bane" skillId="1350" skillLevel="1" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Mage Bane" skillId="1351" skillLevel="1" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="3" getLevel="76" levelUpSp="8100">
+			<item id="8620,96093" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 3 -->
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="76" levelUpSp="8100">
+			<item id="8621,96094" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 4 -->
+		</skill>
+		<skill skillName="Servitor Share" skillId="1557" skillLevel="1" getLevel="76" levelUpSp="8100">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Mount Golden Lion" skillId="1833" skillLevel="1" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Powerful Servitor Share" skillId="45054" skillLevel="1" getLevel="76" levelUpSp="8100">
+			<removeSkill id="1557" onlyReplaceByLearn="true" /> <!-- Servitor Share -->
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Acumen" skillId="45104" skillLevel="4" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Empower" skillId="45105" skillLevel="4" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Wild Magic" skillId="45106" skillLevel="3" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Wind Walk" skillId="45107" skillLevel="3" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Magic Barrier" skillId="45108" skillLevel="3" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Focus" skillId="45109" skillLevel="4" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Death Whisper" skillId="45110" skillLevel="4" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Haste" skillId="45111" skillLevel="3" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Berserker Spirit" skillId="45112" skillLevel="3" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Clarity" skillId="45113" skillLevel="4" getLevel="76" levelUpSp="8100">
+			<item id="105271,105272,105273,105274" count="1" /> <!-- Common Spellbook -->
+		</skill>
+		<skill skillName="Evolution Defense" skillId="45188" skillLevel="1" getLevel="76">
+			<item id="57" count="5000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Detection" skillId="45190" skillLevel="1" getLevel="76" levelUpSp="8100">
+			<item id="57" count="5000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Expanded Potential of Dyes" skillId="45269" skillLevel="1" getLevel="76">
+			<item id="96613,96614" count="1" /> <!-- Spellbook: Expanded Potential of Dyes -->
+		</skill>
+		<skill skillName="Einhasad's Summoner" skillId="45286" skillLevel="1" getLevel="76" levelUpSp="8100">
+			<removeSkill id="45240" onlyReplaceByLearn="true" /> <!-- Einhasad's Blessing -->
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Swift Servitor Heal" skillId="45362" skillLevel="46" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="1" getLevel="76" levelUpSp="8100">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="1" getLevel="76">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Higher Mana Gain" skillId="47466" skillLevel="4" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Summon Cat Emperor" skillId="47901" skillLevel="1" getLevel="76" levelUpSp="8100">
+			<item id="97182,97191" count="1" /> <!-- Spellbook: Cat Emperor -->
+		</skill>
+		<skill skillName="Summon Cubic of Secrets" skillId="47910" skillLevel="1" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Chains of Pain" skillId="47916" skillLevel="1" getLevel="76" levelUpSp="8100">
+			<removeSkill id="1262" onlyReplaceByLearn="true" /> <!-- Transfer Pain -->
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Ray of Light" skillId="47917" skillLevel="1" getLevel="76" levelUpSp="8100">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Summoner's Attack Mastery" skillId="47918" skillLevel="5" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Summoner's Armor Mastery" skillId="47919" skillLevel="5" getLevel="76" levelUpSp="8100" />
+		<skill skillName="Summoner's Recovery Mastery" skillId="47920" skillLevel="5" getLevel="76" levelUpSp="8100" />
+		
+		<skill skillName="Servitor Recharge" skillId="1126" skillLevel="36" getLevel="77" levelUpSp="8100" />
+		<skill skillName="Servitor Heal" skillId="1127" skillLevel="47" getLevel="77" levelUpSp="8100" />
+		<skill skillName="Summon Feline Queen" skillId="1331" skillLevel="1" getLevel="77" levelUpSp="8100">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Summon Feline King" skillId="1406" skillLevel="1" getLevel="77" levelUpSp="8100" />
+		<skill skillName="Swift Servitor Heal" skillId="45362" skillLevel="47" getLevel="77" levelUpSp="8100" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="2" getLevel="77" levelUpSp="8100" />
+		
+		<skill skillName="Servitor Recharge" skillId="1126" skillLevel="37" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Servitor Heal" skillId="1127" skillLevel="48" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Weakness" skillId="1164" skillLevel="21" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Blaze" skillId="1220" skillLevel="28" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Warrior Servitor" skillId="1346" skillLevel="1" getLevel="78" levelUpSp="17900">
+			<item id="90045,98423" count="31" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Warrior Bane" skillId="1350" skillLevel="2" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Mage Bane" skillId="1351" skillLevel="2" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Servitor Share" skillId="1557" skillLevel="2" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Swift Servitor Heal" skillId="45362" skillLevel="48" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="3" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Summon Cubic of Secrets" skillId="47910" skillLevel="2" getLevel="78" levelUpSp="17900">
+			<item id="105283,105284,105285,105286" count="1" /> <!-- Rare Spellbook -->
+		</skill>
+		<skill skillName="Summoner's Attack Mastery" skillId="47918" skillLevel="6" getLevel="78" levelUpSp="17900" />
+		<skill skillName="Summoner's Armor Mastery" skillId="47919" skillLevel="6" getLevel="78" levelUpSp="17900" />
+		
+		<skill skillName="Blaze" skillId="1220" skillLevel="29" getLevel="79" levelUpSp="17900" />
+		<skill skillName="Summon Feline Queen" skillId="1331" skillLevel="2" getLevel="79" levelUpSp="17900" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="4" getLevel="79" levelUpSp="17900" />
+		
+		<skill skillName="Servitor Recharge" skillId="1126" skillLevel="38" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Servitor Heal" skillId="1127" skillLevel="49" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Weakness" skillId="1164" skillLevel="22" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Blaze" skillId="1220" skillLevel="30" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Warrior Servitor" skillId="1346" skillLevel="2" getLevel="80" levelUpSp="17900">
+			<item id="57" count="5000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Warrior Bane" skillId="1350" skillLevel="3" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Mage Bane" skillId="1351" skillLevel="3" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Servitor Share" skillId="1557" skillLevel="3" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Power Supremacy" skillId="1611" skillLevel="5" getLevel="80" levelUpSp="17900" />
+		<skill skillName="HP Recovery" skillId="45176" skillLevel="4" getLevel="80" levelUpSp="17900">
+			<item id="103802,103804" count="1" /> <!-- Spellbook: HP Recovery -->
+		</skill>
+		<skill skillName="MP Recovery" skillId="45177" skillLevel="4" getLevel="80" levelUpSp="17900">
+			<item id="103803,103805" count="1" /> <!-- Spellbook: MP Recovery -->
+		</skill>
+		<skill skillName="Evolution Power" skillId="45189" skillLevel="1" getLevel="80">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Swift Servitor Heal" skillId="45362" skillLevel="49" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="5" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="2" getLevel="80">
+			<item id="57" count="40000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Higher Mana Gain" skillId="47466" skillLevel="5" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Summoner's Attack Mastery" skillId="47918" skillLevel="7" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Summoner's Armor Mastery" skillId="47919" skillLevel="7" getLevel="80" levelUpSp="17900" />
+		<skill skillName="Summoner's Recovery Mastery" skillId="47920" skillLevel="6" getLevel="80" levelUpSp="17900" />
+		<skill skillName="White Guardian Transformation" skillId="54102" skillLevel="1" getLevel="80">
+			<item id="92401,95502" count="1" /> <!-- Spellbook: White Guardian -->
+		</skill>
+		
+		<skill skillName="Servitor Recharge" skillId="1126" skillLevel="39" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Servitor Heal" skillId="1127" skillLevel="50" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Weakness" skillId="1164" skillLevel="23" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Blaze" skillId="1220" skillLevel="31" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Summon Feline Queen" skillId="1331" skillLevel="3" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Summon Feline King" skillId="1406" skillLevel="2" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Swift Servitor Heal" skillId="45362" skillLevel="50" getLevel="81" levelUpSp="160000" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="6" getLevel="81" levelUpSp="160000" />
+		
+		<skill skillName="Servitor Recharge" skillId="1126" skillLevel="40" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Servitor Heal" skillId="1127" skillLevel="51" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Weakness" skillId="1164" skillLevel="24" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Blaze" skillId="1220" skillLevel="32" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Warrior Bane" skillId="1350" skillLevel="4" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Mage Bane" skillId="1351" skillLevel="4" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Summon Feline King" skillId="1406" skillLevel="3" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Servitor Share" skillId="1557" skillLevel="4" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Swift Servitor Heal" skillId="45362" skillLevel="51" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="7" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Summoner's Attack Mastery" skillId="47918" skillLevel="8" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Summoner's Armor Mastery" skillId="47919" skillLevel="8" getLevel="82" levelUpSp="170000" />
+		<skill skillName="Dragon Slayer Appearance" skillId="54231" skillLevel="1" getLevel="82">
+			<item id="96300,96780" count="1" /> <!-- Spellbook: Dragon Slayer -->
+		</skill>
+		
+		<skill skillName="Servitor Recharge" skillId="1126" skillLevel="41" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Servitor Heal" skillId="1127" skillLevel="52" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Weakness" skillId="1164" skillLevel="25" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Blaze" skillId="1220" skillLevel="33" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Summon Feline Queen" skillId="1331" skillLevel="4" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Summon Feline King" skillId="1406" skillLevel="4" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Swift Servitor Heal" skillId="45362" skillLevel="52" getLevel="83" levelUpSp="240000" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="8" getLevel="83" levelUpSp="240000" />
+		
+		<skill skillName="Servitor Recharge" skillId="1126" skillLevel="42" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Servitor Heal" skillId="1127" skillLevel="53" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Weakness" skillId="1164" skillLevel="26" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Blaze" skillId="1220" skillLevel="34" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Summon Feline Queen" skillId="1331" skillLevel="5" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Warrior Bane" skillId="1350" skillLevel="5" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Mage Bane" skillId="1351" skillLevel="5" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Summon Feline King" skillId="1406" skillLevel="5" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Servitor Share" skillId="1557" skillLevel="5" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Power Supremacy" skillId="1611" skillLevel="6" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Swift Servitor Heal" skillId="45362" skillLevel="53" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="9" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Ray of Light" skillId="47917" skillLevel="2" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Summoner's Attack Mastery" skillId="47918" skillLevel="9" getLevel="84" levelUpSp="240000" />
+		<skill skillName="Summoner's Armor Mastery" skillId="47919" skillLevel="9" getLevel="84" levelUpSp="240000" />
+		
+		<skill skillName="Blaze" skillId="1220" skillLevel="35" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Summon Feline Queen" skillId="1331" skillLevel="6" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Summon Feline King" skillId="1406" skillLevel="6" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Detection" skillId="45190" skillLevel="2" getLevel="85" levelUpSp="840000">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="1" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Extended Life" skillId="45271" skillLevel="2" getLevel="85">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="10" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="3" getLevel="85">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Higher Mana Gain" skillId="47466" skillLevel="6" getLevel="85" levelUpSp="840000" />
+		<skill skillName="Summoner's Recovery Mastery" skillId="47920" skillLevel="7" getLevel="85" levelUpSp="840000" />
+		
+		<skill skillName="Blaze" skillId="1220" skillLevel="36" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Warrior Bane" skillId="1350" skillLevel="6" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Mage Bane" skillId="1351" skillLevel="6" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: Increased Weight Limit" skillId="45235" skillLevel="1" getLevel="86">
+			<item id="93064" count="1" /> <!-- Spellbook: Glorious Warrior: Increased Weight Limit - Sealed -->
+		</skill>
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="11" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Ray of Light" skillId="47917" skillLevel="3" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Summoner's Attack Mastery" skillId="47918" skillLevel="10" getLevel="86" levelUpSp="840000" />
+		<skill skillName="Summoner's Armor Mastery" skillId="47919" skillLevel="10" getLevel="86" levelUpSp="840000" />
+		
+		<skill skillName="Blaze" skillId="1220" skillLevel="37" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Summon Feline Queen" skillId="1331" skillLevel="7" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Summon Feline King" skillId="1406" skillLevel="7" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="12" getLevel="87" levelUpSp="840000" />
+		<skill skillName="Mount Glorious Steed" skillId="54200" skillLevel="1" getLevel="87">
+			<item id="93059" count="1" /> <!-- Spellbook: Mount Glorious Steed - Sealed -->
+		</skill>
+		
+		<skill skillName="Blaze" skillId="1220" skillLevel="38" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Warrior Bane" skillId="1350" skillLevel="7" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Mage Bane" skillId="1351" skillLevel="7" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Detection" skillId="45190" skillLevel="3" getLevel="88" levelUpSp="840000">
+			<item id="57" count="30000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Inventory Bonus" skillId="45234" skillLevel="1" getLevel="88">
+			<item id="93063" count="1" /> <!-- Spellbook: Glorious Warrior: Inventory Bonus - Sealed -->
+		</skill>
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="13" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: Special Teleport" skillId="45472" skillLevel="1" getLevel="88">
+			<item id="98838" count="1" /> <!-- Spellbook: Glorious Warrior: Special Teleport - Sealed -->
+		</skill>
+		<skill skillName="Summon Cubic of Secrets" skillId="47910" skillLevel="3" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Ray of Light" skillId="47917" skillLevel="4" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Summoner's Attack Mastery" skillId="47918" skillLevel="11" getLevel="88" levelUpSp="840000" />
+		<skill skillName="Summoner's Armor Mastery" skillId="47919" skillLevel="11" getLevel="88" levelUpSp="840000" />
+		
+		<skill skillName="Blaze" skillId="1220" skillLevel="39" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Summon Feline Queen" skillId="1331" skillLevel="8" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Summon Feline King" skillId="1406" skillLevel="8" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="14" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: My Teleport Extension" skillId="45473" skillLevel="1" getLevel="89">
+			<item id="98839" count="1" /> <!-- Spellbook: Glorious Warrior: My Teleport Extension - Sealed -->
+		</skill>
+		<skill skillName="Summoner's Attack Mastery" skillId="47918" skillLevel="12" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Summoner's Armor Mastery" skillId="47919" skillLevel="12" getLevel="89" levelUpSp="840000" />
+		<skill skillName="Mount Shining Lady" skillId="54202" skillLevel="1" getLevel="89">
+			<item id="93061" count="1" /> <!-- Spellbook: Mount Shining Lady - Sealed -->
+		</skill>
+		
+		<skill skillName="Blaze" skillId="1220" skillLevel="40" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Summon Feline Queen" skillId="1331" skillLevel="9" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Warrior Bane" skillId="1350" skillLevel="8" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Mage Bane" skillId="1351" skillLevel="8" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Summon Feline King" skillId="1406" skillLevel="9" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="1" getLevel="90">
+			<item id="94046" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 1 - Sealed -->
+		</skill>
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="15" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Blessed by Sayha" skillId="45408" skillLevel="4" getLevel="90">
+			<item id="57" count="200000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior's Title: Sky-blue" skillId="45474" skillLevel="1" getLevel="90" autoGet="true" />
+		<skill skillName="Higher Mana Gain" skillId="47466" skillLevel="7" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Chains of Pain" skillId="47916" skillLevel="2" getLevel="90" levelUpSp="840000">
+			<item id="105279,105280,105281,105282" count="1" /> <!-- Superior Spellbook -->
+		</skill>
+		<skill skillName="Ray of Light" skillId="47917" skillLevel="5" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Summoner's Attack Mastery" skillId="47918" skillLevel="13" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Summoner's Armor Mastery" skillId="47919" skillLevel="13" getLevel="90" levelUpSp="840000" />
+		<skill skillName="Summoner's Recovery Mastery" skillId="47920" skillLevel="8" getLevel="90" levelUpSp="840000" />
+		
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="2" getLevel="91">
+			<item id="95890" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 2 - Sealed -->
+		</skill>
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="16" getLevel="91" levelUpSp="1500000">
+			<item id="57" count="10000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: XP Recovery" skillId="47240" skillLevel="1" getLevel="91">
+			<item id="98841" count="1" /> <!-- Spellbook: Glorious Warrior: XP Recovery - Sealed -->
+		</skill>
+		<skill skillName="Summon Cubic of Secrets" skillId="47910" skillLevel="4" getLevel="91" levelUpSp="840000" />
+		
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="3" getLevel="92">
+			<item id="95891" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 3 - Sealed -->
+		</skill>
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="17" getLevel="92" levelUpSp="1700000">
+			<item id="57" count="15000000" /> <!-- Adena -->
+		</skill>
+		
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="4" getLevel="93">
+			<item id="98834" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 4 - Sealed -->
+		</skill>
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="18" getLevel="93" levelUpSp="2000000">
+			<item id="57" count="20000000" /> <!-- Adena -->
+		</skill>
+		<skill skillName="Glorious Warrior: Quick Escape" skillId="45429" skillLevel="1" getLevel="93">
+			<item id="98837" count="1" /> <!-- Spellbook: Glorious Warrior: Quick Escape - Sealed -->
+		</skill>
+		
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="5" getLevel="94">
+			<item id="98835" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 5 - Sealed -->
+		</skill>
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="19" getLevel="94" levelUpSp="2400000">
+			<item id="57" count="50000000" /> <!-- Adena -->
+		</skill>
+		
+		<skill skillName="Glorious Warrior: Enhanced Abilities" skillId="45361" skillLevel="6" getLevel="95">
+			<item id="98836" count="1" /> <!-- Spellbook: Glorious Warrior: Enhanced Abilities Lv. 6 - Sealed -->
+		</skill>
+		<skill skillName="Ethereal Strike" skillId="45377" skillLevel="20" getLevel="95" levelUpSp="2900000">
+			<item id="57" count="100000000" /> <!-- Adena -->
+		</skill>
+	</skillTree>
+</list>

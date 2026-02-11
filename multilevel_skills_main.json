@@ -1,0 +1,6260 @@
+{
+  "9781": {
+    "skill_name": "Mysterious Box",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47662",
+        "item_name": "Mysterious Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "2",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "2",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "35982",
+        "item_name": "Ruler's Consideration",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "45930",
+              "name": "Mid-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 2
+  },
+  "18564": {
+    "skill_name": "Shadai's Jewelry Box",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "46689",
+        "item_name": "Shadai's Jewelry Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38932",
+              "name": "La Vie En Rose's Ruby Pack",
+              "count": "1"
+            },
+            {
+              "id": "38933",
+              "name": "La Vie En Rose's Sapphire Pack",
+              "count": "1"
+            },
+            {
+              "id": "38934",
+              "name": "La Vie En Rose's Topaz Pack",
+              "count": "1"
+            },
+            {
+              "id": "38935",
+              "name": "La Vie En Rose's Opal Pack",
+              "count": "1"
+            },
+            {
+              "id": "38936",
+              "name": "La Vie En Rose's Obsidian Pack",
+              "count": "1"
+            },
+            {
+              "id": "38937",
+              "name": "La Vie En Rose's Diamond Pack",
+              "count": "1"
+            },
+            {
+              "id": "38938",
+              "name": "La Vie En Rose's Emerald Pack",
+              "count": "1"
+            },
+            {
+              "id": "38939",
+              "name": "La Vie En Rose's Aquamarine Pack",
+              "count": "1"
+            },
+            {
+              "id": "38940",
+              "name": "La Vie En Rose's Pearl Pack",
+              "count": "1"
+            },
+            {
+              "id": "46685",
+              "name": "La Vie En Rose's Vital Stone Pack",
+              "count": "1"
+            },
+            {
+              "id": "46686",
+              "name": "La Vie En Rose's Garnet Pack",
+              "count": "1"
+            },
+            {
+              "id": "46687",
+              "name": "La Vie En Rose's Tanzanite Pack",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "46690",
+        "item_name": "Shadai's Shiny Jewelry Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46685",
+              "name": "La Vie En Rose's Vital Stone Pack",
+              "count": "1"
+            },
+            {
+              "id": "46686",
+              "name": "La Vie En Rose's Garnet Pack",
+              "count": "1"
+            },
+            {
+              "id": "46687",
+              "name": "La Vie En Rose's Tanzanite Pack",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 2
+  },
+  "18588": {
+    "skill_name": "Shadai's Fortune Chest",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "46764",
+        "item_name": "Shadai's Fortune Chest",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46765",
+              "name": "Fortune Pack: Ruby",
+              "count": "1"
+            },
+            {
+              "id": "46766",
+              "name": "Fortune Pack: Sapphire",
+              "count": "1"
+            },
+            {
+              "id": "46767",
+              "name": "Fortune Pack: Topaz",
+              "count": "1"
+            },
+            {
+              "id": "46768",
+              "name": "Fortune Pack: Opal",
+              "count": "1"
+            },
+            {
+              "id": "46769",
+              "name": "Fortune Pack: Obsidian",
+              "count": "1"
+            },
+            {
+              "id": "46770",
+              "name": "Fortune Pack: Diamond",
+              "count": "1"
+            },
+            {
+              "id": "46771",
+              "name": "Fortune Pack: Emerald",
+              "count": "1"
+            },
+            {
+              "id": "46772",
+              "name": "Fortune Pack: Aquamarine",
+              "count": "1"
+            },
+            {
+              "id": "46773",
+              "name": "Fortune Pack: Pearl",
+              "count": "1"
+            },
+            {
+              "id": "46774",
+              "name": "Fortune Pack: Vital Stone",
+              "count": "1"
+            },
+            {
+              "id": "46775",
+              "name": "Fortune Pack: Garnet",
+              "count": "1"
+            },
+            {
+              "id": "46776",
+              "name": "Fortune Pack: Tanzanite",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "46765",
+        "item_name": "Fortune Pack: Ruby",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38855",
+              "name": "Ruby Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38856",
+              "name": "Ruby Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38857",
+              "name": "Ruby Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38858",
+              "name": "Ruby Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38859",
+              "name": "Ruby Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "46766",
+        "item_name": "Fortune Pack: Sapphire",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38927",
+              "name": "Sapphire Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38928",
+              "name": "Sapphire Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38929",
+              "name": "Sapphire Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38930",
+              "name": "Sapphire Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38931",
+              "name": "Sapphire Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "46767",
+        "item_name": "Fortune Pack: Topaz",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38850",
+              "name": "Topaz Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38851",
+              "name": "Topaz Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38852",
+              "name": "Topaz Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38853",
+              "name": "Topaz Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38854",
+              "name": "Topaz Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "46768",
+        "item_name": "Fortune Pack: Opal",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38875",
+              "name": "Opal Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38876",
+              "name": "Opal Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38877",
+              "name": "Opal Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38878",
+              "name": "Opal Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38879",
+              "name": "Opal Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 6,
+        "item_id": "46769",
+        "item_name": "Fortune Pack: Obsidian",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38870",
+              "name": "Obsidian Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38871",
+              "name": "Obsidian Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38872",
+              "name": "Obsidian Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38873",
+              "name": "Obsidian Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38874",
+              "name": "Obsidian Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 7,
+        "item_id": "46770",
+        "item_name": "Fortune Pack: Diamond",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38890",
+              "name": "Diamond Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38891",
+              "name": "Diamond Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38892",
+              "name": "Diamond Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38893",
+              "name": "Diamond Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38894",
+              "name": "Diamond Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 8,
+        "item_id": "46771",
+        "item_name": "Fortune Pack: Emerald",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38880",
+              "name": "Emerald Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38881",
+              "name": "Emerald Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38882",
+              "name": "Emerald Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38883",
+              "name": "Emerald Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38884",
+              "name": "Emerald Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 9,
+        "item_id": "46772",
+        "item_name": "Fortune Pack: Aquamarine",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38885",
+              "name": "Aquamarine Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38886",
+              "name": "Aquamarine Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38887",
+              "name": "Aquamarine Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38888",
+              "name": "Aquamarine Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38889",
+              "name": "Aquamarine Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 10,
+        "item_id": "46773",
+        "item_name": "Fortune Pack: Pearl",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38895",
+              "name": "Pearl Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38896",
+              "name": "Pearl Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38897",
+              "name": "Pearl Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38898",
+              "name": "Pearl Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38899",
+              "name": "Pearl Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 11,
+        "item_id": "46775",
+        "item_name": "Fortune Pack: Garnet",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46675",
+              "name": "Garnet Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46676",
+              "name": "Garnet Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46677",
+              "name": "Garnet Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46678",
+              "name": "Garnet Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46679",
+              "name": "Garnet Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 12,
+        "item_id": "46774",
+        "item_name": "Fortune Pack: Vital Stone",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46670",
+              "name": "Vital Stone Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46671",
+              "name": "Vital Stone Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46672",
+              "name": "Vital Stone Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46673",
+              "name": "Vital Stone Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46674",
+              "name": "Vital Stone Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 13,
+        "item_id": "46776",
+        "item_name": "Fortune Pack: Tanzanite",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46680",
+              "name": "Tanzanite Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46681",
+              "name": "Tanzanite Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46682",
+              "name": "Tanzanite Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46683",
+              "name": "Tanzanite Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46684",
+              "name": "Tanzanite Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 13
+  },
+  "18598": {
+    "skill_name": "Tulesir's Gift Box",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47083",
+        "item_name": "Tulesir's Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "14559",
+              "name": "PA Points",
+              "count": "1"
+            },
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "47084",
+        "item_name": "Beloa's Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "47085",
+              "name": "Superior Giant's Codex Manuscript Pack",
+              "count": "1"
+            },
+            {
+              "id": "47086",
+              "name": "Venir's Talisman Pack",
+              "count": "1"
+            },
+            {
+              "id": "36152",
+              "name": "Kaliel's Energy Pack",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "47085",
+        "item_name": "Superior Giant's Codex Manuscript Pack",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "47086",
+        "item_name": "Venir's Talisman Pack",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "39634",
+              "name": "Venir's Talisman Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39635",
+              "name": "Venir's Talisman Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39636",
+              "name": "Venir's Talisman Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "47087",
+        "item_name": "Jewelry Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38850",
+              "name": "Topaz Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38855",
+              "name": "Ruby Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38870",
+              "name": "Obsidian Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38875",
+              "name": "Opal Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38880",
+              "name": "Emerald Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38885",
+              "name": "Aquamarine Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38890",
+              "name": "Diamond Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38895",
+              "name": "Pearl Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38927",
+              "name": "Sapphire Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46670",
+              "name": "Vital Stone Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46675",
+              "name": "Garnet Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46680",
+              "name": "Tanzanite Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 5
+  },
+  "18627": {
+    "skill_name": "Blessed R-grade Weapon Enchant Stone Pack",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47380",
+        "item_name": "Blessed R-grade Weapon Enchant Stone Pack - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "37566",
+              "name": "Blessed Stone: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "38757",
+              "name": "Blessed High-grade Stone: Enchant R-grade Weapon",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "47381",
+        "item_name": "Blessed R-grade Armor Enchant Stone Pack - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "37567",
+              "name": "Blessed Stone: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "38758",
+              "name": "Blessed High-grade Stone: Enchant R-grade Armor",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 2
+  },
+  "18624": {
+    "skill_name": "Royal Save Ticket Box",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47367",
+        "item_name": "Royal Save Ticket Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "45422",
+              "name": "Royal R-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45423",
+              "name": "Royal R95-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45424",
+              "name": "Royal R99-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45425",
+              "name": "Royal R-grade Red Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45426",
+              "name": "Royal R95-grade Red Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45427",
+              "name": "Royal R99-grade Red Save Ticket",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "47368",
+        "item_name": "Seed Bracelet Pack - Time limit",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "45573",
+              "name": "High-grade Seed Bracelet Pack 30-day",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45574",
+              "name": "Top-grade Seed Bracelet Pack 30-day",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45577",
+              "name": "Mid-grade Seed Bracelet Pack 15-day",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46188",
+              "name": "Agathion Pack: Anakim's Holy Barrier",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 2
+  },
+  "18642": {
+    "skill_name": "Talisman of Insanity/ Talisman of Longing/ Energy of Longing Box",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47390",
+        "item_name": "Talisman of Insanity/ Talisman of Longing/ Energy of Longing Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "47420",
+              "name": "Energy of Longing",
+              "count": "1"
+            },
+            {
+              "id": "34989",
+              "name": "Talisman of Longing",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39572",
+              "name": "Talisman of Insanity",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "47394",
+        "item_name": "Scroll of Blessing R99/R95/R(2) Supplies",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "36160",
+              "name": "Scroll of Blessing - R-grade (2)",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36161",
+              "name": "Scroll of Blessing - R95-grade",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36162",
+              "name": "Scroll of Blessing - R99-grade",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "47395",
+        "item_name": "Antharas'/ Valakas'/ Baium's Soul Bottle Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "19465",
+              "name": "Antharas' Soul Bottle",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "19466",
+              "name": "Valakas' Soul Bottle",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37520",
+              "name": "Baium's Soul Bottle",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 6,
+        "item_id": "47396",
+        "item_name": "Nurka's/ Lidia's/ Gustav's Belt Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "36167",
+              "name": "Nurka's Belt",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36168",
+              "name": "Lidia's Belt",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36169",
+              "name": "Gustav's Belt",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 7,
+        "item_id": "47397",
+        "item_name": "Seven Signs/ Anakim/ Lilith Talisman Supply Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "37714",
+              "name": "Talisman of Lilith",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37715",
+              "name": "Talisman of Anakim",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37717",
+              "name": "Talisman of Seven Signs",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 10,
+        "item_id": "47748",
+        "item_name": "Rare Weapon Fragment Supply Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "35667",
+              "name": "Tauti's Fragment",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46079",
+              "name": "Kelbim's Atelia Fragment",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46395",
+              "name": "Shadow Ingot",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 12,
+        "item_id": "47750",
+        "item_name": "Top-grade/ Superior Seed Bracelet Pack",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "48063",
+              "name": "Top-grade Seed Bracelet",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "48064",
+              "name": "Superior Seed Bracelet Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 15,
+        "item_id": "48991",
+        "item_name": "Lucky Pack: Artifact - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "48982",
+              "name": "Artifact - Received Damage When Immobilized (No upgrade) Balance",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "48983",
+              "name": "Artifact - P. Skill Power Balance",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "48984",
+              "name": "Artifact - M. Skill Power Balance",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 16,
+        "item_id": "80766",
+        "item_name": "Festival Fairy's Lucky Pack - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "37558",
+              "name": "High-grade Elixir Pack Event",
+              "count": "1"
+            },
+            {
+              "id": "39720",
+              "name": "Freya's Luck Potion",
+              "count": "1"
+            },
+            {
+              "id": "47556",
+              "name": "Stardust",
+              "count": "1"
+            },
+            {
+              "id": "48229",
+              "name": "Party Summoning Scroll",
+              "count": "1"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36186",
+              "name": "Energy of Desire",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36513",
+              "name": "Elcyum Powder",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46150",
+              "name": "Superior Giant's Codex - Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36254",
+              "name": "Queen Ant's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "37521",
+              "name": "Baium's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47214",
+              "name": "Ring of Creation",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 16
+  },
+  "18664": {
+    "skill_name": "Reward for Defeating the Giant Monsters",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47564",
+        "item_name": "Reward for Defeating the Giant Monsters",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "2134",
+              "name": "S-grade Gemstone",
+              "count": "2",
+              "grade": "NG"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "47565",
+        "item_name": "Reward for Defeating the Giant Monsters",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "2134",
+              "name": "S-grade Gemstone",
+              "count": "3",
+              "grade": "NG"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "47566",
+        "item_name": "Reward for Defeating the Giant Monsters",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "2134",
+              "name": "S-grade Gemstone",
+              "count": "3",
+              "grade": "NG"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "47567",
+        "item_name": "Reward for Defeating the Giant Monsters",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "2134",
+              "name": "S-grade Gemstone",
+              "count": "3",
+              "grade": "NG"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "2",
+              "grade": "NG"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "47568",
+        "item_name": "Reward for Defeating the Giant Monsters",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "2134",
+              "name": "S-grade Gemstone",
+              "count": "3",
+              "grade": "NG"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "2",
+              "grade": "NG"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 6,
+        "item_id": "47569",
+        "item_name": "Reward for Defeating the Giant Monsters",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "3",
+              "grade": "NG"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39738",
+              "name": "Rune Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46150",
+              "name": "Superior Giant's Codex - Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46151",
+              "name": "Superior Giant's Codex - Mastery Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46152",
+              "name": "Superior Giant's Codex - Discipline Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 7,
+        "item_id": "47570",
+        "item_name": "Reward for Defeating the Giant Monsters",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "3",
+              "grade": "NG"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39738",
+              "name": "Rune Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46150",
+              "name": "Superior Giant's Codex - Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46151",
+              "name": "Superior Giant's Codex - Mastery Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46152",
+              "name": "Superior Giant's Codex - Discipline Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 7
+  },
+  "18651": {
+    "skill_name": "+7 T-shirt Pack (Shining/ Attack/ Magic)",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47761",
+        "item_name": "+7 Shirt Pack (Shiny Elemental/ Physical Reflect/ Magical Reflect)",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "37718",
+              "name": "+7 Shiny Elemental Shirt",
+              "count": "1",
+              "enchant": 7,
+              "grade": "NG"
+            },
+            {
+              "id": "46193",
+              "name": "+7 Physical Reflect Shirt",
+              "count": "1",
+              "enchant": 7,
+              "grade": "NG"
+            },
+            {
+              "id": "46194",
+              "name": "+7 Magical Reflect Shirt",
+              "count": "1",
+              "enchant": 7,
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "47451",
+        "item_name": "+8 Shirt Pack (Shiny Elemental/ Physical Reflect/ Magical Reflect)",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "37718",
+              "name": "+8 Shiny Elemental Shirt",
+              "count": "1",
+              "enchant": 8,
+              "grade": "NG"
+            },
+            {
+              "id": "46193",
+              "name": "+8 Physical Reflect Shirt",
+              "count": "1",
+              "enchant": 8,
+              "grade": "NG"
+            },
+            {
+              "id": "46194",
+              "name": "+8 Magical Reflect Shirt",
+              "count": "1",
+              "enchant": 8,
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "47452",
+        "item_name": "+9 Shirt Pack (Shiny Elemental/ Physical Reflect/ Magical Reflect)",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "37718",
+              "name": "+9 Shiny Elemental Shirt",
+              "count": "1",
+              "enchant": 9,
+              "grade": "NG"
+            },
+            {
+              "id": "46193",
+              "name": "+9 Physical Reflect Shirt",
+              "count": "1",
+              "enchant": 9,
+              "grade": "NG"
+            },
+            {
+              "id": "46194",
+              "name": "+9 Magical Reflect Shirt",
+              "count": "1",
+              "enchant": 9,
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "47453",
+        "item_name": "Soul Crystal of Seven Signs Pack (Lv. 4-8)",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "47110",
+              "name": "Soul Crystal of Seven Signs Lv. 4 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47111",
+              "name": "Soul Crystal of Seven Signs Lv. 5 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47112",
+              "name": "Soul Crystal of Seven Signs Lv. 6 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47113",
+              "name": "Soul Crystal of Seven Signs Lv. 7 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47114",
+              "name": "Soul Crystal of Seven Signs Lv. 8 Weapon",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "47454",
+        "item_name": "Lilith's Soul Crystal Pack (Lv. 5-8)",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "47104",
+              "name": "Lilith's Soul Crystal Lv. 5 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47105",
+              "name": "Lilith's Soul Crystal Lv. 6 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47106",
+              "name": "Lilith's Soul Crystal Lv. 7 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47107",
+              "name": "Lilith's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 6,
+        "item_id": "47455",
+        "item_name": "Anakim's Soul Crystal Pack (Lv. 5-8)",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "47093",
+              "name": "Anakim's Soul Crystal Lv. 5 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47094",
+              "name": "Anakim's Soul Crystal Lv. 6 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47095",
+              "name": "Anakim's Soul Crystal Lv. 7 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "47096",
+              "name": "Anakim's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 6
+  },
+  "18732": {
+    "skill_name": "Low-grade Keucereus Defense Supply Box",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47729",
+        "item_name": "Low-grade Keucereus Defense Supply Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "2",
+              "grade": "NG"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35563",
+              "name": "Giant's Power",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39634",
+              "name": "Venir's Talisman Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "47730",
+        "item_name": "High-grade Keucereus Defense Supply Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19440",
+              "name": "Jewel",
+              "count": "2",
+              "grade": "NG"
+            },
+            {
+              "id": "35563",
+              "name": "Giant's Power",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39635",
+              "name": "Venir's Talisman Lv. 2",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46150",
+              "name": "Superior Giant's Codex - Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46151",
+              "name": "Superior Giant's Codex - Mastery Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46152",
+              "name": "Superior Giant's Codex - Discipline Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "47731",
+        "item_name": "Low-grade Keucereus Defense Success Reward Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39636",
+              "name": "Venir's Talisman Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "47732",
+        "item_name": "High-grade Keucereus Defense Success Reward Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "39637",
+              "name": "Venir's Talisman Lv. 4",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46150",
+              "name": "Superior Giant's Codex - Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46151",
+              "name": "Superior Giant's Codex - Mastery Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46152",
+              "name": "Superior Giant's Codex - Discipline Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 4
+  },
+  "18745": {
+    "skill_name": "Dragon's Treasure Chest",
+    "levels": [
+      {
+        "level": 2,
+        "item_id": "47755",
+        "item_name": "Dragon's Shining Treasure Chest",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "36386",
+              "name": "Giant's Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "38757",
+              "name": "Blessed High-grade Stone: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "39463",
+              "name": "Giant's Stone: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "45416",
+              "name": "R-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45417",
+              "name": "R95-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45418",
+              "name": "R99-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45422",
+              "name": "Royal R-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45423",
+              "name": "Royal R95-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45424",
+              "name": "Royal R99-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45425",
+              "name": "Royal R-grade Red Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45426",
+              "name": "Royal R95-grade Red Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45427",
+              "name": "Royal R99-grade Red Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47622",
+              "name": "Royal R-grade Purple Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47623",
+              "name": "Royal R95-grade Purple Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47624",
+              "name": "Royal R99-grade Purple Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47760",
+              "name": "Dragon's Rare Accessory Pack",
+              "count": "1"
+            },
+            {
+              "id": "34775",
+              "name": "Scroll of Blessing - R-grade (2) Event",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "34776",
+              "name": "Scroll of Blessing - R95-grade Event",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "34777",
+              "name": "Scroll of Blessing - R99-grade Event",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35566",
+              "name": "Dark Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35567",
+              "name": "Dark Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35568",
+              "name": "Bloody Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35569",
+              "name": "Bloody Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36731",
+              "name": "Spirit Stone: Giant's Power",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37771",
+              "name": "Scroll of Blessing - R95-grade Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37772",
+              "name": "Scroll of Blessing - R99-grade Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37780",
+              "name": "Scroll of Blessing - R95-grade Armor",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37781",
+              "name": "Scroll of Blessing - R99-grade Armor",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37801",
+              "name": "Bloody Armor Upgrade Stone Fragment",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37802",
+              "name": "Dark Armor Upgrade Stone Fragment",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "2",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "47760",
+        "item_name": "Dragon's Rare Accessory Pack",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "6656",
+              "name": "Antharas' Earring",
+              "count": "1",
+              "grade": "S"
+            },
+            {
+              "id": "6657",
+              "name": "Valakas' Necklace",
+              "count": "1",
+              "grade": "S"
+            },
+            {
+              "id": "19463",
+              "name": "Antharas' Blessed Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "19464",
+              "name": "Valakas' Blessed Necklace",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36946",
+              "name": "Lindvior's Earring",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 3
+  },
+  "18799": {
+    "skill_name": "1st Gift Chest",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47938",
+        "item_name": "1st Gift Chest",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "36094",
+              "name": "Vitality Replenishing Star Candy",
+              "count": "2"
+            },
+            {
+              "id": "35562",
+              "name": "Destructive Energy",
+              "count": "2",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "37558",
+              "name": "High-grade Elixir Pack Event",
+              "count": "1"
+            },
+            {
+              "id": "40234",
+              "name": "Giant's Power Pack (3 pcs.)",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "47939",
+        "item_name": "2nd Gift Chest",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "36094",
+              "name": "Vitality Replenishing Star Candy",
+              "count": "4"
+            },
+            {
+              "id": "35562",
+              "name": "Destructive Energy",
+              "count": "4",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "37558",
+              "name": "High-grade Elixir Pack Event",
+              "count": "1"
+            },
+            {
+              "id": "40234",
+              "name": "Giant's Power Pack (3 pcs.)",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "47940",
+        "item_name": "3rd Gift Chest",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "36094",
+              "name": "Vitality Replenishing Star Candy",
+              "count": "6"
+            },
+            {
+              "id": "35562",
+              "name": "Destructive Energy",
+              "count": "6",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "37558",
+              "name": "High-grade Elixir Pack Event",
+              "count": "1"
+            },
+            {
+              "id": "40234",
+              "name": "Giant's Power Pack (3 pcs.)",
+              "count": "1"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "2",
+              "grade": "NG"
+            },
+            {
+              "id": "35567",
+              "name": "Dark Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35569",
+              "name": "Bloody Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46150",
+              "name": "Superior Giant's Codex - Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "47941",
+        "item_name": "Orc's Golden Coffret",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "48706",
+              "name": "Orc's Special Medium Vitality Tonic Event",
+              "count": "1"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "35649",
+              "name": "Sealed Talisman of Longing",
+              "count": "1"
+            },
+            {
+              "id": "36094",
+              "name": "Vitality Replenishing Star Candy",
+              "count": "2"
+            },
+            {
+              "id": "47916",
+              "name": "Nevit's Cloak of Light Pack 30-day",
+              "count": "1"
+            },
+            {
+              "id": "48755",
+              "name": "Glowing Dragon's Attribute Potion (XP) Event",
+              "count": "1"
+            },
+            {
+              "id": "80612",
+              "name": "Freya's Ice Rose Event",
+              "count": "1"
+            },
+            {
+              "id": "80797",
+              "name": "Nevit's Shining Gold Hourglass Event",
+              "count": "1"
+            },
+            {
+              "id": "35567",
+              "name": "Dark Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35569",
+              "name": "Bloody Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 4
+  },
+  "35144": {
+    "skill_name": "Balthus Knights' Supply Box",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "48218",
+        "item_name": "Balthus Knights' Supply Box",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "21850",
+              "name": "Mysterious S-grade Soulshot",
+              "count": "1 000",
+              "grade": "S"
+            }
+          ],
+          "random_items": [],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "48219",
+        "item_name": "Balthus Knights' Supply Box",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "21856",
+              "name": "Mysterious Blessed S-grade Spiritshot",
+              "count": "1 000",
+              "grade": "S"
+            }
+          ],
+          "random_items": [],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "48220",
+        "item_name": "Balthus Knights' Supply Box",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "35670",
+              "name": "Beast Soulshot",
+              "count": "1 000",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "48251",
+        "item_name": "Herphah's Gift Box",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "14559",
+              "name": "PA Points",
+              "count": "1"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "3",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 5
+  },
+  "39184": {
+    "skill_name": "Mysterious Safe",
+    "levels": [
+      {
+        "level": 2,
+        "item_id": "48318",
+        "item_name": "Dark Bloody Upgrade Stone Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "35566",
+              "name": "Dark Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35567",
+              "name": "Dark Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35568",
+              "name": "Bloody Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35569",
+              "name": "Bloody Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "48319",
+        "item_name": "Royal White Save Ticket Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "47575",
+              "name": "Royal R-grade White Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47576",
+              "name": "Royal R95-grade White Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47577",
+              "name": "Royal R99-grade White Save Ticket",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "48320",
+        "item_name": "Royal Purple Save Ticket Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "47622",
+              "name": "Royal R-grade Purple Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47623",
+              "name": "Royal R95-grade Purple Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47624",
+              "name": "Royal R99-grade Purple Save Ticket",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "48322",
+        "item_name": "Dimensional Bracelet Upgrade Stone Pack",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "40041",
+              "name": "Dimensional Bracelet Upgrade Stone STR",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "40042",
+              "name": "Dimensional Bracelet Upgrade Stone DEX",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "40043",
+              "name": "Dimensional Bracelet Upgrade Stone CON",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "40044",
+              "name": "Dimensional Bracelet Upgrade Stone INT",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "40045",
+              "name": "Dimensional Bracelet Upgrade Stone MEN",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "40046",
+              "name": "Dimensional Bracelet Upgrade Stone WIT",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "40047",
+              "name": "Dimensional Bracelet Upgrade Stone LUC",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "40048",
+              "name": "Dimensional Bracelet Upgrade Stone CHA",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 5
+  },
+  "39208": {
+    "skill_name": "Red Libra's Adena Gift Box",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "48521",
+        "item_name": "Red Libra's Adena Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "57",
+              "name": "Adena",
+              "count": "5 000 000 000",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "48522",
+        "item_name": "Red Libra's Scroll of Blessing Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "36161",
+              "name": "Scroll of Blessing - R95-grade",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36162",
+              "name": "Scroll of Blessing - R99-grade",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "48523",
+        "item_name": "Red Libra's Rare Earring Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "19463",
+              "name": "Antharas' Blessed Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36255",
+              "name": "Orfen's Soul Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36946",
+              "name": "Lindvior's Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47244",
+              "name": "Ramona's Fancy Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47245",
+              "name": "Helios' Majestic Earring",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "48524",
+        "item_name": "Red Libra's Rare Ring Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17623",
+              "name": "Earth Wyrm's Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "35570",
+              "name": "Tauti's Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36254",
+              "name": "Queen Ant's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "37521",
+              "name": "Baium's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47247",
+              "name": "Mimir's Worn Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47248",
+              "name": "Core's Forgotten Ring",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "48525",
+        "item_name": "Red Libra's Rare Necklace Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "19464",
+              "name": "Valakas' Blessed Necklace",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47246",
+              "name": "Harnak's Enhanced Necklace",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "48669",
+              "name": "Angel's Necklace",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 9,
+        "item_id": "48529",
+        "item_name": "Red Libra's Soul Crystal Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46451",
+              "name": "Kain's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46466",
+              "name": "Mermoden's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46481",
+              "name": "Leona's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46496",
+              "name": "Pantheon's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46511",
+              "name": "Lionel's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 10,
+        "item_id": "48530",
+        "item_name": "Red Libra's Spirit Stone Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "48228",
+              "name": "Life Stone: Giant's Power Pack (3 pcs.)",
+              "count": "1"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "3",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 11,
+        "item_id": "48531",
+        "item_name": "Red Libra's Lv. 5 Legendary Dye Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "36137",
+              "name": "Legendary Dye Pack Lv. 5 - MEN (10 pcs.)",
+              "count": "1"
+            },
+            {
+              "id": "36138",
+              "name": "Legendary Dye Pack Lv. 5 - WIT (10 pcs.)",
+              "count": "1"
+            },
+            {
+              "id": "36139",
+              "name": "Legendary Dye Pack Lv. 5 - DEX (10 pcs.)",
+              "count": "1"
+            },
+            {
+              "id": "36140",
+              "name": "Legendary Dye Pack Lv. 5 - CON (10 pcs.)",
+              "count": "1"
+            },
+            {
+              "id": "36141",
+              "name": "Legendary Dye Pack Lv. 5 - INT (10 pcs.)",
+              "count": "1"
+            },
+            {
+              "id": "36142",
+              "name": "Legendary Dye Pack Lv. 5 - STR (10 pcs.)",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 12,
+        "item_id": "48532",
+        "item_name": "Red Libra's Seed Bracelet Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "48063",
+              "name": "Top-grade Seed Bracelet",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "48064",
+              "name": "Superior Seed Bracelet Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 15,
+        "item_id": "48759",
+        "item_name": "Red Libra's Lv. 5 Gem Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38854",
+              "name": "Topaz Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38859",
+              "name": "Ruby Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38874",
+              "name": "Obsidian Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38879",
+              "name": "Opal Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38884",
+              "name": "Emerald Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38889",
+              "name": "Aquamarine Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38894",
+              "name": "Diamond Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38899",
+              "name": "Pearl Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38931",
+              "name": "Sapphire Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46674",
+              "name": "Vital Stone Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46679",
+              "name": "Garnet Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46684",
+              "name": "Tanzanite Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "47681",
+              "name": "Red Cat's Eye Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "47686",
+              "name": "Blue Cat's Eye Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 16,
+        "item_id": "48760",
+        "item_name": "Red Libra's Dark/ Bloody Upgrade Stone Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "35566",
+              "name": "Dark Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35568",
+              "name": "Bloody Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 17,
+        "item_id": "48761",
+        "item_name": "Red Libra's R99-grade Save Ticket Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "45424",
+              "name": "Royal R99-grade Blue Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "45427",
+              "name": "Royal R99-grade Red Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47577",
+              "name": "Royal R99-grade White Save Ticket",
+              "count": "1"
+            },
+            {
+              "id": "47624",
+              "name": "Royal R99-grade Purple Save Ticket",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 17
+  },
+  "39201": {
+    "skill_name": "Dragon's Relic",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "48499",
+        "item_name": "Dragon's Relic",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "47757",
+              "name": "Dragon's Attribute Potion XP",
+              "count": "2"
+            }
+          ],
+          "random_items": [],
+          "possible_items": [
+            {
+              "id": "48500",
+              "name": "Dragon's Relic Pack",
+              "count": "1"
+            }
+          ]
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "48500",
+        "item_name": "Dragon's Relic Pack",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "39720",
+              "name": "Freya's Luck Potion",
+              "count": "2"
+            },
+            {
+              "id": "45431",
+              "name": "Extra Pass: Baylor",
+              "count": "1"
+            },
+            {
+              "id": "45463",
+              "name": "Extra Pass: Nightmare Kamaloka",
+              "count": "1"
+            },
+            {
+              "id": "46195",
+              "name": "Shiny Elemental Shirt Bag",
+              "count": "1"
+            },
+            {
+              "id": "46196",
+              "name": "Physical Reflect Shirt Bag",
+              "count": "1"
+            },
+            {
+              "id": "46197",
+              "name": "Magical Reflect Shirt Bag",
+              "count": "1"
+            },
+            {
+              "id": "46624",
+              "name": "Extra Pass: Embryo Command Post",
+              "count": "1"
+            },
+            {
+              "id": "47663",
+              "name": "Freya's Art of Seduction Barrier",
+              "count": "2"
+            },
+            {
+              "id": "47664",
+              "name": "Freya's Art of Seduction XP",
+              "count": "2"
+            },
+            {
+              "id": "47665",
+              "name": "Pa'agrio's Blessing Might",
+              "count": "2"
+            },
+            {
+              "id": "47666",
+              "name": "Pa'agrio's Blessing XP",
+              "count": "2"
+            },
+            {
+              "id": "48031",
+              "name": "Extra Pass: Altar of Shillien",
+              "count": "1"
+            },
+            {
+              "id": "48322",
+              "name": "Dimensional Bracelet Upgrade Stone Pack",
+              "count": "1"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39738",
+              "name": "Rune Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46150",
+              "name": "Superior Giant's Codex - Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46151",
+              "name": "Superior Giant's Codex - Mastery Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35570",
+              "name": "Tauti's Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36254",
+              "name": "Queen Ant's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36255",
+              "name": "Orfen's Soul Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "37521",
+              "name": "Baium's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "37522",
+              "name": "Frintezza's Soul Necklace",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47244",
+              "name": "Ramona's Fancy Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47245",
+              "name": "Helios' Majestic Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47246",
+              "name": "Harnak's Enhanced Necklace",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47247",
+              "name": "Mimir's Worn Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47248",
+              "name": "Core's Forgotten Ring",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 2
+  },
+  "39241": {
+    "skill_name": "Throne of Heroes 2nd Place Reward Box",
+    "levels": [
+      {
+        "level": 10,
+        "item_id": "48616",
+        "item_name": "Crafting Pack: Helios Weapon",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38043",
+              "name": "Crafting Pack: Helios Shaper",
+              "count": "1"
+            },
+            {
+              "id": "38044",
+              "name": "Crafting Pack: Helios Cutter",
+              "count": "1"
+            },
+            {
+              "id": "38045",
+              "name": "Crafting Pack: Helios Slasher",
+              "count": "1"
+            },
+            {
+              "id": "38046",
+              "name": "Crafting Pack: Helios Avenger",
+              "count": "1"
+            },
+            {
+              "id": "38047",
+              "name": "Crafting Pack: Helios Fighter",
+              "count": "1"
+            },
+            {
+              "id": "38048",
+              "name": "Crafting Pack: Helios Stormer",
+              "count": "1"
+            },
+            {
+              "id": "38049",
+              "name": "Crafting Pack: Helios Thrower",
+              "count": "1"
+            },
+            {
+              "id": "38050",
+              "name": "Crafting Pack: Helios Guardian",
+              "count": "1"
+            },
+            {
+              "id": "38051",
+              "name": "Crafting Pack: Helios Buster",
+              "count": "1"
+            },
+            {
+              "id": "38052",
+              "name": "Crafting Pack: Helios Caster",
+              "count": "1"
+            },
+            {
+              "id": "38053",
+              "name": "Crafting Pack: Helios Retributer",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 11,
+        "item_id": "48617",
+        "item_name": "Crafting Pack: Eternal Armor",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38054",
+              "name": "Crafting Pack: Eternal Helmet Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38055",
+              "name": "Crafting Pack: Eternal Breastplate Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38056",
+              "name": "Crafting Pack: Eternal Gaiters Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38057",
+              "name": "Crafting Pack: Eternal Gauntlets Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38058",
+              "name": "Crafting Pack: Eternal Boots Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38060",
+              "name": "Crafting Pack: Eternal Leather Helmet Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38061",
+              "name": "Crafting Pack: Eternal Leather Armor Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38062",
+              "name": "Crafting Pack: Eternal Leather Leggings Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38063",
+              "name": "Crafting Pack: Eternal Leather Gloves Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38064",
+              "name": "Crafting Pack: Eternal Leather Boots Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38065",
+              "name": "Crafting Pack: Eternal Circlet Robe",
+              "count": "1"
+            },
+            {
+              "id": "38066",
+              "name": "Crafting Pack: Eternal Tunic Robe",
+              "count": "1"
+            },
+            {
+              "id": "38067",
+              "name": "Crafting Pack: Eternal Stockings Robe",
+              "count": "1"
+            },
+            {
+              "id": "38068",
+              "name": "Crafting Pack: Eternal Gloves Robe",
+              "count": "1"
+            },
+            {
+              "id": "38069",
+              "name": "Crafting Pack: Eternal Shoes Robe",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 12,
+        "item_id": "48618",
+        "item_name": "Crafting Pack: Specter Weapon",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38012",
+              "name": "Crafting Pack: Specter Shaper",
+              "count": "1"
+            },
+            {
+              "id": "38013",
+              "name": "Crafting Pack: Specter Cutter",
+              "count": "1"
+            },
+            {
+              "id": "38014",
+              "name": "Crafting Pack: Specter Slasher",
+              "count": "1"
+            },
+            {
+              "id": "38015",
+              "name": "Crafting Pack: Specter Avenger",
+              "count": "1"
+            },
+            {
+              "id": "38016",
+              "name": "Crafting Pack: Specter Fighter",
+              "count": "1"
+            },
+            {
+              "id": "38017",
+              "name": "Crafting Pack: Specter Stormer",
+              "count": "1"
+            },
+            {
+              "id": "38018",
+              "name": "Crafting Pack: Specter Thrower",
+              "count": "1"
+            },
+            {
+              "id": "38019",
+              "name": "Crafting Pack: Specter Guardian",
+              "count": "1"
+            },
+            {
+              "id": "38020",
+              "name": "Crafting Pack: Specter Buster",
+              "count": "1"
+            },
+            {
+              "id": "38021",
+              "name": "Crafting Pack: Specter Caster",
+              "count": "1"
+            },
+            {
+              "id": "38022",
+              "name": "Crafting Pack: Specter Retributer",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 13,
+        "item_id": "48619",
+        "item_name": "Crafting Pack: Seraph Armor",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38023",
+              "name": "Crafting Pack: Seraph Helmet Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38024",
+              "name": "Crafting Pack: Seraph Breastplate Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38025",
+              "name": "Crafting Pack: Seraph Gaiters Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38026",
+              "name": "Crafting Pack: Seraph Gauntlets Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38027",
+              "name": "Crafting Pack: Seraph Boots Heavy armor",
+              "count": "1"
+            },
+            {
+              "id": "38029",
+              "name": "Crafting Pack: Seraph Leather Helmet Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38030",
+              "name": "Crafting Pack: Seraph Leather Armor Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38031",
+              "name": "Crafting Pack: Seraph Leather Leggings Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38032",
+              "name": "Crafting Pack: Seraph Leather Gloves Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38033",
+              "name": "Crafting Pack: Seraph Leather Boots Light armor",
+              "count": "1"
+            },
+            {
+              "id": "38034",
+              "name": "Crafting Pack: Seraph Circlet Robe",
+              "count": "1"
+            },
+            {
+              "id": "38035",
+              "name": "Crafting Pack: Seraph Tunic Robe",
+              "count": "1"
+            },
+            {
+              "id": "38036",
+              "name": "Crafting Pack: Seraph Stockings Robe",
+              "count": "1"
+            },
+            {
+              "id": "38037",
+              "name": "Crafting Pack: Seraph Gloves Robe",
+              "count": "1"
+            },
+            {
+              "id": "38038",
+              "name": "Crafting Pack: Seraph Shoes Robe",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 13
+  },
+  "39359": {
+    "skill_name": "Infinite Bliss",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "48870",
+        "item_name": "Infinite Bliss",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "48661",
+              "name": "Rudolph's Purple Potion",
+              "count": "1"
+            },
+            {
+              "id": "35566",
+              "name": "Dark Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35568",
+              "name": "Bloody Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36185",
+              "name": "Energy of Hellfire",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36186",
+              "name": "Energy of Desire",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45931",
+              "name": "High-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45932",
+              "name": "Top-grade Augmenting Stone: Weapon",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35570",
+              "name": "Tauti's Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36254",
+              "name": "Queen Ant's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "37521",
+              "name": "Baium's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "48669",
+              "name": "Angel's Necklace",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "48841",
+              "name": "Angel's Earring",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "48872",
+        "item_name": "Rudolph's Token of Gratitude",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "48650",
+              "name": "Blue Potion - Fishing XP Bonus 1-hour",
+              "count": "1"
+            },
+            {
+              "id": "48663",
+              "name": "Blue Potion - Fishing XP Bonus 2-hour",
+              "count": "1"
+            },
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "39738",
+              "name": "Rune Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "45817",
+              "name": "Attribute Change Crystal",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46150",
+              "name": "Superior Giant's Codex - Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46151",
+              "name": "Superior Giant's Codex - Mastery Chapter 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 3
+  },
+  "18644": {
+    "skill_name": "Freya's Shopping Bag",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47422",
+        "item_name": "Freya's Shopping Bag",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "40227",
+              "name": "Freya's Frozen Scroll",
+              "count": "1"
+            },
+            {
+              "id": "40300",
+              "name": "Freya's Recovery Potion",
+              "count": "1"
+            },
+            {
+              "id": "46264",
+              "name": "Freya's Art of Seduction",
+              "count": "1"
+            }
+          ],
+          "random_items": [],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "48829",
+        "item_name": "Freya's Fortune Wand",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "40227",
+              "name": "Freya's Frozen Scroll",
+              "count": "1"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "47663",
+              "name": "Freya's Art of Seduction Barrier",
+              "count": "1"
+            },
+            {
+              "id": "47664",
+              "name": "Freya's Art of Seduction XP",
+              "count": "1"
+            },
+            {
+              "id": "47665",
+              "name": "Pa'agrio's Blessing Might",
+              "count": "1"
+            },
+            {
+              "id": "47666",
+              "name": "Pa'agrio's Blessing XP",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 3
+  },
+  "39433": {
+    "skill_name": "Soul Crystal Box Lv. 4",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "80443",
+        "item_name": "Soul Crystal Box Lv. 4",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46447",
+              "name": "Kain's Soul Crystal Lv. 4 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46462",
+              "name": "Mermoden's Soul Crystal Lv. 4 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46477",
+              "name": "Leona's Soul Crystal Lv. 4 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46492",
+              "name": "Pantheon's Soul Crystal Lv. 4 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46507",
+              "name": "Lionel's Soul Crystal Lv. 4 Weapon",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "80444",
+        "item_name": "Soul Crystal Box Lv. 5",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46448",
+              "name": "Kain's Soul Crystal Lv. 5 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46463",
+              "name": "Mermoden's Soul Crystal Lv. 5 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46478",
+              "name": "Leona's Soul Crystal Lv. 5 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46493",
+              "name": "Pantheon's Soul Crystal Lv. 5 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46508",
+              "name": "Lionel's Soul Crystal Lv. 5 Weapon",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 2
+  },
+  "39467": {
+    "skill_name": "Amazing Anniversary Gift",
+    "levels": [
+      {
+        "level": 3,
+        "item_id": "80605",
+        "item_name": "Anniversary Gift Box",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "45415",
+              "name": "Dandy's Home Run Ball",
+              "count": "1"
+            },
+            {
+              "id": "80609",
+              "name": "Anniversary Firecracker Box",
+              "count": "2"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "36094",
+              "name": "Vitality Replenishing Star Candy",
+              "count": "4"
+            },
+            {
+              "id": "47382",
+              "name": "Freya's Frozen Scroll Event",
+              "count": "2"
+            },
+            {
+              "id": "48755",
+              "name": "Glowing Dragon's Attribute Potion (XP) Event",
+              "count": "2"
+            },
+            {
+              "id": "80602",
+              "name": "Anniversary Mini Cake",
+              "count": "2"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "80606",
+        "item_name": "Anniversary Gift Box",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "45415",
+              "name": "Dandy's Home Run Ball",
+              "count": "1"
+            },
+            {
+              "id": "80609",
+              "name": "Anniversary Firecracker Box",
+              "count": "2"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "36094",
+              "name": "Vitality Replenishing Star Candy",
+              "count": "4"
+            },
+            {
+              "id": "47382",
+              "name": "Freya's Frozen Scroll Event",
+              "count": "2"
+            },
+            {
+              "id": "80602",
+              "name": "Anniversary Mini Cake",
+              "count": "2"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "80607",
+        "item_name": "Anniversary Attendance Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19448",
+              "name": "Blessed Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "34076",
+              "name": "Scroll: Enchant R-grade Weapon Event",
+              "count": "1"
+            },
+            {
+              "id": "34077",
+              "name": "Scroll: Enchant R-grade Armor Event",
+              "count": "1"
+            },
+            {
+              "id": "37558",
+              "name": "High-grade Elixir Pack Event",
+              "count": "1"
+            },
+            {
+              "id": "80610",
+              "name": "Ultimate Jewelry Box Lv. 3 Event",
+              "count": "1"
+            },
+            {
+              "id": "80612",
+              "name": "Freya's Ice Rose Event",
+              "count": "1"
+            },
+            {
+              "id": "35567",
+              "name": "Dark Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35569",
+              "name": "Bloody Armor Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 7,
+        "item_id": "80609",
+        "item_name": "Anniversary Firecracker Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "80604",
+              "name": "Anniversary Firecracker",
+              "count": "1"
+            },
+            {
+              "id": "80604",
+              "name": "Anniversary Firecracker",
+              "count": "2"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 7
+  },
+  "39469": {
+    "skill_name": "Anniversary Earring Gift Box",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "80613",
+        "item_name": "Anniversary Earring Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "36255",
+              "name": "Orfen's Soul Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36946",
+              "name": "Lindvior's Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47244",
+              "name": "Ramona's Fancy Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47245",
+              "name": "Helios' Majestic Earring",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "80614",
+        "item_name": "Anniversary Ring Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17623",
+              "name": "Earth Wyrm's Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "35570",
+              "name": "Tauti's Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36254",
+              "name": "Queen Ant's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "37521",
+              "name": "Baium's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47214",
+              "name": "Ring of Creation",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47247",
+              "name": "Mimir's Worn Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47248",
+              "name": "Core's Forgotten Ring",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "80615",
+        "item_name": "Anniversary Necklace Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "8191",
+              "name": "Frintezza's Necklace",
+              "count": "1",
+              "grade": "A"
+            },
+            {
+              "id": "47246",
+              "name": "Harnak's Enhanced Necklace",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "80616",
+        "item_name": "Anniversary Soul Crystal Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46451",
+              "name": "Kain's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46466",
+              "name": "Mermoden's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46481",
+              "name": "Leona's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46496",
+              "name": "Pantheon's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46511",
+              "name": "Lionel's Soul Crystal Lv. 8 Weapon",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 5,
+        "item_id": "80618",
+        "item_name": "Lv. 5 Jewel Anniversary Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38854",
+              "name": "Topaz Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38859",
+              "name": "Ruby Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38874",
+              "name": "Obsidian Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38879",
+              "name": "Opal Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38884",
+              "name": "Emerald Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38889",
+              "name": "Aquamarine Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38894",
+              "name": "Diamond Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38899",
+              "name": "Pearl Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38931",
+              "name": "Sapphire Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46674",
+              "name": "Vital Stone Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46679",
+              "name": "Garnet Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46684",
+              "name": "Tanzanite Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "47681",
+              "name": "Red Cat's Eye Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "47686",
+              "name": "Blue Cat's Eye Lv. 5",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 6,
+        "item_id": "80619",
+        "item_name": "Dark/ Bloody Weapon Enhancement Stone Gift Box - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "35566",
+              "name": "Dark Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35568",
+              "name": "Bloody Weapon Upgrade Stone",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 8,
+        "item_id": "80621",
+        "item_name": "Anniversary Rare Accessory Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "8191",
+              "name": "Frintezza's Necklace",
+              "count": "1",
+              "grade": "A"
+            },
+            {
+              "id": "17623",
+              "name": "Earth Wyrm's Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "19463",
+              "name": "Antharas' Blessed Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "19464",
+              "name": "Valakas' Blessed Necklace",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "35570",
+              "name": "Tauti's Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36254",
+              "name": "Queen Ant's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36255",
+              "name": "Orfen's Soul Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "36946",
+              "name": "Lindvior's Earring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "37521",
+              "name": "Baium's Soul Ring",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47214",
+              "name": "Ring of Creation",
+              "count": "1",
+              "grade": "R"
+            },
+            {
+              "id": "47246",
+              "name": "Harnak's Enhanced Necklace",
+              "count": "1",
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 9,
+        "item_id": "80622",
+        "item_name": "Anniversary Soul Crystal Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "46450",
+              "name": "Kain's Soul Crystal Lv. 7 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46465",
+              "name": "Mermoden's Soul Crystal Lv. 7 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46480",
+              "name": "Leona's Soul Crystal Lv. 7 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46495",
+              "name": "Pantheon's Soul Crystal Lv. 7 Weapon",
+              "count": "1"
+            },
+            {
+              "id": "46510",
+              "name": "Lionel's Soul Crystal Lv. 7 Weapon",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 10,
+        "item_id": "80624",
+        "item_name": "Anniversary Seed Bracelet Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "48063",
+              "name": "Top-grade Seed Bracelet",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "48064",
+              "name": "Superior Seed Bracelet Lv. 1",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 12,
+        "item_id": "80617",
+        "item_name": "+7 Agathion Anniversary Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "48572",
+              "name": "+7 Agathion Charm: Masia's Guardian",
+              "count": "1",
+              "enchant": 7,
+              "grade": "NG"
+            },
+            {
+              "id": "48573",
+              "name": "+7 Agathion Charm: Paulina's Guardian",
+              "count": "1",
+              "enchant": 7,
+              "grade": "NG"
+            },
+            {
+              "id": "48574",
+              "name": "+7 Agathion Charm: Tersi's Guardian",
+              "count": "1",
+              "enchant": 7,
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 13,
+        "item_id": "80623",
+        "item_name": "+3 Agathion Anniversary Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "48572",
+              "name": "+3 Agathion Charm: Masia's Guardian",
+              "count": "1",
+              "enchant": 3,
+              "grade": "NG"
+            },
+            {
+              "id": "48573",
+              "name": "+3 Agathion Charm: Paulina's Guardian",
+              "count": "1",
+              "enchant": 3,
+              "grade": "NG"
+            },
+            {
+              "id": "48574",
+              "name": "+3 Agathion Charm: Tersi's Guardian",
+              "count": "1",
+              "enchant": 3,
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 14,
+        "item_id": "80626",
+        "item_name": "+5 Zodiac Agathion Anniversary Gift Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "48048",
+              "name": "+5 Agathion Charm: Virgo",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48049",
+              "name": "+5 Agathion Charm: Capricorn",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48050",
+              "name": "+5 Agathion Charm: Libra",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48051",
+              "name": "+5 Agathion Charm: Aries",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48052",
+              "name": "+5 Agathion Charm: Taurus",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48053",
+              "name": "+5 Agathion Charm: Leo",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48054",
+              "name": "+5 Agathion Charm: Gemini",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48055",
+              "name": "+5 Agathion Charm: Scorpio",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48056",
+              "name": "+5 Agathion Charm: Aquarius",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48057",
+              "name": "+5 Agathion Charm: Pisces",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48058",
+              "name": "+5 Agathion Charm: Sagittarius",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            },
+            {
+              "id": "48059",
+              "name": "+5 Agathion Charm: Cancer",
+              "count": "1",
+              "enchant": 5,
+              "grade": "R"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 14
+  },
+  "39468": {
+    "skill_name": "Ultimate Jewelry Box Lv. 3",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "80610",
+        "item_name": "Ultimate Jewelry Box Lv. 3 - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38852",
+              "name": "Topaz Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38857",
+              "name": "Ruby Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38872",
+              "name": "Obsidian Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38877",
+              "name": "Opal Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38882",
+              "name": "Emerald Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38887",
+              "name": "Aquamarine Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38892",
+              "name": "Diamond Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38897",
+              "name": "Pearl Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "38929",
+              "name": "Sapphire Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46672",
+              "name": "Vital Stone Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46677",
+              "name": "Garnet Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "46682",
+              "name": "Tanzanite Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "47679",
+              "name": "Red Cat's Eye Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "47684",
+              "name": "Blue Cat's Eye Lv. 3",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "80611",
+        "item_name": "Ultimate Jewelry Box Lv. 1 - Event",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "38932",
+              "name": "La Vie En Rose's Ruby Pack",
+              "count": "1"
+            },
+            {
+              "id": "38933",
+              "name": "La Vie En Rose's Sapphire Pack",
+              "count": "1"
+            },
+            {
+              "id": "38934",
+              "name": "La Vie En Rose's Topaz Pack",
+              "count": "1"
+            },
+            {
+              "id": "38935",
+              "name": "La Vie En Rose's Opal Pack",
+              "count": "1"
+            },
+            {
+              "id": "38936",
+              "name": "La Vie En Rose's Obsidian Pack",
+              "count": "1"
+            },
+            {
+              "id": "38937",
+              "name": "La Vie En Rose's Diamond Pack",
+              "count": "1"
+            },
+            {
+              "id": "38938",
+              "name": "La Vie En Rose's Emerald Pack",
+              "count": "1"
+            },
+            {
+              "id": "38939",
+              "name": "La Vie En Rose's Aquamarine Pack",
+              "count": "1"
+            },
+            {
+              "id": "38940",
+              "name": "La Vie En Rose's Pearl Pack",
+              "count": "1"
+            },
+            {
+              "id": "46685",
+              "name": "La Vie En Rose's Vital Stone Pack",
+              "count": "1"
+            },
+            {
+              "id": "46686",
+              "name": "La Vie En Rose's Garnet Pack",
+              "count": "1"
+            },
+            {
+              "id": "46687",
+              "name": "La Vie En Rose's Tanzanite Pack",
+              "count": "1"
+            },
+            {
+              "id": "47701",
+              "name": "La Vie En Rose's Red Cat's Eye Pack",
+              "count": "1"
+            },
+            {
+              "id": "47702",
+              "name": "La Vie En Rose's Blue Cat's Eye Pack",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 2
+  },
+  "39486": {
+    "skill_name": "Elite Monster Reward Box",
+    "levels": [
+      {
+        "level": 2,
+        "item_id": "80773",
+        "item_name": "Rare Tanta Relic Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "19447",
+              "name": "Blessed Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "57",
+              "name": "Adena",
+              "count": "100 000",
+              "grade": "NG"
+            },
+            {
+              "id": "17416",
+              "name": "Helios Shaper",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17417",
+              "name": "Helios Cutter",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17418",
+              "name": "Helios Slasher",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17419",
+              "name": "Helios Avenger",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17420",
+              "name": "Helios Fighter",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17421",
+              "name": "Helios Stormer",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17422",
+              "name": "Helios Thrower",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17423",
+              "name": "Helios Guardian",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17424",
+              "name": "Helios Buster",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17425",
+              "name": "Helios Caster",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17426",
+              "name": "Helios Retributer",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17427",
+              "name": "Helios Dual Swords",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17428",
+              "name": "Helios Dual Daggers",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17429",
+              "name": "Helios Dual Blunt Weapons",
+              "count": "1",
+              "grade": "R99"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "80774",
+        "item_name": "Tanta Relic Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "57",
+              "name": "Adena",
+              "count": "70 000",
+              "grade": "NG"
+            },
+            {
+              "id": "17430",
+              "name": "Eternal Helmet Heavy armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17431",
+              "name": "Eternal Breastplate Heavy armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17432",
+              "name": "Eternal Gaiters Heavy armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17433",
+              "name": "Eternal Gauntlets Heavy armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17434",
+              "name": "Eternal Boots Heavy armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17435",
+              "name": "Eternal Shield",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17436",
+              "name": "Eternal Leather Helmet Light armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17437",
+              "name": "Eternal Leather Armor Light armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17438",
+              "name": "Eternal Leather Leggings Light armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17439",
+              "name": "Eternal Leather Gloves Light armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17440",
+              "name": "Eternal Leather Boots Light armor",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17441",
+              "name": "Eternal Circlet Robe",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17442",
+              "name": "Eternal Tunic Robe",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17443",
+              "name": "Eternal Stockings Robe",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17444",
+              "name": "Eternal Gloves Robe",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17445",
+              "name": "Eternal Shoes Robe",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17446",
+              "name": "Eternal Sigil",
+              "count": "1",
+              "grade": "R99"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 4,
+        "item_id": "80775",
+        "item_name": "Sel Mahum Relic Box",
+        "box_data": {
+          "guaranteed_items": [],
+          "random_items": [
+            {
+              "id": "17526",
+              "name": "Scroll: Enchant R-grade Weapon",
+              "count": "1"
+            },
+            {
+              "id": "17527",
+              "name": "Scroll: Enchant R-grade Armor",
+              "count": "1"
+            },
+            {
+              "id": "57",
+              "name": "Adena",
+              "count": "80 000",
+              "grade": "NG"
+            },
+            {
+              "id": "17416",
+              "name": "Helios Shaper",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17417",
+              "name": "Helios Cutter",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17418",
+              "name": "Helios Slasher",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17419",
+              "name": "Helios Avenger",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17420",
+              "name": "Helios Fighter",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17421",
+              "name": "Helios Stormer",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17422",
+              "name": "Helios Thrower",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17423",
+              "name": "Helios Guardian",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17424",
+              "name": "Helios Buster",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17425",
+              "name": "Helios Caster",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17426",
+              "name": "Helios Retributer",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17427",
+              "name": "Helios Dual Swords",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17428",
+              "name": "Helios Dual Daggers",
+              "count": "1",
+              "grade": "R99"
+            },
+            {
+              "id": "17429",
+              "name": "Helios Dual Blunt Weapons",
+              "count": "1",
+              "grade": "R99"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 4
+  },
+  "39508": {
+    "skill_name": "Buff Pouch",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "80802",
+        "item_name": "Lucky Pouch",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "80804",
+              "name": "Retired Legend's Scroll Event",
+              "count": "1"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "47382",
+              "name": "Freya's Frozen Scroll Event",
+              "count": "3"
+            },
+            {
+              "id": "48755",
+              "name": "Glowing Dragon's Attribute Potion (XP) Event",
+              "count": "1"
+            },
+            {
+              "id": "80612",
+              "name": "Freya's Ice Rose Event",
+              "count": "1"
+            },
+            {
+              "id": "80804",
+              "name": "Retired Legend's Scroll Event",
+              "count": "1"
+            },
+            {
+              "id": "80805",
+              "name": "17th Anniversary Cake Event",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "80803",
+        "item_name": "Golden Lucky Pouch",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "80804",
+              "name": "Retired Legend's Scroll Event",
+              "count": "1"
+            },
+            {
+              "id": "80806",
+              "name": "Lakfi-Lakfi's Special Energy",
+              "count": "1"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "48755",
+              "name": "Glowing Dragon's Attribute Potion (XP) Event",
+              "count": "1"
+            },
+            {
+              "id": "80612",
+              "name": "Freya's Ice Rose Event",
+              "count": "1"
+            },
+            {
+              "id": "80797",
+              "name": "Nevit's Shining Gold Hourglass Event",
+              "count": "1"
+            },
+            {
+              "id": "80804",
+              "name": "Retired Legend's Scroll Event",
+              "count": "1"
+            },
+            {
+              "id": "80805",
+              "name": "17th Anniversary Cake Event",
+              "count": "1"
+            },
+            {
+              "id": "80806",
+              "name": "Lakfi-Lakfi's Special Energy",
+              "count": "1"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 2
+  },
+  "9444": {
+    "skill_name": "Helping Seed",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "34961",
+        "item_name": "Helping Seed",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "34962",
+              "name": "Ashes of Remnants",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 1,
+        "item_id": "34893",
+        "item_name": "Seed of Helping Herb",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "34962",
+              "name": "Ashes of Remnants",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 1
+  },
+  "18620": {
+    "skill_name": "Small Supply Pack",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47356",
+        "item_name": "Small Supply Pack - Blackbird Clan",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "37893",
+              "name": "Bloodied Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "47256",
+              "name": "Demon Crystal",
+              "count": "3",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "37791",
+              "name": "Sealed Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37893",
+              "name": "Bloodied Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "47357",
+        "item_name": "Medium Supply Pack - Blackbird Clan",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "37893",
+              "name": "Bloodied Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "47256",
+              "name": "Demon Crystal",
+              "count": "6",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "37791",
+              "name": "Sealed Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37893",
+              "name": "Bloodied Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "47358",
+        "item_name": "Large Supply Pack - Blackbird Clan",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "37791",
+              "name": "Sealed Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37893",
+              "name": "Bloodied Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "47256",
+              "name": "Demon Crystal",
+              "count": "9",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "37791",
+              "name": "Sealed Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "37791",
+              "name": "Sealed Demonic Tome",
+              "count": "2",
+              "grade": "NG"
+            },
+            {
+              "id": "37893",
+              "name": "Bloodied Demonic Tome",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 3
+  },
+  "18619": {
+    "skill_name": "Small Supply Pack",
+    "levels": [
+      {
+        "level": 1,
+        "item_id": "47359",
+        "item_name": "Small Supply Pack - Giant Trackers",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "47260",
+              "name": "Giant's Crystal",
+              "count": "3",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35338",
+              "name": "Corroded Eternal Helmet Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35339",
+              "name": "Corroded Eternal Breastplate Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35340",
+              "name": "Corroded Eternal Gaiters Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35341",
+              "name": "Corroded Eternal Gauntlets Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35342",
+              "name": "Corroded Eternal Boots Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35343",
+              "name": "Corroded Eternal Shield Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35344",
+              "name": "Corroded Eternal Leather Helmet Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35345",
+              "name": "Corroded Eternal Leather Armor Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35346",
+              "name": "Corroded Eternal Leather Legging Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35347",
+              "name": "Corroded Eternal Leather Glove Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35348",
+              "name": "Corroded Eternal Leather Boot Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35349",
+              "name": "Corroded Eternal Circlet Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35350",
+              "name": "Corroded Eternal Tunic Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35351",
+              "name": "Corroded Eternal Stocking Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35352",
+              "name": "Corroded Eternal Glove Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35353",
+              "name": "Corroded Eternal Stocking Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35354",
+              "name": "Corroded Eternal Sigil Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36553",
+              "name": "Corroded Mid-grade Armor Fragment",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36554",
+              "name": "Corroded High-grade Armor Fragment",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 2,
+        "item_id": "47360",
+        "item_name": "Medium Supply Pack - Giant Trackers",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "47260",
+              "name": "Giant's Crystal",
+              "count": "6",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35338",
+              "name": "Corroded Eternal Helmet Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35339",
+              "name": "Corroded Eternal Breastplate Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35340",
+              "name": "Corroded Eternal Gaiters Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35341",
+              "name": "Corroded Eternal Gauntlets Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35342",
+              "name": "Corroded Eternal Boots Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35343",
+              "name": "Corroded Eternal Shield Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35344",
+              "name": "Corroded Eternal Leather Helmet Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35345",
+              "name": "Corroded Eternal Leather Armor Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35346",
+              "name": "Corroded Eternal Leather Legging Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35347",
+              "name": "Corroded Eternal Leather Glove Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35348",
+              "name": "Corroded Eternal Leather Boot Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35349",
+              "name": "Corroded Eternal Circlet Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35350",
+              "name": "Corroded Eternal Tunic Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35351",
+              "name": "Corroded Eternal Stocking Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35352",
+              "name": "Corroded Eternal Glove Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35353",
+              "name": "Corroded Eternal Stocking Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35354",
+              "name": "Corroded Eternal Sigil Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36553",
+              "name": "Corroded Mid-grade Armor Fragment",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36554",
+              "name": "Corroded High-grade Armor Fragment",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      },
+      {
+        "level": 3,
+        "item_id": "47361",
+        "item_name": "Large Supply Pack - Giant Trackers",
+        "box_data": {
+          "guaranteed_items": [
+            {
+              "id": "47260",
+              "name": "Giant's Crystal",
+              "count": "9",
+              "grade": "NG"
+            }
+          ],
+          "random_items": [
+            {
+              "id": "30297",
+              "name": "Superior Giant's Codex Manuscript",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30298",
+              "name": "Superior Giant's Codex Manuscript - Mastery",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "30299",
+              "name": "Superior Giant's Codex Manuscript - Discipline",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35338",
+              "name": "Corroded Eternal Helmet Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35339",
+              "name": "Corroded Eternal Breastplate Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35340",
+              "name": "Corroded Eternal Gaiters Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35341",
+              "name": "Corroded Eternal Gauntlets Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35342",
+              "name": "Corroded Eternal Boots Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35343",
+              "name": "Corroded Eternal Shield Material",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35344",
+              "name": "Corroded Eternal Leather Helmet Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35345",
+              "name": "Corroded Eternal Leather Armor Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35346",
+              "name": "Corroded Eternal Leather Legging Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35347",
+              "name": "Corroded Eternal Leather Glove Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35348",
+              "name": "Corroded Eternal Leather Boot Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35349",
+              "name": "Corroded Eternal Circlet Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35350",
+              "name": "Corroded Eternal Tunic Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35351",
+              "name": "Corroded Eternal Stocking Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35352",
+              "name": "Corroded Eternal Glove Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35353",
+              "name": "Corroded Eternal Stocking Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "35354",
+              "name": "Corroded Eternal Sigil Ingredient",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36553",
+              "name": "Corroded Mid-grade Armor Fragment",
+              "count": "1",
+              "grade": "NG"
+            },
+            {
+              "id": "36554",
+              "name": "Corroded High-grade Armor Fragment",
+              "count": "1",
+              "grade": "NG"
+            }
+          ],
+          "possible_items": []
+        }
+      }
+    ],
+    "max_level": 3
+  }
+}

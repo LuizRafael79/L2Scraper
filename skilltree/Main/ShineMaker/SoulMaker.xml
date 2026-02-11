@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="234" parentClassId="233">
+		<!-- Actives -->
+		<skill skillName="Shining Triangle" skillId="31285" skillLevel="1" getLevel="76" />
+	</skillTree>
+</list>

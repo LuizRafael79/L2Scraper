@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="268" parentClassId="267">
+		<!-- Actives -->
+		<skill skillName="Maneuver" skillId="31536" skillLevel="2" getLevel="85" />
+		<skill skillName="Maneuver" skillId="31536" skillLevel="3" getLevel="100" levelUpSp="8809" />
+		<skill skillName="Maneuver" skillId="31536" skillLevel="4" getLevel="103" levelUpSp="30447" />
+		<skill skillName="Maneuver" skillId="31536" skillLevel="5" getLevel="106" levelUpSp="105225" />
+		<skill skillName="Maneuver" skillId="31536" skillLevel="6" getLevel="109" levelUpSp="181830" />
+		<skill skillName="Maneuver" skillId="31536" skillLevel="7" getLevel="112" levelUpSp="436393" />
+		<skill skillName="Maneuver" skillId="31536" skillLevel="8" getLevel="115" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Maneuver" skillId="31536" skillLevel="9" getLevel="119" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Take Life" skillId="31530" skillLevel="2" getLevel="85" />
+		<skill skillName="Take Life" skillId="31530" skillLevel="3" getLevel="100" levelUpSp="8809" />
+		<skill skillName="Take Life" skillId="31530" skillLevel="4" getLevel="103" levelUpSp="30447" />
+		<skill skillName="Take Life" skillId="31530" skillLevel="5" getLevel="106" levelUpSp="105225" />
+		<skill skillName="Take Life" skillId="31530" skillLevel="6" getLevel="109" levelUpSp="181830" />
+		<skill skillName="Take Life" skillId="31530" skillLevel="7" getLevel="112" levelUpSp="436393" />
+		<skill skillName="Take Life" skillId="31530" skillLevel="8" getLevel="115" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Take Life" skillId="31530" skillLevel="9" getLevel="119" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Thousand Wounds" skillId="31531" skillLevel="2" getLevel="85" />
+		<skill skillName="Thousand Wounds" skillId="31531" skillLevel="3" getLevel="101" levelUpSp="21143" />
+		<skill skillName="Thousand Wounds" skillId="31531" skillLevel="4" getLevel="104" levelUpSp="36536" />
+		<skill skillName="Thousand Wounds" skillId="31531" skillLevel="5" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Thousand Wounds" skillId="31531" skillLevel="6" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Thousand Wounds" skillId="31531" skillLevel="7" getLevel="113" levelUpSp="436393" />
+		<skill skillName="Thousand Wounds" skillId="31531" skillLevel="8" getLevel="116" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Thousand Wounds" skillId="31531" skillLevel="9" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Full Twist" skillId="31532" skillLevel="1" getLevel="85" />
+		<skill skillName="Full Twist" skillId="31532" skillLevel="2" getLevel="108" levelUpSp="151525" />
+		<skill skillName="Full Twist" skillId="31532" skillLevel="3" getLevel="114" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Full Twist" skillId="31532" skillLevel="4" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Walk in Monster Woods" skillId="31535" skillLevel="1" getLevel="85" />
+		<skill skillName="Walk in Monster Woods" skillId="31535" skillLevel="2" getLevel="108" levelUpSp="151525" />
+		<skill skillName="Walk in Monster Woods" skillId="31535" skillLevel="3" getLevel="114" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Walk in Monster Woods" skillId="31535" skillLevel="4" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Pursuit" skillId="31537" skillLevel="1" getLevel="85" />
+		<skill skillName="Pursuit" skillId="31537" skillLevel="2" getLevel="105" levelUpSp="87688">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Pursuit" skillId="31537" skillLevel="3" getLevel="110" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Pursuit" skillId="31537" skillLevel="4" getLevel="115" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Pursuit" skillId="31537" skillLevel="5" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Battojutsu" skillId="31538" skillLevel="1" getLevel="110" levelUpSp="436393">
+			<item id="81453" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Furinkazan" skillId="31539" skillLevel="2" getLevel="85" />
+		<skill skillName="Furinkazan" skillId="31539" skillLevel="3" getLevel="102" levelUpSp="25372" />
+		<skill skillName="Furinkazan" skillId="31539" skillLevel="4" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Furinkazan" skillId="31539" skillLevel="5" getLevel="112" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Furinkazan" skillId="31539" skillLevel="6" getLevel="117" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Advent" skillId="31541" skillLevel="2" getLevel="85" />
+		<skill skillName="Advent" skillId="31541" skillLevel="3" getLevel="108" levelUpSp="151525">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Advent" skillId="31541" skillLevel="4" getLevel="118" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Determination" skillId="31540" skillLevel="1" getLevel="85" />
+		<skill skillName="Determination" skillId="31540" skillLevel="2" getLevel="103" levelUpSp="30447" />
+		<skill skillName="Determination" skillId="31540" skillLevel="3" getLevel="108" levelUpSp="151525" />
+		<skill skillName="Determination" skillId="31540" skillLevel="4" getLevel="113" levelUpSp="436393" />
+		<skill skillName="Determination" skillId="31540" skillLevel="5" getLevel="116" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Determination" skillId="31540" skillLevel="6" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Adamant Will" skillId="31542" skillLevel="1" getLevel="85" />
+		<skill skillName="Adamant Will" skillId="31542" skillLevel="2" getLevel="102" levelUpSp="25372" />
+		<skill skillName="Adamant Will" skillId="31542" skillLevel="3" getLevel="106" levelUpSp="105225">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Adamant Will" skillId="31542" skillLevel="4" getLevel="110" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Atsumori" skillId="31543" skillLevel="1" getLevel="85" />
+		<skill skillName="Atsumori" skillId="31543" skillLevel="2" getLevel="110" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Atsumori" skillId="31543" skillLevel="3" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Omen" skillId="31544" skillLevel="1" getLevel="110" levelUpSp="436393">
+			<item id="81453" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Omen" skillId="31544" skillLevel="2" getLevel="115" levelUpSp="436393">
+			<item id="81453" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Omen" skillId="31544" skillLevel="3" getLevel="120" levelUpSp="436393">
+			<item id="81453" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="1" getLevel="115" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="2" getLevel="116" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="3" getLevel="117" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="4" getLevel="118" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="5" getLevel="119" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Disastrous Shriek" skillId="31533" skillLevel="1" getLevel="85">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Disastrous Shriek" skillId="31533" skillLevel="2" getLevel="105" levelUpSp="87688">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Disastrous Shriek" skillId="31533" skillLevel="3" getLevel="111" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Disastrous Shriek" skillId="31533" skillLevel="4" getLevel="117" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Weapon Destruction" skillId="31534" skillLevel="1" getLevel="85">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Weapon Destruction" skillId="31534" skillLevel="2" getLevel="104" levelUpSp="36536">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Weapon Destruction" skillId="31534" skillLevel="3" getLevel="110" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Weapon Destruction" skillId="31534" skillLevel="4" getLevel="116" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Summon Kagami" skillId="31560" skillLevel="1" getLevel="85" autoGet="true" />
+		
+		<!-- Passives -->
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="85" levelUpSp="0" />
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="5" getLevel="99" levelUpSp="500">
+			<item id="40064" count="1" /> <!-- Ancient Book: Divine Inspiration (Beginner) -->
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="6" getLevel="99" levelUpSp="500">
+			<item id="40065" count="1" /> <!-- Ancient Book: Divine Inspiration (Intermediate) -->
+		</skill>
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="1" getLevel="85" getDualClassLevel="85" levelUpSp="0" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="2" getLevel="90" getDualClassLevel="90" levelUpSp="37" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="3" getLevel="95" getDualClassLevel="95" levelUpSp="100" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="4" getLevel="99" getDualClassLevel="99" levelUpSp="500" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="5" getLevel="101" getDualClassLevel="101" levelUpSp="21143" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="6" getLevel="103" getDualClassLevel="103" levelUpSp="30447" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="7" getLevel="105" getDualClassLevel="105" levelUpSp="87688" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="8" getLevel="107" getDualClassLevel="107" levelUpSp="126271" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="9" getLevel="109" getDualClassLevel="109" levelUpSp="181830" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="10" getLevel="110" getDualClassLevel="110" levelUpSp="436393" />
+		<skill skillName="Dual Class - Renewed Energy of Power" skillId="30820" skillLevel="1" getLevel="85" getDualClassLevel="85" levelUpSp="0" autoGet="false" />
+		<skill skillName="Divine Expansion" skillId="10956" skillLevel="1" getLevel="100" levelUpSp="8809">
+			<item id="81887,39738" count="8" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="1" getLevel="110" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="2" getLevel="111" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="3" getLevel="112" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="4" getLevel="113" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="5" getLevel="114" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="1" getLevel="85" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="2" getLevel="120" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="3" getLevel="122" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="4" getLevel="124" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="5" getLevel="126" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="6" getLevel="128" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="7" getLevel="130" autoGet="true" />
+		<skill skillName="Katana Master" skillId="31524" skillLevel="2" getLevel="90" levelUpSp="37" />
+		<skill skillName="Katana Master" skillId="31524" skillLevel="3" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Katana Master" skillId="31524" skillLevel="4" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Katana Master" skillId="31524" skillLevel="5" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Katana Master" skillId="31524" skillLevel="6" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Katana Master" skillId="31524" skillLevel="7" getLevel="118" levelUpSp="436393" />
+		<skill skillName="Katana Master" skillId="31524" skillLevel="8" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Samurai Armor Master" skillId="31525" skillLevel="2" getLevel="90" levelUpSp="37" />
+		<skill skillName="Samurai Armor Master" skillId="31525" skillLevel="3" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Samurai Armor Master" skillId="31525" skillLevel="4" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Samurai Armor Master" skillId="31525" skillLevel="5" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Samurai Armor Master" skillId="31525" skillLevel="6" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Samurai Armor Master" skillId="31525" skillLevel="7" getLevel="118" levelUpSp="436393" />
+		<skill skillName="Samurai Armor Master" skillId="31525" skillLevel="8" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Sword Seizure" skillId="31526" skillLevel="1" getLevel="85" />
+		<skill skillName="Sword Seizure" skillId="31526" skillLevel="2" getLevel="100" levelUpSp="8809" />
+		<skill skillName="Sword Seizure" skillId="31526" skillLevel="3" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Sword Seizure" skillId="31526" skillLevel="4" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Slashing of Strow Dummy" skillId="31527" skillLevel="1" getLevel="85" />
+		<skill skillName="Slashing of Strow Dummy" skillId="31527" skillLevel="2" getLevel="95" levelUpSp="100" />
+		<skill skillName="Slashing of Strow Dummy" skillId="31527" skillLevel="3" getLevel="99" levelUpSp="500" />
+		<skill skillName="Slashing of Strow Dummy" skillId="31527" skillLevel="4" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Heart of Sword" skillId="31528" skillLevel="1" getLevel="85" />
+		<skill skillName="Mental Preparation" skillId="31547" skillLevel="1" getLevel="105" levelUpSp="87688">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Mental Preparation" skillId="31547" skillLevel="2" getLevel="110" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Mental Preparation" skillId="31547" skillLevel="3" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="1" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Self-awareness" skillId="31529" skillLevel="1" getLevel="120" levelUpSp="436393">
+			<item id="81453" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+	</skillTree>
+</list>

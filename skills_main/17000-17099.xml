@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="17000" toLevel="1" name="SP Scroll: 1000">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>200</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37395</itemConsumeId>
+		<reuseDelay>3000</reuseDelay>
+	</skill>
+	<skill id="17001" toLevel="1" name="Blessed Weapon Modification - R-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17002" toLevel="1" name="Blessed Weapon Modification - S-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17003" toLevel="1" name="Blessed Weapon Modification - A-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37536</itemConsumeId>
+	</skill>
+	<skill id="17004" toLevel="1" name="Blessed Weapon Modification - B-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17005" toLevel="1" name="Blessed Weapon Modification - C-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17006" toLevel="1" name="Blessed Weapon Modification - D-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17007" toLevel="1" name="Blessed Armor Modification - R-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17008" toLevel="1" name="Blessed Armor Modification - S-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17009" toLevel="1" name="Blessed Armor Modification - A-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17010" toLevel="1" name="Blessed Armor Modification - B-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17011" toLevel="1" name="Blessed Armor Modification - C-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17012" toLevel="1" name="Blessed Armor Modification - D-grade">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17013" toLevel="1" name="Appearance Stone: Emerald Weapon - One-handed Sword (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17014" toLevel="1" name="Appearance Stone: Emerald Weapon - Dagger (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17015" toLevel="1" name="Appearance Stone: Emerald Weapon - Two-handed Sword (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17016" toLevel="1" name="Appearance Stone: Emerald Weapon - Fist Weapon (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17017" toLevel="1" name="Appearance Stone: Emerald Weapon - Spear (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17018" toLevel="1" name="Appearance Stone: Emerald Weapon - Bow (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17019" toLevel="1" name="Appearance Stone: Emerald Weapon - Crossbow (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17020" toLevel="1" name="Appearance Stone: Emerald Weapon - One-handed Blunt Weapon (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17021" toLevel="1" name="Appearance Stone: Emerald Weapon - Two-handed Blunt Weapon (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17022" toLevel="1" name="Appearance Stone: Emerald Weapon - One-handed Staff (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17023" toLevel="1" name="Appearance Stone: Emerald Weapon - Two-handed Staff (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17024" toLevel="1" name="Appearance Stone: Emerald Weapon - Dual Swords (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17025" toLevel="1" name="Appearance Stone: Emerald Weapon - Dual Daggers (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17026" toLevel="1" name="Appearance Stone: Emerald Weapon - Dual Blunt Weapons (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17027" toLevel="1" name="Appearance Stone: Emerald Weapon - Shield (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17028" toLevel="1" name="Appearance Stone: Emerald Weapon - Sigil (15-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17029" toLevel="1" name="Appearance Stone: Emerald Weapon - One-handed Sword">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17030" toLevel="1" name="Appearance Stone: Emerald Weapon - Dagger">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17031" toLevel="1" name="Appearance Stone: Emerald Weapon - Two-handed Sword">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17032" toLevel="1" name="Appearance Stone: Emerald Weapon - Fist Weapon">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17033" toLevel="1" name="Appearance Stone: Emerald Weapon - Spear">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17034" toLevel="1" name="Appearance Stone: Emerald Weapon - Bow">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17035" toLevel="1" name="Appearance Stone: Emerald Weapon - Crossbow">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17036" toLevel="1" name="Appearance Stone: Emerald Weapon - One-handed Blunt Weapon">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17037" toLevel="1" name="Appearance Stone: Emerald Weapon - Two-handed Blunt Weapon">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17038" toLevel="1" name="Appearance Stone: Emerald Weapon - One-handed Staff">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17039" toLevel="1" name="Appearance Stone: Emerald Weapon - Two-handed Staff">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17040" toLevel="1" name="Appearance Stone: Emerald Weapon - Dual Swords">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17041" toLevel="1" name="Appearance Stone: Emerald Weapon - Dual Daggers">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17042" toLevel="1" name="Appearance Stone: Emerald Weapon - Dual Blunt Weapons">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17043" toLevel="1" name="Appearance Stone: Emerald Weapon - Shield">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17044" toLevel="1" name="Appearance Stone: Emerald Weapon - Sigil">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17045" toLevel="1" name="Black Anvil Guild's Dimensional Chest">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>2000</reuseDelay>
+	</skill>
+	<skill id="17046" toLevel="1" name="Dimensional Castle Lord's Support Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+		<reuseDelay>2000</reuseDelay>
+	</skill>
+	<skill id="17047" toLevel="1" name="Remove Trick">
+		<!-- Exposes hiding monsters. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="17048" toLevel="1" name="Premium Buff">
+		<!-- A premium buff given as a reward for completing quests. Acquired XP/ SP while hunting +200%. -->
+		<icon>icon.etc_blessed_kalie_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>PREMIUM_BUFF</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>100</effectPoint>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<isMagic>3</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-2</magicLevel>
+		<specialLevel>-2</specialLevel>
+	</skill>
+	<skill id="17049" toLevel="1" name="Scroll of Escape: Gainak">
+		<!-- Teleports to Gainak. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>1500</hitTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37019</itemConsumeId> <!-- Scroll of Escape: Gainak -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<conditions>
+			<condition name="OpAlignment">
+				<affectType>CASTER</affectType>
+				<alignment>LAWFUL</alignment>
+			</condition>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>16319</x>
+				<y>-114101</y>
+				<z>-224</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17050" toLevel="1" name="Scroll of Escape: Raider's Crossroads">
+		<!-- Return to Raider's Crossroads -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>1500</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37017</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<conditions>
+			<condition name="OpAlignment">
+				<affectType>CASTER</affectType>
+				<alignment>LAWFUL</alignment>
+			</condition>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>20583</x>
+				<y>-129571</y>
+				<z>-1720</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17051" toLevel="1" name="Scroll of Escape: Land of Chaos">
+		<!-- Return to Land of Chaos -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>1500</hitTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37018</itemConsumeId> <!-- Scroll of Escape: Land of Chaos -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<conditions>
+			<condition name="OpAlignment">
+				<affectType>CASTER</affectType>
+				<alignment>LAWFUL</alignment>
+			</condition>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>-17980</x>
+				<y>-111991</y>
+				<z>-3800</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17052" toLevel="2" name="Elmore Supply Pack">
+		<!-- Double-click to obtain one of the following items: Giant's Codex (Oblivion, Discipline, Mastery, common), Scroll: Enchant R-grade Weapon/ Armor. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17053" toLevel="1" name="Elmore's Miraculous Pack">
+		<!-- Double-click to obtain one of the following items: a weapon upgrade ingredient (Lv. 4), armor upgrade ingredient (Lv. 4), Eternal Ingredient Pouch, or Eternal Recipe Pouch. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17054" toLevel="1" name="Elmore's Noble Box">
+		<!-- Double-click to obtain one of the following items: a weapon upgrade material (Lv. 4), armor upgrade material (Lv. 4), Eternal Material Pouch, Eternal Recipe Pouch. Has a higher chance of obtaining more and better items than through the Elmore's Miraculous Pack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17055" toLevel="1" name="Eternal Recipe Pouch">
+		<!-- Double-click to obtain one of the Eternal recipes, including: Recipe: Eternal Breastplate (60%), Recipe: Eternal Helmet (60%), Recipe: Eternal Gaiters (60%), Recipe: Eternal Gauntlets (60%), Recipe: Eternal Boots (60%), Recipe: Eternal Shield (60%) and others. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17056" toLevel="1" name="Eternal Material Pouch">
+		<!-- Double-click to obtain one of the Eternal materials, including: Unidentified Eternal Breastplate Material, Eternal Helmet Material, Eternal Gaiters Material, Eternal Gauntlets Material, Eternal Boots Material, Eternal Shield Material, and others. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17057" toLevel="1" name="Forgotten Power of Dimensions">
+		<!-- A blessing given by the Dimensional Wizard for the victory in the dimensional space. For 1 h., Atk. Spd./ Casting Spd. +10%, Speed +10, Max HP/ MP/ CP +10%. -->
+		<icon>icon.tersi_specter_seed</icon>
+		<operateType>A2</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>3600000</reuseDelay>
+	</skill>
+	<skill id="17058" toLevel="1" name="Dimensional Blessing - Event">
+		<!-- A blessing from the Dimensional Wizard. For 4 h., acquired XP +100%. -->
+		<icon>icon.skill14216</icon>
+		<operateType>A2</operateType>
+		<castRange>1200</castRange>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="17059" toLevel="1" name="Talisman of Escape: Gludio">
+		<!-- Return to the Town of Gludio. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17060" toLevel="1" name="Talisman of Escape: Dion">
+		<!-- Return to the Town of Dion. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17061" toLevel="1" name="Talisman of Escape: Giran">
+		<!-- Return to the Town of Giran. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17062" toLevel="1" name="Talisman of Escape: Heine">
+		<!-- Return to Heine. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>20000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37112</itemConsumeId>
+		<magicLevel>1</magicLevel>
+		<conditions msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>108458</x>
+				<y>221652</y>
+				<z>-3592</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17063" toLevel="1" name="Talisman of Escape: Oren">
+		<!-- Teleports to Oren. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>20000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37113</itemConsumeId>
+		<magicLevel>1</magicLevel>
+		<conditions msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>83676</x>
+				<y>55510</y>
+				<z>-1512</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17064" toLevel="1" name="Talisman of Escape: Aden">
+		<!-- Teleports to Aden. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>20000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37116</itemConsumeId>
+		<magicLevel>1</magicLevel>
+		<conditions msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>147540</x>
+				<y>24661</y>
+				<z>-1984</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17065" toLevel="1" name="Talisman of Escape: Goddard">
+		<!-- Teleports to Goddard. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>20000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37121</itemConsumeId>
+		<magicLevel>1</magicLevel>
+		<conditions msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>147491</x>
+				<y>-56633</y>
+				<z>-2776</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17066" toLevel="1" name="Talisman of Escape: Rune">
+		<!-- Teleports to Rune. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>20000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37117</itemConsumeId>
+		<magicLevel>1</magicLevel>
+		<conditions msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>42682</x>
+				<y>-47986</y>
+				<z>-792</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17067" toLevel="1" name="Talisman of Escape: Schuttgart">
+		<!-- Return to the Town of Schuttgart. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17068" toLevel="1" name="Talisman of Escape: Talking Island Village">
+		<!-- Return to Talking Island Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17069" toLevel="1" name="Talisman of Escape: Elven Village">
+		<!-- Return to the Elven Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17070" toLevel="1" name="Talisman of Escape: Dark Elf Village">
+		<!-- Return to the Dark Elf Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17071" toLevel="1" name="Talisman of Escape: Orc Village">
+		<!-- Return to the Orc Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17072" toLevel="1" name="Talisman of Escape: Dwarven Village">
+		<!-- Return to the Dwarven Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17073" toLevel="1" name="Talisman of Escape: Floran Village">
+		<!-- Return to Floran Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17074" toLevel="1" name="Talisman of Escape: Hardin's Academy">
+		<!-- Return to Hardin's Academy. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17075" toLevel="1" name="Talisman of Escape: Ivory Tower">
+		<!-- Return to Ivory Tower. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17076" toLevel="1" name="Talisman of Escape: Hunters' Village">
+		<!-- Return to the Hunter's Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17077" toLevel="1" name="Talisman of Escape: Ketra Orc Village">
+		<!-- Return to the Ketra Orc Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17078" toLevel="1" name="Talisman of Escape: Varka Silenos Village">
+		<!-- Return to Varka Silenos Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17079" toLevel="1" name="Talisman of Escape: Kamael Village">
+		<!-- Return to the Kamael Village. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<hitTime>20000</hitTime>
+		<reuseDelay>14400000</reuseDelay>
+	</skill>
+	<skill id="17080" toLevel="1" name="Restoration Stone: Head Accessory">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="17081" toLevel="1" name="Spellbook: Mount Lyn Draco">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0.5</hitCancelTime>
+		<hitTime>1500</hitTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37496</itemConsumeId>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>99</magicLevel>
+		<conditions>
+			<condition name="OpMainjob" />
+			<condition name="CheckLevel">
+				<minLevel>99</minLevel>
+			</condition>
+			<condition name="OpSkill">
+				<skillId>19116</skillId> <!-- Summon Lyn Draco -->
+				<skillLevel>1</skillLevel>
+				<hasLearned>false</hasLearned>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="SetSkill">
+				<skillId>19116</skillId> <!-- Summon Lyn Draco -->
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17082" toLevel="1" name="Prevailing Sonata - Mentor">
+		<!-- With your mentor's help, Max HP +30%, P. Atk. +30%, M. Atk. +33%, Casting Interruption Rate -40. With a 8% chance, applies Vampiric Rage effect. The effect is active only when your mentor is online and for 5 min. after they have logged out. -->
+		<icon>icon.skill11529</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>0</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<canBeDispelled>false</canBeDispelled>
+		<effectPoint>687</effectPoint>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isMentoring>true</isMentoring>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-2</magicLevel>
+		<specialLevel>-2</specialLevel>
+		<effects>
+			<effect name="MaxHp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</slot>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ReduceCancel">
+				<amount>-53</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>9</amount>
+				<chance>30</chance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17083" toLevel="1" name="Daring Sonata - Mentor">
+		<!-- With your mentor's help, Atk. Spd. +40%, Casting Spd. +30%, Damage Reflection +10%, skill cooldown -10%. The effect is active only when your mentor is online and for 5 min. after they have logged out. -->
+		<icon>icon.skill11530</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>0</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>ENCHANTER_MOD</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<canBeDispelled>false</canBeDispelled>
+		<effectPoint>696</effectPoint>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isMentoring>true</isMentoring>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-2</magicLevel>
+		<specialLevel>-2</specialLevel>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</slot>
+			</effect>
+			<effect name="Speed">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageShield">
+				<amount>10</amount>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17084" toLevel="1" name="Refreshing Sonata - Mentor">
+		<!-- With your mentor's help, HP Recovery Rate +75%, MP Recovery Rate +100%, P./ M. Evasion +5, Skill MP Consumption -22%. The effect is active only when your mentor is online and for 5 min. after they have logged out. -->
+		<icon>icon.skill11532</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>0</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>SYNERGY_IS</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<canBeDispelled>false</canBeDispelled>
+		<effectPoint>696</effectPoint>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isMentoring>true</isMentoring>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-2</magicLevel>
+		<specialLevel>-2</specialLevel>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</slot>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="HpRegen">
+				<amount>75</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17085" toLevel="1" name="Kisung's Power Up">
+		<!-- For 30 min., acquired XP +10%, Max HP +30%, Max MP +30%, Max CP +30%, P. Def. +30%, M. Def. +30%, Speed +20, P. Atk. +10%, M. Atk. +20%, Skill MP Consumption -15%. The effect does not stack with Art of Seduction. -->
+		<icon>icon.etc_star_scroll_baekisung</icon>
+		<operateType>A2</operateType>
+		<abnormalType>BR_EVENT_BUF1</abnormalType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>37554</itemConsumeId>
+		<reuseDelay>15000</reuseDelay>
+	</skill>
+	<skill id="17086" toLevel="1" name="Summon Agathion Bae Kisung">
+		<!-- Summons an agathion. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>3000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>75</magicLevel>
+		<effects>
+			<effect name="SummonAgathion">
+				<npcId>13397</npcId> <!-- Bae Kisung -->
+			</effect>
+		</effects>
+	</skill>
+	<skill id="17087" toLevel="1" name="Kisung's Power Up - Event">
+		<!-- For 30 min., acquired XP +10%, Max HP +30%, Max MP +30%, Max CP +30%, P. Def. +30%, M. Def. +30%, Speed +20, P. Atk. +10%, M. Atk. +20%, Skill MP Consumption -15%. The effect does not stack with Art of Seduction. -->
+		<icon>icon.etc_star_scroll_baekisung</icon>
+		<operateType>A2</operateType>
+		<abnormalType>BR_EVENT_BUF1</abnormalType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>15000</reuseDelay>
+	</skill>
+	<skill id="17088" toLevel="1" name="Kisung's Emote 2">
+		<!-- Makes an agathion perform a cute trick. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<hitTime>3800</hitTime>
+	</skill>
+	<skill id="17089" toLevel="1" name="Kisung's Charm">
+		<!-- See Agathion's cuteness. -->
+		<icon>icon.skill_agathion_special</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<hitTime>6000</hitTime>
+	</skill>
+	<skill id="17090" toLevel="1" name="Kisung's Cute Trick">
+		<!-- See Kisung's cute trick. -->
+		<icon>icon.skill_agathion_cute</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<hitTime>7000</hitTime>
+	</skill>
+	<skill id="17091" toLevel="1" name="Transformation Scroll: One-eyed ParaPara Cat">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="17092" toLevel="1" name="Transformation Scroll: Smiling ParaPara Cat">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="17093" toLevel="1" name="Transformation Scroll: Charming ParaPara Cat">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="17094" toLevel="1" name="Transformation Scroll: Ferocious ParaPara Cat">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="17095" toLevel="1" name="Transformation Scroll: Merchant ParaPara Cat">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+	</skill>
+	<skill id="17096" toLevel="1" name="Transform: One-eyed ParaPara Cat">
+		<!-- Transforms into One-eyed ParaPara Cat. -->
+		<icon>icon.skilltransform1</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="17097" toLevel="1" name="Transform: Smiling ParaPara Cat">
+		<!-- Transforms into Smiling ParaPara Cat. -->
+		<icon>icon.skilltransform1</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="17098" toLevel="1" name="Transform: Charming ParaPara Cat">
+		<!-- Transforms into Charming ParaPara Cat. -->
+		<icon>icon.skilltransform1</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<hitTime>1000</hitTime>
+	</skill>
+	<skill id="17099" toLevel="1" name="Transform: Ferocious ParaPara Cat">
+		<!-- Transforms into Ferocious ParaPara Cat. -->
+		<icon>icon.skilltransform1</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<hitTime>1000</hitTime>
+	</skill>
+</list>

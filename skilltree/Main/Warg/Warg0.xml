@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="255">
+		<!-- Passives -->
+		<skill skillName="Warg's Fist Weapon Mastery" skillId="31450" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Warg's Heavy Armor Mastery" skillId="31451" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Werewolf's Awakening" skillId="31454" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Predator's Instinct Power" skillId="31455" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Warg Power" skillId="31456" skillLevel="1" getLevel="1" autoGet="true" />
+		
+		<!-- Actives -->
+		<skill skillName="Instinct Dash" skillId="31476" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Moon Agility" skillId="31486" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Claw Storm (Instinct)" skillId="31457" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Violent Storm (Instinct)" skillId="31458" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Moon Jump (Instinct)" skillId="31460" skillLevel="1" getLevel="1" autoGet="true" />
+	</skillTree>
+</list>

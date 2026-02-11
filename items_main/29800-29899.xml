@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="29800" name="Superior Amethyst Lv. 5" type="Armor">
+		<!-- PvP damage +27%, received P. Critical Rate -30%. Enables the Invincibility/ Immunity Removal skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_amethyst_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29409" level="5" /> <!-- Superior Amethyst -->
+			<skill id="27443" level="6" /> <!-- Superior Amethyst - Remove Invincibility/Immunity -->
+		</skills>
+	</item>
+	<item id="29801" name="Superior Amethyst Lv. 6" type="Armor">
+		<!-- PvP damage +28%, received P. Critical Rate -30%. Enables the Invincibility/ Immunity Removal skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_amethyst_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29409" level="6" /> <!-- Superior Amethyst -->
+			<skill id="27443" level="7" /> <!-- Superior Amethyst - Remove Invincibility/Immunity -->
+		</skills>
+	</item>
+	<item id="29802" name="Superior Amethyst Lv. 7" type="Armor">
+		<!-- PvP damage +28%, received P. Critical Rate -30%. Enables the Invincibility/ Immunity Removal skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_amethyst_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29409" level="7" /> <!-- Superior Amethyst -->
+			<skill id="27443" level="8" /> <!-- Superior Amethyst - Remove Invincibility/Immunity -->
+		</skills>
+	</item>
+	<item id="29803" name="Superior Amethyst Lv. 8" type="Armor">
+		<!-- PvP damage +29%, received P. Critical Rate -30%. Enables the Invincibility/ Immunity Removal skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_amethyst_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29409" level="8" /> <!-- Superior Amethyst -->
+			<skill id="27443" level="9" /> <!-- Superior Amethyst - Remove Invincibility/Immunity -->
+		</skills>
+	</item>
+	<item id="29804" name="Superior Amethyst Lv. 9" type="Armor">
+		<!-- PvP damage +29%, received P. Critical Rate -30%. Enables the Invincibility/ Immunity Removal skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_amethyst_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29409" level="9" /> <!-- Superior Amethyst -->
+			<skill id="27443" level="10" /> <!-- Superior Amethyst - Remove Invincibility/Immunity -->
+		</skills>
+	</item>
+	<item id="29805" name="Superior Amethyst Lv. 10" type="Armor">
+		<!-- PvP damage +30%, received P. Critical Rate -30%. Enables the Invincibility/ Immunity Removal skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_amethyst_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29409" level="10" /> <!-- Superior Amethyst -->
+			<skill id="27443" level="11" /> <!-- Superior Amethyst - Remove Invincibility/Immunity -->
+		</skills>
+	</item>
+	<item id="29806" name="Superior Cat's Eye Lv. 1" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 21% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="1" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29807" name="Superior Cat's Eye Lv. 2" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 22% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="2" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29808" name="Superior Cat's Eye Lv. 3" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 23% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="3" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29809" name="Superior Cat's Eye Lv. 4" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 24% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="4" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29810" name="Superior Cat's Eye Lv. 5" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 25% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="5" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29811" name="Superior Cat's Eye Lv. 6" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 26% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="6" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29812" name="Superior Cat's Eye Lv. 7" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 27% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="7" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29813" name="Superior Cat's Eye Lv. 8" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 28% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="8" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29814" name="Superior Cat's Eye Lv. 9" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 29% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="9" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29815" name="Superior Cat's Eye Lv. 10" type="Armor">
+		<!-- Damage Reflection Resistance +70%. With a 30% chance, reflects debuffs back to the enemy. Enables the Invincibility skill. Effects of two identical jewels do not stack -->
+		<set name="icon" val="BranchIcon.Icon.g_bm_jewel_catseye_lv1_lavianrose_high2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="brooch_jewel" />
+		<set name="immediate_effect" val="true" />
+		<set name="weight" val="5" />
+		<set name="is_sellable" val="false" />
+		<set name="material" val="FISH" />
+		<skills>
+			<skill id="29411" level="10" /> <!-- Superior Cat's Eye -->
+			<skill id="27441" level="4" /> <!-- Superior Cat's Eye - Invincibility -->
+		</skills>
+	</item>
+	<item id="29816" name="Zodiac Agathion Charm (Random)" type="EtcItem">
+		<!-- An item to be displayed in the exchange list. -->
+		<set name="icon" val="icon.bm_gold_relic_box" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29817" name="Night Goblin's Coin" type="EtcItem">
+		<!-- Contains Night Goblin's power. Can be used through the Game Assistant. -->
+		<set name="icon" val="icon.bm_goblin_coin" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29818" name="Night Goblin's Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item. -->
+		<set name="icon" val="icon.etc_treasure_box_i10" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29819" name="Chest with Shillien's Gifts" additionalName="Lv. 1" type="EtcItem">
+		<!-- A mysterious chest with gifts from the goddess Shillien. Double-click to get a rare item with a certain chance. There is a chance to obtain Chest with Shillien's Gifts Lv. 2. -->
+		<set name="icon" val="icon.bm_nebit_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="20" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="29401" min="1" max="1" chance="100" /> <!-- Ultimate Jewelry Box Lv. 3 -->
+			<item id="29769" min="1" max="1" chance="100" /> <!-- Freya's Vitality Sustaining Rune Pack - 30-day -->
+			<item id="37562" min="2" max="2" chance="100" /> <!-- Emperor's Vitality Tonic (Large) -->
+			<item id="47666" min="2" max="2" chance="100" /> <!-- Pa'agrio's Blessing - XP -->
+			<item id="48497" min="2" max="2" chance="100" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48830" min="2" max="2" chance="100" /> <!-- Freya's Ice Rose -->
+			<item id="29820" min="1" max="1" chance="100" /> <!-- Chest with Shillien's Gifts - Lv. 2 -->
+			<item id="30297" min="2" max="2" chance="100" /> <!-- Superior Giant's Codex Manuscript -->
+			<item id="30298" min="1" max="1" chance="100" /> <!-- Superior Giant's Codex Manuscript - Mastery -->
+			<item id="46150" min="1" max="1" chance="100" /> <!-- Superior Giant's Codex - Chapter 1 -->
+		</capsuled_items>
+	</item>
+	<item id="29820" name="Chest with Shillien's Gifts" additionalName="Lv. 2" type="EtcItem">
+		<!-- A mysterious chest with gifts from the goddess Shillien. Double-click to get a rare item with a certain chance. There is a chance to obtain Chest with Shillien's Gifts Lv. 3. -->
+		<set name="icon" val="icon.bm_nebit_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="20" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="29402" min="1" max="1" chance="100" /> <!-- Ultimate Jewelry Box Lv. 4 -->
+			<item id="29403" min="1" max="1" chance="100" /> <!-- Ultimate Jewelry Box Lv. 5 -->
+			<item id="47494" min="3" max="3" chance="100" /> <!-- Selenite -->
+			<item id="80636" min="1" max="1" chance="100" /> <!-- Artifact Crystal -->
+			<item id="81134" min="2" max="2" chance="100" /> <!-- Crystal of Dyes -->
+			<item id="29539" min="1" max="1" chance="100" /> <!-- Dark Crystal -->
+			<item id="29821" min="1" max="1" chance="100" /> <!-- Chest with Shillien's Gifts - Lv. 3 -->
+			<item id="36414" min="1" max="1" chance="100" /> <!-- Dragon Claw -->
+			<item id="39738" min="3" max="3" chance="100" /> <!-- Rune Stone -->
+		</capsuled_items>
+	</item>
+	<item id="29821" name="Chest with Shillien's Gifts" additionalName="Lv. 3" type="EtcItem">
+		<!-- A mysterious chest with gifts from the goddess Shillien. Double-click to get a rare item with a certain chance. -->
+		<set name="icon" val="icon.bm_nebit_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="20" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="39592" min="1" max="1" chance="100" /> <!-- Heavy Air Stone -->
+			<item id="48666" min="1" max="1" chance="100" /> <!-- Dragon Weapon Pack -->
+			<item id="48667" min="1" max="1" chance="100" /> <!-- Dragon Weapon Pack (Lv. 1) -->
+			<item id="48831" min="1" max="1" chance="100" /> <!-- Jewel Energy -->
+			<item id="48910" min="1" max="1" chance="100" /> <!-- Shillien's Soul Crystal Box -->
+			<item id="48995" min="1" max="1" chance="100" /> <!-- +5 Dragon Rind Leather Shirt Box -->
+			<item id="36731" min="1" max="1" chance="100" /> <!-- Spirit Stone: Giant's Power -->
+			<item id="48418" min="1" max="1" chance="100" /> <!-- Authority Ornament -->
+			<item id="80839" min="1" max="1" chance="100" /> <!-- Crystal of Dawn -->
+			<item id="35564" min="1" max="1" chance="100" /> <!-- Ruler's Authority - Lv. 1 -->
+		</capsuled_items>
+	</item>
+	<item id="29822" name="Suspicious Vault" type="EtcItem">
+		<!-- Found in the Mystic Tavern. Double-click to obtain rare items. -->
+		<set name="icon" val="icon.bm_strongbox" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29823" name="High-grade Stable Scroll: Enchant Cloak - Legendary" type="EtcItem">
+		<!-- A scroll for enchanting an ancient kingdoms' cloak from +15 to +17. The enchant value goes up by +1 when it succeeds. In case of failure, the enchant value remains the same. -->
+		<set name="icon" val="BranchIcon.icon.g_bm_cloak_enchant_scroll_legend" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="ENCHT_ATTR_ANCIENT_CRYSTAL_ENCHANT_AM" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="immediate_effect" val="true" />
+		<set name="commissionItemType" val="SCROLL_ENCHANT_ARMOR" />
+		<skills>
+			<skill id="28068" level="2" /> <!-- High-grade Scroll: Enchant Cloak - Legendary -->
+		</skills>
+	</item>
+	<item id="29824" name="Aden's Anniversary Treasure Chest" additionalName="Event" type="EtcItem">
+		<!-- A chest obtained as a reward for monster hunting during the game anniversary event. Double-click to obtain various items such as a greater jewel, Sealed Talisman of Insanity, R110-/ R99-grade equipment. -->
+		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="17526" min="1" max="1" chance="100" /> <!-- Scroll: Enchant R-grade Weapon -->
+			<item id="17527" min="1" max="1" chance="100" /> <!-- Scroll: Enchant R-grade Armor -->
+			<item id="39573" min="1" max="1" chance="100" /> <!-- Sealed Talisman of Insanity -->
+			<item id="47494" min="1" max="1" chance="100" /> <!-- Selenite -->
+			<item id="48065" min="1" max="1" chance="100" /> <!-- Zodiac Cube Fragment -->
+			<item id="80596" min="16" max="16" chance="100" /> <!-- Anniversary Coin - Event -->
+			<item id="80596" min="8" max="8" chance="100" /> <!-- Anniversary Coin - Event -->
+			<item id="80596" min="4" max="4" chance="100" /> <!-- Anniversary Coin - Event -->
+			<item id="80596" min="2" max="2" chance="100" /> <!-- Anniversary Coin - Event -->
+			<item id="57" min="240000" max="240000" chance="100" /> <!-- Adena -->
+			<item id="57" min="160000" max="160000" chance="100" /> <!-- Adena -->
+			<item id="28376" min="1" max="1" chance="100" /> <!-- Greater Cat's Eye Lv. 1 -->
+			<item id="28377" min="1" max="1" chance="100" /> <!-- Greater Amethyst Lv. 1 -->
+			<item id="28383" min="1" max="1" chance="100" /> <!-- Greater Garnet Lv. 1 - Not available -->
+			<item id="35566" min="1" max="1" chance="100" /> <!-- Dark Weapon Upgrade Stone -->
+			<item id="35567" min="1" max="1" chance="100" /> <!-- Dark Armor Upgrade Stone -->
+			<item id="35568" min="1" max="1" chance="100" /> <!-- Bloody Weapon Upgrade Stone -->
+			<item id="35569" min="1" max="1" chance="100" /> <!-- Bloody Armor Upgrade Stone -->
+			<item id="47687" min="1" max="1" chance="100" /> <!-- Greater Topaz Lv. 1 -->
+			<item id="47688" min="1" max="1" chance="100" /> <!-- Greater Ruby Lv. 1 -->
+			<item id="47689" min="1" max="1" chance="100" /> <!-- Greater Sapphire Lv. 1 -->
+			<item id="47690" min="1" max="1" chance="100" /> <!-- Greater Obsidian Lv. 1 -->
+			<item id="47691" min="1" max="1" chance="100" /> <!-- Greater Opal Lv. 1 -->
+			<item id="47692" min="1" max="1" chance="100" /> <!-- Greater Emerald Lv. 1 -->
+			<item id="47693" min="1" max="1" chance="100" /> <!-- Greater Aquamarine Lv. 1 -->
+			<item id="47694" min="1" max="1" chance="100" /> <!-- Greater Diamond Lv. 1 -->
+			<item id="47695" min="1" max="1" chance="100" /> <!-- Greater Pearl Lv. 1 -->
+			<item id="47696" min="1" max="1" chance="100" /> <!-- Greater Vital Stone Lv. 1 -->
+			<item id="47698" min="1" max="1" chance="100" /> <!-- Greater Tanzanite Lv. 1 -->
+			<item id="47699" min="1" max="1" chance="100" /> <!-- Greater Red Cat's Eye Lv. 1 -->
+			<item id="47700" min="1" max="1" chance="100" /> <!-- Greater Blue Cat's Eye Lv. 1 -->
+			<item id="17416" min="1" max="1" chance="100" /> <!-- Helios Shaper -->
+			<item id="17417" min="1" max="1" chance="100" /> <!-- Helios Cutter -->
+			<item id="17418" min="1" max="1" chance="100" /> <!-- Helios Slasher -->
+			<item id="17419" min="1" max="1" chance="100" /> <!-- Helios Avenger -->
+			<item id="17420" min="1" max="1" chance="100" /> <!-- Helios Fighter -->
+			<item id="17421" min="1" max="1" chance="100" /> <!-- Helios Stormer -->
+			<item id="17422" min="1" max="1" chance="100" /> <!-- Helios Thrower -->
+			<item id="17423" min="1" max="1" chance="100" /> <!-- Helios Guardian -->
+			<item id="17424" min="1" max="1" chance="100" /> <!-- Helios Buster -->
+			<item id="17425" min="1" max="1" chance="100" /> <!-- Helios Caster -->
+			<item id="17426" min="1" max="1" chance="100" /> <!-- Helios Retributer -->
+			<item id="17427" min="1" max="1" chance="100" /> <!-- Helios Dual Swords -->
+			<item id="17428" min="1" max="1" chance="100" /> <!-- Helios Dual Daggers -->
+			<item id="17429" min="1" max="1" chance="100" /> <!-- Helios Dual Blunt Weapons -->
+			<item id="17430" min="1" max="1" chance="100" /> <!-- Eternal Helmet - Heavy armor -->
+			<item id="17431" min="1" max="1" chance="100" /> <!-- Eternal Breastplate - Heavy armor -->
+			<item id="17432" min="1" max="1" chance="100" /> <!-- Eternal Gaiters - Heavy armor -->
+			<item id="17433" min="1" max="1" chance="100" /> <!-- Eternal Gauntlets - Heavy armor -->
+			<item id="17434" min="1" max="1" chance="100" /> <!-- Eternal Boots - Heavy armor -->
+			<item id="17435" min="1" max="1" chance="100" /> <!-- Eternal Shield -->
+			<item id="17436" min="1" max="1" chance="100" /> <!-- Eternal Leather Helmet - Light armor -->
+			<item id="17437" min="1" max="1" chance="100" /> <!-- Eternal Leather Armor - Light armor -->
+			<item id="17438" min="1" max="1" chance="100" /> <!-- Eternal Leather Leggings - Light armor -->
+			<item id="17439" min="1" max="1" chance="100" /> <!-- Eternal Leather Gloves - Light armor -->
+			<item id="17440" min="1" max="1" chance="100" /> <!-- Eternal Leather Boots - Light armor -->
+			<item id="17441" min="1" max="1" chance="100" /> <!-- Eternal Circlet - Robe -->
+			<item id="17442" min="1" max="1" chance="100" /> <!-- Eternal Tunic - Robe -->
+			<item id="17443" min="1" max="1" chance="100" /> <!-- Eternal Stockings - Robe -->
+			<item id="17444" min="1" max="1" chance="100" /> <!-- Eternal Gloves - Robe -->
+			<item id="17445" min="1" max="1" chance="100" /> <!-- Eternal Shoes - Robe -->
+			<item id="17446" min="1" max="1" chance="100" /> <!-- Eternal Sigil -->
+			<item id="80090" min="1" max="1" chance="100" /> <!-- Krishna Shaper -->
+			<item id="80091" min="1" max="1" chance="100" /> <!-- Krishna Cutter -->
+			<item id="80092" min="1" max="1" chance="100" /> <!-- Krishna Slasher -->
+			<item id="80093" min="1" max="1" chance="100" /> <!-- Krishna Avenger -->
+			<item id="80094" min="1" max="1" chance="100" /> <!-- Krishna Fighter -->
+			<item id="80095" min="1" max="1" chance="100" /> <!-- Krishna Stormer -->
+			<item id="80096" min="1" max="1" chance="100" /> <!-- Krishna Thrower -->
+			<item id="80097" min="1" max="1" chance="100" /> <!-- Krishna Guardian -->
+			<item id="80098" min="1" max="1" chance="100" /> <!-- Krishna Buster -->
+			<item id="80099" min="1" max="1" chance="100" /> <!-- Krishna Caster -->
+			<item id="80100" min="1" max="1" chance="100" /> <!-- Krishna Retributer -->
+			<item id="80101" min="1" max="1" chance="100" /> <!-- Krishna Dual Swords -->
+			<item id="80102" min="1" max="1" chance="100" /> <!-- Krishna Dual Daggers -->
+			<item id="80103" min="1" max="1" chance="100" /> <!-- Krishna Dual Blunt Weapons -->
+			<item id="80104" min="1" max="1" chance="100" /> <!-- Leviathan Helmet - Heavy armor -->
+			<item id="80105" min="1" max="1" chance="100" /> <!-- Leviathan Breastplate - Heavy armor -->
+			<item id="80106" min="1" max="1" chance="100" /> <!-- Leviathan Gaiters - Heavy armor -->
+			<item id="80107" min="1" max="1" chance="100" /> <!-- Leviathan Gauntlets - Heavy armor -->
+			<item id="80108" min="1" max="1" chance="100" /> <!-- Leviathan Boots - Heavy armor -->
+			<item id="80109" min="1" max="1" chance="100" /> <!-- Leviathan Shield -->
+			<item id="80110" min="1" max="1" chance="100" /> <!-- Leviathan Leather Helmet - Light armor -->
+			<item id="80111" min="1" max="1" chance="100" /> <!-- Leviathan Leather Armor - Light armor -->
+			<item id="80112" min="1" max="1" chance="100" /> <!-- Leviathan Leather Leggings - Light armor -->
+			<item id="80113" min="1" max="1" chance="100" /> <!-- Leviathan Leather Gloves - Light armor -->
+			<item id="80114" min="1" max="1" chance="100" /> <!-- Leviathan Leather Boots - Light armor -->
+			<item id="80115" min="1" max="1" chance="100" /> <!-- Leviathan Circlet - Robe -->
+			<item id="80116" min="1" max="1" chance="100" /> <!-- Leviathan Tunic - Robe -->
+			<item id="80117" min="1" max="1" chance="100" /> <!-- Leviathan Stockings - Robe -->
+			<item id="80118" min="1" max="1" chance="100" /> <!-- Leviathan Gloves - Robe -->
+			<item id="80119" min="1" max="1" chance="100" /> <!-- Leviathan Shoes - Robe -->
+			<item id="80120" min="1" max="1" chance="100" /> <!-- Leviathan Sigil -->
+		</capsuled_items>
+	</item>
+	<item id="29825" name="Letter P" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_p_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29826" name="Letter Bag" type="EtcItem">
+		<!-- Double-click to obtain one of the letters. -->
+		<set name="icon" val="icon.etc_crystal_spice_blessed_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29827" name="Fragment of Nightmare" additionalName="Event" type="EtcItem">
+		<!-- Found on monsters' bodies in Rim Kamaloka. Can be exchanged for useful items through Pathfinder in any town. -->
+		<set name="icon" val="icon.etc_piece_of_power_01" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29828" name="Dragon's Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item. -->
+		<set name="icon" val="icon.bm_dragon_present_4" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29829" name="Maphr's Box of Splendor" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29830" name="Treasure of Seekers" type="EtcItem">
+		<!-- Double-click to obtain Shiny Gold Bar Box and a useful item. -->
+		<set name="icon" val="icon.bm_sheep_agathion_30d_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="29529" min="1" max="1" chance="100" /> <!-- Shiny Gold Bar Box -->
+		</capsuled_items>
+	</item>
+	<item id="29831" name="Monster Power Potion" type="EtcItem">
+		<!-- Emanates powerful energy. Perhaps, that's what caused the monsters' growth. -->
+		<set name="icon" val="icon.bm_soul_of_undead" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29832" name="Freya's Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item. Additionally, you will get Freya's Glittering Scroll of Storm (3 pcs.), Freya's Glittering Ice Rose, Freya's Ice Crystal (5 pcs.). -->
+		<set name="icon" val="icon.bm_freya_gift_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="29676" min="3" max="3" chance="33.33333" /> <!-- Freya's Glittering Scroll of Storm -->
+			<item id="29677" min="1" max="1" chance="33.33333" /> <!-- Freya's Glittering Ice Rose -->
+			<item id="29833" min="5" max="5" chance="33.33333" /> <!-- Freya's Ice Crystal -->
+		</capsuled_items>
+	</item>
+	<item id="29833" name="Freya's Ice Crystal" type="EtcItem">
+		<!-- Can be exchanged for various items through the Game Assistant. -->
+		<set name="icon" val="icon.bm_freya_crystal" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29834" name="Shiny Vault" type="EtcItem">
+		<!-- Found in the Mystic Tavern. Double-click to obtain rare items. -->
+		<set name="icon" val="icon.bm_pirate_battle_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29835" name="Lucky Jewelry Box" additionalName="Lv. 1" type="EtcItem">
+		<!-- Double-click to obtain Ultimate Jewelry Box or Lucky Jewelry Box Lv. 2. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="28470" min="1" max="1" chance="60" /> <!-- Ultimate Jewelry Box -->
+			<item id="29836" min="1" max="1" chance="40" /> <!-- Lucky Jewelry Box - Lv. 2 -->
+		</capsuled_items>
+	</item>
+	<item id="29836" name="Lucky Jewelry Box" additionalName="Lv. 2" type="EtcItem">
+		<!-- Double-click to obtain Ultimate Jewelry Box (2 pcs.) or Lucky Jewelry Box Lv. 3. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="28470" min="2" max="2" chance="60" /> <!-- Ultimate Jewelry Box -->
+			<item id="29837" min="1" max="1" chance="40" /> <!-- Lucky Jewelry Box - Lv. 3 -->
+		</capsuled_items>
+	</item>
+	<item id="29837" name="Lucky Jewelry Box" additionalName="Lv. 3" type="EtcItem">
+		<!-- Double-click to obtain Ultimate Jewelry Box Lv. 3 or Lucky Jewelry Box Lv. 4. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="47711" min="1" max="1" chance="60" /> <!-- Ultimate Jewelry Box Lv. 3 -->
+			<item id="29838" min="1" max="1" chance="40" /> <!-- Lucky Jewelry Box - Lv. 4 -->
+		</capsuled_items>
+	</item>
+	<item id="29838" name="Lucky Jewelry Box" additionalName="Lv. 4" type="EtcItem">
+		<!-- Double-click to obtain Ultimate Jewelry Box Lv. 4 or Lv. 5. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="48838" min="1" max="1" chance="60" /> <!-- Sea of Spores' Stolen Energy -->
+			<item id="48839" min="1" max="1" chance="40" /> <!-- Ultimate Jewelry Box Lv. 5 -->
+		</capsuled_items>
+	</item>
+	<item id="29839" name="Dragon Weapon Upgrade Pack" type="EtcItem">
+		<!-- Double-click to obtain a random upgrade material for Dragon weapons. -->
+		<set name="icon" val="icon.bm_dragon_present_3" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="19440" min="60" max="60" chance="25" /> <!-- Jewel -->
+			<item id="35563" min="20" max="20" chance="25" /> <!-- Giant's Power -->
+			<item id="36414" min="1" max="1" chance="25" /> <!-- Dragon Claw -->
+			<item id="36515" min="1" max="1" chance="25" /> <!-- Elcyum -->
+		</capsuled_items>
+	</item>
+	<item id="29840" name="Crystal Pack" type="EtcItem">
+		<!-- Double-click to obtain a random crystal. -->
+		<set name="icon" val="icon.bm_ensoulbox_PvP" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="48910" min="1" max="1" chance="20" /> <!-- Shillien's Soul Crystal Box -->
+			<item id="80636" min="1" max="1" chance="20" /> <!-- Artifact Crystal -->
+			<item id="81134" min="1" max="1" chance="20" /> <!-- Crystal of Dyes -->
+			<item id="47951" min="10" max="10" chance="20" /> <!-- Crystal of Determination -->
+			<item id="80839" min="1" max="1" chance="20" /> <!-- Crystal of Dawn -->
+		</capsuled_items>
+	</item>
+	<item id="29841" name="Skill Mastery Pack" type="EtcItem">
+		<!-- Double-click to obtain a random material for learning or upgrading skills. -->
+		<set name="icon" val="icon.bm_ensoulbox_PvE" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="48875" min="1" max="1" chance="20" /> <!-- Forgotten Spellbook -->
+			<item id="30297" min="1" max="1" chance="20" /> <!-- Superior Giant's Codex Manuscript -->
+			<item id="30298" min="1" max="1" chance="20" /> <!-- Superior Giant's Codex Manuscript - Mastery -->
+			<item id="39738" min="1" max="1" chance="20" /> <!-- Rune Stone -->
+			<item id="46151" min="1" max="1" chance="20" /> <!-- Superior Giant's Codex - Mastery Chapter 1 -->
+		</capsuled_items>
+	</item>
+	<item id="29842" name="Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain a random rare accessory or item. -->
+		<set name="icon" val="icon.event_orc_coinbox" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="47494" min="5" max="5" chance="4.545455" /> <!-- Selenite -->
+			<item id="17623" min="1" max="1" chance="4.545455" /> <!-- Earth Wyrm's Ring -->
+			<item id="19451" min="1" max="1" chance="4.545455" /> <!-- Istina's Ring -->
+			<item id="19452" min="1" max="1" chance="4.545455" /> <!-- Istina's Earring -->
+			<item id="19453" min="1" max="1" chance="4.545455" /> <!-- Istina's Necklace -->
+			<item id="19457" min="1" max="1" chance="4.545455" /> <!-- Octavis' Ring -->
+			<item id="19458" min="1" max="1" chance="4.545455" /> <!-- Octavis' Earring -->
+			<item id="19459" min="1" max="1" chance="4.545455" /> <!-- Octavis' Necklace -->
+			<item id="19463" min="1" max="1" chance="4.545455" /> <!-- Antharas' Blessed Earring -->
+			<item id="19464" min="1" max="1" chance="4.545455" /> <!-- Valakas' Blessed Necklace -->
+			<item id="35570" min="1" max="1" chance="4.545455" /> <!-- Tauti's Ring -->
+			<item id="36254" min="1" max="1" chance="4.545455" /> <!-- Queen Ant's Soul Ring -->
+			<item id="36255" min="1" max="1" chance="4.545455" /> <!-- Orfen's Soul Earring -->
+			<item id="36257" min="1" max="1" chance="4.545455" /> <!-- Lilith's Soul Necklace -->
+			<item id="36946" min="1" max="1" chance="4.545455" /> <!-- Lindvior's Earring -->
+			<item id="37521" min="1" max="1" chance="4.545455" /> <!-- Baium's Soul Ring -->
+			<item id="37522" min="1" max="1" chance="4.545455" /> <!-- Frintezza's Soul Necklace -->
+			<item id="47216" min="1" max="1" chance="4.545455" /> <!-- Ruler's Ring of Authority -->
+			<item id="47218" min="1" max="1" chance="4.545455" /> <!-- Ring of Truth-seeker -->
+			<item id="80333" min="1" max="1" chance="4.545455" /> <!-- Dragon's Necklace -->
+			<item id="80334" min="1" max="1" chance="4.545455" /> <!-- Dragon's Earring -->
+			<item id="80335" min="1" max="1" chance="4.545455" /> <!-- Dragon's Ring -->
+		</capsuled_items>
+	</item>
+	<item id="29843" name="Supply Pack" type="EtcItem">
+		<!-- Double-click to obtain various random supplies. -->
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="23331" min="1" max="1" chance="100" /> <!-- Vitality Sustaining Potion (30-min.) -->
+			<item id="47428" min="1" max="1" chance="100" /> <!-- Freya's Scroll of Storm -->
+			<item id="48497" min="1" max="1" chance="100" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48830" min="1" max="1" chance="100" /> <!-- Freya's Ice Rose -->
+			<item id="80842" min="1" max="1" chance="100" /> <!-- Honey Dark Beer -->
+		</capsuled_items>
+	</item>
+	<item id="29844" name="Vitality Maintaining Rune" additionalName="30-day" type="EtcItem">
+		<!-- When in inventory, sustains Vitality. Available for 30 d. -->
+		<set name="icon" val="icon.ev_charge_run" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="immediate_effect" val="true" />
+		<set name="etcitem_type" val="ENCHT_ATTR_RUNE" />
+		<set name="time" val="43200" />
+		<skills>
+			<skill id="29415" level="1" /> <!-- Vitality Sustaining Rune -->
+		</skills>
+	</item>
+	<item id="29845" name="Vitality Maintaining Rune" additionalName="10-day" type="EtcItem">
+		<!-- When in inventory, sustains Vitality. Available for 10 d. -->
+		<set name="icon" val="icon.ev_charge_run" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="14400" />
+		<skills>
+			<skill id="29416" level="1" /> <!-- Vitality Sustaining Rune -->
+		</skills>
+	</item>
+	<item id="29846" name="Vitality Maintaining Rune Pack" type="EtcItem">
+		<!-- Double-click to obtain Vitality Sustaining Rune (10-day). -->
+		<set name="icon" val="icon.lucky_bag_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="immediate_effect" val="true" />
+		<capsuled_items>
+			<item id="29845" min="1" max="1" chance="100" /> <!-- Vitality Sustaining Rune - 10-day -->
+		</capsuled_items>
+	</item>
+	<item id="29847" name="Radiant Toy Box" type="EtcItem">
+		<!-- Double-click to obtain rare items. -->
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29848" name="Enhanced Shadow Weapon Pack" type="EtcItem">
+		<!-- Double-click to obtain an Enhanced Shadow Weapon. -->
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="47874" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Shaper -->
+			<item id="47875" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Cutter -->
+			<item id="47876" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Slasher -->
+			<item id="47877" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Fighter -->
+			<item id="47878" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Stormer -->
+			<item id="47879" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Thrower -->
+			<item id="47880" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Guardian -->
+			<item id="47881" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Buster -->
+			<item id="47882" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Retributer -->
+			<item id="47883" min="1" max="1" chance="10" /> <!-- Enhanced Shadow Dual Swords -->
+		</capsuled_items>
+	</item>
+	<item id="29849" name="Vitality Maintaining Rune" additionalName="2-hour" type="EtcItem">
+		<!-- When in inventory, sustains Vitality. Available for 2 h. -->
+		<set name="icon" val="icon.ev_charge_run" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="120" />
+		<skills>
+			<skill id="29417" level="1" /> <!-- Vitality Sustaining Rune -->
+		</skills>
+	</item>
+	<item id="29850" name="Basket with Thank-you Gifts" type="EtcItem">
+		<!-- Double-click to obtain the following items. <Contents>. Dandy's Home Run Ball (2 pcs.). Vitality Sustaining Rune (2-hour). Emperor's Special Cocktail (2 pcs.). Freya's Ice Rose (10 pcs.). Dragon Claw Coupon -->
+		<set name="icon" val="icon.mrk_basket_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29851" name="Basket with Appreciation Gifts" type="EtcItem">
+		<!-- Double-click to obtain the following items. <Contents>. Dandy's Home Run Ball (2 pcs.). Vitality Sustaining Rune (2-hour). Emperor's Special Cocktail (2 pcs.). Freya's Ice Rose (10 pcs.). Dragon Claw Coupon. Antharas' Blessed Earring (30-day). Valakas' Blessed Necklace (30-day). Tauti's Ring (30-day). Earth Wyrm's Ring (30-day). Lindvior's Earring (30-day) -->
+		<set name="icon" val="icon.mrk_basket_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29852" name="Appreciation Cube" type="EtcItem">
+		<!-- Double-click to obtain Basket with Thank-you Gifts. Upon using the cube for the 14th time, you'll get Basket with Appreciation Gifts. -->
+		<set name="icon" val="Branchsys2.icon.cube_event_i03" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="29853" name="Suspicious Vault" type="EtcItem">
+		<!-- Found in the Mystic Tavern. Double-click to obtain rare items. -->
+		<set name="icon" val="icon.bm_strongbox" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29854" name="Dragon Claw Coupon" type="EtcItem">
+		<!-- Can be exchanged for a 1-day weapon through Roa. -->
+		<set name="icon" val="BranchIcon.icon.g_bm_7th_sins_dragon_trade_jp" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29855" name="Alchemist's Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain rare items. -->
+		<set name="icon" val="BranchSys.icon.br_fire_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="28485" min="1" max="1" chance="100" /> <!-- Augmenting Stone: Brooch -->
+			<item id="28761" min="1" max="1" chance="100" /> <!-- Red Starlight Jar -->
+			<item id="28762" min="1" max="1" chance="100" /> <!-- Starlight Agathion Evolution Stone -->
+			<item id="28766" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Legendary Cloak -->
+			<item id="29163" min="1" max="1" chance="100" /> <!-- Stable Scroll: Enchant Cloak -->
+			<item id="29823" min="1" max="1" chance="100" /> <!-- High-grade Stable Scroll: Enchant Cloak - Legendary -->
+			<item id="29848" min="1" max="1" chance="100" /> <!-- Enhanced Shadow Weapon Pack -->
+			<item id="37562" min="10" max="10" chance="100" /> <!-- Emperor's Vitality Tonic (Large) -->
+			<item id="39573" min="1" max="1" chance="100" /> <!-- Sealed Talisman of Insanity -->
+			<item id="47428" min="10" max="10" chance="100" /> <!-- Freya's Scroll of Storm -->
+			<item id="47578" min="200" max="200" chance="100" /> <!-- Gran Kain's Elixir -->
+			<item id="47820" min="1" max="1" chance="100" /> <!-- Sayha's Talisman Pack Lv. 9 -->
+			<item id="47821" min="1" max="1" chance="100" /> <!-- Sayha's Talisman Pack Lv. 10 -->
+			<item id="48047" min="1" max="1" chance="100" /> <!-- Ancient Book of Growth: Zodiac Agathion -->
+			<item id="48066" min="1" max="1" chance="100" /> <!-- Zodiac Agathion Cube -->
+			<item id="48323" min="1" max="1" chance="100" /> <!-- Divine Book of Growth: Zodiac Agathion -->
+			<item id="48498" min="5" max="5" chance="100" /> <!-- Blessed Scroll: Enchant Dragon Leather Shirt -->
+			<item id="48666" min="1" max="1" chance="100" /> <!-- Dragon Weapon Pack -->
+			<item id="48667" min="1" max="1" chance="100" /> <!-- Dragon Weapon Pack (Lv. 1) -->
+			<item id="48830" min="10" max="10" chance="100" /> <!-- Freya's Ice Rose -->
+			<item id="48831" min="1" max="1" chance="100" /> <!-- Jewel Energy -->
+			<item id="48861" min="1" max="1" chance="100" /> <!-- +9 Fallen Angel's Ring Pack -->
+			<item id="48907" min="1" max="1" chance="100" /> <!-- Shillien's Soul Crystal Lv. 9 - Weapon -->
+			<item id="48908" min="1" max="1" chance="100" /> <!-- Shillien's Soul Crystal Lv. 10 - Weapon -->
+			<item id="80636" min="1" max="1" chance="100" /> <!-- Artifact Crystal -->
+			<item id="80663" min="1" max="1" chance="100" /> <!-- Dragon Weapon Pack (Lv. 2) -->
+			<item id="80819" min="5" max="5" chance="100" /> <!-- Wondrous Cocktail - 8-hour -->
+			<item id="80903" min="1" max="1" chance="100" /> <!-- Zariche's Sealed Box -->
+			<item id="80904" min="1" max="1" chance="100" /> <!-- Akamanah's Sealed Box -->
+			<item id="80958" min="1" max="1" chance="100" /> <!-- Sealed Heavenly Talisman -->
+			<item id="81694" min="1" max="1" chance="100" /> <!-- Blessed Scroll: Enchant Artifact Book -->
+			<item id="19440" min="200" max="200" chance="100" /> <!-- Jewel -->
+			<item id="29170" min="2" max="2" chance="100" /> <!-- High-grade Augmenting Stone Pack: Cloak -->
+			<item id="29753" min="1" max="1" chance="100" /> <!-- Heir's Radiance Lv. 4 - PvE -->
+			<item id="29757" min="1" max="1" chance="100" /> <!-- Heir's Radiance Lv. 4 - PvP -->
+			<item id="30298" min="1" max="1" chance="100" /> <!-- Superior Giant's Codex Manuscript - Mastery -->
+			<item id="36414" min="1" max="1" chance="100" /> <!-- Dragon Claw -->
+			<item id="36515" min="5" max="5" chance="100" /> <!-- Elcyum -->
+			<item id="37717" min="1" max="1" chance="100" /> <!-- Talisman of Seven Signs -->
+			<item id="46151" min="1" max="1" chance="100" /> <!-- Superior Giant's Codex - Mastery Chapter 1 -->
+			<item id="48063" min="1" max="1" chance="100" /> <!-- Top-grade Seed Bracelet -->
+			<item id="80959" min="1" max="1" chance="100" /> <!-- Epic Talisman -->
+			<item id="81453" min="1" max="1" chance="100" /> <!-- Enhanced Rune Stone -->
+			<item id="81728" min="1" max="1" chance="100" /> <!-- Augmenting Stone: Armor -->
+			<item id="81729" min="1" max="1" chance="100" /> <!-- Augmenting Stone: Accessory -->
+			<item id="17623" min="1" max="1" chance="100" /> <!-- Earth Wyrm's Ring -->
+			<item id="19464" min="1" max="1" chance="100" /> <!-- Valakas' Blessed Necklace -->
+			<item id="27680" min="1" max="1" chance="100" /> <!-- Gran Kain's Necklace Lv. 3 -->
+			<item id="27686" min="1" max="1" chance="100" /> <!-- Einhasad's Necklace Lv. 3 -->
+			<item id="27692" min="1" max="1" chance="100" /> <!-- Pa'agrio's Earring Lv. 3 -->
+			<item id="27698" min="1" max="1" chance="100" /> <!-- Eva's Earring Lv. 3 -->
+			<item id="27704" min="1" max="1" chance="100" /> <!-- Sayha's Ring Lv. 3 -->
+			<item id="27710" min="1" max="1" chance="100" /> <!-- Maphr's Ring Lv. 3 -->
+			<item id="35570" min="1" max="1" chance="100" /> <!-- Tauti's Ring -->
+		</capsuled_items>
+	</item>
+	<item id="29856" name="Relics of the Ancient Empress" type="EtcItem">
+		<!-- A treasure chest of an ancient empress. Double-click to obtain 1 rare item. -->
+		<set name="icon" val="BranchSys.icon.br_fortuna_cube_s_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29857" name="Dragon Supply Pouch" type="EtcItem">
+		<!-- Double-click to obtain one of random rare items including +5 Dragon Rind Leather Shirt Box. -->
+		<set name="icon" val="icon.bm_dragon_shinning_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="22966" min="1" max="1" chance="5.882353" /> <!-- Vitality Sustaining Potion (1-hour) -->
+			<item id="23728" min="1" max="1" chance="5.882353" /> <!-- Erupting Vitality XP Potion -->
+			<item id="29676" min="2" max="2" chance="5.882353" /> <!-- Freya's Glittering Scroll of Storm -->
+			<item id="29677" min="2" max="2" chance="5.882353" /> <!-- Freya's Glittering Ice Rose -->
+			<item id="38097" min="1" max="1" chance="5.882353" /> <!-- Emperor's Rune Pack (2-hour) -->
+			<item id="47758" min="1" max="1" chance="5.882353" /> <!-- Dragon Breath -->
+			<item id="48497" min="10" max="10" chance="5.882353" /> <!-- Glowing Dragon's Attribute Potion - XP -->
+			<item id="48642" min="1" max="1" chance="5.882353" /> <!-- Nevit's Shining Gold Hourglass -->
+			<item id="48995" min="1" max="1" chance="5.882353" /> <!-- +5 Dragon Rind Leather Shirt Box -->
+			<item id="80127" min="1" max="1" chance="5.882353" /> <!-- High-grade Skill Power Talisman Pack - Skill Critical Damage -->
+			<item id="80128" min="1" max="1" chance="5.882353" /> <!-- High-grade Attribute Attack Talisman Pack - Critical Damage for basic attacks -->
+			<item id="80129" min="1" max="1" chance="5.882353" /> <!-- High-grade Skill Cooldown Talisman Pack - P./M. Def. -->
+			<item id="80964" min="1" max="1" chance="5.882353" /> <!-- Energy of Protection -->
+			<item id="19440" min="100" max="100" chance="5.882353" /> <!-- Jewel -->
+			<item id="35563" min="25" max="25" chance="5.882353" /> <!-- Giant's Power -->
+			<item id="39738" min="2" max="2" chance="5.882353" /> <!-- Rune Stone -->
+			<item id="48493" min="1" max="1" chance="5.882353" /> <!-- Dragon Rind Leather Shirt -->
+		</capsuled_items>
+	</item>
+	<item id="29858" name="Hidden Treasure" type="EtcItem">
+		<!-- Double-click to obtain Shiny Gold Bar Box and a useful item. -->
+		<set name="icon" val="BranchIcon.icon.etc_g_bm_godspirit_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="29529" min="1" max="1" chance="100" /> <!-- Shiny Gold Bar Box -->
+		</capsuled_items>
+	</item>
+	<item id="29859" name="Letter Collector's Pouch: TALES" type="EtcItem">
+		<!-- A magic pouch that contains the letters of TALES. Double-click to obtain one of the following letters: T, A, L, E, S. -->
+		<set name="icon" val="icon.etc_crystal_spice_new_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="29861" min="1" max="1" chance="20" /> <!-- Letter A - Event -->
+			<item id="29863" min="1" max="1" chance="20" /> <!-- Letter E - Event -->
+			<item id="29868" min="1" max="1" chance="20" /> <!-- Letter L - Event -->
+			<item id="29872" min="1" max="1" chance="20" /> <!-- Letter S - Event -->
+			<item id="29873" min="1" max="1" chance="20" /> <!-- Letter T - Event -->
+		</capsuled_items>
+	</item>
+	<item id="29860" name="Letter Collector's Pouch: All" type="EtcItem">
+		<!-- A magic pouch that contains various letters. Double-click to obtain all of them at once. -->
+		<set name="icon" val="icon.etc_crystal_spice_new_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="29861" min="1" max="1" chance="100" /> <!-- Letter A - Event -->
+			<item id="29862" min="1" max="1" chance="100" /> <!-- Letter C - Event -->
+			<item id="29863" min="1" max="1" chance="100" /> <!-- Letter E - Event -->
+			<item id="29864" min="1" max="1" chance="100" /> <!-- Letter F - Event -->
+			<item id="29865" min="1" max="1" chance="100" /> <!-- Letter G - Event -->
+			<item id="29867" min="1" max="1" chance="100" /> <!-- Letter I - Event -->
+			<item id="29868" min="1" max="1" chance="100" /> <!-- Letter L - Event -->
+			<item id="29869" min="1" max="1" chance="100" /> <!-- Letter N - Event -->
+			<item id="29870" min="1" max="1" chance="100" /> <!-- Letter O - Event -->
+			<item id="29872" min="1" max="1" chance="100" /> <!-- Letter S - Event -->
+			<item id="29873" min="1" max="1" chance="100" /> <!-- Letter T - Event -->
+			<item id="29874" min="1" max="1" chance="100" /> <!-- Number II - Event -->
+		</capsuled_items>
+	</item>
+	<item id="29861" name="Letter A" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_a_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29862" name="Letter C" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_c_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29863" name="Letter E" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_e_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29864" name="Letter F" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_f_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29865" name="Letter G" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_g_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29866" name="Letter H" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_h_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29867" name="Letter I" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_i_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29868" name="Letter L" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_l_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29869" name="Letter N" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_n_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29870" name="Letter O" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_o_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29871" name="Letter R" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_r_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29872" name="Letter S" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_s_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29873" name="Letter T" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_t_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29874" name="Number II" additionalName="Event" type="EtcItem">
+		<!-- Combine with other letters to create a special word and get a reward! -->
+		<set name="icon" val="icon.etc_alphabet_ii_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29875" name="Mammon's Treasure Chest" type="EtcItem">
+		<!-- Double-click to obtain a useful item. -->
+		<set name="icon" val="icon.bm_2018_special_box" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="28766" min="1" max="1" chance="3.571429" /> <!-- Stable Scroll: Enchant Legendary Cloak -->
+			<item id="29163" min="1" max="1" chance="3.571429" /> <!-- Stable Scroll: Enchant Cloak -->
+			<item id="29676" min="2" max="2" chance="3.571429" /> <!-- Freya's Glittering Scroll of Storm -->
+			<item id="29677" min="2" max="2" chance="3.571429" /> <!-- Freya's Glittering Ice Rose -->
+			<item id="39573" min="1" max="1" chance="3.571429" /> <!-- Sealed Talisman of Insanity -->
+			<item id="47494" min="1" max="1" chance="3.571429" /> <!-- Selenite -->
+			<item id="47918" min="1" max="1" chance="3.571429" /> <!-- Nevit's Gold Hourglass -->
+			<item id="80000" min="1" max="1" chance="3.571429" /> <!-- Artifact Fragment -->
+			<item id="80449" min="1" max="1" chance="3.571429" /> <!-- Royal Black Save Ticket -->
+			<item id="80501" min="1" max="1" chance="3.571429" /> <!-- Royal Gold Save Ticket -->
+			<item id="80636" min="1" max="1" chance="3.571429" /> <!-- Artifact Crystal -->
+			<item id="81134" min="1" max="1" chance="3.571429" /> <!-- Crystal of Dyes -->
+			<item id="81673" min="2" max="2" chance="3.571429" /> <!-- Essence of Time -->
+			<item id="36514" min="1" max="1" chance="3.571429" /> <!-- Elcyum Crystal -->
+			<item id="36515" min="1" max="1" chance="3.571429" /> <!-- Elcyum -->
+			<item id="36731" min="1" max="1" chance="3.571429" /> <!-- Spirit Stone: Giant's Power -->
+			<item id="39653" min="1" max="1" chance="3.571429" /> <!-- Venir's Talisman Lv. 20 -->
+			<item id="46150" min="1" max="1" chance="3.571429" /> <!-- Superior Giant's Codex - Chapter 1 -->
+			<item id="46151" min="1" max="1" chance="3.571429" /> <!-- Superior Giant's Codex - Mastery Chapter 1 -->
+			<item id="48418" min="1" max="1" chance="3.571429" /> <!-- Authority Ornament -->
+			<item id="48956" min="1" max="1" chance="3.571429" /> <!-- Artifact Book - Lv. 3 -->
+			<item id="80646" min="1" max="1" chance="3.571429" /> <!-- Talisman of Protection Lv. 10 -->
+			<item id="19463" min="1" max="1" chance="3.571429" /> <!-- Antharas' Blessed Earring -->
+			<item id="19464" min="1" max="1" chance="3.571429" /> <!-- Valakas' Blessed Necklace -->
+			<item id="27698" min="1" max="1" chance="3.571429" /> <!-- Eva's Earring Lv. 3 -->
+			<item id="27704" min="1" max="1" chance="3.571429" /> <!-- Sayha's Ring Lv. 3 -->
+			<item id="35564" min="1" max="1" chance="3.571429" /> <!-- Ruler's Authority - Lv. 1 -->
+			<item id="36946" min="1" max="1" chance="3.571429" /> <!-- Lindvior's Earring -->
+		</capsuled_items>
+	</item>
+	<item id="29876" name="Valentine's Day Gift Box" additionalName="Event" type="EtcItem">
+		<!-- Violet's gift for Valentine's Day. Carefully and neatly wrapped. Double-click to obtain one of the following items: Bloody Weapon Upgrade Stone, Valakas' Blessed Necklace, Antharas' Blessed Earring, Lindvior's Earring, +8 Fallen Angel's Ring Pack, +8 Angel Necklace/ Earring/ Ring Pack, Appearance Stone: Alice's Outfit, Forgotten Spellbook Chapter 1, Jewel Energy, various supplies. -->
+		<set name="icon" val="icon.ev_2018_xmas_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="20" />
+		<set name="price" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29877" name="Greater Jewelry Box Lv. 5" type="EtcItem">
+		<!-- Double-click to obtain a greater Lv. 5 jewel. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="29458" min="1" max="1" chance="6.25" /> <!-- Greater Cat's Eye Lv. 5 -->
+			<item id="29462" min="1" max="1" chance="6.25" /> <!-- Greater Amethyst Lv. 5 -->
+			<item id="48770" min="1" max="1" chance="6.25" /> <!-- Greater Topaz Lv. 5 -->
+			<item id="48774" min="1" max="1" chance="6.25" /> <!-- Greater Ruby Lv. 5 -->
+			<item id="48778" min="1" max="1" chance="6.25" /> <!-- Greater Sapphire Lv. 5 -->
+			<item id="48782" min="1" max="1" chance="6.25" /> <!-- Greater Obsidian Lv. 5 -->
+			<item id="48786" min="1" max="1" chance="6.25" /> <!-- Greater Opal Lv. 5 -->
+			<item id="48790" min="1" max="1" chance="6.25" /> <!-- Greater Emerald Lv. 5 -->
+			<item id="48794" min="1" max="1" chance="6.25" /> <!-- Greater Aquamarine Lv. 5 -->
+			<item id="48798" min="1" max="1" chance="6.25" /> <!-- Greater Diamond Lv. 5 -->
+			<item id="48802" min="1" max="1" chance="6.25" /> <!-- Greater Pearl Lv. 5 -->
+			<item id="48806" min="1" max="1" chance="6.25" /> <!-- Greater Vital Stone Lv. 5 -->
+			<item id="48810" min="1" max="1" chance="6.25" /> <!-- Greater Garnet Lv. 5 -->
+			<item id="48814" min="1" max="1" chance="6.25" /> <!-- Greater Tanzanite Lv. 5 -->
+			<item id="48818" min="1" max="1" chance="6.25" /> <!-- Greater Red Cat's Eye Lv. 5 -->
+			<item id="48822" min="1" max="1" chance="6.25" /> <!-- Greater Blue Cat's Eye Lv. 5 -->
+		</capsuled_items>
+	</item>
+	<item id="29878" name="Greater Jewelry Box Lv. 1" type="EtcItem">
+		<!-- Double-click to obtain a Lv. 1 greater jewel. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_shhadai" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="28376" min="1" max="1" chance="6.25" /> <!-- Greater Cat's Eye Lv. 1 -->
+			<item id="28377" min="1" max="1" chance="6.25" /> <!-- Greater Amethyst Lv. 1 -->
+			<item id="47687" min="1" max="1" chance="6.25" /> <!-- Greater Topaz Lv. 1 -->
+			<item id="47688" min="1" max="1" chance="6.25" /> <!-- Greater Ruby Lv. 1 -->
+			<item id="47689" min="1" max="1" chance="6.25" /> <!-- Greater Sapphire Lv. 1 -->
+			<item id="47690" min="1" max="1" chance="6.25" /> <!-- Greater Obsidian Lv. 1 -->
+			<item id="47691" min="1" max="1" chance="6.25" /> <!-- Greater Opal Lv. 1 -->
+			<item id="47692" min="1" max="1" chance="6.25" /> <!-- Greater Emerald Lv. 1 -->
+			<item id="47693" min="1" max="1" chance="6.25" /> <!-- Greater Aquamarine Lv. 1 -->
+			<item id="47694" min="1" max="1" chance="6.25" /> <!-- Greater Diamond Lv. 1 -->
+			<item id="47695" min="1" max="1" chance="6.25" /> <!-- Greater Pearl Lv. 1 -->
+			<item id="47696" min="1" max="1" chance="6.25" /> <!-- Greater Vital Stone Lv. 1 -->
+			<item id="47697" min="1" max="1" chance="6.25" /> <!-- Greater Garnet Lv. 1 -->
+			<item id="47698" min="1" max="1" chance="6.25" /> <!-- Greater Tanzanite Lv. 1 -->
+			<item id="47699" min="1" max="1" chance="6.25" /> <!-- Greater Red Cat's Eye Lv. 1 -->
+			<item id="47700" min="1" max="1" chance="6.25" /> <!-- Greater Blue Cat's Eye Lv. 1 -->
+		</capsuled_items>
+	</item>
+	<item id="29879" name="Heavenly Accessory Pack Lv. 3" type="EtcItem">
+		<!-- Double-click to obtain a Lv. 3 heavenly accessory. -->
+		<set name="icon" val="br_L2Icon.etc_i.Event_TreasureChest" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LEATHER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="27680" min="1" max="1" chance="16.66667" /> <!-- Gran Kain's Necklace Lv. 3 -->
+			<item id="27686" min="1" max="1" chance="16.66667" /> <!-- Einhasad's Necklace Lv. 3 -->
+			<item id="27692" min="1" max="1" chance="16.66667" /> <!-- Pa'agrio's Earring Lv. 3 -->
+			<item id="27698" min="1" max="1" chance="16.66667" /> <!-- Eva's Earring Lv. 3 -->
+			<item id="27704" min="1" max="1" chance="16.66667" /> <!-- Sayha's Ring Lv. 3 -->
+			<item id="27710" min="1" max="1" chance="16.66667" /> <!-- Maphr's Ring Lv. 3 -->
+		</capsuled_items>
+	</item>
+	<item id="29880" name="Toy Coin" type="EtcItem">
+		<!-- Can be exchanged for various items through the Game Assistant. -->
+		<set name="icon" val="icon.etc_pig_adena_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29881" name="Toy Coin Pack" type="EtcItem">
+		<!-- Double-click to obtain 1 to 5000 Toy Coins. -->
+		<set name="icon" val="icon.ev_charge_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="29880" min="1" max="1" chance="10" /> <!-- Toy Coin -->
+			<item id="29880" min="3" max="3" chance="10" /> <!-- Toy Coin -->
+			<item id="29880" min="10" max="10" chance="10" /> <!-- Toy Coin -->
+			<item id="29880" min="20" max="20" chance="10" /> <!-- Toy Coin -->
+			<item id="29880" min="50" max="50" chance="10" /> <!-- Toy Coin -->
+			<item id="29880" min="100" max="100" chance="10" /> <!-- Toy Coin -->
+			<item id="29880" min="200" max="200" chance="10" /> <!-- Toy Coin -->
+			<item id="29880" min="1000" max="1000" chance="10" /> <!-- Toy Coin -->
+			<item id="29880" min="3000" max="3000" chance="10" /> <!-- Toy Coin -->
+			<item id="29880" min="5000" max="5000" chance="10" /> <!-- Toy Coin -->
+		</capsuled_items>
+	</item>
+	<item id="29882" name="Mysterious Pack Lv. 1" type="EtcItem">
+		<!-- Double-click to obtain 1 rare item. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29883" name="Mysterious Pack Lv. 2" type="EtcItem">
+		<!-- Double-click to obtain 1 rare item. Can be exchanged through the Game Assistant. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29884" name="Mysterious Pack Lv. 3" type="EtcItem">
+		<!-- Double-click to obtain 1 rare item. Can be exchanged through the Game Assistant. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29885" name="Mysterious Pack Lv. 4" type="EtcItem">
+		<!-- Double-click to obtain 1 rare item. Can be exchanged through the Game Assistant. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29886" name="Mysterious Pack Lv. 5" type="EtcItem">
+		<!-- Double-click to obtain 1 rare item. Can be exchanged through the Game Assistant. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29887" name="Mysterious Pack Lv. 6" type="EtcItem">
+		<!-- Double-click to obtain 1 rare item. Can be exchanged through the Game Assistant. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29888" name="Mysterious Pack Lv. 7" type="EtcItem">
+		<!-- Double-click to obtain 1 rare item. Can be exchanged through the Game Assistant. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29889" name="Mysterious Pack Lv. 8" type="EtcItem">
+		<!-- Double-click to obtain 1 rare item. Can be exchanged through the Game Assistant. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29890" name="Ethereal Kit" type="EtcItem">
+		<!-- Double-click to obtain the following items. -->
+		<set name="icon" val="icon.icon_ether" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81215" min="100" max="100" chance="100" /> <!-- Aether -->
+		</capsuled_items>
+	</item>
+	<item id="29891" name="Mystical Chest" type="EtcItem">
+		<!-- Double-click to obtain one of the following items. -->
+		<set name="icon" val="icon.etc_treasure_box_i10" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="extractableCountMin" val="1" />
+		<set name="extractableCountMax" val="1" />
+		<capsuled_items>
+			<item id="80958" min="1" max="1" chance="5.882353" /> <!-- Sealed Heavenly Talisman -->
+			<item id="80959" min="1" max="1" chance="5.882353" /> <!-- Epic Talisman -->
+			<item id="26341" min="1" max="1" chance="5.882353" /> <!-- Faded High-grade Talisman of Abundance Lv. 4 -->
+			<item id="37717" min="1" max="1" chance="5.882353" /> <!-- Talisman of Seven Signs -->
+			<item id="39573" min="1" max="1" chance="5.882353" /> <!-- Sealed Talisman of Insanity -->
+			<item id="37715" min="1" max="1" chance="5.882353" /> <!-- Talisman of Anakim -->
+			<item id="29068" min="1" max="1" chance="5.882353" /> <!-- Sayha's Talisman Pack Lv. 7 - Not available -->
+			<item id="35649" min="1" max="1" chance="5.882353" /> <!-- Sealed Talisman of Longing -->
+			<item id="28453" min="1" max="1" chance="5.882353" /> <!-- Sayha's Energy -->
+			<item id="80839" min="1" max="1" chance="5.882353" /> <!-- Crystal of Dawn -->
+			<item id="37714" min="1" max="1" chance="5.882353" /> <!-- Talisman of Lilith -->
+			<item id="40236" min="1" max="1" chance="5.882353" /> <!-- Giant's Power Pack (100 pcs.) -->
+			<item id="48910" min="1" max="1" chance="5.882353" /> <!-- Shillien's Soul Crystal Box -->
+			<item id="40235" min="2" max="2" chance="5.882353" /> <!-- Giant's Power Pack (20 pcs.) -->
+			<item id="80000" min="1" max="1" chance="5.882353" /> <!-- Artifact Fragment -->
+			<item id="81706" min="1" max="1" chance="5.882353" /> <!-- Scroll: Enchant Superior Seed Bracelet -->
+			<item id="29835" min="1" max="1" chance="5.882353" /> <!-- Lucky Jewelry Box - Lv. 1 -->
+		</capsuled_items>
+	</item>
+	<item id="29892" name="Mysterious Attribute Potion" type="EtcItem">
+		<!-- For 30 min., Attribute Attack +150, PvE damage +10%. The effect disappears upon logout. -->
+		<set name="icon" val="icon.etc_warrior_set_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29893" name="Blessed Rare Accessory Pack" additionalName="30-day" type="EtcItem">
+		<!-- Double-click to obtain the following 30-day items: Lindvior's Earring, Antharas' Blessed Earring, Valakas' Blessed Necklace, Tauti's Ring, Earth Wyrm's Ring. -->
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="27552" min="1" max="1" chance="100" /> <!-- Ruler's Authority - 30-day -->
+			<item id="37667" min="1" max="1" chance="100" /> <!-- Antharas' Blessed Earring - 30-day -->
+			<item id="37668" min="1" max="1" chance="100" /> <!-- Valakas' Blessed Necklace - 30-day -->
+			<item id="37669" min="1" max="1" chance="100" /> <!-- Tauti's Ring - 30-day -->
+			<item id="37670" min="1" max="1" chance="100" /> <!-- Earth Wyrm's Ring - 30-day -->
+			<item id="46710" min="1" max="1" chance="100" /> <!-- Lindvior's Earring - 30-day -->
+		</capsuled_items>
+	</item>
+	<item id="29894" name="Time Coin" additionalName="Event" type="EtcItem">
+		<!-- A coin for the '6000-day Promise' event. -->
+		<set name="icon" val="icon.etc_11th_token" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29895" name="Freya's Growth Rune Box (30-day)" type="EtcItem">
+		<!-- Double-click to obtain Freya's Growth Rune (30-day). -->
+		<set name="icon" val="br_cashtex.item.br_cash_lucky_cube_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29896" name="Freya's Growth Rune" additionalName="30-day" type="EtcItem">
+		<!-- When in inventory, acquired XP/ SP +50%, all basic stats +1, P./ M. Def. +500. -->
+		<set name="icon" val="BranchSys3.icon1.g_rune_of_flint_will" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="43200" />
+		<skills>
+			<skill id="29422" level="1" /> <!-- Freya's Growth Rune -->
+		</skills>
+	</item>
+	<item id="29897" name="Vitality Maintaining Rune Pack" additionalName="Event" type="EtcItem">
+		<!-- Double-click to obtain Vitality Sustaining Rune (30-day). -->
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<item id="81733" min="1" max="1" chance="100" /> <!-- Vitality Sustaining Rune - Event -->
+		</capsuled_items>
+	</item>
+	<item id="29898" name="L26000DAYS" additionalName="Event" type="EtcItem">
+		<!-- Double-click to obtain Vitality Sustaining Rune Pack (30-day), Chronicle Token Box (30-day), Nevit's Shining Gold Hourglass (200 pcs.), Honey Dark Beer (200 pcs.), Scroll of Storm (200 pcs.). -->
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="29899" name="Heir's Radiance Lv. 5" additionalName="PvE" type="Armor">
+		<!-- Attribute Attack +40. Attribute Resistance +40. Debuff Resistance +7%. Max HP +5000. Received AoE damage/ skill critical damage -7%. P./ M. Skill Power +3%. All Critical Damage +3%. STR +4, DEX +4, CON +4, INT +4, WIT +4, MEN +4, CHA +4, LUC +4. PvE damage +7%. Received damage from Dragon weapons -7%. Enables the Heir's Radiance - PvE Lv. 2 skill. <When equipped with Knight's/ Wizard's/ Warrior's Circlet>. Knight's Circlet: P./ M. Def. +10%. Warrior's Circlet: P. Atk. +10%. Wizard's Circlet: M. Atk. +10%. No set effect when equipped with Silvery Circlet. Cannot be enchanted. -->
+		<set name="icon" val="BranchIcon.icon.g_bm_ring_of_light" />
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="10" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<skills>
+			<skill id="29429" level="1" /> <!-- Heir's Radiance - PvE Lv. 2 -->
+			<skill id="29423" level="1" /> <!-- Heir's Radiance Lv. 5 -->
+		</skills>
+	</item>
+</list>

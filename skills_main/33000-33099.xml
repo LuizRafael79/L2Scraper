@@ -1,0 +1,2394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="33000" toLevel="4" name="Tana's Basic Ability">
+		<!-- Level 1: Basic attack additional damage +1%. -->
+		<!-- Level 2: Basic attack additional damage +3%. -->
+		<!-- Level 3: Basic attack additional damage +5%. -->
+		<!-- Level 4: Basic attack additional damage +7%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="TriggerSkillByDamageDealt">
+				<isCritical>true</isCritical>
+				<chance>5</chance>
+				<minDamage>100</minDamage>
+				<skillId>33088</skillId> <!-- Tana's Blessing -->
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+				</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33001" toLevel="4" name="Pallo's Basic Ability">
+		<!-- Level 1: When hit, P./ M. Def. +1%. -->
+		<!-- Level 2: When hit, P./ M. Def. +3%. -->
+		<!-- Level 3: When hit, P./ M. Def. +5%. -->
+		<!-- Level 4: When hit, P./ M. Def. +7%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="TriggerSkillByDamageReceived">
+				<chance>5</chance>
+				<minDamage>100</minDamage>
+				<skillId>33089</skillId> <!-- Pallo's Blessing -->
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+				</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33002" toLevel="4" name="Ayri's Basic Ability">
+		<!-- Level 1: When using skills, Skill Power +1%. -->
+		<!-- Level 2: When using skills, Skill Power +2%. -->
+		<!-- Level 3: When using skills, Skill Power +3%. -->
+		<!-- Level 4: Skill cooldown -5%; when using skills, Skill Power +5%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="TriggerSkillByDamageDealt">
+				<isCritical>true</isCritical>
+				<chance>5</chance>
+				<minDamage>100</minDamage>
+				<skillId>33090</skillId> <!-- Ayri's Blessing -->
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+				</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33003" toLevel="4" name="Churing's Basic Ability">
+		<!-- Level 1: M. Atk. +1% on a magic attack. -->
+		<!-- Level 2: M. Atk. +3% on a magic attack. -->
+		<!-- Level 3: M. Atk. +5% on a magic attack. -->
+		<!-- Level 4: M. Atk. +7% on a magic attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="TriggerSkillByDamageDealt">
+				<chance>5</chance>
+				<minDamage>100</minDamage>
+				<skillId>33091</skillId> <!-- Churing's Blessing -->
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>false</allowNormalAttack>
+				<chance>5</chance>
+				<minDamage>100</minDamage>
+				<skillId>33091</skillId> <!-- Churing's Blessing -->
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+				</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33004" toLevel="3" name="Chuchu Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +1 -->
+		<!-- Level 2: CON/ MEN/ LUC +1 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +1 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33005" toLevel="3" name="Tana Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +1 -->
+		<!-- Level 2: CON/ MEN/ LUC +1 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +1 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33006" toLevel="3" name="Pallo Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +1 -->
+		<!-- Level 2: CON/ MEN/ LUC +1 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +1 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33007" toLevel="3" name="Ayri Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +1 -->
+		<!-- Level 2: CON/ MEN/ LUC +1 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +1 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33008" toLevel="3" name="Churing Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +1 -->
+		<!-- Level 2: CON/ MEN/ LUC +1 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +1 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">1</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33009" toLevel="3" name="Chuchu Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +1% -->
+		<!-- Level 2: Max HP/ MP +2% -->
+		<!-- Level 3: Max HP/ MP +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33010" toLevel="3" name="Tana Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +1% -->
+		<!-- Level 2: Max HP/ MP +2% -->
+		<!-- Level 3: Max HP/ MP +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33011" toLevel="3" name="Pallo Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +1% -->
+		<!-- Level 2: Max HP/ MP +2% -->
+		<!-- Level 3: Max HP/ MP +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33012" toLevel="3" name="Ayri Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +1% -->
+		<!-- Level 2: Max HP/ MP +2% -->
+		<!-- Level 3: Max HP/ MP +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33013" toLevel="3" name="Churing Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +1% -->
+		<!-- Level 2: Max HP/ MP +2% -->
+		<!-- Level 3: Max HP/ MP +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33014" toLevel="3" name="Chuchu Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Vitality bonus +1% -->
+		<!-- Level 2: Vitality bonus +2% -->
+		<!-- Level 3: Vitality bonus +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33015" toLevel="3" name="Tana Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Attack +10 -->
+		<!-- Level 2: Attribute Attack +20 -->
+		<!-- Level 3: Attribute Attack +30 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33016" toLevel="3" name="Pallo Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Resistance +10 -->
+		<!-- Level 2: Attribute Resistance +20 -->
+		<!-- Level 3: Attribute Resistance +30 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33017" toLevel="3" name="Ayri Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Attack +10 -->
+		<!-- Level 2: Attribute Attack +20 -->
+		<!-- Level 3: Attribute Attack +30 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33018" toLevel="3" name="Churing Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Attack +10 -->
+		<!-- Level 2: Attribute Attack +20 -->
+		<!-- Level 3: Attribute Attack +30 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33019" toLevel="3" name="Chuchu Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: Acquired XP/ SP +1% -->
+		<!-- Level 2: Acquired XP/ SP +2% -->
+		<!-- Level 3: Acquired XP/ SP +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33020" toLevel="3" name="Tana Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: P. Atk. +1% -->
+		<!-- Level 2: P. Atk. +2% -->
+		<!-- Level 3: P. Atk. +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33021" toLevel="3" name="Pallo Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: P./ M. Def. +1% -->
+		<!-- Level 2: P./ M. Def. +2% -->
+		<!-- Level 3: P./ M. Def. +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33022" toLevel="3" name="Ayri Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: P./ M. Skill Power +1% -->
+		<!-- Level 2: P./ M. Skill Power +2% -->
+		<!-- Level 3: P./ M. Skill Power +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33023" toLevel="3" name="Churing Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: M. Atk. +1% -->
+		<!-- Level 2: M. Atk. +2% -->
+		<!-- Level 3: M. Atk. +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33024" toLevel="3" name="Chuchu Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: Adena drop rate. with Vitality +3% -->
+		<!-- Level 2: Adena drop rate. with Vitality +4% -->
+		<!-- Level 3: Adena drop rate. with Vitality +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="HasVitalityPoints" />
+		</passiveConditions>
+		<effects>
+			<effect name="BonusDropAdena">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33025" toLevel="3" name="Tana Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: Critical Damage for basic attacks +1% -->
+		<!-- Level 2: Critical Damage for basic attacks +2% -->
+		<!-- Level 3: Critical Damage for basic attacks +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33026" toLevel="3" name="Pallo Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: All received Critical Damage -1% -->
+		<!-- Level 2: All received Critical Damage -2% -->
+		<!-- Level 3: All received Critical Damage -3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceCriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33027" toLevel="3" name="Ayri Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: Skill cooldown -1% -->
+		<!-- Level 2: Skill cooldown -2% -->
+		<!-- Level 3: Skill cooldown -3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33028" toLevel="3" name="Churing Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: M. Skill Critical Damage +1% -->
+		<!-- Level 2: M. Skill Critical Damage +2% -->
+		<!-- Level 3: M. Skill Critical Damage +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33029" toLevel="3" name="Water Chuchu Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +2 -->
+		<!-- Level 2: CON/ MEN/ LUC +2 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +2 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">2</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33030" toLevel="3" name="Water Tana Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +2 -->
+		<!-- Level 2: CON/ MEN/ LUC +2 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +2 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">2</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33031" toLevel="3" name="Water Pallo Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +2 -->
+		<!-- Level 2: CON/ MEN/ LUC +2 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +2 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">2</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33032" toLevel="3" name="Water Ayri Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +2 -->
+		<!-- Level 2: CON/ MEN/ LUC +2 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +2 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">2</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33033" toLevel="3" name="Water Churing Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +2 -->
+		<!-- Level 2: CON/ MEN/ LUC +2 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +2 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>2</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">2</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">2</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33034" toLevel="3" name="Water Chuchu Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +2% -->
+		<!-- Level 2: Max HP/ MP +3% -->
+		<!-- Level 3: Max HP/ MP +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33035" toLevel="3" name="Water Tana Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +2% -->
+		<!-- Level 2: Max HP/ MP +3% -->
+		<!-- Level 3: Max HP/ MP +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33036" toLevel="3" name="Water Pallo Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +2% -->
+		<!-- Level 2: Max HP/ MP +3% -->
+		<!-- Level 3: Max HP/ MP +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33037" toLevel="3" name="Water Ayri Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +2% -->
+		<!-- Level 2: Max HP/ MP +3% -->
+		<!-- Level 3: Max HP/ MP +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33038" toLevel="3" name="Water Churing Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +2% -->
+		<!-- Level 2: Max HP/ MP +3% -->
+		<!-- Level 3: Max HP/ MP +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33039" toLevel="3" name="Water Chuchu Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Vitality bonus +2% -->
+		<!-- Level 2: Vitality bonus +3% -->
+		<!-- Level 3: Vitality bonus +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33040" toLevel="3" name="Water Tana Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Attack +20 -->
+		<!-- Level 2: Attribute Attack +30 -->
+		<!-- Level 3: Attribute Attack +40 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">30</value>
+					<value level="3">40</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33041" toLevel="3" name="Water Pallo Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Resistance +20 -->
+		<!-- Level 2: Attribute Resistance +30 -->
+		<!-- Level 3: Attribute Resistance +40 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">30</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">30</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">30</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">30</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">30</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">30</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33042" toLevel="3" name="Water Ayri Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Attack +20 -->
+		<!-- Level 2: Attribute Attack +30 -->
+		<!-- Level 3: Attribute Attack +40 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">30</value>
+					<value level="3">40</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33043" toLevel="3" name="Water Churing Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Attack +20 -->
+		<!-- Level 2: Attribute Attack +30 -->
+		<!-- Level 3: Attribute Attack +40 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">30</value>
+					<value level="3">40</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33044" toLevel="3" name="Water Chuchu Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: Acquired XP/ SP +2% -->
+		<!-- Level 2: Acquired XP/ SP +3% -->
+		<!-- Level 3: Acquired XP/ SP +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33045" toLevel="3" name="Water Tana Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: P. Atk. +2% -->
+		<!-- Level 2: P. Atk. +3% -->
+		<!-- Level 3: P. Atk. +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33046" toLevel="3" name="Water Pallo Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: P./ M. Def. +2% -->
+		<!-- Level 2: P./ M. Def. +3% -->
+		<!-- Level 3: P./ M. Def. +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33047" toLevel="3" name="Water Ayri Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: P./ M. Skill Power +2% -->
+		<!-- Level 2: P./ M. Skill Power +3% -->
+		<!-- Level 3: P./ M. Skill Power +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33048" toLevel="3" name="Water Churing Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: M. Atk. +2% -->
+		<!-- Level 2: M. Atk. +3% -->
+		<!-- Level 3: M. Atk. +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33049" toLevel="3" name="Water Chuchu Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: Adena drop rate. with Vitality +4% -->
+		<!-- Level 2: Adena drop rate. with Vitality +5% -->
+		<!-- Level 3: Adena drop rate with Vitality +6% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="BonusDropAdena">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33050" toLevel="3" name="Water Tana Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: Critical Damage for basic attacks +2% -->
+		<!-- Level 2: Critical Damage for basic attacks +3% -->
+		<!-- Level 3: Critical Damage for basic attacks +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33051" toLevel="3" name="Water Pallo Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: All received Critical Damage -2% -->
+		<!-- Level 2: All received Critical Damage -3% -->
+		<!-- Level 3: All received Critical Damage -4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceCriticalDamage">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33052" toLevel="3" name="Water Ayri Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: Skill cooldown -2% -->
+		<!-- Level 2: Skill cooldown -3% -->
+		<!-- Level 3: Skill cooldown -4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-2</value>
+					<value level="2">-3</value>
+					<value level="3">-4</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-2</value>
+					<value level="2">-3</value>
+					<value level="3">-4</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-2</value>
+					<value level="2">-3</value>
+					<value level="3">-4</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33053" toLevel="3" name="Water Churing Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: M. Skill Critical Damage +2% -->
+		<!-- Level 2: M. Skill Critical Damage +3% -->
+		<!-- Level 3: M. Skill Critical Damage +4% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">3</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33054" toLevel="3" name="Luminous Chuchu Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +3 -->
+		<!-- Level 2: CON/ MEN/ LUC +3 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +3 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">3</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33055" toLevel="3" name="Luminous Tana Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +3 -->
+		<!-- Level 2: CON/ MEN/ LUC +3 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +3 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">3</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33056" toLevel="3" name="Luminous Pallo Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +3 -->
+		<!-- Level 2: CON/ MEN/ LUC +3 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +3 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">3</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33057" toLevel="3" name="Luminous Ayri Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +3 -->
+		<!-- Level 2: CON/ MEN/ LUC +3 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +3 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">3</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33058" toLevel="3" name="Luminous Churing Lv. 1 - Bond Lv. 1">
+		<!-- Level 1: CON/ MEN +3 -->
+		<!-- Level 2: CON/ MEN/ LUC +3 -->
+		<!-- Level 3: CON/ MEN/ LUC/ CHA +3 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>3</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">3</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>LUC</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33059" toLevel="3" name="Luminous Chuchu Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +3% -->
+		<!-- Level 2: Max HP/ MP +4% -->
+		<!-- Level 3: Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33060" toLevel="3" name="Luminous Tana Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +3% -->
+		<!-- Level 2: Max HP/ MP +4% -->
+		<!-- Level 3: Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33061" toLevel="3" name="Luminous Pallo Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +3% -->
+		<!-- Level 2: Max HP/ MP +4% -->
+		<!-- Level 3: Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33062" toLevel="3" name="Luminous Ayri Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +3% -->
+		<!-- Level 2: Max HP/ MP +4% -->
+		<!-- Level 3: Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33063" toLevel="3" name="Luminous Churing Lv. 2 - Bond Lv. 1">
+		<!-- Level 1: Max HP/ MP +3% -->
+		<!-- Level 2: Max HP/ MP +4% -->
+		<!-- Level 3: Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33064" toLevel="3" name="Luminous Chuchu Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Vitality bonus +3% -->
+		<!-- Level 2: Vitality bonus +4% -->
+		<!-- Level 3: Vitality bonus +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33065" toLevel="3" name="Luminous Tana Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Attack +30 -->
+		<!-- Level 2: Attribute Attack +40 -->
+		<!-- Level 3: Attribute Attack +50 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33066" toLevel="3" name="Luminous Pallo Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Resistance +30 -->
+		<!-- Level 2: Attribute Resistance +40 -->
+		<!-- Level 3: Attribute Resistance +50 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33067" toLevel="3" name="Luminous Ayri Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Attack +30 -->
+		<!-- Level 2: Attribute Attack +40 -->
+		<!-- Level 3: Attribute Attack +50 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33068" toLevel="3" name="Luminous Churing Lv. 3 - Bond Lv. 1">
+		<!-- Level 1: Attribute Attack +30 -->
+		<!-- Level 2: Attribute Attack +40 -->
+		<!-- Level 3: Attribute Attack +50 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">30</value>
+					<value level="2">40</value>
+					<value level="3">50</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33069" toLevel="3" name="Luminous Chuchu Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: Acquired XP/ SP +3% -->
+		<!-- Level 2: Acquired XP/ SP +4% -->
+		<!-- Level 3: Acquired XP/ SP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33070" toLevel="3" name="Luminous Tana Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: P. Atk. +3% -->
+		<!-- Level 2: P. Atk. +4% -->
+		<!-- Level 3: P. Atk. +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33071" toLevel="3" name="Luminous Pallo Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: P./ M. Def. +3% -->
+		<!-- Level 2: P./ M. Def. +4% -->
+		<!-- Level 3: P./ M. Def. +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33072" toLevel="3" name="Luminous Ayri Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: P./ M. Skill Power +3% -->
+		<!-- Level 2: P./ M. Skill Power +4% -->
+		<!-- Level 3: P./ M. Skill Power +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33073" toLevel="3" name="Luminous Churing Lv. 4 - Bond Lv. 1">
+		<!-- Level 1: M. Atk. +3% -->
+		<!-- Level 2: M. Atk. +4% -->
+		<!-- Level 3: M. Atk. +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33074" toLevel="3" name="Luminous Chuchu Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: Adena drop rate. with Vitality +5% -->
+		<!-- Level 2: Adena drop rate with Vitality +6% -->
+		<!-- Level 3: Adena drop rate with Vitality +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="BonusDropAdena">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33075" toLevel="3" name="Luminous Tana Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: Critical Damage for basic attacks +3% -->
+		<!-- Level 2: Critical Damage for basic attacks +4% -->
+		<!-- Level 3: Critical Damage for basic attacks +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33076" toLevel="3" name="Luminous Pallo Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: All received Critical Damage -3% -->
+		<!-- Level 2: All received Critical Damage -4% -->
+		<!-- Level 3: All received Critical Damage -5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceCriticalDamage">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33077" toLevel="3" name="Luminous Ayri Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: Skill cooldown -3% -->
+		<!-- Level 2: Skill cooldown -4% -->
+		<!-- Level 3: Skill cooldown -5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-3</value>
+					<value level="2">-4</value>
+					<value level="3">-5</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-3</value>
+					<value level="2">-4</value>
+					<value level="3">-5</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-3</value>
+					<value level="2">-4</value>
+					<value level="3">-5</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33078" toLevel="3" name="Luminous Churing Lv. 5 - Bond Lv. 1">
+		<!-- Level 1: M. Skill Critical Damage +3% -->
+		<!-- Level 2: M. Skill Critical Damage +4% -->
+		<!-- Level 3: M. Skill Critical Damage +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">4</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33079" toLevel="1" name="Vicious Strike of Evil">
+		<!-- Physical melee skill used by warriors. Attacks 1 monster with a weapon. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>100</effectRange>
+		<hitTime>1000</hitTime>
+		<nextAction>ATTACK</nextAction>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33080" toLevel="1" name="Vicious Bleed">
+		<!-- Inflicts Bleed for 10 sec. Inflicted status: Infection (Bleed, Poison). -->
+		<icon>icon.skill0509</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<abnormalType>BLEEDING</abnormalType>
+		<abnormalVisualEffect>DOT_BLEEDING</abnormalVisualEffect>
+		<activateRate>80</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>400</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<subordinationAbnormalType>BLEEDING</subordinationAbnormalType>
+		<trait>BLEED</trait>
+		<effects>
+			<effect name="DamOverTime">
+				<power>2000</power> <!-- Fix: Retail Missed -->
+				<ticks>5</ticks>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33081" toLevel="1" name="Vicious Mass Stun">
+		<!-- Attacks nearby enemies and stuns them for 3 sec.. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill10265</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-700</effectPoint>
+	</skill>
+	<skill id="33082" toLevel="1" name="Vicious Energy Ball">
+		<!-- A basic attack of 1 monster that uses ranged magic attacks. -->
+		<icon>icon.skill1417</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>RANGE</affectScope>
+		<castRange>600</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<effectRange>900</effectRange>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<nextAction>CAST</nextAction>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33083" toLevel="1" name="Slow Poison">
+		<!-- Inflicts severe physical damage. For 5 sec., Speed and Atk. Spd. -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill0096</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="33084" toLevel="1" name="Curse of Swamp">
+		<!-- For 10 sec., P./ M. Def. is decreased. Inflicted status: Debilitation. -->
+		<icon>icon.skill1422</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="33085" toLevel="1" name="Energy of Screams">
+		<!-- Because of the energy of Swamp of Screams, P./ M. Def. are increased. -->
+		<icon>icon.skill0335</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="33086" toLevel="4" name="Antharas' Claw">
+		<!-- Level 1: Antharas' mighty claw power increases combat and defensive abilities. -->
+		<!-- Level 2: Fafurion's mighty claw power increases combat and defensive abilities. -->
+		<!-- Level 3: Antharas' mighty claw power greatly increases combat and defensive abilities. -->
+		<!-- Level 4: Fafurion's mighty claw power greatly increases combat and defensive abilities. -->
+		<icon>
+			<value level="1">icon.item_gragonskill_i02</value>
+			<value level="2">icon.skill5861</value>
+			<value level="3">icon.skill5861</value>
+			<value level="4">icon.skill5861</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">50</value>
+					<value level="3">100</value>
+					<value level="4">100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">50</value>
+					<value level="3">100</value>
+					<value level="4">100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33087" toLevel="4" name="Chuchu's Blessing">
+		<!-- Level 1: Vitality Recovery -->
+		<!-- Level 2: Vitality Recovery -->
+		<!-- Level 3: Vitality Recovery -->
+		<!-- Level 4: Recovers Vitality upon acquiring XP. -->
+		<icon>icon.homun_skill_icon</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>4</isMagic>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<reuseDelay>120000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<conditions>
+			<condition name="CanUseVitalityIncreaseItem">
+				<amount>350</amount>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="VitalityPointUp">
+				<value>350</value>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33088" toLevel="4" name="Tana's Blessing">
+		<!-- Level 1: P. Atk. +1% for 15 sec. -->
+		<!-- Level 2: P. Atk. +3% for 15 sec. -->
+		<!-- Level 3: P. Atk. +5% for 15 sec. -->
+		<!-- Level 4: For 15 sec., P. Atk. +7%. -->
+		<icon>icon.homun_skill_icon</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>4</isMagic>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<reuseDelay>120000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
+					<value level="4">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33089" toLevel="4" name="Pallo's Blessing">
+		<!-- Level 1: For 15 sec., P./ M. Def. +1%. -->
+		<!-- Level 2: P./ M. Def. +3% for 15 sec. -->
+		<!-- Level 3: P./ M. Def. +5% for 15 sec. -->
+		<!-- Level 4: For 15 sec., P./ M. Def. +7%. -->
+		<icon>icon.homun_skill_icon</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>4</isMagic>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<reuseDelay>120000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
+					<value level="4">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
+					<value level="4">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33090" toLevel="4" name="Ayri's Blessing">
+		<!-- Level 1: For 15 sec., P./ M. Skill Power +1%. -->
+		<!-- Level 2: For 15 sec., P./ M. Skill Power +2%. -->
+		<!-- Level 3: For 15 sec., P./ M. Skill Power +3%. -->
+		<!-- Level 4: For 15 sec., P./ M. Skill Power +5%. -->
+		<icon>icon.homun_skill_icon</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>4</isMagic>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<reuseDelay>120000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33091" toLevel="4" name="Churing's Blessing">
+		<!-- Level 1: For 15 sec., M. Atk. +1%. -->
+		<!-- Level 2: For 15 sec., M. Atk. +3%. -->
+		<!-- Level 3: For 15 sec., M. Atk. +5%. -->
+		<!-- Level 4: For 15 sec., M. Atk. +7%. -->
+		<icon>icon.homun_skill_icon</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>4</isMagic>
+		<isTriggeredSkill>true</isTriggeredSkill>
+		<reuseDelay>120000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">3</value>
+					<value level="3">5</value>
+					<value level="4">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33092" toLevel="25" name="Happy Year of the Rat Lv.1">
+		<!-- A buff full of good health and merry wishes of Happy New Year. If you get a wish within 1 hour, you can get 1 Milk of Vitality. Max level: 24. -->
+		<icon>icon.christmas_card_box1</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="33093" toLevel="1" name="Happy Year of the Rat's Reward">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="33094" toLevel="4" name="Enchantment Chance Increase - Test">
+		<!-- Level 1: A chance to increase PER +10% -->
+		<!-- Level 2: A chance to increase PER +100% -->
+		<!-- Level 3: DIFF increase rate +50 -->
+		<!-- Level 4: DIFF increase rate +100 -->
+		<icon>icon.race_ranking_1</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="33095" toLevel="4" name="Enchantment Chance Increase - Test">
+		<!-- Level 1: A chance to increase PER +10% -->
+		<!-- Level 2: A chance to increase PER +100% -->
+		<!-- Level 3: DIFF increase rate +50 -->
+		<!-- Level 4: DIFF increase rate +100 -->
+		<icon>icon.artifact_book_00</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="33096" toLevel="1" name="Critical Hit">
+		<!-- Physical melee skill used by warriors. Attacks 1 monster with a weapon. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>100</effectRange>
+		<hitTime>1000</hitTime>
+		<nextAction>ATTACK</nextAction>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33097" toLevel="1" name="Unavoidable Bite">
+		<!-- Physical melee skill used by warriors. Attacks 1 monster with a weapon. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>100</effectRange>
+		<hitTime>1000</hitTime>
+		<nextAction>ATTACK</nextAction>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33098" toLevel="1" name="Unavoidable Claw">
+		<!-- Physical melee skill used by warriors. Attacks 1 monster with a weapon. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>40</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>100</effectRange>
+		<hitTime>1000</hitTime>
+		<nextAction>ATTACK</nextAction>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="33099" toLevel="2" name="Critical Defense">
+		<!-- Level 1: Strong immunity to P./ M. Skill Damage. -->
+		<!-- Level 2: Strong immunity to P. Critical Damage and P./ M. Skill Damage. -->
+		<icon>icon.skill0142</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceMagicCriticalDamage">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				<amount>50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>

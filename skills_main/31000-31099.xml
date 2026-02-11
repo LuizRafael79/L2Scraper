@@ -1,0 +1,3601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="31000" toLevel="1" name="Novice's Dance of Master">
+		<!-- Inspires you and your party members with a refined dance. For 30 min., Max HP +15%, P. Atk. +15%, M. Atk. +15%, Atk. Spd. +15%, Casting Spd. +15%, P./ M. Evasion +3, Damage Reflection +5%, HP Recovery Rate +35%, MP Recovery Rate +30 min.0, Casting Interruption Rate -30 min.1, skill cooldown -30 min.2, MP Consumption -30 min.3. With a certain chance, Vampiric Rage effect 30 min.4. -->
+		<icon>icon.skill11610_b</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>300</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
+		<affectRange>1000</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>700</hitTime>
+		<isMagic>22</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>39</mpConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</slot>
+			</effect>
+			<effect name="MaxHp">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DamageShield">
+				<amount>5</amount>
+			</effect>
+			<effect name="HpRegen">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ReduceCancel">
+				<amount>-20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>-5</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-5</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>4</amount>
+				<chance>30</chance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31001" toLevel="2" name="Drumbeat of Serenity">
+		<!-- Level 1: Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 2: Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 1 - SubLevel 1001 (+90 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1002 (+180 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1003 (+270 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1004 (+360 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1005 (+450 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1006 (+540 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1007 (+630 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1008 (+720 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1009 (+810 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1010 (+900 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1011 (+990 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1012 (+1080 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1013 (+1170 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1014 (+1260 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1015 (+1350 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1016 (+1440 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1017 (+1530 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1018 (+1620 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1019 (+1710 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 1 - SubLevel 1020 (+1800 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15% -->
+		<!-- Level 2 - SubLevel 1001 (+90 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1002 (+180 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1003 (+270 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1004 (+360 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1005 (+450 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1006 (+540 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1007 (+630 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1008 (+720 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1009 (+810 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1010 (+900 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1011 (+990 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1012 (+1080 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1013 (+1170 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1014 (+1260 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1015 (+1350 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1016 (+1440 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1017 (+1530 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1018 (+1620 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1019 (+1710 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<!-- Level 2 - SubLevel 1020 (+1800 sec. Time): Protects you and your party members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25% -->
+		<icon>icon.skill31001</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>
+			<value level="1">4</value>
+			<value level="2">5</value>
+		</abnormalLevel>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="2">1800</value>
+			<value fromLevel="1" toLevel="2" fromSubLevel="1001" toSubLevel="1020">{base + (subIndex * 30)}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
+		<affectLimit>7-7</affectLimit>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PARTY</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>900</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>700</hitTime>
+		<isMagic>22</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>420</mpConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</slot>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">75</value>
+					<value level="2">85</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">75</value>
+					<value level="2">85</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxCp">
+				<amount>
+					<value level="1">75</value>
+					<value level="2">85</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">80</value>
+					<value level="2">95</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">75</value>
+					<value level="2">90</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>	
+			<effect name="DefenceCriticalRate">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalRate">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+			<effect name="MaxHp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>33</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DamageShield">
+				<amount>10</amount>
+			</effect>
+			<effect name="HpRegen">
+				<amount>75</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ReduceCancel">
+				<amount>-40</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-22</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-22</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>8</amount>
+				<chance>30</chance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31002" toLevel="1" name="Novice's Drum Concert">
+		<!-- Inspires you and your party members with a lively drum performance. For 30 min., Max HP +15%, P. Atk. +15%, M. Atk. +15%, Atk. Spd. +15%, Casting Spd. +15%, P./ M. Evasion +3, Damage Reflection +5%, HP Recovery Rate +35%, MP Recovery Rate +30 min.0, Casting Interruption Rate -30 min.1, skill cooldown -30 min.2, MP Consumption -30 min.3. With a certain chance, Vampiric Rage effect 30 min.4. -->
+		<icon>icon.skill19444_b</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>300</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
+		<affectRange>1000</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>700</hitTime>
+		<isMagic>22</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>39</mpConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</slot>
+			</effect>
+			<effect name="MaxHp">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DamageShield">
+				<amount>5</amount>
+			</effect>
+			<effect name="HpRegen">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ReduceCancel">
+				<amount>-20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>-5</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-5</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>4</amount>
+				<chance>30</chance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31003" toLevel="1" name="Serenity Frenzy">
+		<!-- Level 1: Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2: Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1001 (+90 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1002 (+180 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1003 (+270 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1004 (+360 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1005 (+450 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1006 (+540 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1007 (+630 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1008 (+720 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1009 (+810 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1010 (+900 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1011 (+990 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1012 (+1080 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1013 (+1170 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1014 (+1260 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1015 (+1350 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1016 (+1440 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1017 (+1530 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1018 (+1620 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1019 (+1710 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 1 - SubLevel 1020 (+1800 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +75%. P. Def. +80%. M. Def. +75%. Attribute Resistance +10. All received Critical Rate -15%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1001 (+90 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1002 (+180 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1003 (+270 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1004 (+360 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1005 (+450 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1006 (+540 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1007 (+630 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1008 (+720 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1009 (+810 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1010 (+900 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1011 (+990 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1012 (+1080 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1013 (+1170 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1014 (+1260 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1015 (+1350 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1016 (+1440 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1017 (+1530 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1018 (+1620 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1019 (+1710 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<!-- Level 2 - SubLevel 1020 (+1800 sec. Time): Protects you and your clan members with a lively drum performance. <font color="ECECEC"><Effect></font>. <font color="A3A3A3">Duration:</font> <font color="B09B79">30 min.</font>. Max HP/ MP/ CP +85%. P. Def. +95%. M. Def. +90%. Attribute Resistance +50. All received Critical Rate -25%. Consumes 150 Spirit Ore. -->
+		<icon>icon.skill31003</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>4</abnormalLevel>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="2">300</value>
+			<value fromLevel="1" toLevel="2" fromSubLevel="1001" toSubLevel="1020">{base + (subIndex * 30)}</value>
+		</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
+		<affectLimit>50-50</affectLimit>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PLEDGE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>700</hitTime>
+		<isMagic>22</isMagic>
+		<itemConsumeCount>150</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>420</mpConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</slot>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">75</value>
+					<value level="2">85</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">75</value>
+					<value level="2">85</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxCp">
+				<amount>
+					<value level="1">75</value>
+					<value level="2">85</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">80</value>
+					<value level="2">95</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">75</value>
+					<value level="2">90</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>	
+			<effect name="DefenceCriticalRate">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalRate">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				    <value level="1">15</value>
+					<value level="2">25</value>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">50</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+			<effect name="MaxHp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>33</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>40</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DamageShield">
+				<amount>10</amount>
+			</effect>
+			<effect name="HpRegen">
+				<amount>75</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ReduceCancel">
+				<amount>-40</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-10</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-22</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-22</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>8</amount>
+				<chance>30</chance>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31004" toLevel="1" name="Basic Andante Performance">
+		<!-- Inspires you with a marvelous solo performance. For 30 min., Max HP +20%, P. Atk. +20%, M. Atk. +22%, Atk. Spd. +30%, Casting Spd. +23%, P./ M. Evasion +3, Damage Reflection +7%, HP Recovery Rate +60%, MP Recovery Rate +30 min.0, Casting Interruption Rate -30 min.1, skill cooldown -30 min.2, MP Consumption -30 min.3. With a certain chance, Vampiric Rage effect 30 min.4. Consumes 45 Spirit Ore. -->
+		<icon>icon.skill30827_b</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalTime>300</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_AURA</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>700</hitTime>
+		<isMagic>22</isMagic>
+		<itemConsumeCount>45</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>420</mpConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>DANCE_OF_BLADESTORM;SONG_OF_CHAMPION;SONG_OF_EARTH;SONG_OF_HUNTER;SONG_OF_LIFE;SONG_OF_MEDITATION;SONG_OF_RENEWAL;SONG_OF_VENGEANCE;SONG_OF_VITALITY;SONG_OF_WARDING;SONG_OF_WATER;SONG_OF_WIND;DANCE_OF_BERSERKER;DANCE_OF_CONCENTRATION;DANCE_OF_FIRE;DANCE_OF_FURY;DANCE_OF_INSPIRATION;DANCE_OF_MYSTIC;DANCE_OF_SIREN;DANCE_OF_VAMPIRE;DANCE_OF_WARRIOR;SONG_OF_PURIFICATION;WISPERING_OF_BATTLE;SONG_OF_WINDSTORM;MOTION_OF_DEFENCE;BUFF_UNICORN_SERAPHIM;BUFF_QUEEN_OF_CAT;KNIGHT_AURA;DMG_SHIELD;AVOID_UP</slot>
+			</effect>
+			<effect name="MaxHp">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>22</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ReduceCancel">
+				<amount>-40</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="VampiricAttack">
+				<amount>6</amount>
+				<chance>30</chance>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>23</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageShield">
+				<amount>7</amount>
+			</effect>
+			<effect name="Reuse">
+				<amount>-8</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-8</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-8</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+			<effect name="PhysicalEvasion">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalEvasion">
+				<amount>3</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="HpRegen">
+				<amount>60</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MpRegen">
+				<amount>80</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>2</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31005" toLevel="1" name="United Resistance">
+		<!-- Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +100, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1001 (+90 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1002 (+180 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1003 (+270 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1004 (+360 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1005 (+450 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1006 (+540 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1007 (+630 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1008 (+720 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1009 (+810 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1010 (+900 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1011 (+990 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1012 (+1080 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1013 (+1170 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1014 (+1260 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1015 (+1350 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1016 (+1440 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1017 (+1530 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1018 (+1620 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1019 (+1710 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1020 (+1800 sec. Time): Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<icon>icon.skill11565_b</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>3</abnormalLevel>
+		<abnormalTime>
+			<value fromLevel="1" toLevel="1">1800</value>
+			<value fromLevel="1" toLevel="1" fromSubLevel="1001" toSubLevel="1020">{base + (subIndex * 90)}</value>
+		</abnormalTime>
+		<abnormalType>ARMOR_ELEMENT_ALL</abnormalType>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PARTY</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>700</hitTime>
+		<isMagic>22</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>420</mpConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</slot>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>50</HOLD>
+				<SLEEP>50</SLEEP>
+				<DERANGEMENT>50</DERANGEMENT>
+				<CHANGEBODY>50</CHANGEBODY>
+				<PARALYZE>50</PARALYZE>
+				<SHOCK>50</SHOCK>
+				<CHANGEBODY>50</CHANGEBODY>
+				<KNOCKBACK>50</KNOCKBACK>
+				<KNOCKDOWN>50</KNOCKDOWN>
+				<AIRBIND>50</AIRBIND>
+				<TURN_STONE>50</TURN_STONE>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-30</amount>
+				<slot>BUFF</slot>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-30</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31006" toLevel="1" name="Basic United Resistance">
+		<!-- Fills you with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +100, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. Consumes 90 Spirit Ore. -->
+		<icon>icon.skill11565_b</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>ARMOR_ELEMENT_ALL</abnormalType>
+		<affectRange>1000</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>700</hitTime>
+		<isMagic>22</isMagic>
+		<itemConsumeCount>90</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>420</mpConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</slot>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>50</HOLD>
+				<SLEEP>50</SLEEP>
+				<DERANGEMENT>50</DERANGEMENT>
+				<CHANGEBODY>50</CHANGEBODY>
+				<PARALYZE>50</PARALYZE>
+				<SHOCK>50</SHOCK>
+				<CHANGEBODY>50</CHANGEBODY>
+				<KNOCKBACK>50</KNOCKBACK>
+				<KNOCKDOWN>50</KNOCKDOWN>
+				<AIRBIND>50</AIRBIND>
+				<TURN_STONE>50</TURN_STONE>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-30</amount>
+				<slot>BUFF</slot>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-30</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31007" toLevel="1" name="Novice's United Resistance">
+		<!-- Fills you and your party members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50, Buff Cancel Resistance +15%, Attribute Resistance +15. The effect remains after death. -->
+		<icon>icon.skill11565_b</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>ARMOR_ELEMENT_ALL</abnormalType>
+		<affectRange>1000</affectRange>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>700</hitTime>
+		<isMagic>22</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>39</mpConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</slot>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>25</HOLD>
+				<SLEEP>25</SLEEP>
+				<DERANGEMENT>25</DERANGEMENT>
+				<CHANGEBODY>25</CHANGEBODY>
+				<PARALYZE>25</PARALYZE>
+				<SHOCK>25</SHOCK>
+				<CHANGEBODY>25</CHANGEBODY>
+				<KNOCKBACK>25</KNOCKBACK>
+				<KNOCKDOWN>25</KNOCKDOWN>
+				<AIRBIND>25</AIRBIND>
+				<TURN_STONE>25</TURN_STONE>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-15</amount>
+				<slot>BUFF</slot>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-15</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>15</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31008" toLevel="1" name="United Confrontation">
+		<!-- Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +100, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1001 (+90 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1002 (+180 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1003 (+270 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1004 (+360 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1005 (+450 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1006 (+540 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1007 (+630 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1008 (+720 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1009 (+810 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1010 (+900 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1011 (+990 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1012 (+1080 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1013 (+1170 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1014 (+1260 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1015 (+1350 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1016 (+1440 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1017 (+1530 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1018 (+1620 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1019 (+1710 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<!-- Level 1 - SubLevel 1020 (+1800 sec. Time): Fills you and your clan members with the spirit of unity increasing your Resistance. For 30 min., Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +50%, Buff Cancel Resistance +30%, Attribute Resistance +30. The effect remains after death. -->
+		<icon>icon.skill19509</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>3</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>ARMOR_ELEMENT_ALL</abnormalType>
+		<affectLimit>50-50</affectLimit>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PLEDGE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<hitTime>700</hitTime>
+		<isMagic>22</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>420</mpConsume>
+		<reuseDelay>2000</reuseDelay>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>ARMOR_FIRE;ARMOR_WATER;ARMOR_WIND;ARMOR_EARTH;MD_UP_ATTR;DANCE_OF_AQUA_GUARD;DANCE_OF_EARTH_GUARD;SONG_OF_ELEMENTAL;SONG_OF_FLAME_GUARD;SONG_OF_STORM_GUARD;SONG_OF_WIND</slot>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>50</HOLD>
+				<SLEEP>50</SLEEP>
+				<DERANGEMENT>50</DERANGEMENT>
+				<CHANGEBODY>50</CHANGEBODY>
+				<PARALYZE>50</PARALYZE>
+				<SHOCK>50</SHOCK>
+				<CHANGEBODY>50</CHANGEBODY>
+				<KNOCKBACK>50</KNOCKBACK>
+				<KNOCKDOWN>50</KNOCKDOWN>
+				<AIRBIND>50</AIRBIND>
+				<TURN_STONE>50</TURN_STONE>
+			</effect>
+			<effect name="ResistDispelByCategory">
+				<amount>-30</amount>
+				<slot>BUFF</slot>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-30</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31009" toLevel="1" name="Elements of the Exalted">
+		<!-- Attribute Attack/ Resistance +100 -->
+		<icon>icon.s_attribute_of_honors</icon>
+		<operateType>P</operateType>
+		<effectPoint>100</effectPoint>
+		<excludedFromCheck>true</excludedFromCheck>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>100</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>100</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31010" toLevel="5" name="Link of Loyalty">
+		<!-- Level 1: Servitor's fury. P. Atk. +3%, Critical Rate for basic attacks +15%, Critical Damage for basic attacks +3%. -->
+		<!-- Level 2: Servitor's fury. P. Atk. +5%, Critical Rate for basic attacks +20%, Critical Damage for basic attacks +5%. -->
+		<!-- Level 3: Servitor's fury. P. Atk. +10%, Critical Rate for basic attacks +25%, Critical Damage for basic attacks +10%. -->
+		<!-- Level 4: Servitor's fury. P. Atk. +15%, Critical Rate for basic attacks +30%, Critical Damage for basic attacks +15%. -->
+		<!-- Level 5: The servitor's fury. P. Atk. +20%, Critical Rate for basic attacks +35%, Critical Damage for basic attacks +20%. Additionally, with a certain chance, applies the Servitor's Rage effect on the target on a basic attack. -->
+		<icon>icon.skill11351</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31011" toLevel="1" name="Mocking Resilience - Hellfire Fury">
+		<!-- Resets the cooldown of the Hellfire skill when hit. -->
+		<icon>icon.skill00000</icon>
+		<operateType>A1</operateType>
+		<effectPoint>707</effectPoint>
+	</skill>
+	<skill id="31012" toLevel="1" name="Test - Defense According to Level 1">
+		<!-- P. Def. +1000@0:100. (1000 + additionally +100 according to level) -->
+		<icon>icon.s_attribute_of_honors</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="31013" toLevel="1" name="Test - Defense According to Level 2">
+		<!-- P. Def. +1000@0:200. (1000 + additionally +200 according to level) -->
+		<icon>icon.s_attribute_of_honors</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="31014" toLevel="1" name="Test - M. Def. According to Level 1">
+		<!-- M. Def. +1000@0:100. (1000 + additionally +100 according to level) -->
+		<icon>icon.s_attribute_of_honors</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="31015" toLevel="1" name="Test - M. Def. According to Level 2">
+		<!-- M. Def. +1000@0:200. (1000 + additionally +200 according to level) -->
+		<icon>icon.s_attribute_of_honors</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="31016" toLevel="1" name="Hellfire - Damage Up - self">
+		<!-- Attacks nearby enemies dealing them damage equal to 130% of your P. Atk., ignoring 7% of their P. Def. Additionally, their Atk. Spd./ Casting Spd. -30%, Speed -70. Applies the Mocking Barrier effect: your P. Def. +20% for 5 sec. Base success rate: 60%. Inflicted status: Debilitation. -->
+		<icon>icon.skill30963</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-167</effectPoint>
+		<mpConsume>159</mpConsume>
+	</skill>
+	<skill id="31017" toLevel="1" name="Hellfire - Damage Up - target">
+		<!-- It is necessary to check whether the damage increase effect and the damage are applied at the same time. Base success rate: 60%. Inflicted status: Debilitation. -->
+		<icon>icon.skill30963</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-167</effectPoint>
+		<mpConsume>159</mpConsume>
+	</skill>
+	<skill id="31018" toLevel="1" name="Furious Eruption - Damage Up - target">
+		<!-- Unleashes your fury into the ground. Attacks the target and nearby enemies dealing them damage equal to 110% of your P. Atk., ignoring 10% of their P. Def. Requires a one-handed sword. -->
+		<icon>icon.skill30971</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-709</effectPoint>
+		<mpConsume>161</mpConsume>
+	</skill>
+	<skill id="31019" toLevel="1" name="Furious Eruption - Damage Up - self">
+		<!-- Unleashes your fury into the ground. Attacks the target and nearby enemies dealing them damage equal to 110% of your P. Atk., ignoring 10% of their P. Def. Requires a one-handed sword. -->
+		<icon>icon.skill30971</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-709</effectPoint>
+		<mpConsume>161</mpConsume>
+	</skill>
+	<skill id="31020" toLevel="3" name="Mocking Barrier - pb Damage Resistance">
+		<!-- Level 1: point_blank damage -50% -->
+		<!-- Level 2: f_b, range AoE damage -50% -->
+		<!-- Level 3: f_b, range AoE damage -50% -->
+		<icon>icon.skill3123</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31021" toLevel="3" name="Repeated Sorcery - Meteor">
+		<!-- Level 1: When activated, the Meteor skill cooldown -15 sec. When the Meteor skill is activated again, applies the cooldown decrease effect as well. -->
+		<!-- Level 2: When activated, the Meteor skill cooldown -15 sec. -->
+		<!-- Level 3: The Meteor skill cooldown is basic again. -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31022" toLevel="3" name="Repeated Sorcery - Black Pool">
+		<!-- Level 1: When activated, the Black Pool skill cooldown -15 sec. When the Black Pool skill is activated again, applies the cooldown decrease effect as well. -->
+		<!-- Level 2: When activated, the Black Pool skill cooldown -15 sec. -->
+		<!-- Level 3: The Black Pool skill cooldown is basic again. -->
+		<icon>icon.skill11135</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31023" toLevel="3" name="Repeated Sorcery - Blizzard">
+		<!-- Level 1: When activated, the Blizzard skill cooldown -15 sec. When the Blizzard skill is activated again, applies the cooldown decrease effect as well. -->
+		<!-- Level 2: When activated, the Blizzard skill cooldown -15 sec. -->
+		<!-- Level 3: The Blizzard skill cooldown is basic again. -->
+		<icon>icon.skill11136</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31024" toLevel="3" name="Repeated Sorcery - Tornado">
+		<!-- Level 1: When activated, the Tornado skill cooldown -15 sec. When the Tornado skill is activated again, applies the cooldown decrease effect as well. -->
+		<!-- Level 2: When activated, the Tornado skill cooldown -15 sec. -->
+		<!-- Level 3: The Tornado skill cooldown is basic again. -->
+		<icon>icon.skill11137</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31025" toLevel="3" name="Repeated Sorcery - Spirit Bomb">
+		<!-- Level 1: When activated, the Spirit Bomb skill cooldown -15 sec. When the Spirit Bomb skill is activated again, applies the cooldown decrease effect as well. -->
+		<!-- Level 2: When activated, the Spirit Bomb skill cooldown -15 sec. -->
+		<!-- Level 3: The Spirit Bomb skill cooldown is basic again. -->
+		<icon>icon.skill11138</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31026" toLevel="3" name="Ignite">
+		<!-- Level 1: Sets the target on fire dealing continuous damage with 54 power. Received Healing -20%. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 2: Sets the target on fire dealing continuous damage with 108 power. Received Healing -20%. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 3: Sets the target on fire dealing continuous damage with 162 power. Received Healing -20%. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31027" toLevel="3" name="Ignite">
+		<!-- Level 1: Sets the target on fire dealing continuous damage with 57 power. Received Healing -20%. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 2: Sets the target on fire dealing continuous damage with 113 power. Received Healing -20%. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 3: Sets the target on fire dealing continuous damage with 170 power. Received Healing -20%. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31028" toLevel="3" name="Ignite">
+		<!-- Level 1: Sets the target on fire dealing continuous damage with 63 power. Received Healing -20%. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 2: Sets the target on fire dealing continuous damage with 105 power. Received Healing -20%. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 3: Sets the target on fire dealing continuous damage with 113 power. Received Healing -20%. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31029" toLevel="3" name="Ignite">
+		<!-- Level 1: Sets the target on fire dealing continuous damage with 690 power. Received Healing -20%. The effect stacks up to the 3rd level. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 2: Sets the target on fire dealing continuous damage with 1360 power. Received Healing -20%. The effect stacks up to the 3rd level. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 3: Sets the target on fire dealing continuous damage with 2060 power. Received Healing -20%. The effect stacks up to the 3rd level. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill11134</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31030" toLevel="3" name="Black Shackle">
+		<!-- Level 1: Dark power shackles you, decreasing Speed. Base success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 2: Dark power shackles you, decreasing Speed. Base success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 3: Dark powers bind the target making them unable to act. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill11135</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31031" toLevel="3" name="Black Shackle">
+		<!-- Level 1: Dark power shackles you, decreasing Speed. Base success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 2: Dark power shackles you, decreasing Speed. Base success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 3: Dark powers bind the target making them unable to act. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill11135</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31032" toLevel="3" name="Black Shackle">
+		<!-- Level 1: Dark power shackles you, decreasing Speed. Base success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 2: Dark power shackles you, decreasing Speed. Base success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 3: Dark powers bind the target making them unable to act. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill11135</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31033" toLevel="3" name="Black Shackle">
+		<!-- Level 1: Dark power shackles you, decreasing Speed. Base success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 2: Dark power shackles you, decreasing Speed. Base success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 3: Dark powers bind the target making them unable to act. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill11135</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31034" toLevel="3" name="Freezing Slow">
+		<!-- Level 1: You feel freezing cold under your feet. Speed is decreased. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 2: You feel freezing cold under your feet. Speed is decreased. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 3: Your legs are frozen, you are unable to move. Base success rate: 70%. Inflicted status: Obstruction (Disarm, Hold, Blind, Block, Aggression, Silence, Banishment, Bluff, Stealth). -->
+		<icon>icon.skill11136</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31035" toLevel="3" name="Freezing Slow">
+		<!-- Level 1: You feel freezing cold under your feet. Speed is decreased. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 2: You feel freezing cold under your feet. Speed is decreased. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 3: Your legs are frozen, you are unable to move. Base success rate: 70%. Inflicted status: Obstruction (Disarm, Hold, Blind, Block, Aggression, Silence, Banishment, Bluff, Stealth). -->
+		<icon>icon.skill11136</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31036" toLevel="3" name="Freezing Slow">
+		<!-- Level 1: You feel freezing cold under your feet. Speed is decreased. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 2: You feel freezing cold under your feet. Speed is decreased. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 3: Your legs are frozen, you are unable to move. Base success rate: 70%. Inflicted status: Obstruction (Disarm, Hold, Blind, Block, Aggression, Silence, Banishment, Bluff, Stealth). -->
+		<icon>icon.skill11136</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31037" toLevel="3" name="Freezing Slow">
+		<!-- Level 1: You feel freezing cold under your feet. Speed is decreased. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 2: You feel freezing cold under your feet. Speed is decreased. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<!-- Level 3: Your legs are frozen, you are unable to move. Base success rate: 70%. Inflicted status: Obstruction (Disarm, Hold, Blind, Block, Aggression, Silence, Banishment, Bluff, Stealth). -->
+		<icon>icon.skill11136</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31038" toLevel="3" name="Wind Binding">
+		<!-- Level 1: A gust of wind decreases your Speed. Based success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 2: A gust of wind decreases your Speed. Based success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 3: Thrust midair by a gulf of wind. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill11137</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLevel>
+		<abnormalTime>5</abnormalTime> <!-- Guessed -->
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>TORNADO</abnormalVisualEffect>
+		<activateRate>-1</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>800</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<attributeType>WIND</attributeType>
+		<attributeValue>100</attributeValue>
+		<coolTime>800</coolTime>
+		<hitTime>0</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<lvlBonusRate>30</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>20000</reuseDelay>
+		<trait>AIRBIND</trait>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+			<effect name="BlockControl" />
+			<effect name="Speed">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+					<value level="4">-40</value>
+					<value level="5">-100</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31039" toLevel="3" name="Wind Binding">
+		<!-- Level 1: A gust of wind decreases your Speed. Based success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 2: A gust of wind decreases your Speed. Based success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 3: Thrust midair by a gulf of wind. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill11137</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLevel>
+		<abnormalTime>5</abnormalTime> <!-- Guessed -->
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>TORNADO</abnormalVisualEffect>
+		<activateRate>-1</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>800</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<attributeType>WIND</attributeType>
+		<attributeValue>100</attributeValue>
+		<coolTime>0</coolTime>
+		<hitTime>0</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<lvlBonusRate>30</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>0</reuseDelay>
+		<trait>AIRBIND</trait>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+			<effect name="BlockControl" />
+			<effect name="Speed">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31040" toLevel="3" name="Wind Binding">
+		<!-- Level 1: A gust of wind decreases your Speed. Based success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 2: A gust of wind decreases your Speed. Based success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 3: Thrust midair by a gulf of wind. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill11137</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLevel>
+		<abnormalTime>5</abnormalTime> <!-- Guessed -->
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>TORNADO</abnormalVisualEffect>
+		<activateRate>-1</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>800</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<attributeType>WIND</attributeType>
+		<attributeValue>100</attributeValue>
+		<coolTime>0</coolTime>
+		<hitTime>0</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<lvlBonusRate>30</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>0</reuseDelay>
+		<trait>AIRBIND</trait>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+			<effect name="BlockControl" />
+			<effect name="Speed">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31041" toLevel="3" name="Wind Binding">
+		<!-- Level 1: A gust of wind decreases your Speed. Based success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 2: A gust of wind decreases your Speed. Based success rate: 70%. Inflicted status: Debilitation -->
+		<!-- Level 3: Thrust midair by a gulf of wind. Base success rate: 70%. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill11137</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+			<value level="3">3</value>
+		</abnormalLevel>
+		<abnormalTime>5</abnormalTime> <!-- Guessed -->
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>TORNADO</abnormalVisualEffect>
+		<activateRate>-1</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>800</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<attributeType>WIND</attributeType>
+		<attributeValue>100</attributeValue>
+		<coolTime>0</coolTime>
+		<hitTime>0</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<lvlBonusRate>30</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>0</reuseDelay>
+		<trait>AIRBIND</trait>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+			<effect name="BlockControl" />
+			<effect name="Speed">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-20</value>
+					<value level="3">-30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31042" toLevel="3" name="Soul Weakness">
+		<!-- Increases received PvP damage because of the soul curse. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill11138</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31043" toLevel="3" name="Soul Weakness">
+		<!-- Increases received PvP damage because of the soul curse. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill11138</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31044" toLevel="3" name="Soul Weakness">
+		<!-- Increases received PvP damage because of the soul curse. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill11138</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31045" toLevel="3" name="Soul Weakness">
+		<!-- Increases received PvP damage because of the soul curse. Base success rate: 70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill11138</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="31046" toLevel="2" name="Infinite Hydro Flare Cooldown Reset">
+		<!-- The Infinite Hydro Flare cooldown is reset upon attacking the target with Storm Penance Lv. 4. -->
+		<icon>icon.skill30027_b</icon>
+		<operateType>A1</operateType>
+		<effectPoint>
+			<value level="1">707</value>
+			<value level="2">-100</value>
+		</effectPoint>
+	</skill>
+	<skill id="31047" toLevel="2" name="Servitor Enhancement">
+		<!-- Level 1: For 30 min., all servitors' Casting Spd. +200%. Also, applies Master Enhancement that boosts the summoner's combat abilities. <Master Enhancement>. For 30 min. summoner's M. Atk. +50%, P./ M. Def. +10%. Does not stack with Ultimate Servitor Enhancement. Consumes 5 Spirit Ore. -->
+		<!-- Level 2: For 30 min., all servitors' Casting Spd. +200%. Also, applies Master Enhancement that boosts the summoner's combat abilities. <Master Enhancement>. For 30 min. summoner's M. Atk. +100%, P./ M. Def. +20%. Does not stack with Ultimate Servitor Enhancement. Consumes 5 Spirit Ore. -->
+		<icon>icon.skill30857_new</icon>
+		<operateType>A2</operateType>
+		<targetType>SUMMON</targetType>
+		<abnormalLevel>
+			<value level="1">1</value>
+			<value level="2">2</value>
+		</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>SERVITOR_ENCHANCEMENT</abnormalType>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>SUMMON_EXCEPT_MASTER</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>800</castRange>
+		<coolTime>200</coolTime>
+		<effectRange>1100</effectRange>
+		<hitTime>3500</hitTime>
+		<isMagic>1</isMagic>
+		<itemConsumeCount>5</itemConsumeCount>
+		<itemConsumeId>3031</itemConsumeId> <!-- Spirit Ore -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>
+			<value level="1">85</value>
+			<value level="2">110</value>
+		</magicLevel>
+		<mpConsume>
+			<value level="1">70</value>
+			<value level="2">105</value>
+		</mpConsume>
+		<reuseDelay>60000</reuseDelay>
+		<reuseDelayGroup>30857</reuseDelayGroup>
+		<conditions>
+			<condition name="OpHaveSummon" />
+		</conditions>
+		<effects>
+			<effect name="MagicalAttackSpeed">
+				<amount>200</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+		<selfEffects>
+			<effect name="TriggerSkill">
+				<skillId>31226</skillId> <!-- Master Enhancement -->
+				<skillLevel>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</skillLevel>
+				<chance>100</chance>
+				<targetType>SELF</targetType>
+			</effect>
+		</selfEffects>
+	</skill>
+	<skill id="31048" toLevel="31" name="Forgotten Power - Master">
+		<!-- Level 1: P./ M. Def. +0.2%. -->
+		<!-- Level 2: P./ M. Def. +0.4%. -->
+		<!-- Level 3: P./ M. Def. +0.6%. -->
+		<!-- Level 4: P./ M. Def. +0.8%. -->
+		<!-- Level 5: P./ M. Def. +1%. -->
+		<!-- Level 6: P./ M. Def. +1.2%. -->
+		<!-- Level 7: P./ M. Def. +1.4%. -->
+		<!-- Level 8: P./ M. Def. +1.6%. -->
+		<!-- Level 9: P./ M. Def. +1.8%. -->
+		<!-- Level 10: P./ M. Def. +2%. -->
+		<!-- Level 11: P. Atk./ M. Atk./ P. Def./ M. Def. +2.3% -->
+		<!-- Level 12: P. Atk./ M. Atk./ P. Def./ M. Def. +2.6% -->
+		<!-- Level 13: P. Atk./ M. Atk./ P. Def./ M. Def. +2.9% -->
+		<!-- Level 14: P. Atk./ M. Atk./ P. Def./ M. Def. +3.2% -->
+		<!-- Level 15: P. Atk./ M. Atk./ P. Def./ M. Def. +3.5% -->
+		<!-- Level 16: P. Atk./ M. Atk./ P. Def./ M. Def. +3.8% -->
+		<!-- Level 17: P. Atk./ M. Atk./ P. Def./ M. Def. +4.1% -->
+		<!-- Level 18: P. Atk./ M. Atk./ P. Def./ M. Def. +4.4% -->
+		<!-- Level 19: P. Atk./ M. Atk./ P. Def./ M. Def. +4.7% -->
+		<!-- Level 20: P. Atk./ M. Atk./ P. Def./ M. Def. +5% -->
+		<!-- Level 21: P. Atk./ M. Atk./ P. Def./ M. Def. +5.5%, all Critical Damage +1%, all received Critical Damage -1%. -->
+		<!-- Level 22: P. Atk./ M. Atk./ P. Def./ M. Def. +6%, all Critical Damage +2%, all received Critical Damage -2%. -->
+		<!-- Level 23: P. Atk./ M. Atk./ P. Def./ M. Def. +6.5%, all Critical Damage +3%, all received Critical Damage -3%. -->
+		<!-- Level 24: P. Atk./ M. Atk./ P. Def./ M. Def. +7%, all Critical Damage +4%, all received Critical Damage -4%. -->
+		<!-- Level 25: P. Atk./ M. Atk./ P. Def./ M. Def. +7.5%, all Critical Damage +5%, all received Critical Damage -5%. -->
+		<!-- Level 26: P. Atk./ M. Atk./ P. Def./ M. Def. +8%, all Critical Damage +6%, all received Critical Damage -6%. -->
+		<!-- Level 27: P. Atk./ M. Atk./ P. Def./ M. Def. +8.5%, all Critical Damage +7%, all received Critical Damage -7%. -->
+		<!-- Level 28: P. Atk./ M. Atk./ P. Def./ M. Def. +9%, all Critical Damage +8%, all received Critical Damage -8%. -->
+		<!-- Level 29: P. Atk./ M. Atk./ P. Def./ M. Def. +9.5%, all Critical Damage +9%, all received Critical Damage -9%. -->
+		<!-- Level 30: P. Atk./ M. Atk./ P. Def./ M. Def. +10%, all Critical Damage +10%, all received Critical Damage -10%. -->
+		<!-- Level 31: Damage +10%, P. Atk./ M. Atk./ P. Def./ M. Def. +10%, all Critical Damage +10%, all received Critical Damage -10%. -->
+		<icon>icon.skill31048</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">0.2</value>
+					<value level="2">0.4</value>
+					<value level="3">0.6</value>
+					<value level="4">0.8</value>
+					<value level="5">1</value>
+					<value level="6">1.2</value>
+					<value level="7">1.4</value>
+					<value level="8">1.6</value>
+					<value level="9">1.8</value>
+					<value level="10">2</value>
+					<value level="11">2.3</value>
+					<value level="12">2.6</value>
+					<value level="13">2.9</value>
+					<value level="14">3.2</value>
+					<value level="15">3.5</value>
+					<value level="16">3.8</value>
+					<value level="17">4.1</value>
+					<value level="18">4.4</value>
+					<value level="19">4.7</value>
+					<value level="20">5</value>
+					<value level="21">5.5</value>
+					<value level="22">6</value>
+					<value level="23">6.5</value>
+					<value level="24">7</value>
+					<value level="25">7.5</value>
+					<value level="26">8</value>
+					<value level="27">8.5</value>
+					<value level="28">9</value>
+					<value level="29">9.5</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">0.2</value>
+					<value level="2">0.4</value>
+					<value level="3">0.6</value>
+					<value level="4">0.8</value>
+					<value level="5">1</value>
+					<value level="6">1.2</value>
+					<value level="7">1.4</value>
+					<value level="8">1.6</value>
+					<value level="9">1.8</value>
+					<value level="10">2</value>
+					<value level="11">2.3</value>
+					<value level="12">2.6</value>
+					<value level="13">2.9</value>
+					<value level="14">3.2</value>
+					<value level="15">3.5</value>
+					<value level="16">3.8</value>
+					<value level="17">4.1</value>
+					<value level="18">4.4</value>
+					<value level="19">4.7</value>
+					<value level="20">5</value>
+					<value level="21">5.5</value>
+					<value level="22">6</value>
+					<value level="23">6.5</value>
+					<value level="24">7</value>
+					<value level="25">7.5</value>
+					<value level="26">8</value>
+					<value level="27">8.5</value>
+					<value level="28">9</value>
+					<value level="29">9.5</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="10">0</value>
+					<value level="11">2.3</value>
+					<value level="12">2.6</value>
+					<value level="13">2.9</value>
+					<value level="14">3.2</value>
+					<value level="15">3.5</value>
+					<value level="16">3.8</value>
+					<value level="17">4.1</value>
+					<value level="18">4.4</value>
+					<value level="19">4.7</value>
+					<value level="20">5</value>
+					<value level="21">5.5</value>
+					<value level="22">6</value>
+					<value level="23">6.5</value>
+					<value level="24">7</value>
+					<value level="25">7.5</value>
+					<value level="26">8</value>
+					<value level="27">8.5</value>
+					<value level="28">9</value>
+					<value level="29">9.5</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="10">0</value>
+					<value level="11">2.3</value>
+					<value level="12">2.6</value>
+					<value level="13">2.9</value>
+					<value level="14">3.2</value>
+					<value level="15">3.5</value>
+					<value level="16">3.8</value>
+					<value level="17">4.1</value>
+					<value level="18">4.4</value>
+					<value level="19">4.7</value>
+					<value level="20">5</value>
+					<value level="21">5.5</value>
+					<value level="22">6</value>
+					<value level="23">6.5</value>
+					<value level="24">7</value>
+					<value level="25">7.5</value>
+					<value level="26">8</value>
+					<value level="27">8.5</value>
+					<value level="28">9</value>
+					<value level="29">9.5</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="20">0</value>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="20">0</value>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="20">0</value>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="20">0</value>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="20">0</value>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="20">0</value>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31049" toLevel="31" name="Forgotten Power - Expert">
+		<!-- Level 1: P./ M. Def. +300. -->
+		<!-- Level 2: P./ M. Def. +600. -->
+		<!-- Level 3: P./ M. Def. +900. -->
+		<!-- Level 4: P./ M. Def. +1200. -->
+		<!-- Level 5: P./ M. Def. +1500. -->
+		<!-- Level 6: P./ M. Def. +1800. -->
+		<!-- Level 7: P./ M. Def. +2100. -->
+		<!-- Level 8: P./ M. Def. +2400. -->
+		<!-- Level 9: P./ M. Def. +2700. -->
+		<!-- Level 10: P./ M. Def. +3000. -->
+		<!-- Level 11: P./ M. Def. +3300, Weapon P./ M. Atk. +8. -->
+		<!-- Level 12: P./ M. Def. +3600, Weapon P./ M. Atk. +16. -->
+		<!-- Level 13: P./ M. Def. +3900, Weapon P./ M. Atk. +24. -->
+		<!-- Level 14: P./ M. Def. +4200, Weapon P./ M. Atk. +32. -->
+		<!-- Level 15: P./ M. Def. +4500, Weapon P./ M. Atk. +40. -->
+		<!-- Level 16: P./ M. Def. +4800, Weapon P./ M. Atk. +48. -->
+		<!-- Level 17: P./ M. Def. +5100, Weapon P./ M. Atk. +56. -->
+		<!-- Level 18: P./ M. Def. +5400, Weapon P./ M. Atk. +64. -->
+		<!-- Level 19: P./ M. Def. +5700, Weapon P./ M. Atk. +72. -->
+		<!-- Level 20: P./ M. Def. +6000, Weapon P./ M. Atk. +80. -->
+		<!-- Level 21: P./ M. Def. +6400, Weapon P./ M. Atk. +92, Power of basic attacks and P./ M. skills +1%. -->
+		<!-- Level 22: P./ M. Def. +6800, Weapon P./ M. Atk. +104, Power of basic attacks and P./ M. skills +2%. -->
+		<!-- Level 23: P./ M. Def. +7200, Weapon P./ M. Atk. +116, Power of basic attacks and P./ M. skills +3%. -->
+		<!-- Level 24: P./ M. Def. +7600, Weapon P./ M. Atk. +128, Power of basic attacks and P./ M. skills +4%. -->
+		<!-- Level 25: P./ M. Def. +8000, Weapon P./ M. Atk. +140, Power of basic attacks and P./ M. skills +5%. -->
+		<!-- Level 26: P./ M. Def. +8400, Weapon P./ M. Atk. +152, Power of basic attacks and P./ M. skills +6%. -->
+		<!-- Level 27: P./ M. Def. +8800, Weapon P./ M. Atk. +164, Power of basic attacks and P./ M. skills +7%. -->
+		<!-- Level 28: P./ M. Def. +9200, Weapon P./ M. Atk. +176, Power of basic attacks and P./ M. skills +8%. -->
+		<!-- Level 29: P./ M. Def. +9600, Weapon P./ M. Atk. +188, Power of basic attacks and P./ M. skills +9%. -->
+		<!-- Level 30: P./ M. Def. +10,000, Weapon P./ M. Atk. +200, Power of basic attacks and P./ M. skills +10%. -->
+		<!-- Level 31: Received damage -15%, P./ M. Def. +10,000, Weapon P./ M. Atk. +200, Power of basic attacks and P./ M. skills +10%. -->
+		<icon>icon.skill31049</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">300</value>
+					<value level="2">600</value>
+					<value level="3">900</value>
+					<value level="4">1200</value>
+					<value level="5">1500</value>
+					<value level="6">1800</value>
+					<value level="7">2100</value>
+					<value level="8">2400</value>
+					<value level="9">2700</value>
+					<value level="10">3000</value>
+					<value level="11">3300</value>
+					<value level="12">3600</value>
+					<value level="13">3900</value>
+					<value level="14">4200</value>
+					<value level="15">4500</value>
+					<value level="16">4800</value>
+					<value level="17">5100</value>
+					<value level="18">5400</value>
+					<value level="19">5700</value>
+					<value level="20">6000</value>
+					<value level="21">6400</value>
+					<value level="22">6800</value>
+					<value level="23">7200</value>
+					<value level="24">7600</value>
+					<value level="25">8000</value>
+					<value level="26">8400</value>
+					<value level="27">8800</value>
+					<value level="28">9200</value>
+					<value level="29">9600</value>
+					<value level="30">10000</value>
+					<value level="31">10000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">300</value>
+					<value level="2">600</value>
+					<value level="3">900</value>
+					<value level="4">1200</value>
+					<value level="5">1500</value>
+					<value level="6">1800</value>
+					<value level="7">2100</value>
+					<value level="8">2400</value>
+					<value level="9">2700</value>
+					<value level="10">3000</value>
+					<value level="11">3300</value>
+					<value level="12">3600</value>
+					<value level="13">3900</value>
+					<value level="14">4200</value>
+					<value level="15">4500</value>
+					<value level="16">4800</value>
+					<value level="17">5100</value>
+					<value level="18">5400</value>
+					<value level="19">5700</value>
+					<value level="20">6000</value>
+					<value level="21">6400</value>
+					<value level="22">6800</value>
+					<value level="23">7200</value>
+					<value level="24">7600</value>
+					<value level="25">8000</value>
+					<value level="26">8400</value>
+					<value level="27">8800</value>
+					<value level="28">9200</value>
+					<value level="29">9600</value>
+					<value level="30">10000</value>
+					<value level="31">10000</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="10">0</value>
+					<value level="11">8</value>
+					<value level="12">16</value>
+					<value level="13">24</value>
+					<value level="14">32</value>
+					<value level="15">40</value>
+					<value level="16">48</value>
+					<value level="17">56</value>
+					<value level="18">64</value>
+					<value level="19">72</value>
+					<value level="20">80</value>
+					<value level="21">92</value>
+					<value level="22">104</value>
+					<value level="23">116</value>
+					<value level="24">128</value>
+					<value level="25">140</value>
+					<value level="26">152</value>
+					<value level="27">164</value>
+					<value level="28">176</value>
+					<value level="29">188</value>
+					<value level="30">200</value>
+					<value level="31">200</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+					<item>DAGGER</item>
+					<item>POLE</item>
+					<item>DUALFIST</item>
+					<item>BOW</item>
+					<item>DUAL</item>
+					<item>FIST</item>
+					<item>RAPIER</item>
+					<item>CROSSBOW</item>
+					<item>ANCIENTSWORD</item>
+					<item>DUALDAGGER</item>
+					<item>TWOHANDCROSSBOW</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="10">0</value>
+					<value level="11">8</value>
+					<value level="12">16</value>
+					<value level="13">24</value>
+					<value level="14">32</value>
+					<value level="15">40</value>
+					<value level="16">48</value>
+					<value level="17">56</value>
+					<value level="18">64</value>
+					<value level="19">72</value>
+					<value level="20">80</value>
+					<value level="21">92</value>
+					<value level="22">104</value>
+					<value level="23">116</value>
+					<value level="24">128</value>
+					<value level="25">140</value>
+					<value level="26">152</value>
+					<value level="27">164</value>
+					<value level="28">176</value>
+					<value level="29">188</value>
+					<value level="30">200</value>
+					<value level="31">200</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+					<item>DAGGER</item>
+					<item>POLE</item>
+					<item>DUALFIST</item>
+					<item>BOW</item>
+					<item>DUAL</item>
+					<item>FIST</item>
+					<item>RAPIER</item>
+					<item>CROSSBOW</item>
+					<item>ANCIENTSWORD</item>
+					<item>DUALDAGGER</item>
+					<item>TWOHANDCROSSBOW</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="AutoAttackDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="20">0</value>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value fromLevel="1" toLevel="20">0</value>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value fromLevel="1" toLevel="20">0</value>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">15</value>
+				</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">15</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31050" toLevel="1" name="Novice's Servitor Enhancement">
+		<!-- For 30 min., a servitor's damage +5%, Atk. Spd./ Casting Spd. +10%, Speed +10, Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +5, received damage -5%, all received Critical Damage -2%. -->
+		<icon>icon.skill1349</icon>
+		<operateType>A2</operateType>
+		<targetType>SUMMON</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>SUMMON_EXCEPT_MASTER</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>800</castRange>
+		<coolTime>200</coolTime>
+		<effectRange>1100</effectRange>
+		<hitTime>3500</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>40</magicLevel>
+		<mpConsume>35</mpConsume>
+		<reuseDelay>60000</reuseDelay>
+		<effects>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-10</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-5</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31051" toLevel="3" name="Berserker's Might">
+		<!-- Level 1: P./ M. Atk. +1% -->
+		<!-- Level 2: P./ M. Atk. +2% -->
+		<!-- Level 3: P./ M. Atk. +4% -->
+		<icon>icon.s_ability_f_p_m_attack</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">4</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31052" toLevel="3" name="Berserker's Elemental Attack">
+		<!-- Level 1: Attribute Attack +10. -->
+		<!-- Level 2: Attribute Attack +20. -->
+		<!-- Level 3: Attribute Attack +40. -->
+		<icon>icon.s_ability_f_attribute_attack</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">40</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31053" toLevel="2" name="Berserker's Chaos Attack">
+		<!-- Level 1: Obstruction/ Confusion/ Infection/ Stupor Atk. Rate +5 -->
+		<!-- Level 2: Obstruction/ Confusion/ Infection/ Stupor Atk. Rate +10 -->
+		<icon>icon.s_ability_f_abnormal_attack</icon>
+		<operateType>P</operateType>
+		<targetType>SELF</targetType>
+		<effects>
+			<effect name="AttackTrait">
+				<SHOCK>
+					<value level="1">5</value>
+					<value level="2">10</value>
+				</SHOCK>
+				<PARALYZE>
+					<value level="1">5</value>
+					<value level="2">10</value>
+				</PARALYZE>
+				<KNOCKBACK>
+					<value level="1">5</value>
+					<value level="2">10</value>
+				</KNOCKBACK>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31054" toLevel="3" name="Berserker's Concentration">
+		<!-- Level 1: Weapon P./ M. Atk. +10 -->
+		<!-- Level 2: Weapon P./ M. Atk. +20 -->
+		<!-- Level 3: Weapon P./ M. Atk. +30 -->
+		<icon>icon.s_ability_f_amp_attack</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+					<item>DAGGER</item>
+					<item>POLE</item>
+					<item>DUALFIST</item>
+					<item>BOW</item>
+					<item>DUAL</item>
+					<item>FIST</item>
+					<item>RAPIER</item>
+					<item>CROSSBOW</item>
+					<item>ANCIENTSWORD</item>
+					<item>DUALDAGGER</item>
+					<item>TWOHANDCROSSBOW</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+					<item>DAGGER</item>
+					<item>POLE</item>
+					<item>DUALFIST</item>
+					<item>BOW</item>
+					<item>DUAL</item>
+					<item>FIST</item>
+					<item>RAPIER</item>
+					<item>CROSSBOW</item>
+					<item>ANCIENTSWORD</item>
+					<item>DUALDAGGER</item>
+					<item>TWOHANDCROSSBOW</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31055" toLevel="2" name="Berserker's Focus Mastery">
+		<!-- Level 1: P./ M. Skill Critical Rate +5%. -->
+		<!-- Level 2: P./ M. Skill Critical Rate +10%. -->
+		<icon>icon.s_ability_e_skill_critical_rate</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31056" toLevel="3" name="Berserker's Growth">
+		<!-- Level 1: STR/ DEX/ INT/ WIT +1 -->
+		<!-- Level 2: STR/ DEX/ INT/ WIT +2 -->
+		<!-- Level 3: STR/ DEX/ INT/ WIT +3 -->
+		<icon>icon.s_ability_e_stat_berserkers</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>STR</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>DEX</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>INT</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>WIT</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31057" toLevel="2" name="Berserker's Focus">
+		<!-- Level 1: Critical Rate for basic attacks +2%. -->
+		<!-- Level 2: Critical Rate for basic attacks +4%. -->
+		<icon>icon.s_ability_e_attack_critical_rate</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">40</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31058" toLevel="3" name="Berserker's Death Mastery">
+		<!-- Level 1: P./ M. Skill Critical Damage +3% -->
+		<!-- Level 2: P./ M. Skill Critical Damage +6% -->
+		<!-- Level 3: P./ M. Skill Critical Damage +10% -->
+		<icon>icon.s_ability_d_skill_critical_damage</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31059" toLevel="2" name="Berserker's Bleed">
+		<!-- Level 1: Skill cooldown -1%. -->
+		<!-- Level 2: Skill cooldown -3%. -->
+		<icon>icon.s_ability_d_reuse_delay</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-3</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-3</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31060" toLevel="3" name="Berserker's Death Whisper">
+		<!-- Level 1: Critical Damage for basic attacks +3% -->
+		<!-- Level 2: Critical Damage for basic attacks +6% -->
+		<!-- Level 3: Critical Damage for basic attacks +10% -->
+		<icon>icon.s_ability_d_attack_critical_damage</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31061" toLevel="1" name="Berserker's Blind Attack">
+		<!-- Backstab damage/ damage from the side +5% -->
+		<icon>icon.s_ability_d_rear_side_dmg1</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="RearDamage">
+				<amount>
+					<value level="1">5</value>
+				</amount>
+				<mode>PER</mode>
+				<position>BACK;SIDE</position>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31062" toLevel="4" name="Berserker's Power Mastery">
+		<!-- Level 1: P./ M. Skill Power +2% -->
+		<!-- Level 2: P./ M. Skill Power +4% -->
+		<!-- Level 3: P./ M. Skill Power +8% -->
+		<!-- Level 4: P./ M. Skill Power +9% -->
+		<icon>icon.s_ability_c_skill_power</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">8</value>
+					<value level="4">9</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">8</value>
+					<value level="4">9</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31063" toLevel="2" name="Berserker's Dexterity">
+		<!-- Level 1: Weapon P./ M. Atk. +20 -->
+		<!-- Level 2: Weapon P./ M. Atk. +40 -->
+		<icon>icon.s_ability_c_amp_attack</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">40</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+					<item>DAGGER</item>
+					<item>POLE</item>
+					<item>DUALFIST</item>
+					<item>BOW</item>
+					<item>DUAL</item>
+					<item>FIST</item>
+					<item>RAPIER</item>
+					<item>CROSSBOW</item>
+					<item>ANCIENTSWORD</item>
+					<item>DUALDAGGER</item>
+					<item>TWOHANDCROSSBOW</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>
+					<value level="1">20</value>
+					<value level="2">40</value>
+				</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>SWORD</item>
+					<item>BLUNT</item>
+					<item>DAGGER</item>
+					<item>POLE</item>
+					<item>DUALFIST</item>
+					<item>BOW</item>
+					<item>DUAL</item>
+					<item>FIST</item>
+					<item>RAPIER</item>
+					<item>CROSSBOW</item>
+					<item>ANCIENTSWORD</item>
+					<item>DUALDAGGER</item>
+					<item>TWOHANDCROSSBOW</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31064" toLevel="4" name="Berserker's Power">
+		<!-- Level 1: Basic Attack Power +2% -->
+		<!-- Level 2: Basic Attack Power +4% -->
+		<!-- Level 3: Basic Attack Power +8% -->
+		<!-- Level 4: Basic Attack Power +9% -->
+		<icon>icon.s_ability_c_attack_power</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AutoAttackDamageBonus">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">8</value>
+					<value level="4">9</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31065" toLevel="3" name="Berserker's Suppressive Attack">
+		<!-- Level 1: Obstruction/ Confusion/ Infection/ Stupor Atk. Rate +5. Damage to immobilized targets +5% -->
+		<!-- Level 2: Obstruction/ Confusion/ Infection/ Stupor Atk. Rate +10. Damage to immobilized targets +10% -->
+		<!-- Level 3: Obstruction/ Confusion/ Infection/ Stupor Atk. Rate +15. Damage to immobilized targets +15% -->
+		<icon>icon.s_ability_c_bind_attack1</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckAbnormal">
+				<type>STUN</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>TARGET</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="ImmobileDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31066" toLevel="3" name="Berserker's Zeal">
+		<!-- Level 1: P./ M. Atk. +8% -->
+		<!-- Level 2: P./ M. Atk. +9% -->
+		<!-- Level 3: P./ M. Atk. +10% -->
+		<icon>icon.s_ability_b_p_m_attack</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">8</value>
+					<value level="2">9</value>
+					<value level="3">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">8</value>
+					<value level="2">9</value>
+					<value level="3">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31067" toLevel="4" name="Berserker's Nature Attack">
+		<!-- Level 1: Attribute Attack +50. -->
+		<!-- Level 2: Attribute Attack +100. -->
+		<!-- Level 3: Attribute Attack +110. -->
+		<!-- Level 4: Attribute Attack +120. -->
+		<icon>icon.s_ability_b_attribute_attack</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">110</value>
+					<value level="4">120</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31068" toLevel="3" name="Berserker's Bloody Fight">
+		<!-- Level 1: PvE damage +5%. -->
+		<!-- Level 2: PvE damage +6%. -->
+		<!-- Level 3: PvE damage +7%. -->
+		<icon>icon.s_ability_b_pve_damage</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31069" toLevel="3" name="Berserker's Dark Fight">
+		<!-- Level 1: PvP damage +5%. -->
+		<!-- Level 2: PvP damage +6%. -->
+		<!-- Level 3: PvP damage +7%. -->
+		<icon>icon.s_ability_b_pvp_damage</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31070" toLevel="3" name="Berserker's Combat Mastery">
+		<!-- Level 1: Damage +10%. -->
+		<!-- Level 2: Damage +11%. -->
+		<!-- Level 3: Damage +12%. -->
+		<icon>icon.s_ability_a_damage_increase</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">11</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31071" toLevel="3" name="Guardian's Shield">
+		<!-- Level 1: P. Def. +2%. -->
+		<!-- Level 2: P. Def. +4%. -->
+		<!-- Level 3: P. Def. +8%. -->
+		<icon>icon.s_ability_f_p_defence</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">8</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31072" toLevel="3" name="Guardian's Magic Barrier">
+		<!-- Level 1: M. Def. +2%. -->
+		<!-- Level 2: M. Def. +4%. -->
+		<!-- Level 3: M. Def. +8%. -->
+		<icon>icon.s_ability_f_m_defence</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">8</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31073" toLevel="3" name="Guardian's Elemental Guard">
+		<!-- Level 1: Attribute Resistance +10. -->
+		<!-- Level 2: Attribute Resistance +20. -->
+		<!-- Level 3: Attribute Resistance +40. -->
+		<icon>icon.s_ability_f_attribute_attack</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">40</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31074" toLevel="4" name="Guardian's Health Increase">
+		<!-- Level 1: Max HP +3% -->
+		<!-- Level 2: Max HP +6% -->
+		<!-- Level 3: Max HP +9% -->
+		<!-- Level 4: Max HP +12% -->
+		<icon>icon.s_ability_f_hp</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+					<value level="4">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31075" toLevel="1" name="Guardian's Block Mastery">
+		<!-- Shield Defense +100%. -->
+		<icon>icon.s_ability_e_shield_defence</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ShieldDefence">
+				<amount>100</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31076" toLevel="3" name="Guardian's Growth">
+		<!-- Level 1: CON/ MEN/ CHA +1 -->
+		<!-- Level 2: CON/ MEN/ CHA +2 -->
+		<!-- Level 3: CON/ MEN/ CHA +3 -->
+		<icon>icon.s_ability_e_stat_guardians</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>CON</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>MEN</stat>
+			</effect>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31077" toLevel="2" name="Guardian's Fortitude">
+		<!-- Level 1: Debuff Resistance +10. -->
+		<!-- Level 2: Debuff Resistance +30. -->
+		<icon>icon.s_ability_e_debuff_resist</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ResistAbnormalByCategory">
+				<amount>
+					<value level="1">-5</value>
+					<value level="2">-10</value>
+				</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31078" toLevel="3" name="Guardian's Focus Shield">
+		<!-- Level 1: Received P. Critical Rate -15% -->
+		<!-- Level 2: Received P. Critical Rate -30% -->
+		<!-- Level 3: Received P. Critical Rate -50% -->
+		<icon>icon.s_ability_d_critical_rate_reduce</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceCriticalRate">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">30</value>
+					<value level="3">50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">30</value>
+					<value level="3">50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalRate">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">30</value>
+					<value level="3">50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31079" toLevel="3" name="Guardian's Death Shield">
+		<!-- Level 1: Received Critical Damage -10% -->
+		<!-- Level 2: Received Critical Damage -20% -->
+		<!-- Level 3: Received Critical Damage -35% -->
+		<icon>icon.s_ability_d_critical_dmg_reduce</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceCriticalDamage">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">35</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">35</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">35</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31080" toLevel="3" name="Guardian's Empowerment">
+		<!-- Level 1: Max HP/ MP +3% -->
+		<!-- Level 2: Max HP/ MP +6% -->
+		<!-- Level 3: Max HP/ MP +9% -->
+		<icon>icon.s_ability_d_hp_mp</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31081" toLevel="2" name="Guardian's Bleed">
+		<!-- Level 1: Skill cooldown -1%. -->
+		<!-- Level 2: Skill cooldown -3%. -->
+		<icon>icon.s_ability_d_reuse_delay</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-3</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-3</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-3</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31082" toLevel="3" name="Guardian's Binding Cover">
+		<!-- Level 1: Received damage when immobilized -7% -->
+		<!-- Level 2: Received damage when immobilized -15% -->
+		<!-- Level 3: Received damage when immobilized -25% -->
+		<icon>icon.s_ability_d_reuse_delay</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckAbnormal">
+				<type>STUN</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="ImmobileDamageResist">
+				<amount>
+					<value level="1">-7</value>
+					<value level="2">-15</value>
+					<value level="3">-25</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31083" toLevel="3" name="Guardian's Ardor">
+		<!-- Level 1: P./ M. Def. +12% -->
+		<!-- Level 2: P./ M. Def. +14% -->
+		<!-- Level 3: P./ M. Def. +16% -->
+		<icon>icon.s_ability_c_p_m_defence</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">12</value>
+					<value level="2">14</value>
+					<value level="3">16</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">12</value>
+					<value level="2">14</value>
+					<value level="3">16</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31084" toLevel="4" name="Guardian's Melee Aptitude">
+		<!-- Level 1: Melee Weapon Resistance +1% -->
+		<!-- Level 2: Melee Weapon Resistance +2% -->
+		<!-- Level 3: Melee Weapon Resistance +3% -->
+		<!-- Level 4: Melee Weapon Resistance +5% -->
+		<icon>icon.s_ability_c_near_def_bonus</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<SWORD>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</SWORD>
+				<DAGGER>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</DAGGER>
+				<DUALFIST>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</DUALFIST>
+				<ANCIENTSWORD>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</ANCIENTSWORD>
+				<DUALDAGGER>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</DUALDAGGER>
+				<BLUNT>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</BLUNT>
+				<POLE>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</POLE>
+				<DUAL>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</DUAL>
+				<RAPIER>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</RAPIER>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31085" toLevel="4" name="Guardian's Ranged Aptitude">
+		<!-- Level 1: Range Weapon Resistance +1% -->
+		<!-- Level 2: Range Weapon Resistance +2% -->
+		<!-- Level 3: Range Weapon Resistance +3% -->
+		<!-- Level 4: Range Weapon Resistance +5% -->
+		<icon>icon.s_ability_c_far_def_bonus</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<BOW>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</BOW>
+				<CROSSBOW>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</CROSSBOW>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31086" toLevel="4" name="Guardian's Nature Defense">
+		<!-- Level 1: Attribute Resistance +50. -->
+		<!-- Level 2: Attribute Resistance +100. -->
+		<!-- Level 3: Attribute Resistance +110. -->
+		<!-- Level 4: Attribute Resistance +120. -->
+		<icon>icon.s_ability_b_attribute_defence</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">50</value>
+					<value level="2">100</value>
+					<value level="3">110</value>
+					<value level="4">120</value>
+				</amount>
+				<attribute>FIRE,WATER,WIND,EARTH,HOLY,DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31087" toLevel="4" name="Guardian's Life Force Evolution">
+		<!-- Level 1: Max HP limit +500 -->
+		<!-- Level 2: Max HP limit +1000 -->
+		<!-- Level 3: Max HP limit +1200 -->
+		<!-- Level 4: Max HP limit +1500 -->
+		<icon>icon.s_ability_b_max_hp_up</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="LimitHp">
+				<amount>
+					<value level="1">500</value>
+					<value level="2">1000</value>
+					<value level="3">1200</value>
+					<value level="4">1500</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31088" toLevel="3" name="Guardian's Bloody Armor">
+		<!-- Level 1: Received PvE damage -8% -->
+		<!-- Level 2: Received PvE damage -10% -->
+		<!-- Level 3: Received PvE damage -12% -->
+		<icon>icon.s_ability_b_pve_damage_rd</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">8</value>
+					<value level="2">10</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">8</value>
+					<value level="2">10</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">8</value>
+					<value level="2">10</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31089" toLevel="3" name="Guardian's Dark Armor">
+		<!-- Level 1: Received PvP damage -8% -->
+		<!-- Level 2: Received PvP damage -10% -->
+		<!-- Level 3: Received PvP damage -12% -->
+		<icon>icon.s_ability_b_pvp_damage_rd</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">8</value>
+					<value level="2">10</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">8</value>
+					<value level="2">10</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">8</value>
+					<value level="2">10</value>
+					<value level="3">12</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31090" toLevel="3" name="Guardian's Defense Mastery">
+		<!-- Level 1: Received damage -10%. -->
+		<!-- Level 2: Received damage -11%. -->
+		<!-- Level 3: Received damage -12%. -->
+		<icon>icon.s_ability_a_damage_reduce</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-11</value>
+					<value level="3">-12</value>
+				</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-11</value>
+					<value level="3">-12</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31091" toLevel="2" name="Oracle's Haste">
+		<!-- Level 1: Speed +15 -->
+		<!-- Level 2: Speed +30 -->
+		<icon>icon.s_ability_f_speed</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Speed">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">15</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31092" toLevel="3" name="Oracle's Elemental Soul">
+		<!-- Level 1: Attribute Attack/ Resistance +5 -->
+		<!-- Level 2: Attribute Attack/ Resistance +15 -->
+		<!-- Level 3: Attribute Attack/ Resistance +25 -->
+		<icon>icon.s_ability_f_attribute_all</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">25</value>
+				</amount>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">25</value>
+				</amount>
+				<attribute>FIRE,WATER,WIND,EARTH,HOLY,DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31093" toLevel="2" name="Oracle's Expert Skill Mastery">
+		<!-- Level 1: Skill MP Consumption -5% -->
+		<!-- Level 2: Skill MP Consumption -15% -->
+		<icon>icon.s_ability_f_mp_reduce</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">15</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">15</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">-5</value>
+					<value level="2">-15</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31094" toLevel="3" name="Oracle's Ingenuity">
+		<!-- Level 1: Loot area +5% -->
+		<!-- Level 2: Loot area +15% -->
+		<!-- Level 3: Loot area +35% -->
+		<icon>icon.s_ability_f_the_gleaners</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value> <!-- FIXME: AUTO GENERATED LEVEL -->
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31095" toLevel="2" name="Oracle's Blessing">
+		<!-- Level 1: Acquired XP/ SP +3% -->
+		<!-- Level 2: Acquired XP/ SP +10% -->
+		<icon>icon.s_ability_f_exp_sp_up</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">10</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">10</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31096" toLevel="1" name="Oracle's Divine Blessing">
+		<!-- Acquired XP/ SP +5% -->
+		<icon>icon.s_ability_d_exp_sp_up</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>5</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>5</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31097" toLevel="1" name="Oracle's Heavenly Blessing">
+		<!-- Acquired XP/ SP +10% -->
+		<icon>icon.s_ability_b_exp_sp_up</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>10</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31098" toLevel="4" name="Oracle's Domination">
+		<!-- Level 1: Skill mastery +10% -->
+		<!-- Level 2: Skill mastery +30% -->
+		<!-- Level 3: Skill mastery +50% -->
+		<!-- Level 4: Skill mastery +60% -->
+		<icon>icon.s_ability_e_excellence</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="SkillMasteryRate">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">30</value>
+					<value level="3">50</value>
+					<value level="4">60</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="31099" toLevel="2" name="Oracle's Expert Potion">
+		<!-- Level 1: Recovery Potions' Effect +500 -->
+		<!-- Level 2: Recovery Potions' Effect +1000 -->
+		<icon>icon.s_ability_e_medicine_bouns</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AdditionalPotionHp">
+				<amount>
+					<value level="1">500</value>
+					<value level="2">1000</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+</list>

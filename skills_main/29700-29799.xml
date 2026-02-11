@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="29700" toLevel="1" name="Ghost Detector">
+		<!-- Detects Halloween ghosts. For 10 min., damage +10%, received damage -10%. -->
+		<icon>BranchIcon.Icon.g_ev_halloween_search_i00</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<reuseDelay>600000</reuseDelay>
+	</skill>
+	<skill id="29701" toLevel="1" name="Summon Halloween Zombie Ghost">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="29702" toLevel="1" name="Summon Halloween Cat Ghost">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="29703" toLevel="1" name="Summon Halloween Witch Ghost">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="29704" toLevel="1" name="Halloween Outfit - Bear">
+		<!-- Changes the armor appearance to that of Bear Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29705" toLevel="1" name="Halloween Outfit - Red Wizard">
+		<!-- Changes the armor appearance to that of Red Wizard Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29706" toLevel="1" name="Halloween Outfit - Red Archer">
+		<!-- Changes the armor appearance to that of Red Archer Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29707" toLevel="1" name="Halloween Outfit - Green Archer">
+		<!-- Changes the armor appearance to that of Green Archer Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29708" toLevel="1" name="Halloween Outfit - Samurai">
+		<!-- Changes the armor appearance to that of Samurai Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29709" toLevel="1" name="Halloween Outfit - Plush Cat">
+		<!-- Changes the armor appearance to that of Plush Cat Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29710" toLevel="1" name="Halloween Outfit - Dark Assassin">
+		<!-- Changes the armor appearance to that of Dark Assassin Suit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29711" toLevel="1" name="Halloween Outfit - Light Assassin">
+		<!-- Changes the armor appearance to that of Light Assassin Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29712" toLevel="1" name="Halloween Outfit - Metal Suit">
+		<!-- Changes the armor appearance to that of Metal Suit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29713" toLevel="1" name="Halloween Outfit - Red Noblesse">
+		<!-- Changes the armor appearance to that of Red Noblesse Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29714" toLevel="1" name="Halloween Outfit - White Noblesse">
+		<!-- Changes the armor appearance to that of White Noblesse Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29715" toLevel="1" name="Halloween Outfit - Blue Musketeer">
+		<!-- Changes the armor appearance to that of Blue Musketeer Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29716" toLevel="1" name="Halloween Outfit - Red Musketeer">
+		<!-- Changes the armor appearance to that of Red Musketeer Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29717" toLevel="1" name="Halloween Outfit - Red Pirate">
+		<!-- Changes the armor appearance to that of Red Pirate Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29718" toLevel="1" name="Halloween Outfit - Pirate">
+		<!-- Changes the armor appearance to that of Pirate Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29719" toLevel="1" name="Halloween Outfit - Purple Cowboy">
+		<!-- Changes the armor appearance to that of Purple Cowboy Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29720" toLevel="1" name="Halloween Outfit - Healer">
+		<!-- Changes the armor appearance to that of Healer Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29721" toLevel="1" name="Halloween Outfit - Chevalier">
+		<!-- Changes the armor appearance to that of Chevalier Garment. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29722" toLevel="1" name="Halloween Outfit - Kat the Cat">
+		<!-- Changes the armor appearance to that of Kat the Cat Costume. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29723" toLevel="1" name="Halloween Outfit - Wolf Barbarian">
+		<!-- Changes the armor appearance to that of Wolf Barbarian Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29724" toLevel="1" name="Halloween Outfit - Valkyrie">
+		<!-- Changes the armor appearance to that of Valkyrie Costume. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29725" toLevel="1" name="Halloween Outfit - Steward">
+		<!-- Changes armor appearance to that of Steward Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29726" toLevel="1" name="Halloween Outfit - Alice">
+		<!-- Changes the armor appearance to that of Alice's Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29727" toLevel="1" name="Halloween Outfit - Steampunk">
+		<!-- Changes the armor appearance to that of Steampunk outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29728" toLevel="1" name="Halloween Outfit - Lovely Hanbok">
+		<!-- Changes the armor appearance to that of Lovely Hanbok. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>600</abnormalTime>
+		<abnormalType>APPEARANCE_POTION</abnormalType>
+		<abnormalVisualEffect>AVE_RED_LIBRA_29</abnormalVisualEffect>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>780</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>1500</hitTime>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<isMagic>4</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5000</reuseDelay>
+		<reuseDelayType>S</reuseDelayType>
+		<specialLevel>-1</specialLevel>
+		<effects>
+			<effect name="DispelBySlot">
+				<dispel>
+					<value level="1">APPEARANCE_POTION,1</value>
+				</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="29729" toLevel="1" name="Halloween Outfit - Jester">
+		<!-- Changes the armor appearance to that of Jester Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29730" toLevel="1" name="Halloween Outfit - Cavalier">
+		<!-- Changes the armor appearance to that of Elite Knight Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29731" toLevel="1" name="Halloween Outfit - Red Dragon Knight">
+		<!-- Changes the armor appearance to that of Red Dragon Knight Outfit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29732" toLevel="1" name="Halloween Outfit - Assassin">
+		<!-- Changes the armor appearance to that of Assassin Suit. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29733" toLevel="1" name="Halloween Outfit - Yellow Nymph">
+		<!-- Changes the armor appearance to that of Yellow Nymph Costume. -->
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29734" toLevel="1" name="Mark of Courage">
+		<!-- When in inventory, acquired XP/ SP +30%. -->
+		<icon>BranchSys3.icon1.g_rune_of_flint_will</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29735" toLevel="2" name="Earth Dragon's Protection">
+		<!-- Acquired XP/ SP +50%. Vitality bonus +50%. P. Atk./ P. Def./ M. Atk./ M. Def. +15%. Power of basic attacks and P./ M. skills +15%. PvP/ PvE damage +10% -->
+		<icon>BranchIcon.icon.g_bm_antaras_bead</icon>
+		<operateType>A1</operateType>
+		<effectPoint>
+			<value level="1">0</value>
+			<value level="2">1</value>
+		</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>600000</reuseDelay>
+	</skill>
+	<skill id="29736" toLevel="10" name="Earth Dragon's Rune - Lv. 1">
+		<!-- Level 1: Attribute Resistance +10 -->
+		<!-- Level 2: Attribute Resistance +20 -->
+		<!-- Level 3: Attribute Resistance +30, P. Def. +1% -->
+		<!-- Level 4: Attribute Resistance +40, P. Def. +2% -->
+		<!-- Level 5: Attribute Resistance +50, P. Def. +3%, Skill Power +1% -->
+		<!-- Level 6: Attribute Resistance +60, P. Def. +4%, Skill Power +2%, received PvP/ PvE damage -1% -->
+		<!-- Level 7: Attribute Resistance +70, P. Def. +5%, Skill Power +3%, received PvP/ PvE damage -2%, received damage when immobilized -5% -->
+		<!-- Level 8: Attribute Resistance +80, P. Def. +5%, Skill Power +4%, received PvP/ PvE damage -3%, received damage when immobilized -10% -->
+		<!-- Level 9: Attribute Resistance +90, P. Def. +5%, Skill Power +5%, received PvP/ PvE damage -4%, received damage when immobilized -15% -->
+		<!-- Level 10: Attribute Resistance +100, P. Def. +5%, Skill Power +5%, received PvP/ PvE damage -5%, received damage when immobilized -20% -->
+		<icon>BranchIcon.icon.g_bm_valakas_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29747" toLevel="1" name="Game Manager's Large Firecracker">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>3000</reuseDelay>
+	</skill>
+	<skill id="29748" toLevel="1" name="Festive Magic Drink">
+		<!-- For 20 min., damage +15%, acquired XP/ SP +20%, received damage -10%. Does not stack with Freya's Charisma Potion, Einhasad's Charisma Potion and Freya's Luck Potion. The effect can be removed with Alt + Left Mouse Button. Cooldown: 5 min. The effect remains after death. Cannot be used in the Olympiad. -->
+		<icon>BranchSys.icon.br_vitality_potion_i01</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="29749" toLevel="1" name="Protection of Light: Heart">
+		<!-- For 30 min., acquired XP/ SP +10%, Vitality bonus +20%, Attribute Attack +70, damage +10%. The effect remains after death. Cannot be used in the Olympiad. -->
+		<icon>BranchIcon.Icon.s_g_bm_trigger_kill_effect_hart</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalTime>1800</abnormalTime>
+		<abnormalType>BR_EVENT_BUF2</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<canBeDispelled>false</canBeDispelled>
+		<effectPoint>1</effectPoint>
+		<hitTime>0</hitTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>300000</reuseDelay>
+		<stayAfterDeath>true</stayAfterDeath>
+		<effects>
+			<effect name="ExpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="VitalityExpRate">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AttackAttributeAdd">
+				<amount>70</amount>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="29750" toLevel="1" name="CM's Power Sack">
+		<!-- A buff that can be obtained for participating in Lineage 2 CM's events. When used, Attribute Attack +70, Attribute Resistance +70, acquired XP/ SP +30% for 24 h. <CM's events>. To learn more, check our Knowledge Base (l2wiki.com). -->
+		<icon>BranchSys.Icon.Br_santa_gift_click_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>100</effectPoint>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="29751" toLevel="1" name="Summon Agathion Shadow">
+		<!-- Summons Agathion Shadow. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="29752" toLevel="1" name="Summon Agathion Alpha">
+		<!-- Summons Agathion Alpha. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="29753" toLevel="1" name="Summon Agathion Zeta">
+		<!-- Summons Agathion Zeta. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="29754" toLevel="1" name="Summon Agathion Delta">
+		<!-- Summons Agathion Delta. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="29755" toLevel="1" name="Summon Agathion Beta">
+		<!-- Summons Agathion Beta. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="29756" toLevel="1" name="Summon Agathion Eta">
+		<!-- Summons Agathion Eta. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="29757" toLevel="1" name="Summon Agathion Epsilon">
+		<!-- Summons Agathion Epsilon. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="29758" toLevel="1" name="Summon Agathion Gamma">
+		<!-- Summons Agathion Gamma. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+	</skill>
+	<skill id="29759" toLevel="9" name="Ruler of Darkness">
+		<!-- Level 1: Attribute Resistance, Attribute Attack and CHA are increased when the agathion grows. -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +10 -->
+		<!-- Level 4: Attribute Resistance +10, Attribute Attack +10 -->
+		<!-- Level 5: Attribute Resistance +20, Attribute Attack +10 -->
+		<!-- Level 6: Attribute Resistance +25, Attribute Attack +20 -->
+		<!-- Level 7: Attribute Resistance +30, Attribute Attack +30 -->
+		<!-- Level 8: Attribute Resistance +40, Attribute Attack +30, CHA +1 -->
+		<!-- Level 9: Attribute Resistance +50, Attribute Attack +70, CHA +3 -->
+		<icon>BranchIcon.icon.g_bm_shadow_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29760" toLevel="9" name="Dark Wisdom I">
+		<!-- Level 1: PvE damage to common monsters is increased when the agathion grows. -->
+		<!-- Level 2: PvE damage to common monsters +1% -->
+		<!-- Level 3: PvE damage to common monsters +2% -->
+		<!-- Level 4: PvE damage to common monsters +3% -->
+		<!-- Level 5: PvE damage to common monsters +4% -->
+		<!-- Level 6: PvE damage to common monsters +5% -->
+		<!-- Level 7: PvE damage to common monsters +6% -->
+		<!-- Level 8: PvE damage to common monsters +7% -->
+		<!-- Level 9: PvE damage to common monsters +15% -->
+		<icon>BranchIcon.icon.g_bm_shadow_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29761" toLevel="8" name="Dark Wisdom II">
+		<!-- Level 1: PvP damage is increased when the agathion grows. -->
+		<!-- Level 2: PvP damage +1% -->
+		<!-- Level 3: PvP damage +2% -->
+		<!-- Level 4: PvP damage +3% -->
+		<!-- Level 5: PvP damage +4% -->
+		<!-- Level 6: PvP damage +5% -->
+		<!-- Level 7: PvP damage +6% -->
+		<!-- Level 8: PvP damage +15% -->
+		<icon>BranchIcon.icon.g_bm_shadow_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29762" toLevel="9" name="1st Stone of Seven Shadows' Power">
+		<!-- Level 1: Attribute Resistance, Attribute Attack and Recovery Potions' Effect are increased when the agathion grows. -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +10 -->
+		<!-- Level 4: Attribute Resistance +10, Attribute Attack +10 -->
+		<!-- Level 5: Attribute Resistance +20, Attribute Attack +10 -->
+		<!-- Level 6: Attribute Resistance +25, Attribute Attack +20 -->
+		<!-- Level 7: Attribute Resistance +30, Attribute Attack +30 -->
+		<!-- Level 8: Attribute Resistance +40, Attribute Attack +30, Recovery Potions' Effect +200 -->
+		<!-- Level 9: Attribute Resistance +50, Attribute Attack +70, Recovery Potions' Effect +500 -->
+		<icon>BranchIcon.icon.g_bm_alpha_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29763" toLevel="9" name="Leader of Seven Shadows I">
+		<!-- Level 1: Received PvE damage is decreased when the agathion grows. -->
+		<!-- Level 2: Received PvE damage -1% -->
+		<!-- Level 3: Received PvE damage -2% -->
+		<!-- Level 4: Received PvE damage -3% -->
+		<!-- Level 5: Received PvE damage -4% -->
+		<!-- Level 6: Received PvE damage -5% -->
+		<!-- Level 7: Received PvE damage -6% -->
+		<!-- Level 8: Received PvE damage -7% -->
+		<!-- Level 9: Received PvE damage -15% -->
+		<icon>BranchIcon.icon.g_bm_alpha_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29764" toLevel="8" name="Leader of Seven Shadows II">
+		<!-- Level 1: Received PvP damage is decreased when the agathion grows. -->
+		<!-- Level 2: Received PvP damage -1% -->
+		<!-- Level 3: Received PvP damage -2% -->
+		<!-- Level 4: Received PvP damage -3% -->
+		<!-- Level 5: Received PvP damage -4% -->
+		<!-- Level 6: Received PvP damage -5% -->
+		<!-- Level 7: Received PvP damage -6% -->
+		<!-- Level 8: Received PvP damage -15% -->
+		<icon>BranchIcon.icon.g_bm_alpha_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29765" toLevel="9" name="2nd Stone of Seven Shadows' Power">
+		<!-- Level 1: Attribute Resistance, Attribute Attack and WIT are increased when the agathion grows. -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +10 -->
+		<!-- Level 4: Attribute Resistance +10, Attribute Attack +10 -->
+		<!-- Level 5: Attribute Resistance +20, Attribute Attack +10 -->
+		<!-- Level 6: Attribute Resistance +25, Attribute Attack +20 -->
+		<!-- Level 7: Attribute Resistance +30, Attribute Attack +30 -->
+		<!-- Level 8: Attribute Resistance +40, Attribute Attack +30, WIT +1 -->
+		<!-- Level 9: Attribute Resistance +50, Attribute Attack +70, WIT +3 -->
+		<icon>BranchIcon.icon.g_bm_beta_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29766" toLevel="8" name="Fortitude of Seven Shadows I">
+		<!-- Level 1: Skill MP Consumption is decreased when the agathion grows. -->
+		<!-- Level 2: Skill MP Consumption -1% -->
+		<!-- Level 3: Skill MP Consumption -2% -->
+		<!-- Level 4: Skill MP Consumption -3% -->
+		<!-- Level 5: Skill MP Consumption -4% -->
+		<!-- Level 6: Skill MP Consumption -5% -->
+		<!-- Level 7: Skill MP Consumption -6% -->
+		<!-- Level 8: Skill MP Consumption -7% -->
+		<icon>BranchIcon.icon.g_bm_beta_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">-1</value>
+					<value level="3">-2</value>
+					<value level="4">-3</value>
+					<value level="5">-4</value>
+					<value level="6">-5</value>
+					<value level="7">-6</value>
+					<value level="8">-7</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">-1</value>
+					<value level="3">-2</value>
+					<value level="4">-3</value>
+					<value level="5">-4</value>
+					<value level="6">-5</value>
+					<value level="7">-6</value>
+					<value level="8">-7</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="29767" toLevel="8" name="Fortitude of Seven Shadows II">
+		<!-- Level 1: M. Atk. is increased when the agathion grows. -->
+		<!-- Level 2: M. Atk. +1%. -->
+		<!-- Level 3: M. Atk. +3%. -->
+		<!-- Level 4: M. Atk. +5%. -->
+		<!-- Level 5: M. Atk. +7%. -->
+		<!-- Level 6: M. Atk. +10%. -->
+		<!-- Level 7: M. Atk. +13%. -->
+		<!-- Level 8: M. Atk. +17%. -->
+		<icon>BranchIcon.icon.g_bm_beta_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+					<value level="5">7</value>
+					<value level="6">10</value>
+					<value level="7">13</value>
+					<value level="8">17</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="29768" toLevel="9" name="3rd Stone of Seven Shadows' Power">
+		<!-- Level 1: Attribute Resistance, Attribute Attack and CON are increased when the agathion grows. -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +10 -->
+		<!-- Level 4: Attribute Resistance +10, Attribute Attack +10 -->
+		<!-- Level 5: Attribute Resistance +20, Attribute Attack +10 -->
+		<!-- Level 6: Attribute Resistance +25, Attribute Attack +20 -->
+		<!-- Level 7: Attribute Resistance +30, Attribute Attack +30 -->
+		<!-- Level 8: Attribute Resistance +40, Attribute Attack +30, CON +1 -->
+		<!-- Level 9: Attribute Resistance +50, Attribute Attack +70, CON +3 -->
+		<icon>BranchIcon.icon.g_bm_gamma_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29769" toLevel="8" name="Weakness of Seven Shadows I">
+		<!-- Level 1: P. Def. is increased when the agathion grows. -->
+		<!-- Level 2: P. Def. +1% -->
+		<!-- Level 3: P. Def. +2% -->
+		<!-- Level 4: P. Def. +3% -->
+		<!-- Level 5: P. Def. +4% -->
+		<!-- Level 6: P. Def. +6% -->
+		<!-- Level 7: P. Def. +8% -->
+		<!-- Level 8: P. Def. +10% -->
+		<icon>BranchIcon.icon.g_bm_gamma_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29770" toLevel="8" name="Weakness of Seven Shadows II">
+		<!-- Level 1: Received P. Critical Damage is decreased when the agathion grows. -->
+		<!-- Level 2: Received P. Critical Damage -1% -->
+		<!-- Level 3: Received P. Critical Damage -2% -->
+		<!-- Level 4: Received P. Critical Damage -3% -->
+		<!-- Level 5: Received P. Critical Damage -4% -->
+		<!-- Level 6: Received P. Critical Damage -6% -->
+		<!-- Level 7: Received P. Critical Damage -8% -->
+		<!-- Level 8: Received P. Critical Damage -10% -->
+		<icon>BranchIcon.icon.g_bm_gamma_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29771" toLevel="9" name="4th Stone of Seven Shadows' Power">
+		<!-- Level 1: Attribute Resistance, Attribute Attack and STR are increased when the agathion grows. -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +10 -->
+		<!-- Level 4: Attribute Resistance +10, Attribute Attack +10 -->
+		<!-- Level 5: Attribute Resistance +20, Attribute Attack +10 -->
+		<!-- Level 6: Attribute Resistance +25, Attribute Attack +20 -->
+		<!-- Level 7: Attribute Resistance +30, Attribute Attack +30 -->
+		<!-- Level 8: Attribute Resistance +40, Attribute Attack +30, STR +1 -->
+		<!-- Level 9: Attribute Resistance +50, Attribute Attack +70, STR +3 -->
+		<icon>BranchIcon.icon.g_bm_delta_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29772" toLevel="8" name="Tyrant of Seven Shadows I">
+		<!-- Level 1: P. Atk. is increased when the agathion grows. -->
+		<!-- Level 2: P. Atk. +1%. -->
+		<!-- Level 3: P. Atk. +2%. -->
+		<!-- Level 4: P. Atk. +3%. -->
+		<!-- Level 5: P. Atk. +4%. -->
+		<!-- Level 6: P. Atk. +6%. -->
+		<!-- Level 7: P. Atk. +8%. -->
+		<!-- Level 8: P. Atk. +10%. -->
+		<icon>BranchIcon.icon.g_bm_delta_agathion_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">6</value>
+					<value level="7">8</value>
+					<value level="8">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="29773" toLevel="8" name="Tyrant of Seven Shadows II">
+		<!-- Level 1: P. Critical Damage is increased when the agathion grows. -->
+		<!-- Level 2: P. Critical Damage +1% -->
+		<!-- Level 3: P. Critical Damage +2% -->
+		<!-- Level 4: P. Critical Damage +3% -->
+		<!-- Level 5: P. Critical Damage +4% -->
+		<!-- Level 6: P. Critical Damage +5% -->
+		<!-- Level 7: P. Critical Damage +6% -->
+		<!-- Level 8: P. Critical Damage +7% -->
+		<icon>BranchIcon.icon.g_bm_delta_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29774" toLevel="9" name="5th Stone of Seven Shadows' Power">
+		<!-- Level 1: Attribute Resistance, Attribute Attack and MEN are increased when the agathion grows. -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +10 -->
+		<!-- Level 4: Attribute Resistance +10, Attribute Attack +10 -->
+		<!-- Level 5: Attribute Resistance +20, Attribute Attack +10 -->
+		<!-- Level 6: Attribute Resistance +25, Attribute Attack +20 -->
+		<!-- Level 7: Attribute Resistance +30, Attribute Attack +30 -->
+		<!-- Level 8: Attribute Resistance +40, Attribute Attack +30, MEN +1 -->
+		<!-- Level 9: Attribute Resistance +50, Attribute Attack +70, MEN +3 -->
+		<icon>BranchIcon.icon.g_bm_epsilon_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29775" toLevel="8" name="Pettiness of Seven Shadows I">
+		<!-- Level 1: Debuff Resistance is increased when the agathion grows. -->
+		<!-- Level 2: Debuff Resistance +1% -->
+		<!-- Level 3: Debuff Resistance +2% -->
+		<!-- Level 4: Debuff Resistance +3% -->
+		<!-- Level 5: Debuff Resistance +4% -->
+		<!-- Level 6: Debuff Resistance +5% -->
+		<!-- Level 7: Debuff Resistance +6% -->
+		<!-- Level 8: Debuff Resistance +7% -->
+		<icon>BranchIcon.icon.g_bm_epsilon_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29776" toLevel="8" name="Pettiness of Seven Shadows II">
+		<!-- Level 1: Damage to immobilized targets is increased when the agathion grows. -->
+		<!-- Level 2: Damage to immobilized targets +1% -->
+		<!-- Level 3: Damage to immobilized targets +2% -->
+		<!-- Level 4: Damage to immobilized targets +3% -->
+		<!-- Level 5: Damage to immobilized targets +4% -->
+		<!-- Level 6: Damage to immobilized targets +5% -->
+		<!-- Level 7: Damage to immobilized targets +6% -->
+		<!-- Level 8: Damage to immobilized targets +7% -->
+		<icon>BranchIcon.icon.g_bm_epsilon_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29777" toLevel="9" name="6th Stone of Seven Shadows' Power">
+		<!-- Level 1: Attribute Resistance, Attribute Attack and DEX are increased when the agathion grows. -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +10 -->
+		<!-- Level 4: Attribute Resistance +10, Attribute Attack +10 -->
+		<!-- Level 5: Attribute Resistance +20, Attribute Attack +10 -->
+		<!-- Level 6: Attribute Resistance +25, Attribute Attack +20 -->
+		<!-- Level 7: Attribute Resistance +30, Attribute Attack +30 -->
+		<!-- Level 8: Attribute Resistance +40, Attribute Attack +30, DEX +1 -->
+		<!-- Level 9: Attribute Resistance +50, Attribute Attack +70, DEX +3 -->
+		<icon>BranchIcon.icon.g_bm_zeta_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29778" toLevel="8" name="Talent of Seven Shadows I">
+		<!-- Level 1: P. Skill Critical Rate is increased when the agathion grows. -->
+		<!-- Level 2: P. Skill Critical Rate +1% -->
+		<!-- Level 3: P. Skill Critical Rate +2% -->
+		<!-- Level 4: P. Skill Critical Rate +3% -->
+		<!-- Level 5: P. Skill Critical Rate +4% -->
+		<!-- Level 6: P. Skill Critical Rate +5% -->
+		<!-- Level 7: P. Skill Critical Rate +6% -->
+		<!-- Level 8: P. Skill Critical Rate +7% -->
+		<icon>BranchIcon.icon.g_bm_zeta_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29779" toLevel="8" name="Talent of Seven Shadows II">
+		<!-- Level 1: Skill cooldown is decreased when the agathion grows. -->
+		<!-- Level 2: Skill cooldown -1% -->
+		<!-- Level 3: Skill cooldown -2% -->
+		<!-- Level 4: Skill cooldown -3% -->
+		<!-- Level 5: Skill cooldown -4% -->
+		<!-- Level 6: Skill cooldown -5% -->
+		<!-- Level 7: Skill cooldown -6% -->
+		<!-- Level 8: Skill cooldown -7% -->
+		<icon>BranchIcon.icon.g_bm_zeta_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29780" toLevel="9" name="7th Stone of Seven Shadows' Power">
+		<!-- Level 1: Attribute Resistance, Attribute Attack and INT are increased when the agathion grows. -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +10 -->
+		<!-- Level 4: Attribute Resistance +10, Attribute Attack +10 -->
+		<!-- Level 5: Attribute Resistance +20, Attribute Attack +10 -->
+		<!-- Level 6: Attribute Resistance +25, Attribute Attack +20 -->
+		<!-- Level 7: Attribute Resistance +30, Attribute Attack +30 -->
+		<!-- Level 8: Attribute Resistance +40, Attribute Attack +30, INT +1 -->
+		<!-- Level 9: Attribute Resistance +50, Attribute Attack +70, INT +3 -->
+		<icon>BranchIcon.icon.g_bm_eta_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29781" toLevel="8" name="Genius of Seven Shadows I">
+		<!-- Level 1: M. Def. is increased when the agathion grows. -->
+		<!-- Level 2: M. Def. +1% -->
+		<!-- Level 3: M. Def. +2% -->
+		<!-- Level 4: M. Def. +3% -->
+		<!-- Level 5: M. Def. +4% -->
+		<!-- Level 6: M. Def. +6% -->
+		<!-- Level 7: M. Def. +8% -->
+		<!-- Level 8: M. Def. +10% -->
+		<icon>BranchIcon.icon.g_bm_eta_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29782" toLevel="8" name="Genius of Seven Shadows II">
+		<!-- Level 1: M. Critical Damage is increased when the agathion grows. -->
+		<!-- Level 2: M. Critical Damage +1% -->
+		<!-- Level 3: M. Critical Damage +2% -->
+		<!-- Level 4: M. Critical Damage +3% -->
+		<!-- Level 5: M. Critical Damage +4% -->
+		<!-- Level 6: M. Critical Damage +5% -->
+		<!-- Level 7: M. Critical Damage +6% -->
+		<!-- Level 8: M. Critical Damage +7% -->
+		<icon>BranchIcon.icon.g_bm_eta_agathion_charm</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29783" toLevel="1" name="Book of Growth: Agathion 'I want to be a Ruler of Darkness!'">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="29784" toLevel="1" name="Appearance Stone: Dark Star">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="29785" toLevel="1" name="Appearance Stone: Dark Star">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="29786" toLevel="1" name="Potion - Dark Star">
+		<icon>icon.armor_t2000_b_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29787" toLevel="1" name="Japan Collection E/P_32">
+		<!-- Acquired XP/ SP +20% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29788" toLevel="1" name="Japan Collection E/P_33">
+		<!-- Damage +5%, received damage -5%, P./ M. Skill Power +10%, acquired XP/ SP +30% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29789" toLevel="1" name="Acorus">
+		<!-- A fragrant acorus leaf that is said to bring luck. -->
+		<icon>icon.ev_2023_dano_flora1</icon>
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="29790" toLevel="4" name="Acorus - Common Reward">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="29791" toLevel="1" name="Leafed Rice Pie">
+		<!-- A sweet treat. Recovers 1 Vitality bar. -->
+		<icon>BranchIcon.icon.g_ev_new_mochi_jp</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="29792" toLevel="1" name="Famous Shop's Rice Pie">
+		<!-- For 30 min., all Critical Rate +5%, all attack power +10%, P./ M. Def. +10%. Note!. The effect remains after death, after switching to a dual class, or entering instance zones. Removed when entering the Olympiad or the Ceremony of Chaos. -->
+		<icon>BranchIcon.icon.g_ev_good_mochi_jp</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="29793" toLevel="1" name="Huny's Gift">
+		<icon>icon.skill0436</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+	</skill>
+	<skill id="29794" toLevel="2" name="Water Dragon's Protection">
+		<!-- Acquired XP/ SP +50%. Vitality bonus +50%. P. Atk./ P. Def./ M. Atk./ M. Def. +15%. Power of basic attacks and P./ M. skills +15%. PvP/ PvE damage +10% -->
+		<icon>BranchIcon.icon.g_bm_fafurion_bead</icon>
+		<operateType>A1</operateType>
+		<effectPoint>
+			<value level="1">0</value>
+			<value level="2">1</value>
+		</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>600000</reuseDelay>
+	</skill>
+	<skill id="29795" toLevel="10" name="Water Dragon's Rune - Lv. 1">
+		<!-- Level 1: Attribute Resistance +10 -->
+		<!-- Level 2: Attribute Resistance +20 -->
+		<!-- Level 3: Attribute Resistance +30, P. Def. +1% -->
+		<!-- Level 4: Attribute Resistance +40, P. Def. +2% -->
+		<!-- Level 5: Attribute Resistance +50, P. Def. +3%, Skill Power +1% -->
+		<!-- Level 6: Attribute Resistance +60, P. Def. +4%, Skill Power +2%, received PvP/ PvE damage -1% -->
+		<!-- Level 7: Attribute Resistance +70, P. Def. +5%, Skill Power +3%, received PvP/ PvE damage -2%, received damage when immobilized -5% -->
+		<!-- Level 8: Attribute Resistance +80, P. Def. +5%, Skill Power +4%, received PvP/ PvE damage -3%, received damage when immobilized -10% -->
+		<!-- Level 9: Attribute Resistance +90, P. Def. +5%, Skill Power +5%, received PvP/ PvE damage -4%, received damage when immobilized -15% -->
+		<!-- Level 10: Attribute Resistance +100, P. Def. +5%, Skill Power +5%, received PvP/ PvE damage -5%, received damage when immobilized -20% -->
+		<icon>BranchIcon.icon.g_bm_fafurion_rune</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29796" toLevel="1" name="Potion - Dark Star">
+		<icon>BranchIcon.icon.g_ev_darkstar_clothes</icon>
+		<operateType>A1</operateType>
+		<effectPoint>780</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="29797" toLevel="1" name="North American Collection E/P_2">
+		<!-- Acquired XP/ SP +5% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29798" toLevel="1" name="North American Collection E/P_3">
+		<!-- Damage +3%, received damage -3% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="29799" toLevel="1" name="North American Collection E/P_4">
+		<!-- Acquired XP/ SP +10%, damage +5%, received damage -5% -->
+		<operateType>A2</operateType>
+	</skill>
+</list>

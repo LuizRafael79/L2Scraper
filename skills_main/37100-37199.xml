@@ -1,0 +1,2771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="37100" toLevel="1" name="Collection_6_489">
+		<!-- All attack power +3%, P./ M. Def. +3%, acquired XP/ SP +5% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AutoAttackDamageBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>		
+			<effect name="MagicalSkillPower">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>5</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>5</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37101" toLevel="1" name="Collection_6_490">
+		<!-- All attack power +3%, P./ M. Def. +3%, acquired XP/ SP +5% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AutoAttackDamageBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>		
+			<effect name="MagicalSkillPower">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>5</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>5</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37102" toLevel="1" name="Collection_6_491">
+		<!-- Damage +4%, received damage -4% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>4</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>4</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>4</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37103" toLevel="1" name="Collection_7_492">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37104" toLevel="1" name="Collection_7_2029">
+		<!-- Damage +7%, P./ M. Accuracy +20, Debuff Resistance +5%, acquired XP/ SP +10%, received damage -7% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37105" toLevel="1" name="Relic - Freya Shaper/ Dual Daggers">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using a Shaper/ Dual Daggers, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_dagger</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DAGGER</item>
+					<item>DUALDAGGER</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DAGGER</item>
+					<item>DUALDAGGER</item>
+				</weaponType>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DAGGER</item>
+					<item>DUALDAGGER</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DAGGER</item>
+					<item>DUALDAGGER</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37106" toLevel="1" name="Relic - Freya Cutter">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using a Cutter, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_sword</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+				<twoHandWeapon>false</twoHandWeapon>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+				<twoHandWeapon>false</twoHandWeapon>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+				<twoHandWeapon>false</twoHandWeapon>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+				<twoHandWeapon>false</twoHandWeapon>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37107" toLevel="1" name="Relic - Freya Slasher">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using a Slasher, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_two_hand_sword</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+				<twoHandWeapon>true</twoHandWeapon>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+				<twoHandWeapon>true</twoHandWeapon>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+				<twoHandWeapon>true</twoHandWeapon>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+				<twoHandWeapon>true</twoHandWeapon>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37108" toLevel="1" name="Relic - Freya Avenger">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using an Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_blunt</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>false</magicWeapon>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37109" toLevel="1" name="Relic - Freya Fighter">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using a Fighter, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_dualfist</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>FIST</item>
+					<item>DUALFIST</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>FIST</item>
+					<item>DUALFIST</item>
+				</weaponType>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>FIST</item>
+					<item>DUALFIST</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>FIST</item>
+					<item>DUALFIST</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37110" toLevel="1" name="Relic - Freya Stormer">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using a Stormer, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_pole</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>POLE</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>POLE</item>
+				</weaponType>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>POLE</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>POLE</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37111" toLevel="1" name="Relic - Freya Thrower/ Guardian">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using a Thrower/ Guardian, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_bow</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BOW</item>
+					<item>CROSSBOW</item>
+					<item>TWOHANDCROSSBOW</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BOW</item>
+					<item>CROSSBOW</item>
+					<item>TWOHANDCROSSBOW</item>
+				</weaponType>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BOW</item>
+					<item>CROSSBOW</item>
+					<item>TWOHANDCROSSBOW</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BOW</item>
+					<item>CROSSBOW</item>
+					<item>TWOHANDCROSSBOW</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37112" toLevel="1" name="Relic - Freya Buster">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using a Buster, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_rapier</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>SWORD</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37113" toLevel="1" name="Relic - Freya Caster">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using a Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_staff</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+				<twoHandWeapon>false</twoHandWeapon>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+				<twoHandWeapon>false</twoHandWeapon>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+				<twoHandWeapon>false</twoHandWeapon>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+				<twoHandWeapon>false</twoHandWeapon>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37114" toLevel="1" name="Relic - Freya Retributer">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using a Retributer, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_two_hand_staff</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+				<twoHandWeapon>true</twoHandWeapon>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+				<twoHandWeapon>true</twoHandWeapon>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+				<twoHandWeapon>true</twoHandWeapon>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>BLUNT</item>
+				</weaponType>
+				<magicWeapon>true</magicWeapon>
+				<twoHandWeapon>true</twoHandWeapon>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37115" toLevel="1" name="Relic - Freya Dual Swords/ Dual Blunt Weapons">
+		<!-- All Critical Rate +15%. P./ M. Accuracy +150. Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +150. When using Dual Swords/ Dual Blunt Weapons, P. Atk./ M. Atk./ P. Def./ M. Def. +25%. -->
+		<icon>icon.frozen_weapon_dual_sword</icon>
+		<operateType>P</operateType>
+		<excludedFromCheck>true</excludedFromCheck>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>150</HOLD>
+				<SLEEP>150</SLEEP>
+				<DERANGEMENT>150</DERANGEMENT>
+				<CHANGEBODY>150</CHANGEBODY>
+				<PARALYZE>150</PARALYZE>
+				<SHOCK>150</SHOCK>
+				<CHANGEBODY>150</CHANGEBODY>
+				<KNOCKBACK>150</KNOCKBACK>
+				<KNOCKDOWN>150</KNOCKDOWN>
+				<AIRBIND>150</AIRBIND>
+				<TURN_STONE>150</TURN_STONE>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>25</amount>
+				<mode>PER</mode>
+				<weaponType>
+					<item>DUAL</item>
+					<item>DUALBLUNT</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37116" toLevel="4" name="Chaos Augmentation (I): P. Atk.">
+		<!-- Level 1: P. Atk. +1%. -->
+		<!-- Level 2: P. Atk. +2%. -->
+		<!-- Level 3: P. Atk. +3%. -->
+		<!-- Level 4: P. Atk. +5%. -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>	
+		</effects>
+	</skill>
+	<skill id="37117" toLevel="4" name="Chaos Augmentation (I): P. Def.">
+		<!-- Level 1: P. Def. +1% -->
+		<!-- Level 2: P. Def. +2% -->
+		<!-- Level 3: P. Def. +3% -->
+		<!-- Level 4: P. Def. +5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37118" toLevel="4" name="Chaos Augmentation (I): Critical Damage for Basic Attacks">
+		<!-- Level 1: Critical Damage for basic attacks +1% -->
+		<!-- Level 2: Critical Damage for basic attacks +2% -->
+		<!-- Level 3: Critical Damage for basic attacks +3% -->
+		<!-- Level 4: Critical Damage for basic attacks +5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37119" toLevel="4" name="Chaos Augmentation (I): P. Skill Critical Damage">
+		<!-- Level 1: P. Skill Critical Damage +1% -->
+		<!-- Level 2: P. Skill Critical Damage +2% -->
+		<!-- Level 3: P. Skill Critical Damage +3% -->
+		<!-- Level 4: P. Skill Critical Damage +5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37120" toLevel="4" name="Chaos Augmentation (I): M. Skill Critical Damage">
+		<!-- Level 1: M. Skill Critical Damage +1% -->
+		<!-- Level 2: M. Skill Critical Damage +2% -->
+		<!-- Level 3: M. Skill Critical Damage +3% -->
+		<!-- Level 4: M. Skill Critical Damage +5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37121" toLevel="4" name="Chaos Augmentation (I): M. Atk.">
+		<!-- Level 1: M. Atk. +1%. -->
+		<!-- Level 2: M. Atk. +2%. -->
+		<!-- Level 3: M. Atk. +3%. -->
+		<!-- Level 4: M. Atk. +5%. -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37122" toLevel="4" name="Chaos Augmentation (I): M. Def.">
+		<!-- Level 1: M. Def. +1% -->
+		<!-- Level 2: M. Def. +2% -->
+		<!-- Level 3: M. Def. +3% -->
+		<!-- Level 4: M. Def. +5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37123" toLevel="4" name="Chaos Augmentation (I): P. Skill Power">
+		<!-- Level 1: P. Skill Power +1% -->
+		<!-- Level 2: P. Skill Power +2% -->
+		<!-- Level 3: P. Skill Power +3% -->
+		<!-- Level 4: P. Skill Power +5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37124" toLevel="4" name="Chaos Augmentation (I): M. Skill Power">
+		<!-- Level 1: M. Skill Power +1% -->
+		<!-- Level 2: M. Skill Power +2% -->
+		<!-- Level 3: M. Skill Power +3% -->
+		<!-- Level 4: M. Skill Power +5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37125" toLevel="4" name="Chaos Augmentation (I): Damage">
+		<!-- Level 1: Damage +1% -->
+		<!-- Level 2: Damage +2% -->
+		<!-- Level 3: Damage +3% -->
+		<!-- Level 4: Damage +5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37126" toLevel="4" name="Chaos Augmentation (I): Received Damage Reduction">
+		<!-- Level 1: Received damage -1% -->
+		<!-- Level 2: Received damage -2% -->
+		<!-- Level 3: Received damage -3% -->
+		<!-- Level 4: Received damage -5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37127" toLevel="4" name="Chaos Augmentation (I): Damage to Immobilized Targets">
+		<!-- Level 1: Damage to immobilized targets +1%. -->
+		<!-- Level 2: Damage to immobilized targets +2%. -->
+		<!-- Level 3: Damage to immobilized targets +3%. -->
+		<!-- Level 4: Damage to immobilized targets +5%. -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckAbnormal">
+				<type>STUN</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>TARGET</affectType>
+			</condition>
+			<condition name="OpCheckAbnormal">
+				<type>AIRBIND</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>TARGET</affectType>
+			</condition>
+			<condition name="OpCheckAbnormal">
+				<type>PARALYZE</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>TARGET</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="ImmobileDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37128" toLevel="4" name="Chaos Augmentation (I): Received Damage Reduction When Immobilized">
+		<!-- Level 1: Received damage when immobilized -1% -->
+		<!-- Level 2: Received damage when immobilized -2% -->
+		<!-- Level 3: Received damage when immobilized -3% -->
+		<!-- Level 4: Received damage when immobilized -5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckAbnormal">
+				<type>STUN</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>CASTER</affectType>
+			</condition>
+			<condition name="OpCheckAbnormal">
+				<type>AIRBIND</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>CASTER</affectType>
+			</condition>
+			<condition name="OpCheckAbnormal">
+				<type>PARALYZE</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="ImmobileDamageResist">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+					<value level="4">-5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37129" toLevel="3" name="Chaos Augmentation (I): All Stats">
+		<!-- Level 1: All stats +1 -->
+		<!-- Level 2: All stats +2 -->
+		<!-- Level 3: All stats +3 -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<stat>STR,INT,CON,DEX,WIT,MEN,CHA,LUC</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37130" toLevel="5" name="Chaos Augmentation (II): Attribute Attack">
+		<!-- Level 1: Attribute Attack +10 -->
+		<!-- Level 2: Attribute Attack +20 -->
+		<!-- Level 3: Attribute Attack +30 -->
+		<!-- Level 4: Attribute Attack +40 -->
+		<!-- Level 5: Attribute Attack +50 -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37131" toLevel="5" name="Chaos Augmentation (II): Attribute Resistance">
+		<!-- Level 1: Attribute Resistance +10 -->
+		<!-- Level 2: Attribute Resistance +20 -->
+		<!-- Level 3: Attribute Resistance +30 -->
+		<!-- Level 4: Attribute Resistance +40 -->
+		<!-- Level 5: Attribute Resistance +50 -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+				</amount>
+				<mode>DIFF</mode>
+				<attribute>FIRE,WATER,WIND,EARTH,DARK,HOLY</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37132" toLevel="5" name="Chaos Augmentation (II): Critical Damage for Basic Attacks">
+		<!-- Level 1: Critical Damage for basic attacks +2% -->
+		<!-- Level 2: Critical Damage for basic attacks +4% -->
+		<!-- Level 3: Critical Damage for basic attacks +6% -->
+		<!-- Level 4: Critical Damage for basic attacks +8% -->
+		<!-- Level 5: Critical Damage for basic attacks +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37133" toLevel="5" name="Chaos Augmentation (II): P. Skill Critical Damage">
+		<!-- Level 1: P. Skill Critical Damage +2% -->
+		<!-- Level 2: P. Skill Critical Damage +4% -->
+		<!-- Level 3: P. Skill Critical Damage +6% -->
+		<!-- Level 4: P. Skill Critical Damage +8% -->
+		<!-- Level 5: P. Skill Critical Damage +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37134" toLevel="5" name="Chaos Augmentation (II): M. Skill Critical Damage">
+		<!-- Level 1: M. Skill Critical Damage +2% -->
+		<!-- Level 2: M. Skill Critical Damage +4% -->
+		<!-- Level 3: M. Skill Critical Damage +6% -->
+		<!-- Level 4: M. Skill Critical Damage +8% -->
+		<!-- Level 5: M. Skill Critical Damage +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37135" toLevel="5" name="Chaos Augmentation (II): P. Def.">
+		<!-- Level 1: P. Def. +2% -->
+		<!-- Level 2: P. Def. +4% -->
+		<!-- Level 3: P. Def. +6% -->
+		<!-- Level 4: P. Def. +8% -->
+		<!-- Level 5: P. Def. +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37136" toLevel="5" name="Chaos Augmentation (II): M. Def.">
+		<!-- Level 1: M. Def. +2% -->
+		<!-- Level 2: M. Def. +4% -->
+		<!-- Level 3: M. Def. +6% -->
+		<!-- Level 4: M. Def. +8% -->
+		<!-- Level 5: M. Def. +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37137" toLevel="5" name="Chaos Augmentation (II): Bow/ Crossbow Resistance">
+		<!-- Level 1: Bow/ Crossbow Resistance +2% -->
+		<!-- Level 2: Bow/ Crossbow Resistance +4% -->
+		<!-- Level 3: Bow/ Crossbow Resistance +6% -->
+		<!-- Level 4: Bow/ Crossbow Resistance +8% -->
+		<!-- Level 5: Bow/ Crossbow Resistance +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<BOW>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</BOW>
+				<CROSSBOW>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</CROSSBOW>
+				<TWOHANDCROSSBOW>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</TWOHANDCROSSBOW>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37138" toLevel="5" name="Chaos Augmentation (II): Dagger/ Dual Daggers Resistance">
+		<!-- Level 1: Dagger/ Dual Daggers Resistance +2% -->
+		<!-- Level 2: Dagger/ Dual Daggers Resistance +4% -->
+		<!-- Level 3: Dagger/ Dual Daggers Resistance +6% -->
+		<!-- Level 4: Dagger/ Dual Daggers Resistance +8% -->
+		<!-- Level 5: Dagger/ Dual Daggers Resistance +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<DAGGER>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</DAGGER>
+				<DUALDAGGER>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</DUALDAGGER>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37139" toLevel="5" name="Chaos Augmentation (II): Sword/ Dual Swords Resistance">
+		<!-- Level 1: Sword/ Dual Swords Resistance +2% -->
+		<!-- Level 2: Sword/ Dual Swords Resistance +4% -->
+		<!-- Level 3: Sword/ Dual Swords Resistance +6% -->
+		<!-- Level 4: Sword/ Dual Swords Resistance +8% -->
+		<!-- Level 5: Sword/ Dual Swords Resistance +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<SWORD>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</SWORD>
+				<DUAL>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</DUAL>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37140" toLevel="5" name="Chaos Augmentation (II): Debuff Resistance">
+		<!-- Level 1: Debuff Resistance +2% -->
+		<!-- Level 2: Debuff Resistance +4% -->
+		<!-- Level 3: Debuff Resistance +6% -->
+		<!-- Level 4: Debuff Resistance +8% -->
+		<!-- Level 5: Debuff Resistance +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ResistAbnormalByCategory">
+				<amount>
+					<value level="1">-2</value>
+					<value level="2">-4</value>
+					<value level="3">-6</value>
+					<value level="4">-8</value>
+					<value level="5">-10</value>
+				</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37141" toLevel="5" name="Chaos Augmentation (II): Received Healing">
+		<!-- Level 1: Received Healing +2% -->
+		<!-- Level 2: Received Healing +4% -->
+		<!-- Level 3: Received Healing +6% -->
+		<!-- Level 4: Received Healing +8% -->
+		<!-- Level 5: Received Healing +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="HealEffect">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37142" toLevel="5" name="Chaos Augmentation (II): Skill Cooldown Reduction">
+		<!-- Level 1: Skill cooldown -1% -->
+		<!-- Level 2: Skill cooldown -2% -->
+		<!-- Level 3: Skill cooldown -3% -->
+		<!-- Level 4: Skill cooldown -4% -->
+		<!-- Level 5: Skill cooldown -5% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+					<value level="4">-4</value>
+					<value level="5">-5</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="1">-1</value>
+					<value level="2">-2</value>
+					<value level="3">-3</value>
+					<value level="4">-4</value>
+					<value level="5">-5</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37143" toLevel="5" name="Chaos Augmentation (II): Acquired XP/ SP">
+		<!-- Level 1: Acquired XP/ SP +2% -->
+		<!-- Level 2: Acquired XP/ SP +4% -->
+		<!-- Level 3: Acquired XP/ SP +6% -->
+		<!-- Level 4: Acquired XP/ SP +8% -->
+		<!-- Level 5: Acquired XP/ SP +10% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37144" toLevel="3" name="Chaos Augmentation (II): P. Skill Power">
+		<!-- Level 1: P. Skill Power +10% -->
+		<!-- Level 2: P. Skill Power +15% -->
+		<!-- Level 3: P. Skill Power +20% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">15</value>
+					<value level="3">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37145" toLevel="3" name="Chaos Augmentation (II): M. Skill Power">
+		<!-- Level 1: M. Skill Power +10% -->
+		<!-- Level 2: M. Skill Power +15% -->
+		<!-- Level 3: M. Skill Power +20% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">15</value>
+					<value level="3">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37146" toLevel="3" name="Chaos Augmentation (II): Critical Damage for Basic Attacks">
+		<!-- Level 1: Critical Damage for basic attacks +17% -->
+		<!-- Level 2: Critical Damage for basic attacks +20% -->
+		<!-- Level 3: Critical Damage for basic attacks +23% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="1">17</value>
+					<value level="2">20</value>
+					<value level="3">23</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37147" toLevel="3" name="Chaos Augmentation (II): P. Skill Critical Damage">
+		<!-- Level 1: P. Skill Critical Damage +17% -->
+		<!-- Level 2: P. Skill Critical Damage +20% -->
+		<!-- Level 3: P. Skill Critical Damage +23% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">17</value>
+					<value level="2">20</value>
+					<value level="3">23</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37148" toLevel="3" name="Chaos Augmentation (II): M. Skill Critical Damage">
+		<!-- Level 1: M. Skill Critical Damage +17% -->
+		<!-- Level 2: M. Skill Critical Damage +20% -->
+		<!-- Level 3: M. Skill Critical Damage +23% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="1">17</value>
+					<value level="2">20</value>
+					<value level="3">23</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37149" toLevel="2" name="Chaos Augmentation (II): Fixed Damage Resistance">
+		<!-- Level 1: Fixed Damage Resistance +17% -->
+		<!-- Level 2: Fixed Damage Resistance +20% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="RealDamageResist">
+				<amount>
+					<value level="1">17</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37150" toLevel="1" name="Chaos Augmentation (II): Received Damage Reduction When Immobilized">
+		<!-- Received damage when immobilized -20% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckAbnormal">
+				<type>STUN</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>CASTER</affectType>
+			</condition>
+			<condition name="OpCheckAbnormal">
+				<type>AIRBIND</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>CASTER</affectType>
+			</condition>
+			<condition name="OpCheckAbnormal">
+				<type>PARALYZE</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="ImmobileDamageResist">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37151" toLevel="2" name="Chaos Augmentation (II): Damage">
+		<!-- Level 1: Damage +15% -->
+		<!-- Level 2: Damage +20% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37152" toLevel="2" name="Chaos Augmentation (II): Received Damage Reduction">
+		<!-- Level 1: Received damage -15% -->
+		<!-- Level 2: Received damage -20% -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">15</value>
+					<value level="2">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37153" toLevel="1" name="Chaos Augmentation (III): Damage + P./ M. Accuracy">
+		<!-- Damage +10%, P./ M. Accuracy +20 -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37154" toLevel="1" name="Chaos Augmentation (III): Critical Damage">
+		<!-- All Critical Damage +10%, P./ M. Accuracy +20 -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37155" toLevel="1" name="Chaos Augmentation (III): Skill Power">
+		<!-- Skill Power +10%, P./ M. Accuracy +20 -->
+		<icon>icon.renewal_mineral_L_grade_wp_am</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37156" toLevel="5" name="Blood Energy Filled with Freed Chaos Lv. 1">
+		<!-- Level 1: <font color=ff6666><Effect against monsters when in inventory></font>. When fighting Kasha Orcs or Baluan's Creatures, acquired XP/ SP +10%. -->
+		<!-- Level 2: <font color=ff6666><Effect against monsters when in inventory></font>. When fighting Kasha Orcs or Baluan's Creatures, acquired XP/ SP +10%, damage +10%, received damage -10%. <font color=ff6666><Effect while completing a certain quest when in inventory></font>. When attacking the targets of the Kasha Orcs - Ancient War Spirits quest, all Critical Rate +20%, damage +30%, received damage -10%. -->
+		<!-- Level 3: <font color=ff6666><Effect against monsters when in inventory></font>. When fighting Kasha Orcs or Baluan's Creatures, acquired XP/ SP +20%, damage +10%, received damage -10%. <font color=ff6666><When in inventory></font>. All attack power +5%. <font color=ff6666><Effect while completing a certain quest when in inventory></font>. When attacking the targets of the Kasha Orcs - Ancient War Spirits quest, all Critical Rate +30%, damage +40%, received damage -20%. -->
+		<!-- Level 4: <font color=ff6666><Effect against monsters when in inventory></font>. When fighting Kasha Orcs or Baluan's Creatures, acquired XP/ SP +35%, damage +15%, received damage -15%. <font color=ff6666><When in inventory></font>. All attack power +7%. <font color=ff6666><Effect while completing a certain quest when in inventory></font>. When attacking the targets of the Kasha Orcs - Ancient War Spirits quest, all Critical Rate +40%, damage +50%, received damage -30%. -->
+		<!-- Level 5: <font color=ff6666><Effect against monsters when in inventory></font>. When fighting Kasha Orcs or Baluan's Creatures, acquired XP/ SP +50%, damage +20%, received damage -20%. <font color=ff6666><When in inventory></font>. All attack power +10%. <font color=ff6666><Effect while completing a certain quest when in inventory></font>. When attacking the targets of the Kasha Orcs - Ancient War Spirits quest, all Critical Rate +40%, damage +50%, received damage -30%. -->
+		<icon>
+			<value level="1">icon.kasha_boss_reward_lune</value>
+			<value level="2">icon.kasha_boss_reward_lune_3</value>
+			<value level="3">icon.kasha_boss_reward_lune_7</value>
+			<value level="4">icon.kasha_boss_reward_lune_9</value>
+			<value level="5">icon.kasha_boss_reward_lune_10</value>
+		</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpExistNpc">
+				<npcIds>
+					<item>23882</item> <!-- Nerva Orc Magus -->
+					<item>23883</item> <!-- Nerva Orc Scout -->
+					<item>23884</item> <!-- Nerva Orc Reservist -->
+					<item>23885</item> <!-- Nerva Orc Pikeman -->
+					<item>23886</item> <!-- Kasha Orc Special Support Warrior -->
+					<item>23887</item> <!-- Kasha Orc Support Berserker -->
+					<item>23888</item> <!-- Nerva Orc Priest -->
+					<item>23889</item> <!-- Nerva Orc Bloodhound -->
+					<item>23890</item> <!-- Nerva Orc Famatic -->
+					<item>23891</item> <!-- Nerva Orc Reservist -->
+					<item>23892</item> <!-- Kasha Orc Footman -->
+					<item>23893</item> <!-- Kasha Orc Woodcutter -->
+					<item>23894</item> <!-- Kasha Orc Commander -->
+					<item>23895</item> <!-- Kasha Orc Training Mentor -->		
+					<item>23896</item> <!-- Nerva Orc Shaman -->
+					<item>23897</item> <!-- Nerva Orc Destroyer -->
+					<item>23898</item> <!-- Nerva Orc Combatant -->
+					<item>23899</item> <!-- Nerva Orc Berserker -->	
+					<item>23900</item> <!-- Kasha Orc Spearman -->		
+					<item>23901</item> <!-- Kasha Orc Elite Shaman -->
+					<item>23902</item> <!-- Kasha Orc Elite Destroyer -->
+					<item>23903</item> <!-- Kasha Orc Elite Combatant -->
+					<item>23904</item> <!-- Kasha Orc Elite Berserker -->
+					<item>23905</item> <!-- Kasha Orc Elite Spearman -->			
+				</npcIds>
+				<range>1000</range>
+				<isAround>true</isAround>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="ExpModify">
+				<amount>
+					<value fromLevel="1" toLevel="2">10</value>
+					<value level="3">20</value>
+					<value level="4">35</value>
+					<value level="5">50</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value fromLevel="1" toLevel="2">10</value>
+					<value level="3">20</value>
+					<value level="4">35</value>
+					<value level="5">50</value>
+				</amount>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="2" toLevel="3">10</value>
+					<value level="4">15</value>
+					<value level="5">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AutoAttackDamageBonus">
+				<amount>
+					<value level="3">5</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>		
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="3">5</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="3">5</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37157" toLevel="1" name="Collection_6_493">
+		<!-- Damage +1%, received damage -1%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37158" toLevel="1" name="Collection_6_494">
+		<!-- Damage +1%, received damage -1%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37159" toLevel="1" name="Collection_6_495">
+		<!-- Damage +1%, received damage -1%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37160" toLevel="1" name="Collection_6_496">
+		<!-- P./ M. Accuracy +10, damage +2%, received damage -2%, acquired XP/ SP +5% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Accuracy">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>5</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>5</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37161" toLevel="1" name="Relic_Collection_C_178">
+		<!-- All attack power +1% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37162" toLevel="1" name="Relic_Collection_C_179">
+		<!-- All Critical Rate +0.3%, all Critical Damage +0.3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37163" toLevel="1" name="Relic_Collection_C_180">
+		<!-- All Critical Rate +0.3%, all Critical Damage +0.3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37164" toLevel="1" name="Relic_Collection_C_181">
+		<!-- All Critical Rate +0.3%, all Critical Damage +0.3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37165" toLevel="1" name="Relic_Collection_C_182">
+		<!-- All Critical Rate +0.3%, all Critical Damage +0.3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37166" toLevel="1" name="Relic_Collection_C_183">
+		<!-- All Critical Rate +0.3%, all Critical Damage +0.3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37167" toLevel="1" name="Relic_Collection_C_184">
+		<!-- All Critical Rate +0.3%, all Critical Damage +0.3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37168" toLevel="1" name="Relic_Collection_C_185">
+		<!-- All Critical Rate +0.3%, all Critical Damage +0.3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37169" toLevel="1" name="Relic_Collection_C_186">
+		<!-- All attack power +3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37170" toLevel="1" name="Relic_Collection_B_187">
+		<!-- Anomaly Atk. Rate and Resistance +10, P./ M. Accuracy +5, P./ M. Evasion +5 -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37171" toLevel="1" name="Relic_Collection_B_188">
+		<!-- Anomaly Atk. Rate and Resistance +10, P./ M. Accuracy +5, P./ M. Evasion +5 -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37172" toLevel="1" name="Relic_Collection_B_189">
+		<!-- Anomaly Atk. Rate and Resistance +10, P./ M. Accuracy +5, P./ M. Evasion +5 -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37173" toLevel="1" name="Relic_Collection_B_190">
+		<!-- Anomaly Atk. Rate and Resistance +10, P./ M. Accuracy +5, P./ M. Evasion +5 -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37174" toLevel="1" name="Relic_Collection_B_191">
+		<!-- Anomaly Atk. Rate and Resistance +10, P./ M. Accuracy +5, P./ M. Evasion +5 -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37175" toLevel="1" name="Relic_Collection_B_192">
+		<!-- All attack power +1%, acquired XP/ SP +3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37176" toLevel="1" name="Relic_Collection_B_193">
+		<!-- All attack power +1%, acquired XP/ SP +3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37177" toLevel="1" name="Relic_Collection_B_194">
+		<!-- All attack power +1%, acquired XP/ SP +3% -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37178" toLevel="1" name="Relic_Collection_B_195">
+		<!-- When using a Shaper/ Dual Daggers, Weapon P./ M. Atk. +50, Armor P. Def./ Accessory M. Def. +20. -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37179" toLevel="1" name="Relic_Collection_B_196">
+		<!-- When using a Cutter/ Avenger, Weapon P./ M. Atk. +50, Armor P. Def./ Accessory M. Def. +20. -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37180" toLevel="1" name="Relic_Collection_B_197">
+		<!-- When using a Slasher, Weapon P./ M. Atk. +50, Armor P. Def./ Accessory M. Def. +20. -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37181" toLevel="1" name="Relic_Collection_B_198">
+		<!-- When using a Fighter, Weapon P./ M. Atk. +50, Armor P. Def./ Accessory M. Def. +20. -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37182" toLevel="1" name="Relic_Collection_B_199">
+		<!-- When using a Stormer, Weapon P./ M. Atk. +50, Armor P. Def./ Accessory M. Def. +20. -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37183" toLevel="1" name="Relic_Collection_B_200">
+		<!-- When using a Thrower/ Guardian, Weapon P./ M. Atk. +50, Armor P. Def./ Accessory M. Def. +20. -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37184" toLevel="1" name="Relic_Collection_B_201">
+		<!-- When using a Buster/ Caster, Weapon P./ M. Atk. +50, Armor P. Def./ Accessory M. Def. +20. -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37185" toLevel="1" name="Relic_Collection_B_202">
+		<!-- When using a Retributer, Weapon P./ M. Atk. +50, Armor P. Def./ Accessory M. Def. +20. -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37186" toLevel="1" name="Relic_Collection_B_203">
+		<!-- When using Dual Swords/ Dual Blunt Weapons, Weapon P./ M. Atk. +50, Armor P. Def./ Accessory M. Def. +20. -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37187" toLevel="1" name="Relic_Collection_B_204">
+		<!-- Weapon P./ M. Atk. +100, Armor P. Def./ Accessory M. Def. +40 -->
+		<icon>icon.relics_none_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37188" toLevel="5" name="C-grade Relic - Cutter/ Avenger Lv. 1">
+		<!-- Level 1: Damage +5%. Received damage -5%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +7%. -->
+		<!-- Level 2: Damage +5%. Received damage -5%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +8%. -->
+		<!-- Level 3: Damage +5%. Received damage -5%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +8.5%. -->
+		<!-- Level 4: Damage +5%. Received damage -5%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +9%. -->
+		<!-- Level 5: Damage +5%. Received damage -5%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +10%. -->
+		<icon>icon.relics_c_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37189" toLevel="5" name="C-grade Relic - Buster/ Caster Lv. 1">
+		<!-- Level 1: Damage +5%. Received damage -5%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +7%. -->
+		<!-- Level 2: Damage +5%. Received damage -5%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +8%. -->
+		<!-- Level 3: Damage +5%. Received damage -5%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +8.5%. -->
+		<!-- Level 4: Damage +5%. Received damage -5%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +9%. -->
+		<!-- Level 5: Damage +5%. Received damage -5%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +10%. -->
+		<icon>icon.relics_c_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37190" toLevel="5" name="B-grade Relic - Cutter/ Avenger Lv. 1">
+		<!-- Level 1: Damage +10%. Received damage -10%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +15%. -->
+		<!-- Level 2: Damage +10%. Received damage -10%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +16%. -->
+		<!-- Level 3: Damage +10%. Received damage -10%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +17%. -->
+		<!-- Level 4: Damage +10%. Received damage -10%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +18%. -->
+		<!-- Level 5: Damage +10%. Received damage -10%. When using a Cutter/ Avenger, P. Atk./ M. Atk./ P. Def./ M. Def. +20%. -->
+		<icon>icon.relics_b_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37191" toLevel="5" name="B-grade Relic - Buster/ Caster Lv. 1">
+		<!-- Level 1: Damage +10%. Received damage -10%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +15%. -->
+		<!-- Level 2: Damage +10%. Received damage -10%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +16%. -->
+		<!-- Level 3: Damage +10%. Received damage -10%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +17%. -->
+		<!-- Level 4: Damage +10%. Received damage -10%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +18%. -->
+		<!-- Level 5: Damage +10%. Received damage -10%. When using a Buster/ Caster, P. Atk./ M. Atk./ P. Def./ M. Def. +20%. -->
+		<icon>icon.relics_b_skill</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37192" toLevel="1" name="Collection_6_497">
+		<!-- Damage to monsters in the Plunderous Plains +5%, acquired XP/ SP +10% -->
+		<operateType>P</operateType>		
+		<passiveConditions>
+			<condition name="OpExistNpc">
+				<npcIds>
+					<item>23906</item> <!-- Chaos Dwarf Walker -->
+					<item>23907</item> <!-- Chaos Golem Digger -->
+					<item>23908</item> <!-- Chaos Dwarf Ranger -->
+					<item>23909</item> <!-- Chaos Golem Gunner -->		
+				</npcIds>
+				<range>1000</range>
+				<isAround>true</isAround>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>10</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37193" toLevel="1" name="Collection_6_498">
+		<!-- P./ M. Accuracy against monsters in the Plunderous Plains +20, all Critical Rate against monsters in the Plunderous Plains +5% -->
+		<operateType>P</operateType>		
+		<passiveConditions>
+			<condition name="OpExistNpc">
+				<npcIds>
+					<item>23906</item> <!-- Chaos Dwarf Walker -->
+					<item>23907</item> <!-- Chaos Golem Digger -->
+					<item>23908</item> <!-- Chaos Dwarf Ranger -->
+					<item>23909</item> <!-- Chaos Golem Gunner -->		
+				</npcIds>
+				<range>1000</range>
+				<isAround>true</isAround>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="Accuracy">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37194" toLevel="1" name="Collection_6_499">
+		<!-- P./ M. Accuracy +10, all Critical Rate +3% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Accuracy">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37195" toLevel="1" name="Collection_7_500">
+		<!-- Acquired XP/ SP +20% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>20</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>20</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37196" toLevel="1" name="Equip Effect: Dark Dragon's Necklace">
+		<!-- Dark Dragon's Necklace is emitting a blinding light. -->
+		<icon>icon.necklace_of_dark_dragon</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+	</skill>
+	<skill id="37197" toLevel="1" name="Effect's Cancellation: Dark Dragon's Necklace">
+		<!-- Dark Dragon's Necklace's energy is slowly dissipating. -->
+		<icon>icon.necklace_of_dark_dragon</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="37198" toLevel="1" name="Collection_6_501">
+		<!-- P./ M. Accuracy +5, all Critical Rate +1% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Accuracy">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37199" toLevel="1" name="Collection_6_502">
+		<!-- P./ M. Accuracy +5, all Critical Rate +1% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Accuracy">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>

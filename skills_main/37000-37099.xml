@@ -1,0 +1,2924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="37000" toLevel="1" name="Collection_5_411">
+		<!-- Attribute Resistance +20 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+				<attribute>FIRE,WATER,WIND,EARTH,DARK,HOLY</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37001" toLevel="1" name="Collection_5_412">
+		<!-- Attribute Attack/ Resistance +10 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttribute">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+				<attribute>FIRE,WATER,WIND,EARTH,DARK,HOLY</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37002" toLevel="1" name="Collection_5_413">
+		<!-- Basic Attack Power +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AutoAttackDamageBonus">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37003" toLevel="1" name="Collection_5_414">
+		<!-- P. Skill Power +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37004" toLevel="1" name="Collection_5_415">
+		<!-- M. Skill Power +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalSkillPower">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37005" toLevel="1" name="Collection_5_416">
+		<!-- Skill mastery +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="SkillMasteryRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37006" toLevel="1" name="Collection_5_417">
+		<!-- Max HP +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37007" toLevel="1" name="Collection_5_418">
+		<!-- Max MP +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxMp">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37008" toLevel="1" name="Collection_5_419">
+		<!-- AoE Damage Resistance +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AreaOfEffectDamageDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37009" toLevel="1" name="Collection_5_420">
+		<!-- P. Accuracy +1 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Accuracy">
+				<amount>1</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37010" toLevel="1" name="Collection_5_421">
+		<!-- M. Accuracy +1 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicAccuracy">
+				<amount>1</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37011" toLevel="1" name="Collection_5_422">
+		<!-- P. Evasion +1 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>1</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37012" toLevel="1" name="Collection_5_423">
+		<!-- M. Evasion +1 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalEvasion">
+				<amount>1</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37013" toLevel="1" name="Collection_5_424">
+		<!-- Damage to immobilized targets +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckAbnormal">
+				<type>STUN</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>TARGET</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="ImmobileDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37014" toLevel="1" name="Collection_5_425">
+		<!-- Received damage when immobilized -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpCheckAbnormal">
+				<type>STUN</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+				<affectType>TARGET</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="ImmobileDamageResist">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37015" toLevel="1" name="Collection_6_426">
+		<!-- Acquired XP/ SP +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>2</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>2</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37016" toLevel="1" name="Collection_6_427">
+		<!-- Acquired XP/ SP +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>2</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>2</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37017" toLevel="1" name="Collection_6_428">
+		<!-- Received damage -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37018" toLevel="1" name="Collection_6_429">
+		<!-- Damage +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37019" toLevel="1" name="Collection_6_430">
+		<!-- Basic Attack Power +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AutoAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37020" toLevel="1" name="Collection_6_431">
+		<!-- Basic Attack Power +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AutoAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37021" toLevel="1" name="Collection_6_432">
+		<!-- P. Skill Power +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37022" toLevel="1" name="Collection_6_433">
+		<!-- P. Skill Power +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalSkillPower">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37023" toLevel="1" name="Collection_6_434">
+		<!-- M. Skill Power +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalSkillPower">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37024" toLevel="1" name="Collection_6_435">
+		<!-- M. Skill Power +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalSkillPower">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37025" toLevel="1" name="Collection_7_436">
+		<!-- All Critical Rate +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37026" toLevel="1" name="Collection_1_437">
+		<!-- Attribute Resistance +30 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<mode>DIFF</mode>
+				<attribute>FIRE,WATER,WIND,EARTH,DARK,HOLY</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37027" toLevel="1" name="Collection_6_438">
+		<!-- Received damage -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37028" toLevel="1" name="Collection_6_439">
+		<!-- Damage +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37029" toLevel="1" name="Collection_6_440">
+		<!-- Received damage -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37030" toLevel="1" name="Collection_6_441">
+		<!-- Damage +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37031" toLevel="1" name="Collection_6_442">
+		<!-- Received damage -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37032" toLevel="1" name="Collection_6_443">
+		<!-- Damage +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37033" toLevel="1" name="Collection_6_444">
+		<!-- Received damage -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37034" toLevel="1" name="Collection_6_445">
+		<!-- Damage +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37035" toLevel="1" name="Collection_6_446">
+		<!-- Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Atk. Rate and Resistance +10 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+			<effect name="AttackTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37036" toLevel="1" name="Collection_6_447">
+		<!-- Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Atk. Rate and Resistance +10 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+			<effect name="AttackTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37037" toLevel="1" name="Collection_6_448">
+		<!-- Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Atk. Rate and Resistance +10 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+			<effect name="AttackTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37038" toLevel="1" name="Collection_6_449">
+		<!-- Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Atk. Rate and Resistance +10 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+			<effect name="AttackTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37039" toLevel="1" name="Collection_6_450">
+		<!-- Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Atk. Rate and Resistance +10 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+			<effect name="AttackTrait">
+				<DERANGEMENT>10</DERANGEMENT>
+				<PARALYZE>10</PARALYZE>
+				<KNOCKDOWN>10</KNOCKDOWN>
+				<PULL>10</PULL>
+				<AGGRESSION>10</AGGRESSION>
+				<HATE>10</HATE>
+				<KNOCKBACK>10</KNOCKBACK>
+				<ZONE>10</ZONE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37040" toLevel="1" name="Collection_6_451">
+		<!-- All Critical Rate +1%, all received Critical Rate -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37041" toLevel="1" name="Collection_6_452">
+		<!-- All Critical Rate +1%, all received Critical Rate -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37042" toLevel="1" name="Collection_6_453">
+		<!-- All Critical Rate +1%, all received Critical Rate -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37043" toLevel="1" name="Collection_6_454">
+		<!-- All Critical Rate +1%, all received Critical Rate -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37044" toLevel="1" name="Collection_6_455">
+		<!-- All Critical Rate +1%, all received Critical Rate -1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalRate">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37045" toLevel="1" name="Collection_6_456">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37046" toLevel="1" name="Collection_6_457">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37047" toLevel="1" name="Collection_6_458">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37048" toLevel="1" name="Collection_6_459">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37049" toLevel="1" name="Collection_6_460">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37050" toLevel="1" name="Collection_6_461">
+		<!-- Acquired XP/ SP +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>2</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>2</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37051" toLevel="1" name="Collection_6_462">
+		<!-- Acquired XP/ SP +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>2</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>2</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37052" toLevel="1" name="Collection_6_463">
+		<!-- Acquired XP/ SP +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>2</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>2</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37053" toLevel="1" name="Collection_6_464">
+		<!-- Acquired XP/ SP +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>2</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>2</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37054" toLevel="1" name="Collection_6_465">
+		<!-- Acquired XP/ SP +2% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>2</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>2</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37055" toLevel="1" name="Collection_6_466">
+		<!-- Weapon P./ M. Atk. +20, Armor P. Def. +5, Accessory M. Def. +5 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>20</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>20</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37056" toLevel="1" name="Collection_6_467">
+		<!-- Weapon P./ M. Atk. +20, Armor P. Def. +5, Accessory M. Def. +5 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>20</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>20</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37057" toLevel="1" name="Collection_6_468">
+		<!-- Weapon P./ M. Atk. +20, Armor P. Def. +5, Accessory M. Def. +5 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>20</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>20</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37058" toLevel="1" name="Collection_6_469">
+		<!-- Weapon P./ M. Atk. +20, Armor P. Def. +5, Accessory M. Def. +5 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>20</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>20</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37059" toLevel="1" name="Collection_7_470">
+		<!-- Damage +5%, received damage -5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>5</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>5</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>5</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-5</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-5</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37060" toLevel="1" name="Collection_7_2027">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +5%, all Critical Rate +5%, Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Atk. Rate and Resistance +20, acquired XP/ SP +15% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>20</DERANGEMENT>
+				<PARALYZE>20</PARALYZE>
+				<KNOCKDOWN>20</KNOCKDOWN>
+				<PULL>20</PULL>
+				<AGGRESSION>20</AGGRESSION>
+				<HATE>20</HATE>
+				<KNOCKBACK>20</KNOCKBACK>
+				<ZONE>20</ZONE>
+			</effect>
+			<effect name="AttackTrait">
+				<DERANGEMENT>20</DERANGEMENT>
+				<PARALYZE>20</PARALYZE>
+				<KNOCKDOWN>20</KNOCKDOWN>
+				<PULL>20</PULL>
+				<AGGRESSION>20</AGGRESSION>
+				<HATE>20</HATE>
+				<KNOCKBACK>20</KNOCKBACK>
+				<ZONE>20</ZONE>
+			</effect>
+			<effect name="ExpModify">
+				<amount>15</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>15</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37061" toLevel="1" name="Silvery Seed Bracelet: Base Effect">
+		<!-- Unlocks the agathion's main slot and 4 additional slot(s). <font color="ECECEC"><Base effect></font>. All stats +1, Attribute Attack +50, Attribute Resistance +50, Vitality bonus +20% -->
+		<icon>icon.bm_argent_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AgathionSlot">
+				<amount>5</amount>
+			</effect>
+			<effect name="AttackAttributeAdd">
+				<amount>50</amount>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>50</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>50</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>50</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>50</amount>
+				<attribute>DARK</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>50</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>50</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="VitalityExpRate">
+				<amount>20</amount>
+			</effect>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>STR,DEX,CON,INT,WIT,MEN,LUC,CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37062" toLevel="11" name="+0 Silvery Seed Bracelet">
+		<!-- Level 1: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100 -->
+		<!-- Level 2: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +1%. All Critical Rate +1%. P./ M. Accuracy +3. Acquired XP/ SP +3% -->
+		<!-- Level 3: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +2%. All Critical Rate +2%. P./ M. Accuracy +6. Acquired XP/ SP +6% -->
+		<!-- Level 4: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +3%. All Critical Rate +3%. P./ M. Accuracy +9. Acquired XP/ SP +9% -->
+		<!-- Level 5: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +4%. All Critical Rate +4%. P./ M. Accuracy +12. Acquired XP/ SP +12% -->
+		<!-- Level 6: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +5%. All Critical Rate +5%. P./ M. Accuracy +15. Acquired XP/ SP +15% -->
+		<!-- Level 7: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +6%. All Critical Rate +6%. P./ M. Accuracy +18. Acquired XP/ SP +18% -->
+		<!-- Level 8: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +7%. All Critical Rate +7%. P./ M. Accuracy +21. Acquired XP/ SP +21% -->
+		<!-- Level 9: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +8%. All Critical Rate +8%. P./ M. Accuracy +24. Acquired XP/ SP +24% -->
+		<!-- Level 10: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +9%. All Critical Rate +9%. P./ M. Accuracy +27. Acquired XP/ SP +27% -->
+		<!-- Level 11: <font color="ECECEC"><Enchant effect></font>. Max HP/ MP/ CP +30%. All attack power +30%. P./ M. Def. +30%. Weapon P./ M. Atk. +100. Damage +10%. All Critical Rate +10%. P./ M. Accuracy +30. Acquired XP/ SP +30% -->
+		<icon>icon.bm_argent_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MaxHp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxCp">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AutoAttackDamageBonus">
+				<amount>30</amount>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>30</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>	
+			<effect name="CriticalRate">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value level="10">9</value>
+					<value level="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Accuracy">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">3</value>
+					<value level="3">6</value>
+					<value level="4">9</value>
+					<value level="5">12</value>
+					<value level="6">15</value>
+					<value level="7">18</value>
+					<value level="8">21</value>
+					<value level="9">24</value>
+					<value level="10">27</value>
+					<value level="11">30</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">3</value>
+					<value level="3">6</value>
+					<value level="4">9</value>
+					<value level="5">12</value>
+					<value level="6">15</value>
+					<value level="7">18</value>
+					<value level="8">21</value>
+					<value level="9">24</value>
+					<value level="10">27</value>
+					<value level="11">30</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">3</value>
+					<value level="3">6</value>
+					<value level="4">9</value>
+					<value level="5">12</value>
+					<value level="6">15</value>
+					<value level="7">18</value>
+					<value level="8">21</value>
+					<value level="9">24</value>
+					<value level="10">27</value>
+					<value level="11">30</value>
+				</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">3</value>
+					<value level="3">6</value>
+					<value level="4">9</value>
+					<value level="5">12</value>
+					<value level="6">15</value>
+					<value level="7">18</value>
+					<value level="8">21</value>
+					<value level="9">24</value>
+					<value level="10">27</value>
+					<value level="11">30</value>
+				</amount>
+			</effect>			
+		</effects>
+	</skill>
+	<skill id="37063" toLevel="1" name="Collection_6_471">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37064" toLevel="1" name="Collection_6_472">
+		<!-- All Critical Rate +5%, all attack power +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37065" toLevel="1" name="Collection_7_473">
+		<!-- Acquired XP/ SP +10% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>10</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37066" toLevel="2" name="Seal Heritage - Giant's Power">
+		<!-- When used, applies the <font color="ECECEC">'Giant's Seal'</font> effect. <font color="ECECEC"><Giant's Seal></font>. Due to the Giants' power, increases damage for 5 min. The <font color="ECECEC">Giant's Seal's</font> level is based on the <font color="ECECEC">'Seal Heritage'</font> skill's level. Damage is increased by 5% for each level of Giant's Seal. -->
+		<icon>icon.dyeeffect_hidden_1</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37067" toLevel="2" name="Seal Heritage - Giant's Wisdom">
+		<!-- When used, applies the <font color="ECECEC">'Giant's Seal'</font> effect. <font color="ECECEC"><Giant's Seal></font>. Due to the Giants' power, increases damage for 5 min. The <font color="ECECEC">Giant's Seal's</font> level is based on the <font color="ECECEC">'Seal Heritage'</font> skill's level. Damage is increased by 5% for each level of Giant's Seal. -->
+		<icon>icon.dyeeffect_hidden_2</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37068" toLevel="2" name="Seal Heritage - Giant's Might">
+		<!-- When used, applies the <font color="ECECEC">'Giant's Seal'</font> effect. <font color="ECECEC"><Giant's Seal></font>. Due to the Giants' power, increases damage for 5 min. The <font color="ECECEC">Giant's Seal's</font> level is based on the <font color="ECECEC">'Seal Heritage'</font> skill's level. Damage is increased by 5% for each level of Giant's Seal. -->
+		<icon>icon.dyeeffect_hidden_3</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37069" toLevel="2" name="Giant's Seal's Activated Effect1_2">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="37070" toLevel="2" name="Giant's Seal's Activated Effect2_2">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="37071" toLevel="2" name="Giant's Seal's Activated Effect3_1">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="37072" toLevel="6" name="Giant's Seal">
+		<!-- Level 1: Due to the Giants' power, damage +5% for 5 min. The cooldown is fixed at 5 min. -->
+		<!-- Level 2: Due to the Giants' power, damage +10% for 5 min. The cooldown is fixed at 5 min. -->
+		<!-- Level 3: Due to the Giants' power, damage +15% for 5 min. The cooldown is fixed at 5 min. -->
+		<!-- Level 4: Due to the Giants' power, damage +20% for 5 min. The cooldown is fixed at 5 min. -->
+		<!-- Level 5: Due to the Giants' power, damage +25% for 5 min. The cooldown is fixed at 5 min. -->
+		<!-- Level 6: Due to the Giants' power, damage +30% for 5 min. The cooldown is fixed at 5 min. -->
+		<icon>icon.dyeeffect_category_1</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>300</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>300</coolTime>
+		<effectPoint>5</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>300000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37073" toLevel="30" name="Seal - Giant's Power">
+		<!-- Level 1: All attack power +0.1% -->
+		<!-- Level 2: All attack power +0.2% -->
+		<!-- Level 3: All attack power +0.3% -->
+		<!-- Level 4: All attack power +0.4% -->
+		<!-- Level 5: All attack power +0.5% -->
+		<!-- Level 6: All attack power +0.6% -->
+		<!-- Level 7: All attack power +0.7% -->
+		<!-- Level 8: All attack power +0.8% -->
+		<!-- Level 9: All attack power +0.9% -->
+		<!-- Level 10: All attack power +1% -->
+		<!-- Level 11: All attack power +1.1% -->
+		<!-- Level 12: All attack power +1.2% -->
+		<!-- Level 13: All attack power +1.3% -->
+		<!-- Level 14: All attack power +1.4% -->
+		<!-- Level 15: All attack power +1.5% -->
+		<!-- Level 16: All attack power +1.6% -->
+		<!-- Level 17: All attack power +1.7% -->
+		<!-- Level 18: All attack power +1.8% -->
+		<!-- Level 19: All attack power +1.9% -->
+		<!-- Level 20: All attack power +2% -->
+		<!-- Level 21: All attack power +2.5% -->
+		<!-- Level 22: All attack power +3% -->
+		<!-- Level 23: All attack power +3.5% -->
+		<!-- Level 24: All attack power +4% -->
+		<!-- Level 25: All attack power +5% -->
+		<!-- Level 26: All attack power +7% -->
+		<!-- Level 27: All attack power +9% -->
+		<!-- Level 28: All attack power +11% -->
+		<!-- Level 29: All attack power +13% -->
+		<!-- Level 30: All attack power +15% -->
+		<icon>icon.dyeeffect_1</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AutoAttackDamageBonus">
+				<amount>
+					<value level="1">0.1</value>
+					<value level="2">0.2</value>
+					<value level="3">0.3</value>
+					<value level="4">0.4</value>
+					<value level="5">0.5</value>
+					<value level="6">0.6</value>
+					<value level="7">0.7</value>
+					<value level="8">0.8</value>
+					<value level="9">0.9</value>
+					<value level="10">1</value>
+					<value level="11">1.1</value>
+					<value level="12">1.2</value>
+					<value level="13">1.3</value>
+					<value level="14">1.4</value>
+					<value level="15">1.5</value>
+					<value level="16">1.6</value>
+					<value level="17">1.7</value>
+					<value level="18">1.8</value>
+					<value level="19">1.9</value>
+					<value level="20">2</value>
+					<value level="21">2.5</value>
+					<value level="22">3</value>
+					<value level="23">3.5</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">7</value>
+					<value level="27">9</value>
+					<value level="28">11</value>
+					<value level="29">13</value>
+					<value level="30">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>		
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="1">0.1</value>
+					<value level="2">0.2</value>
+					<value level="3">0.3</value>
+					<value level="4">0.4</value>
+					<value level="5">0.5</value>
+					<value level="6">0.6</value>
+					<value level="7">0.7</value>
+					<value level="8">0.8</value>
+					<value level="9">0.9</value>
+					<value level="10">1</value>
+					<value level="11">1.1</value>
+					<value level="12">1.2</value>
+					<value level="13">1.3</value>
+					<value level="14">1.4</value>
+					<value level="15">1.5</value>
+					<value level="16">1.6</value>
+					<value level="17">1.7</value>
+					<value level="18">1.8</value>
+					<value level="19">1.9</value>
+					<value level="20">2</value>
+					<value level="21">2.5</value>
+					<value level="22">3</value>
+					<value level="23">3.5</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">7</value>
+					<value level="27">9</value>
+					<value level="28">11</value>
+					<value level="29">13</value>
+					<value level="30">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="1">0.1</value>
+					<value level="2">0.2</value>
+					<value level="3">0.3</value>
+					<value level="4">0.4</value>
+					<value level="5">0.5</value>
+					<value level="6">0.6</value>
+					<value level="7">0.7</value>
+					<value level="8">0.8</value>
+					<value level="9">0.9</value>
+					<value level="10">1</value>
+					<value level="11">1.1</value>
+					<value level="12">1.2</value>
+					<value level="13">1.3</value>
+					<value level="14">1.4</value>
+					<value level="15">1.5</value>
+					<value level="16">1.6</value>
+					<value level="17">1.7</value>
+					<value level="18">1.8</value>
+					<value level="19">1.9</value>
+					<value level="20">2</value>
+					<value level="21">2.5</value>
+					<value level="22">3</value>
+					<value level="23">3.5</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">7</value>
+					<value level="27">9</value>
+					<value level="28">11</value>
+					<value level="29">13</value>
+					<value level="30">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37074" toLevel="30" name="Seal - Giant's Wisdom">
+		<!-- Level 1: Soulshot/ Spiritshot damage +0.1% -->
+		<!-- Level 2: Soulshot/ Spiritshot damage +0.2% -->
+		<!-- Level 3: Soulshot/ Spiritshot damage +0.3% -->
+		<!-- Level 4: Soulshot/ Spiritshot damage +0.4% -->
+		<!-- Level 5: Soulshot/ Spiritshot damage +0.5% -->
+		<!-- Level 6: Soulshot/ Spiritshot damage +0.6% -->
+		<!-- Level 7: Soulshot/ Spiritshot damage +0.7% -->
+		<!-- Level 8: Soulshot/ Spiritshot damage +0.8% -->
+		<!-- Level 9: Soulshot/ Spiritshot damage +0.9% -->
+		<!-- Level 10: Soulshot/ Spiritshot damage +1% -->
+		<!-- Level 11: Soulshot/ Spiritshot damage +1.1% -->
+		<!-- Level 12: Soulshot/ Spiritshot damage +1.2% -->
+		<!-- Level 13: Soulshot/ Spiritshot damage +1.3% -->
+		<!-- Level 14: Soulshot/ Spiritshot damage +1.4% -->
+		<!-- Level 15: Soulshot/ Spiritshot damage +1.5% -->
+		<!-- Level 16: Soulshot/ Spiritshot damage +1.6% -->
+		<!-- Level 17: Soulshot/ Spiritshot damage +1.7% -->
+		<!-- Level 18: Soulshot/ Spiritshot damage +1.8% -->
+		<!-- Level 19: Soulshot/ Spiritshot damage +1.9% -->
+		<!-- Level 20: Soulshot/ Spiritshot damage +2% -->
+		<!-- Level 21: Soulshot/ Spiritshot damage +2.5% -->
+		<!-- Level 22: Soulshot/ Spiritshot damage +3% -->
+		<!-- Level 23: Soulshot/ Spiritshot damage +3.5% -->
+		<!-- Level 24: Soulshot/ Spiritshot damage +4% -->
+		<!-- Level 25: Soulshot/ Spiritshot damage +5% -->
+		<!-- Level 26: Soulshot/ Spiritshot damage +7% -->
+		<!-- Level 27: Soulshot/ Spiritshot damage +9% -->
+		<!-- Level 28: Soulshot/ Spiritshot damage +11% -->
+		<!-- Level 29: Soulshot/ Spiritshot damage +13% -->
+		<!-- Level 30: Soulshot/ Spiritshot damage +15% -->
+		<icon>icon.dyeeffect_2</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ShotsBonus">
+				<amount>
+					<value level="1">0.1</value>
+					<value level="2">0.2</value>
+					<value level="3">0.3</value>
+					<value level="4">0.4</value>
+					<value level="5">0.5</value>
+					<value level="6">0.6</value>
+					<value level="7">0.7</value>
+					<value level="8">0.8</value>
+					<value level="9">0.9</value>
+					<value level="10">1</value>
+					<value level="11">1.1</value>
+					<value level="12">1.2</value>
+					<value level="13">1.3</value>
+					<value level="14">1.4</value>
+					<value level="15">1.5</value>
+					<value level="16">1.6</value>
+					<value level="17">1.7</value>
+					<value level="18">1.8</value>
+					<value level="19">1.9</value>
+					<value level="20">2</value>
+					<value level="21">2.5</value>
+					<value level="22">3</value>
+					<value level="23">3.5</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">7</value>
+					<value level="27">9</value>
+					<value level="28">11</value>
+					<value level="29">13</value>
+					<value level="30">15</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37075" toLevel="30" name="Seal - Giant's Might">
+		<!-- Level 1: Weapon P./ M. Atk. +2 -->
+		<!-- Level 2: Weapon P./ M. Atk. +4 -->
+		<!-- Level 3: Weapon P./ M. Atk. +6 -->
+		<!-- Level 4: Weapon P./ M. Atk. +8 -->
+		<!-- Level 5: Weapon P./ M. Atk. +10 -->
+		<!-- Level 6: Weapon P./ M. Atk. +12 -->
+		<!-- Level 7: Weapon P./ M. Atk. +14 -->
+		<!-- Level 8: Weapon P./ M. Atk. +16 -->
+		<!-- Level 9: Weapon P./ M. Atk. +18 -->
+		<!-- Level 10: Weapon P./ M. Atk. +20 -->
+		<!-- Level 11: Weapon P./ M. Atk. +22 -->
+		<!-- Level 12: Weapon P./ M. Atk. +24 -->
+		<!-- Level 13: Weapon P./ M. Atk. +26 -->
+		<!-- Level 14: Weapon P./ M. Atk. +28 -->
+		<!-- Level 15: Weapon P./ M. Atk. +30 -->
+		<!-- Level 16: Weapon P./ M. Atk. +32 -->
+		<!-- Level 17: Weapon P./ M. Atk. +34 -->
+		<!-- Level 18: Weapon P./ M. Atk. +36 -->
+		<!-- Level 19: Weapon P./ M. Atk. +38 -->
+		<!-- Level 20: Weapon P./ M. Atk. +40 -->
+		<!-- Level 21: Weapon P./ M. Atk. +50 -->
+		<!-- Level 22: Weapon P./ M. Atk. +60 -->
+		<!-- Level 23: Weapon P./ M. Atk. +70 -->
+		<!-- Level 24: Weapon P./ M. Atk. +80 -->
+		<!-- Level 25: Weapon P./ M. Atk. +100 -->
+		<!-- Level 26: Weapon P./ M. Atk. +140 -->
+		<!-- Level 27: Weapon P./ M. Atk. +180 -->
+		<!-- Level 28: Weapon P./ M. Atk. +220 -->
+		<!-- Level 29: Weapon P./ M. Atk. +260 -->
+		<!-- Level 30: Weapon P./ M. Atk. +300 -->
+		<icon>icon.dyeeffect_3</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+					<value level="6">12</value>
+					<value level="7">14</value>
+					<value level="8">16</value>
+					<value level="9">18</value>
+					<value level="10">20</value>
+					<value level="11">22</value>
+					<value level="12">24</value>
+					<value level="13">26</value>
+					<value level="14">28</value>
+					<value level="15">30</value>
+					<value level="16">32</value>
+					<value level="17">34</value>
+					<value level="18">36</value>
+					<value level="19">38</value>
+					<value level="20">40</value>
+					<value level="21">50</value>
+					<value level="22">60</value>
+					<value level="23">70</value>
+					<value level="24">80</value>
+					<value level="25">100</value>
+					<value level="26">140</value>
+					<value level="27">180</value>
+					<value level="28">220</value>
+					<value level="29">260</value>
+					<value level="30">300</value>
+				</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>
+					<value level="1">2</value>
+					<value level="2">4</value>
+					<value level="3">6</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+					<value level="6">12</value>
+					<value level="7">14</value>
+					<value level="8">16</value>
+					<value level="9">18</value>
+					<value level="10">20</value>
+					<value level="11">22</value>
+					<value level="12">24</value>
+					<value level="13">26</value>
+					<value level="14">28</value>
+					<value level="15">30</value>
+					<value level="16">32</value>
+					<value level="17">34</value>
+					<value level="18">36</value>
+					<value level="19">38</value>
+					<value level="20">40</value>
+					<value level="21">50</value>
+					<value level="22">60</value>
+					<value level="23">70</value>
+					<value level="24">80</value>
+					<value level="25">100</value>
+					<value level="26">140</value>
+					<value level="27">180</value>
+					<value level="28">220</value>
+					<value level="29">260</value>
+					<value level="30">300</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37076" toLevel="1" name="Collection_7_474">
+		<!-- Damage +10%, received damage -10% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37077" toLevel="1" name="Ice Dessert">
+		<!-- Try making Ice Dessert with Shaved Ice Master's Mysterious Ice Knife. Consumes Mysterious Ice Crystal (20 pcs.). -->
+		<icon>icon.s_ev_christmas_snow2</icon>
+		<operateType>A1</operateType>
+		<hitTime>3000</hitTime>
+		<isMagic>6</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="37078" toLevel="1" name="Ice Dessert - Failure">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="37079" toLevel="1" name="Ice Cookie - Success">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="37080" toLevel="1" name="Summer Slushie - Success">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="37081" toLevel="1" name="Collection_7_2028">
+		<!-- All Critical Rate +5%, Skill Power +10%, P./ M. Def. +10%, Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +30 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>30</HOLD>
+				<SHOCK>30</SHOCK>
+				<PARALYZE>30</PARALYZE>
+				<CHANGEBODY>30</CHANGEBODY>
+				<POISON>30</POISON>
+				<TURN_STONE>30</TURN_STONE>
+				<PULL>30</PULL>
+				<ZONE>30</ZONE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37082" toLevel="15" name="Amber's Mysterious Energy Lv. 1">
+		<!-- Level 1: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +1, Weapon P./ M. Atk. +65, Armor P. Def. +5, Accessory M. Def. +5 -->
+		<!-- Level 2: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +2, Weapon P./ M. Atk. +80, Armor P. Def. +10, Accessory M. Def. +10 -->
+		<!-- Level 3: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +3, Weapon P./ M. Atk. +95, Armor P. Def. +15, Accessory M. Def. +15 -->
+		<!-- Level 4: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +4, Weapon P./ M. Atk. +110, Armor P. Def. +20, Accessory M. Def. +20 -->
+		<!-- Level 5: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +5, Weapon P./ M. Atk. +125, Armor P. Def. +25, Accessory M. Def. +25 -->
+		<!-- Level 6: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +6, Weapon P./ M. Atk. +140, Armor P. Def. +30, Accessory M. Def. +30 -->
+		<!-- Level 7: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +7, Weapon P./ M. Atk. +155, Armor P. Def. +35, Accessory M. Def. +35 -->
+		<!-- Level 8: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +8, Weapon P./ M. Atk. +170, Armor P. Def. +40, Accessory M. Def. +40 -->
+		<!-- Level 9: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +9, Weapon P./ M. Atk. +185, Armor P. Def. +45, Accessory M. Def. +45 -->
+		<!-- Level 10: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +10, Weapon P./ M. Atk. +200, Armor P. Def. +50, Accessory M. Def. +50 -->
+		<!-- Level 11: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +13, Weapon P./ M. Atk. +215, Armor P. Def. +55, Accessory M. Def. +55 -->
+		<!-- Level 12: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +16, Weapon P./ M. Atk. +230, Armor P. Def. +60, Accessory M. Def. +60 -->
+		<!-- Level 13: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +20, Weapon P./ M. Atk. +250, Armor P. Def. +65, Accessory M. Def. +65 -->
+		<!-- Level 14: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +25, Weapon P./ M. Atk. +270, Armor P. Def. +70, Accessory M. Def. +70 -->
+		<!-- Level 15: Debilitation/ Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +30, Weapon P./ M. Atk. +300, Armor P. Def. +75, Accessory M. Def. +75 -->
+		<icon>
+			<value level="1">icon.chaotic_imitation_amber</value>
+			<value level="2">icon.chaotic_imitation_amber</value>
+			<value level="3">icon.chaotic_imitation_amber</value>
+			<value level="4">icon.chaotic_imitation_amber</value>
+			<value level="5">icon.chaotic_imitation_amber</value>
+			<value level="6">icon.chaotic_imitation_amber</value>
+			<value level="7">icon.chaotic_imitation_amber</value>
+			<value level="8">icon.chaotic_imitation_amber</value>
+			<value level="9">icon.chaotic_imitation_amber</value>
+			<value level="10">icon.chaotic_imitation_amber</value>
+			<value level="11">icon.chaotic_amber</value>
+			<value level="12">icon.chaotic_amber</value>
+			<value level="13">icon.chaotic_amber</value>
+			<value level="14">icon.chaotic_blue_amber</value>
+			<value level="15">icon.chaotic_blue_amber</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<HOLD>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</HOLD>
+				<SLEEP>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</SLEEP>
+				<DERANGEMENT>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</DERANGEMENT>
+				<CHANGEBODY>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</CHANGEBODY>
+				<PARALYZE>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</PARALYZE>
+				<SHOCK>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</SHOCK>
+				<CHANGEBODY>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</CHANGEBODY>
+				<KNOCKBACK>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</KNOCKBACK>
+				<KNOCKDOWN>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</KNOCKDOWN>
+				<AIRBIND>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</AIRBIND>
+				<TURN_STONE>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+					<value level="6">6</value>
+					<value level="7">7</value>
+					<value level="8">8</value>
+					<value level="9">9</value>
+					<value level="10">10</value>
+					<value level="11">13</value>
+					<value level="12">16</value>
+					<value level="13">20</value>
+					<value level="14">25</value>
+					<value level="15">30</value>
+				</TURN_STONE>
+			</effect>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>
+					<value level="1">65</value>
+					<value level="2">80</value>
+					<value level="3">95</value>
+					<value level="4">110</value>
+					<value level="5">125</value>
+					<value level="6">140</value>
+					<value level="7">155</value>
+					<value level="8">170</value>
+					<value level="9">185</value>
+					<value level="10">200</value>
+					<value level="11">215</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">300</value>
+				</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>
+					<value level="1">65</value>
+					<value level="2">80</value>
+					<value level="3">95</value>
+					<value level="4">110</value>
+					<value level="5">125</value>
+					<value level="6">140</value>
+					<value level="7">155</value>
+					<value level="8">170</value>
+					<value level="9">185</value>
+					<value level="10">200</value>
+					<value level="11">215</value>
+					<value level="12">230</value>
+					<value level="13">250</value>
+					<value level="14">270</value>
+					<value level="15">300</value>
+				</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+					<value level="7">35</value>
+					<value level="8">40</value>
+					<value level="9">45</value>
+					<value level="10">50</value>
+					<value level="11">55</value>
+					<value level="12">60</value>
+					<value level="13">65</value>
+					<value level="14">70</value>
+					<value level="15">75</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+					<value level="7">35</value>
+					<value level="8">40</value>
+					<value level="9">45</value>
+					<value level="10">50</value>
+					<value level="11">55</value>
+					<value level="12">60</value>
+					<value level="13">65</value>
+					<value level="14">70</value>
+					<value level="15">75</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37083" toLevel="1" name="Artificial Amber">
+		<!-- Enchant Artificial Amber to add special properties. -->
+		<icon>icon.chaotic_imitation_amber</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37084" toLevel="1" name="Orb of Elements">
+		<!-- Acquired XP/ SP +30%, damage +10%, received damage -10% -->
+		<icon>icon.bm_utility_jewel_3</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>30</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>30</amount>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37085" toLevel="1" name="Collection_7_475">
+		<!-- Damage +5%, received damage -5%, acquired XP/ SP +10% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>5</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>5</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>5</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-5</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-5</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+			<effect name="ExpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>10</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37086" toLevel="1" name="Collection_6_476">
+		<!-- All Critical Rate +5%, Anomaly Atk. Rate and Resistance +30 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>2</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<DERANGEMENT>30</DERANGEMENT>
+				<PARALYZE>30</PARALYZE>
+				<KNOCKDOWN>30</KNOCKDOWN>
+				<PULL>30</PULL>
+				<AGGRESSION>30</AGGRESSION>
+				<HATE>30</HATE>
+				<KNOCKBACK>30</KNOCKBACK>
+				<ZONE>30</ZONE>
+			</effect>
+			<effect name="AttackTrait">
+				<DERANGEMENT>30</DERANGEMENT>
+				<PARALYZE>30</PARALYZE>
+				<KNOCKDOWN>30</KNOCKDOWN>
+				<PULL>30</PULL>
+				<AGGRESSION>30</AGGRESSION>
+				<HATE>30</HATE>
+				<KNOCKBACK>30</KNOCKBACK>
+				<ZONE>30</ZONE>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37087" toLevel="1" name="Collection_7_477">
+		<!-- All Critical Rate +5%, all attack power +10%, P./ M. Def. +10%, acquired XP/ SP +30% -->
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="37088" toLevel="1" name="Collection_6_478">
+		<!-- Damage +1%, received damage -1%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37089" toLevel="1" name="Collection_6_479">
+		<!-- Damage +1%, received damage -1%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37090" toLevel="1" name="Collection_6_480">
+		<!-- Damage +1%, received damage -1%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37091" toLevel="1" name="Collection_6_481">
+		<!-- P./ M. Accuracy +5, all Critical Rate +10% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Accuracy">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicAccuracy">
+				<amount>5</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37092" toLevel="1" name="Collection_6_482">
+		<!-- Weapon P./ M. Atk. +10, Armor P. Def. +2, Accessory M. Def. +2 -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37093" toLevel="1" name="Collection_6_483">
+		<!-- Weapon P./ M. Atk. +10, Armor P. Def. +2, Accessory M. Def. +2 -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37094" toLevel="1" name="Collection_6_484">
+		<!-- Weapon P./ M. Atk. +10, Armor P. Def. +2, Accessory M. Def. +2 -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37095" toLevel="1" name="Collection_6_485">
+		<!-- Weapon P./ M. Atk. +10, Armor P. Def. +2, Accessory M. Def. +2 -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37096" toLevel="1" name="Collection_6_486">
+		<!-- Weapon P./ M. Atk. +10, Armor P. Def. +2, Accessory M. Def. +2 -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="WeaponBonusPhysicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="WeaponBonusMagicalAttack">
+				<amount>10</amount>
+			</effect>
+			<effect name="ArmorPhysicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="AccessoryMagicalDefence">
+				<amount>2</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37097" toLevel="10" name="Silvery Combat">
+		<!-- Level 1: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +5%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<!-- Level 2: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +6%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<!-- Level 3: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +7%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<!-- Level 4: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +8%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<!-- Level 5: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +10%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<!-- Level 6: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +12%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<!-- Level 7: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +14%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<!-- Level 8: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +16%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<!-- Level 9: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +18%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<!-- Level 10: For 10 min., P./ M. Atk., Atk. Spd., and Casting Spd. +20%. The effect does not stack with Dragon Rage and Silvery Rage. -->
+		<icon>icon.bm_argent_shirt</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>600</abnormalTime>
+		<abnormalType>DRAGON_RAGE</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<isMagic>4</isMagic>
+		<reuseDelay>600000</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+					<value level="6">12</value>
+					<value level="7">14</value>
+					<value level="8">16</value>
+					<value level="9">18</value>
+					<value level="10">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+					<value level="6">12</value>
+					<value level="7">14</value>
+					<value level="8">16</value>
+					<value level="9">18</value>
+					<value level="10">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+					<value level="6">12</value>
+					<value level="7">14</value>
+					<value level="8">16</value>
+					<value level="9">18</value>
+					<value level="10">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">6</value>
+					<value level="3">7</value>
+					<value level="4">8</value>
+					<value level="5">10</value>
+					<value level="6">12</value>
+					<value level="7">14</value>
+					<value level="8">16</value>
+					<value level="9">18</value>
+					<value level="10">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37098" toLevel="1" name="Collection_7_487">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +5%, acquired XP/ SP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>5</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>5</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="37099" toLevel="1" name="Collection_6_488">
+		<!-- All attack power +3%, P./ M. Def. +3%, acquired XP/ SP +5% -->
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AutoAttackDamageBonus">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>		
+			<effect name="MagicalSkillPower">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>5</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>5</amount>
+			</effect>
+		</effects>
+	</skill>
+</list>

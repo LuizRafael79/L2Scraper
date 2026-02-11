@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="231">
+		<skill skillName="Dexterity" skillId="1919" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Blessing of Earth" skillId="1921" skillLevel="1" getLevel="1" autoGet="true" />
+
+		<!-- Passives -->
+		<skill skillName="Mystic Robe Mastery" skillId="31294" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Mystic Weapon Mastery" skillId="31292" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Maker's Power" skillId="31297" skillLevel="1" getLevel="1" autoGet="true" />
+		
+		<!-- Actives -->
+		<skill skillName="Bright Jump" skillId="31281" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Shining Touch" skillId="31298" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Sparkling Jump" skillId="31282" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Shape Change" skillId="31311" skillLevel="1" getLevel="1" autoGet="true" />
+		<skill skillName="Mount Siege Golem" skillId="31291" skillLevel="1" getLevel="1" autoGet="true" />
+	</skillTree>
+</list>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="259" parentClassId="258">
+		<!-- Actives -->
+		<skill skillName="Instinct Dash" skillId="31476" skillLevel="2" getLevel="85" />
+		<skill skillName="Warg's Red Alert" skillId="31472" skillLevel="2" getLevel="85" />
+		<skill skillName="Warg's Red Alert" skillId="31472" skillLevel="3" getLevel="102" levelUpSp="25372" />
+		<skill skillName="Warg's Red Alert" skillId="31472" skillLevel="4" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Warg's Red Alert" skillId="31472" skillLevel="5" getLevel="112" levelUpSp="436393">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Warg's Red Alert" skillId="31472" skillLevel="6" getLevel="117" levelUpSp="436393">
+			<item id="81887,39738" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Warg's Howling" skillId="31475" skillLevel="2" getLevel="105" levelUpSp="436393">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Warg's Howling" skillId="31475" skillLevel="3" getLevel="118" levelUpSp="436393">
+			<item id="81887,39738" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Warg's Instinct Power" skillId="31473" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Warg's Instinct Power" skillId="31473" skillLevel="2" getLevel="103" levelUpSp="30447" />
+		<skill skillName="Warg's Instinct Power" skillId="31473" skillLevel="3" getLevel="108" levelUpSp="151525" />
+		<skill skillName="Warg's Instinct Power" skillId="31473" skillLevel="4" getLevel="113" levelUpSp="436393" />
+		<skill skillName="Warg's Instinct Power" skillId="31473" skillLevel="5" getLevel="116" levelUpSp="436393">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Warg's Instinct Power" skillId="31473" skillLevel="6" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Warg's Energy Surge" skillId="31474" skillLevel="1" getLevel="85">
+			<item id="81887,39738" count="16" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Warg's Energy Surge" skillId="31474" skillLevel="2" getLevel="110" levelUpSp="87688">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Warg's Energy Surge" skillId="31474" skillLevel="3" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Enormous Wolf" skillId="31479" skillLevel="1" getLevel="85" levelUpSp="0">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Enormous Wolf" skillId="31479" skillLevel="2" getLevel="120" levelUpSp="436393">
+			<item id="81453" count="2" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="1" getLevel="115" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="2" getLevel="116" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="3" getLevel="117" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="4" getLevel="118" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Eraton's Spear" skillId="30930" skillLevel="5" getLevel="119" levelUpSp="436393" autoGet="false">
+			<item id="81889" count="1" /> <!-- Eraton's Historical Book -->
+		</skill>
+		<skill skillName="Wolf Trap" skillId="31477" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Wolf Trap" skillId="31477" skillLevel="2" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Wolf Trap" skillId="31477" skillLevel="3" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Intimidating Cry" skillId="31478" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Intimidating Cry" skillId="31478" skillLevel="2" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Intimidating Cry" skillId="31478" skillLevel="3" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Claw Storm" skillId="31457" skillLevel="2" getLevel="90" levelUpSp="0" />
+		<skill skillName="Claw Storm" skillId="31457" skillLevel="3" getLevel="103" levelUpSp="30447" />
+		<skill skillName="Claw Storm" skillId="31457" skillLevel="4" getLevel="109" levelUpSp="181830" />
+		<skill skillName="Claw Storm" skillId="31457" skillLevel="5" getLevel="115" levelUpSp="436393">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Claw Storm" skillId="31457" skillLevel="6" getLevel="119" levelUpSp="436393">
+			<item id="81887,39738" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Violent Storm" skillId="31458" skillLevel="2" getLevel="90" levelUpSp="0" />
+		<skill skillName="Violent Storm" skillId="31458" skillLevel="3" getLevel="103" levelUpSp="30447" />
+		<skill skillName="Violent Storm" skillId="31458" skillLevel="4" getLevel="109" levelUpSp="181830" />
+		<skill skillName="Violent Storm" skillId="31458" skillLevel="5" getLevel="115" levelUpSp="436393">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Violent Storm" skillId="31458" skillLevel="6" getLevel="119" levelUpSp="436393">
+			<item id="81887,39738" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Shape Change" skillId="31499" skillLevel="1" getLevel="85" autoGet="true" />
+		<skill skillName="Smell of Blood" skillId="31465" skillLevel="2" getLevel="95" levelUpSp="100" />
+		<skill skillName="Smell of Blood" skillId="31465" skillLevel="3" getLevel="104" levelUpSp="36536" />
+		<skill skillName="Smell of Blood" skillId="31465" skillLevel="4" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Smell of Blood" skillId="31465" skillLevel="5" getLevel="116" levelUpSp="436393">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Smell of Blood" skillId="31465" skillLevel="6" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Wolf Zone" skillId="31466" skillLevel="2" getLevel="95" levelUpSp="100" />
+		<skill skillName="Wolf Zone" skillId="31466" skillLevel="3" getLevel="104" levelUpSp="36536" />
+		<skill skillName="Wolf Zone" skillId="31466" skillLevel="4" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Wolf Zone" skillId="31466" skillLevel="5" getLevel="116" levelUpSp="436393">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Wolf Zone" skillId="31466" skillLevel="6" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Enhanced Mark" skillId="31459" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Enhanced Mark" skillId="31459" skillLevel="2" getLevel="95" levelUpSp="100" />
+		<skill skillName="Enhanced Mark" skillId="31459" skillLevel="3" getLevel="104" levelUpSp="36536" />
+		<skill skillName="Enhanced Mark" skillId="31459" skillLevel="4" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Enhanced Mark" skillId="31459" skillLevel="5" getLevel="116" levelUpSp="436393">
+			<item id="81887,39738" count="32" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Enhanced Mark" skillId="31459" skillLevel="6" getLevel="120" levelUpSp="436393">
+			<item id="81887,39738" count="64" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Wolf Strike" skillId="31461" skillLevel="1" getLevel="110" levelUpSp="0">
+			<item id="81453" count="2" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Wolf Sprint" skillId="31481" skillLevel="1" getLevel="85" autoGet="true" />
+		
+		<!-- Passives -->
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="4" getLevel="85" levelUpSp="0" />
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="5" getLevel="99" levelUpSp="500">
+			<item id="40064" count="1" /> <!-- Ancient Book: Divine Inspiration (Beginner) -->
+		</skill>
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="6" getLevel="99" levelUpSp="500">
+			<item id="40065" count="1" /> <!-- Ancient Book: Divine Inspiration (Intermediate) -->
+		</skill>
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="1" getLevel="85" getDualClassLevel="85" levelUpSp="0" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="2" getLevel="90" getDualClassLevel="90" levelUpSp="37" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="3" getLevel="95" getDualClassLevel="95" levelUpSp="100" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="4" getLevel="99" getDualClassLevel="99" levelUpSp="500" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="5" getLevel="101" getDualClassLevel="101" levelUpSp="21143" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="6" getLevel="103" getDualClassLevel="103" levelUpSp="30447" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="7" getLevel="105" getDualClassLevel="105" levelUpSp="87688" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="8" getLevel="107" getDualClassLevel="107" levelUpSp="126271" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="9" getLevel="109" getDualClassLevel="109" levelUpSp="181830" />
+		<skill skillName="Dual Maximum HP" skillId="1986" skillLevel="10" getLevel="110" getDualClassLevel="110" levelUpSp="436393" />
+		<skill skillName="Dual Class - Renewed Energy of Power" skillId="30820" skillLevel="1" getLevel="85" getDualClassLevel="85" levelUpSp="0" autoGet="false" />
+		<skill skillName="Divine Expansion" skillId="10956" skillLevel="1" getLevel="100" levelUpSp="8809">
+			<item id="81887,39738" count="8" /> <!-- Rune Stone -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="1" getLevel="110" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="2" getLevel="111" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="3" getLevel="112" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="4" getLevel="113" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Masia's Shield" skillId="30931" skillLevel="5" getLevel="114" levelUpSp="436393" autoGet="false">
+			<item id="81888" count="1" /> <!-- Masia's Historical Book -->
+		</skill>
+		<skill skillName="Warg's Fist Weapon Mastery" skillId="31450" skillLevel="2" getLevel="90" levelUpSp="37" />
+		<skill skillName="Warg's Fist Weapon Mastery" skillId="31450" skillLevel="3" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Warg's Fist Weapon Mastery" skillId="31450" skillLevel="4" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Warg's Fist Weapon Mastery" skillId="31450" skillLevel="5" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Warg's Fist Weapon Mastery" skillId="31450" skillLevel="6" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Warg's Fist Weapon Mastery" skillId="31450" skillLevel="7" getLevel="118" levelUpSp="436393" />
+		<skill skillName="Warg's Fist Weapon Mastery" skillId="31450" skillLevel="8" getLevel="120" levelUpSp="436393" />	
+		<skill skillName="Warg's Heavy Armor Mastery" skillId="31451" skillLevel="2" getLevel="90" levelUpSp="37" />
+		<skill skillName="Warg's Heavy Armor Mastery" skillId="31451" skillLevel="3" getLevel="105" levelUpSp="87688" />
+		<skill skillName="Warg's Heavy Armor Mastery" skillId="31451" skillLevel="4" getLevel="107" levelUpSp="126271" />
+		<skill skillName="Warg's Heavy Armor Mastery" skillId="31451" skillLevel="5" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Warg's Heavy Armor Mastery" skillId="31451" skillLevel="6" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Warg's Heavy Armor Mastery" skillId="31451" skillLevel="7" getLevel="118" levelUpSp="436393" />
+		<skill skillName="Warg's Heavy Armor Mastery" skillId="31451" skillLevel="8" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Werewolf's Awakening" skillId="31454" skillLevel="2" getLevel="110" levelUpSp="436393">
+			<item id="81453" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Werewolf's Awakening" skillId="31454" skillLevel="3" getLevel="120" levelUpSp="436393">
+			<item id="81453" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		<skill skillName="Warg Power" skillId="31456" skillLevel="1" getLevel="85" autoGet="true" />
+		<skill skillName="Warg's Defense Mastery" skillId="31452" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Warg's Defense Mastery" skillId="31452" skillLevel="2" getLevel="100" levelUpSp="8809" />
+		<skill skillName="Warg's Defense Mastery" skillId="31452" skillLevel="3" getLevel="110" levelUpSp="436393" />
+		<skill skillName="Warg's Defense Mastery" skillId="31452" skillLevel="4" getLevel="120" levelUpSp="436393" />
+		<skill skillName="Awakening of Hidden Power" skillId="31453" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Awakening of Hidden Power" skillId="31453" skillLevel="2" getLevel="90" levelUpSp="37" />
+		<skill skillName="Awakening of Hidden Power" skillId="31453" skillLevel="3" getLevel="95" levelUpSp="100" />
+		<skill skillName="Awakening of Hidden Power" skillId="31453" skillLevel="4" getLevel="99" levelUpSp="500" />
+		<skill skillName="Awakening of Hidden Power" skillId="31453" skillLevel="5" getLevel="115" levelUpSp="436393" />
+		<skill skillName="Warg's Glory" skillId="31480" skillLevel="1" getLevel="120" levelUpSp="436393">
+			<item id="81453" count="1" /> <!-- Enhanced Rune Stone -->
+		</skill>
+		
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="1" getLevel="85" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="2" getLevel="120" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="3" getLevel="122" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="4" getLevel="124" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="5" getLevel="126" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="6" getLevel="128" autoGet="true" />
+		<skill skillName="Accuracy Bonus" skillId="62204" skillLevel="7" getLevel="130" autoGet="true" />
+		
+		<!-- Samurai Crow -->
+		
+		<skill skillName="Wolf Sense" skillId="31507" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Warg's Tough Skin" skillId="31508" skillLevel="1" getLevel="85" levelUpSp="0" />
+		<skill skillName="Warg's Tough Skin" skillId="31508" skillLevel="2" getLevel="110" levelUpSp="87688" />
+		<skill skillName="Warg's Tough Skin" skillId="31508" skillLevel="3" getLevel="120" levelUpSp="436393" />
+	</skillTree>
+	
+</list>

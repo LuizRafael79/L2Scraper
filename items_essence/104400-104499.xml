@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="104400" name="+9 Circlet of Hero Coupon - Summer Festival (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be exchanged for Package: +9 Circlet of Hero or for +9 Special Equipment Pack - Summer Festival (requires 450 mln adena). -->
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104401" name="+9 Phantom Mask Coupon - Summer Festival (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be exchanged for Package: +9 Phantom Mask or for +9 Special Equipment Pack - Summer Festival (requires 450 mln adena). -->
+		<set name="icon" val="BranchSys3.icon1.g_luckygame_card_trade_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104402" name="+8 Equipment Pack - Summer Festival (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_sayha_silver_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104403" name="+9 Equipment Pack - Summer Festival (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_sayha_gold_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104404" name="May Pass' Special Pack - Summer Festival (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104405" name="October Pass' Special Pack - Summer Festival (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104406" name="Summer Upgrade Rune Lv. 2 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be leveled up through compounding with <font color=EEAA22>Growth Rune Fragments</font>. <font color=bbaa88><Properties></font>. P. Atk. +100. M. Atk. +100. Acquired XP/ SP +3%. MP Recovery Rate +9. Boosts stats when in inventory. <font color=ff6666><Compounding fee></font>. Summer Upgrade Rune Lv. 1-9: 30,000 adena required -->
+		<set name="icon" val="icon.skill19226" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="104407" name="Summer Upgrade Rune Lv. 3 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be leveled up through compounding with <font color=EEAA22>Growth Rune Fragments</font>. <font color=bbaa88><Properties></font>. P. Atk. +100. M. Atk. +100. Acquired XP/ SP +3%. MP Recovery Rate +9. Boosts stats when in inventory. <font color=ff6666><Compounding fee></font>. Summer Upgrade Rune Lv. 1-9: 30,000 adena required -->
+		<set name="icon" val="icon.skill19226" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="104408" name="Summer Upgrade Rune Lv. 4 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be leveled up through compounding with <font color=EEAA22>Growth Rune Fragments</font>. <font color=bbaa88><Properties></font>. P. Atk. +160. M. Atk. +160. Acquired XP/ SP +9%. MP Recovery Rate +15. P. Def. +100. M. Def. +100. Skill Power +0.9%. Boosts stats when in inventory. <font color=ff6666><Compounding fee></font>. Summer Upgrade Rune Lv. 1-9: 30,000 adena required -->
+		<set name="icon" val="icon.skill19226" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="104409" name="Summer Upgrade Rune Lv. 5 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be leveled up through compounding with <font color=EEAA22>Growth Rune Fragments</font>. <font color=bbaa88><Properties></font>. P. Atk. +160. M. Atk. +160. Acquired XP/ SP +9%. MP Recovery Rate +15. P. Def. +100. M. Def. +100. Skill Power +0.9%. Boosts stats when in inventory. <font color=ff6666><Compounding fee></font>. Summer Upgrade Rune Lv. 1-9: 30,000 adena required -->
+		<set name="icon" val="icon.skill19226" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="104410" name="Summer Upgrade Rune Lv. 6 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be leveled up through compounding with <font color=EEAA22>Growth Rune Fragments</font>. <font color=bbaa88><Properties></font>. P. Atk. +160. M. Atk. +160. Acquired XP/ SP +9%. MP Recovery Rate +15. P. Def. +100. M. Def. +100. Skill Power +0.9%. Boosts stats when in inventory. <font color=ff6666><Compounding fee></font>. Summer Upgrade Rune Lv. 1-9: 30,000 adena required -->
+		<set name="icon" val="icon.skill19226" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="104411" name="Summer Upgrade Rune Lv. 7 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be leveled up through compounding with <font color=EEAA22>Growth Rune Fragments</font>. <font color=bbaa88><Properties></font>. P. Atk. +210. M. Atk. +210. Acquired XP/ SP +30%. MP Recovery Rate +20. P. Def. +400. M. Def. +400. Skill Power +3.5%. Ring M. Def. <font color=eeaa22>+10</font>. Earring M. Def. <font color=eeaa22>+10</font>. Necklace M. Def. <font color=eeaa22>+10</font>. Boosts stats when in inventory. <font color=ff6666><Compounding fee></font>. Summer Upgrade Rune Lv. 1-9: 30,000 adena required -->
+		<set name="icon" val="icon.skill19226" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="104412" name="Summer Upgrade Rune Lv. 8 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be leveled up through compounding with <font color=EEAA22>Growth Rune Fragments</font>. <font color=bbaa88><Properties></font>. P. Atk. +210. M. Atk. +210. Acquired XP/ SP +30%. MP Recovery Rate +20. P. Def. +400. M. Def. +400. Skill Power +3.5%. Ring M. Def. <font color=eeaa22>+10</font>. Earring M. Def. <font color=eeaa22>+10</font>. Necklace M. Def. <font color=eeaa22>+10</font>. Boosts stats when in inventory. <font color=ff6666><Compounding fee></font>. Summer Upgrade Rune Lv. 1-9: 30,000 adena required -->
+		<set name="icon" val="icon.skill19226" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="104413" name="Summer Upgrade Rune Lv. 9 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be leveled up through compounding with <font color=EEAA22>Growth Rune Fragments</font>. <font color=bbaa88><Properties></font>. P. Atk. +210. M. Atk. +210. Acquired XP/ SP +30%. MP Recovery Rate +20. P. Def. +400. M. Def. +400. Skill Power +3.5%. Ring M. Def. <font color=eeaa22>+10</font>. Earring M. Def. <font color=eeaa22>+10</font>. Necklace M. Def. <font color=eeaa22>+10</font>. Boosts stats when in inventory. -->
+		<set name="icon" val="icon.skill19226" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="104414" name="Summer Festival's Spec Support Ticket - Jewel (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.voucher_lev_95" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104415" name="Summer Festival's Spec Support Ticket - Rare Accessory (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.voucher_lev_97" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104416" name="Fire Spirit King Ignis" additionalName="Sealed" type="Armor">
+		<!-- Agathion Fire Spirit King Ignis. Can be enchanted with Scroll: Enchant Ornaments. Max enchant value: +5. When equipped, automatically summons the agathion. <font color=ff6666>Note!</font>. When equipped with Agathion Aquarius/ Leo, only the Agathion Ignis effect is active. Effects of two or more agathions with the same name do not stack -->
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="enchant_limit" val="5" />
+		<skills>
+			<skill id="50326" level="1" type="ON_EQUIP" /> <!-- Summon Agathion Fire Spirit King Ignis -->
+			<skill id="54018" level="1" type="ON_UNEQUIP" /> <!-- Unsummon Agathion -->
+			<skill id="50321" level="12" /> <!-- Fire Spirit King Ignis -->
+			<skill id="50321" level="13" type="ON_ENCHANT" type_value="1" /> <!-- +1 Fire Spirit King Ignis -->
+			<skill id="50321" level="14" type="ON_ENCHANT" type_value="2" /> <!-- +2 Fire Spirit King Ignis -->
+			<skill id="50321" level="15" type="ON_ENCHANT" type_value="3" /> <!-- +3 Fire Spirit King Ignis -->
+			<skill id="50321" level="16" type="ON_ENCHANT" type_value="4" /> <!-- +4 Fire Spirit King Ignis -->
+			<skill id="50321" level="17" type="ON_ENCHANT" type_value="5" /> <!-- +5 Fire Spirit King Ignis -->
+		</skills>
+	</item>
+	<item id="104417" name="Water Spirit Queen Nebula" additionalName="Sealed" type="Armor">
+		<!-- Agathion Water Spirit Queen Nebula. Can be enchanted with Scroll: Enchant Ornaments. Max enchant value: +5. When equipped, automatically summons the agathion. <font color=ff6666>Note!</font>. When equipped with Agathion Scorpio/ Capricorn, only the Agathion Nebula effect is active. Effects of two or more agathions with the same name do not stack -->
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="enchant_limit" val="5" />
+		<skills>
+			<skill id="50327" level="1" type="ON_EQUIP" /> <!-- Summon Agathion Water Spirit Queen Nebula -->
+			<skill id="54018" level="1" type="ON_UNEQUIP" /> <!-- Unsummon Agathion -->
+			<skill id="50322" level="12" /> <!-- Water Spirit Queen Nebula -->
+			<skill id="50322" level="13" type="ON_ENCHANT" type_value="1" /> <!-- +1 Water Spirit Queen Nebula -->
+			<skill id="50322" level="14" type="ON_ENCHANT" type_value="2" /> <!-- +2 Water Spirit Queen Nebula -->
+			<skill id="50322" level="15" type="ON_ENCHANT" type_value="3" /> <!-- +3 Water Spirit Queen Nebula -->
+			<skill id="50322" level="16" type="ON_ENCHANT" type_value="4" /> <!-- +4 Water Spirit Queen Nebula -->
+			<skill id="50322" level="17" type="ON_ENCHANT" type_value="5" /> <!-- +5 Water Spirit Queen Nebula -->
+		</skills>
+	</item>
+	<item id="104418" name="Wind Spirit King Procella" additionalName="Sealed" type="Armor">
+		<!-- Agathion Wind Spirit King Procella. Can be enchanted with Scroll: Enchant Ornaments. Max enchant value: +5. When equipped, automatically summons the agathion. <font color=ff6666>Note!</font>. When equipped with Agathion Libra/ Sagittarius, only the Agathion Procella effect is active. Effects of two or more agathions with the same name do not stack -->
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="enchant_limit" val="5" />
+		<skills>
+			<skill id="50328" level="1" type="ON_EQUIP" /> <!-- Summon Agathion Wind Spirit King Procella -->
+			<skill id="54018" level="1" type="ON_UNEQUIP" /> <!-- Unsummon Agathion -->
+			<skill id="50323" level="12" /> <!-- Wind Spirit King Procella -->
+			<skill id="50323" level="13" type="ON_ENCHANT" type_value="1" /> <!-- +1 Wind Spirit King Procella -->
+			<skill id="50323" level="14" type="ON_ENCHANT" type_value="2" /> <!-- +2 Wind Spirit King Procella -->
+			<skill id="50323" level="15" type="ON_ENCHANT" type_value="3" /> <!-- +3 Wind Spirit King Procella -->
+			<skill id="50323" level="16" type="ON_ENCHANT" type_value="4" /> <!-- +4 Wind Spirit King Procella -->
+			<skill id="50323" level="17" type="ON_ENCHANT" type_value="5" /> <!-- +5 Wind Spirit King Procella -->
+		</skills>
+	</item>
+	<item id="104419" name="Earth Spirit King Petram" additionalName="Sealed" type="Armor">
+		<!-- Agathion Earth Spirit King Petram. Can be enchanted with Scroll: Enchant Ornaments. Max enchant value: +5. When equipped, automatically summons the agathion. <font color=ff6666>Note!</font>. When equipped with Agathion Taurus/ Virgo, only the Agathion Petram effect is active. Effects of two or more agathions with the same name do not stack -->
+		<set name="default_action" val="EQUIP" />
+		<set name="bodypart" val="agathion" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="SILVER" />
+		<set name="weight" val="50" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="enchant_limit" val="5" />
+		<skills>
+			<skill id="50329" level="1" type="ON_EQUIP" /> <!-- Summon Agathion Earth Spirit King Petram -->
+			<skill id="54018" level="1" type="ON_UNEQUIP" /> <!-- Unsummon Agathion -->
+			<skill id="50324" level="12" /> <!-- Earth Spirit King Petram -->
+			<skill id="50324" level="13" type="ON_ENCHANT" type_value="1" /> <!-- +1 Earth Spirit King Petram -->
+			<skill id="50324" level="14" type="ON_ENCHANT" type_value="2" /> <!-- +2 Earth Spirit King Petram -->
+			<skill id="50324" level="15" type="ON_ENCHANT" type_value="3" /> <!-- +3 Earth Spirit King Petram -->
+			<skill id="50324" level="16" type="ON_ENCHANT" type_value="4" /> <!-- +4 Earth Spirit King Petram -->
+			<skill id="50324" level="17" type="ON_ENCHANT" type_value="5" /> <!-- +5 Earth Spirit King Petram -->
+		</skills>
+	</item>
+	<item id="104420" name="Agathion Joy - Will be Added Later" additionalName="Sealed" type="Armor">
+		<!-- An agathion imbued with the power of joy. Can be enchanted with Scroll: Enchant Ornaments. Max enchant value: +10. Greater Upgrade Stone can be used from +5 to +7. Transcendent Upgrade Stone can be used from +8 and higher. Equipping it in the main slot summons Agathion Joy. <font color=ff6666>Note!</font>. If equipped with Agathion Gemini, only the Agathion Joy's effect is applied. Effects of two or more agathions with the same name do not stack -->
+		<set name="default_action" val="EQUIP" />
+		<set name="immediate_effect" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104421" name="Guardian Book Coupon - Master" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 Guardian Book - Pet's Protection <font color=00FF00>(exchangeable)</font> of your choice. -->
+		<set name="icon" val="icon.etc_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104422" name="Guardian Glassia's Box" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104423" name="Guardian Vulcan's Box" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104424" name="Guardian Raven's Box" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i05" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104425" name="Beoro's Pack" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104426" name="Spellbook: Hyper Rush" additionalName="Not available" type="EtcItem">
+		<!-- A spellbook for learning the Hyper Rush skill. <Class>. Titan. <Skill effect>. Charges at the target dealing AoE damage and decreasing Knockback Resistance. -->
+		<set name="icon" val="icon.etc_spell_books_hfighter_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104427" name="Spellbook: Titan Champion: Master" type="EtcItem">
+		<!-- A spellbook for learning the Titan Champion: Master skill. <Class>. Titan. <Skill effect>. <font color="FFBB00">Base effect</font>. Increases Max HP (momentarily recovers bonus HP). Increases P. Atk. Increases M. Def. Increases P. Def. Increases Critical Rate for basic attacks and P. skills. Increases Critical Damage for basic attacks and P. skills. Increases P. Skill Damage. Increases Knockback/ Knockdown/ Fear Atk. Rate. Increases Knockback/ Knockdown/ Hold Resistance. Increases Speed. When used, deals AoE damage and applies <font color=FFFF00>Titan's Charisma and Defense Break</font> on enemies. <font color=FFFF00>Titan's Charisma</font>. Inflicts Fear on nearby enemies. <font color=FFFF00>Defense Break</font>. Decreases P. Def. of nearby enemies. <Skill upgrade>. Final Secret → <font color=FF6666>Champion's Final Secret: Titan</font>. <font color=FF6666><Champion's Final Secret: Titan></font>. When used, applies <font color=FFFF00><Titan's Weapon></font>. <font color=FFFF00><Titan's Weapon></font>. Your two-handed sword is growing bigger. While the effect is active, knocks the enemy down on attack (including basic attacks and some skills) with a certain chance. -->
+		<set name="icon" val="icon.etc_spell_books_hfighter_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104428" name="Spellbook: Hyper Rush" additionalName="Not available - Sealed" type="EtcItem">
+		<!-- A spellbook for learning the Hyper Rush skill. <Class>. Titan. <Skill effect>. Charges at the target dealing AoE damage and decreasing Knockback Resistance. -->
+		<set name="icon" val="icon.etc_spell_books_hfighter_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104429" name="Spellbook: Titan Champion: Master" additionalName="Sealed" type="EtcItem">
+		<!-- A spellbook for learning the Titan Champion: Master skill. <Class>. Titan. <Skill effect>. <font color="FFBB00">Base effect</font>. Increases Max HP (momentarily recovers bonus HP). Increases P. Atk. Increases M. Def. Increases P. Def. Increases Critical Rate for basic attacks and P. skills. Increases Critical Damage for basic attacks and P. skills. Increases P. Skill Damage. Increases Knockback/ Knockdown/ Fear Atk. Rate. Increases Knockback/ Knockdown/ Hold Resistance. Increases Speed. When used, deals AoE damage and applies <font color=FFFF00>Titan's Charisma and Defense Break</font> on enemies. <font color=FFFF00>Titan's Charisma</font>. Inflicts Fear on nearby enemies. <font color=FFFF00>Defense Break</font>. Decreases P. Def. of nearby enemies. <Skill upgrade>. Final Secret → <font color=FF6666>Champion's Final Secret: Titan</font>. <font color=FF6666><Champion's Final Secret: Titan></font>. When used, applies <font color=FFFF00><Titan's Weapon></font>. <font color=FFFF00><Titan's Weapon></font>. Your two-handed sword is growing bigger. While the effect is active, knocks the enemy down on attack (including basic attacks and some skills) with a certain chance. -->
+		<set name="icon" val="icon.etc_spell_books_hfighter_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104430" name="Package: Blessed Soul (2000 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="BranchSys.icon.br_sevenlove_stone_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104431" name="Package: Blessed Soul (1000 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="BranchSys.icon.br_sevenlove_stone_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104432" name="Package: Blessed Soul (500 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="BranchSys.icon.br_sevenlove_stone_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104433" name="Blessed Soul (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain Spirit Agathion Exchange Coupon (Time-limited) (2 pcs.), or to use the item as a material in the special craft. -->
+		<set name="icon" val="BranchSys.icon.br_sevenlove_stone_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104434" name="Transcendent Might - Spirit Rulers' Treasure (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_pirate_battle_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104435" name="Woeful Sword - One-handed Sword" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_cutter" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="104436" name="Woeful Sword - Dagger" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_shaper" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DAGGER" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="106" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="104437" name="Woeful Sword - Two-handed Sword" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_slasher" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="SWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="104438" name="Woeful Sword - Fist Weapon" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_fist" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="FIST" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="152" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+	</item>
+	<item id="104439" name="Woeful Sword - Spear" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_spear" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="POLE" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="205" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<skills>
+			<skill id="3599" level="1" /> <!-- Polearm Multiattack -->
+		</skills>
+		<stats>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+	</item>
+	<item id="104440" name="Woeful Sword - Bow" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_bow" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="181" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
+	</item>
+	<item id="104441" name="Woeful Sword - One-handed Blunt Weapon" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_onehand_blunt" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="104442" name="Woeful Sword - Two-handed Blunt Weapon" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_slasher" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="104443" name="Woeful Sword - One-handed Magic Blunt Weapon" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_onehand_magic_blunt" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="172" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="104444" name="Woeful Sword - Two-handed Magic Blunt Weapon" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_twohand_magic_blunt" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="101" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="randomDamage">20</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+	</item>
+	<item id="104445" name="Woeful Sword - Dual Swords" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_dual_sword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="247" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="104446" name="Woeful Sword - Ancient Sword" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_ancientsword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="ANCIENTSWORD" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="209" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="104447" name="Woeful Sword - Rapier" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_onehane_magic_sword" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="RAPIER" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="144" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="randomDamage">10</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+	</item>
+	<item id="104448" name="Woeful Sword - Firearms" additionalName="Not available" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.aegis_gun" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="PISTOLS" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FINE_STEEL" />
+		<set name="weight" val="1820" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="pAtk">191</stat>
+			<stat type="mAtk">39</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+	</item>
+	<item id="104449" name="Woeful Sword - Orb" additionalName="Not available" type="Weapon">
+		<!-- An original appearance-modifying item. -->
+		<set name="icon" val="icon.white_day_twohandstaff_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BLUNT" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="WOOD" />
+		<set name="weight" val="880" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_magic_weapon" val="true" />
+		<stats>
+			<stat type="pAtk">270</stat>
+			<stat type="mAtk">224</stat>
+			<stat type="pAtkSpd">325</stat>
+			<stat type="randomDamage">19</stat>
+			<stat type="pAtkRange">80</stat>
+		</stats>
+	</item>
+	<item id="104450" name="Package: Spirit Rulers' Craft Coupon (2000 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_challenger_wp_ench_ticket" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104451" name="Package: Spirit Rulers' Craft Coupon (1000 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_challenger_wp_ench_ticket" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104452" name="Package: Spirit Rulers' Craft Coupon (500 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_challenger_wp_ench_ticket" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104453" name="Spirit Rulers' Craft Coupon (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Required for creating various items through the special craft. -->
+		<set name="icon" val="icon.bm_challenger_wp_ench_ticket" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104454" name="Spirit Rulers' Transcendent Trophies (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_pirate_battle_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104455" name="Queen Ant's Soul (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.bm_soul_of_undead" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104456" name="Orfen's Soul (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.bm_rare_soul_of_undead" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104457" name="Zaken's Soul (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.bm_unique_soul_of_undead" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104458" name="Baium's Soul (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.bm_soul_of_shilen" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104459" name="Frintezza's Soul (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.bm_highest_soul_of_undead" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104460" name="Challenge Pack: +0 ~ +3 Rare Accessory (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_sayha_silver_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104461" name="Enchant Package: +5 Boss Weapon (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i09" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104462" name="Enchant Package: +5 Special Armor (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i11" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104463" name="Special Enhancement Package (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.festival_question_box_i01" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104464" name="Package: Spirit Agathion Exchange Coupon (2000 pcs.)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_agathion_ticket_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104465" name="Package: Spirit Agathion Exchange Coupon (1000 pcs.)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_agathion_ticket_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104466" name="Package: Spirit Agathion Exchange Coupon (500 pcs.)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_agathion_ticket_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104467" name="Package: Spirit Rulers' Craft Coupon (5000 pcs.) (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_challenger_wp_ench_ticket" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104468" name="Package: Spirit Agathion Exchange Coupon (5000 pcs.)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_agathion_ticket_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104469" name="Spirit Rulers' Huge Chest (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_pirate_battle_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104470" name="Scroll of Escape: Baium's Lair" type="EtcItem">
+		<!-- Teleports to Baium's Lair. <Hunting zone>. Tower of Insolence - World Hunting Zone -->
+		<set name="icon" val="icon.etc_scroll_of_return_i04" />
+		<set name="default_action" val="SKILL_REDUCE_ON_SKILL_SUCCESS" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104471" name="Kit: Hidden Power Booster" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_sayhas_talisman_box" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104472" name="Sealed Selected Dye Coupon Lv. 30 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.dye_trade_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104473" name="Sealed Selected Dye Coupon Lv. 25 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.dye_trade_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104474" name="Great Dye Ticket (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain 1 useful item of your choice. -->
+		<set name="icon" val="icon.dye_trade_ticket_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104475" name="+3 Rare Accessory Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.bm_sayha_silver_present" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104476" name="H.O.T Word Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_blue" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<!-- Opening the box grants one of the following items with a certain chance. -->
+			<item id="3880" min="1" max="1" chance="33" /> <!-- Letter H (Time-limited) - Sealed -->
+			<item id="3884" min="1" max="1" chance="33" /> <!-- Letter O (Time-limited) - Sealed -->
+			<item id="3887" min="1" max="1" chance="34" /> <!-- Letter T (Time-limited) - Sealed -->
+		</capsuled_items>
+	</item>
+	<item id="104477" name="S.U.M.M.E.R Word Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<!-- Opening the box grants one of the following items with a certain chance. -->
+			<item id="3877" min="1" max="1" chance="20" /> <!-- Letter E (Time-limited) - Sealed -->
+			<item id="3885" min="1" max="1" chance="20" /> <!-- Letter R (Time-limited) - Sealed -->
+			<item id="3886" min="1" max="1" chance="20" /> <!-- Letter S (Time-limited) - Sealed -->
+			<item id="34956" min="1" max="1" chance="20" /> <!-- Letter M (Time-limited) - Sealed -->
+			<item id="93413" min="1" max="1" chance="20" /> <!-- Letter U (Time-limited) - Sealed -->
+		</capsuled_items>
+	</item>
+	<item id="104478" name="Special H.O.T Word Reward Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<!-- Opening the box grants the following items with a 100% chance. -->
+			<item id="103178" min="2" max="2" chance="100" /> <!-- Package: Scroll: Boost Attack/ Defense and XP Scroll (5 pcs.) (Time-limited) - Sealed -->
+			<item id="104179" min="1" max="1" chance="100" /> <!-- Berserker's Scroll (Time-limited) - Sealed -->
+			<item id="98471" min="10" max="10" chance="100" /> <!-- Soulshot Ticket (Time-limited) - Sealed -->
+		</capsuled_items>
+	</item>
+	<item id="104479" name="Special S.U.M.M.E.R Word Reward Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<capsuled_items>
+			<!-- Opening the box grants the following items with a 100% chance. -->
+			<item id="97597" min="15" max="15" chance="100" /> <!-- Selected Jewel Coupon - Sealed -->
+			<item id="98471" min="5" max="5" chance="100" /> <!-- Soulshot Ticket (Time-limited) - Sealed -->
+			<item id="98917" min="5" max="5" chance="100" /> <!-- Talisman Coupon (Time-limited) - Sealed -->
+		</capsuled_items>
+	</item>
+	<item id="104480" name="H.O.T Letter Ticket (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be exchanged for various items, or used as a material in the special craft. -->
+		<set name="icon" val="icon.red_save_ticket" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104481" name="S.U.M.M.E.R Letter Ticket (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be exchanged for various items, or used as a material in the special craft. -->
+		<set name="icon" val="icon.blue_save_ticket" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104482" name="L.I.N.E.A.G.E.II Letter Ticket (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Can be exchanged for various items, or used as a material in the special craft. -->
+		<set name="icon" val="icon.bm_royal_gold_ticket_all" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104483" name="Special H.O.T Word Reward Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104484" name="Special S.U.M.M.E.R Word Reward Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104485" name="Lucky Package: Enchant Scroll (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.L_scrl_of_ench_wp" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104486" name="Jewelry Box Lv. 6 (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_bm_jewelbox_main_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104487" name="+2 ~ +3 Rare Accessory Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104488" name="+8 ~ +9 Special Equipment Pack (Time-limited)" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104489" name="Guardian's Locket" type="Armor">
+		<!-- A locket for a guardian. Can be enchanted with Scroll: Enchant Ornaments. Max enchant value: +5 -->
+		<set name="default_action" val="EQUIP" />
+		<set name="immediate_effect" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="mDef">104</stat>
+		</stats>
+	</item>
+	<item id="104490" name="Guardian's Locket" additionalName="Sealed" type="Armor">
+		<!-- A locket for a guardian. Can be enchanted with Scroll: Enchant Ornaments. Max enchant value: +5 -->
+		<set name="default_action" val="EQUIP" />
+		<set name="immediate_effect" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+		<stats>
+			<stat type="mDef">104</stat>
+		</stats>
+	</item>
+	<item id="104491" name="Guardian Book - Pet's Protection" type="EtcItem">
+		<!-- A book for learning the Pet's Protection skill. Guardians: Wolf/ Buffalo/ Tiger/ Kookaburra/ Dragon/ Hawk/ Fox. -->
+		<set name="icon" val="icon.guardian_skill_book_yellow" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104492" name="Guardian Book - Pet's Protection" additionalName="Sealed" type="EtcItem">
+		<!-- A book for learning the Pet's Protection skill. Guardians: Wolf/ Buffalo/ Tiger/ Kookaburra/ Dragon/ Hawk/ Fox. -->
+		<set name="icon" val="icon.guardian_skill_book_yellow" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104493" name="Package: Time Stone" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="Icon.timezone_refill_new_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104494" name="Guardian Glassia's Box" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104495" name="Guardian Vulcan's Box" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104496" name="Guardian Raven's Box" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i05" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104497" name="Beoro's Pack" additionalName="Sealed" type="EtcItem">
+		<!-- Double-click to obtain various items. -->
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104498" name="Spellbook: Crossed Blades" additionalName="Not available" type="EtcItem">
+		<!-- A spellbook for learning the Crossed Blades skill. <Class>. Duelist. <Skill effect>. Increases P. Atk. <Skill upgrade>. Slashing Blade → Slashing Blade: Slash. Blade Punishment → Blade Punishment: Slash. Blade Wave → Blade Wave: Slash -->
+		<set name="icon" val="icon.etc_magic_book_red_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="104499" name="Spellbook: Crossed Blades" additionalName="Not available - Sealed" type="EtcItem">
+		<!-- A spellbook for learning the Crossed Blades skill. <Class>. Duelist. <Skill effect>. Increases P. Atk. <Skill upgrade>. Slashing Blade → Slashing Blade: Slash. Blade Punishment → Blade Punishment: Slash. Blade Wave → Blade Wave: Slash -->
+		<set name="icon" val="icon.etc_magic_book_red_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

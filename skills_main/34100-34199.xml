@@ -1,0 +1,2276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="34100" toLevel="1" name="Fatal Smash">
+		<!-- Throws your sword into the target stunning them. The effect cannot be removed or resisted. -->
+		<icon>icon.skill0362</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>5</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1500</hitTime>
+		<isMagic>6</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34101" toLevel="1" name="Fatal Thunder Break">
+		<icon>icon.skill0362</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>2000</hitTime>
+		<isMagic>6</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34102" toLevel="1" name="AB Circle">
+		<!-- replace skills A-B -->
+		<icon>icon.skill7029</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>1200</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<effectPoint>1</effectPoint>
+		<hitTime>0</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34103" toLevel="1" name="BC Circle">
+		<!-- replace skills B-C -->
+		<icon>icon.skill7029</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>1200</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<effectPoint>1</effectPoint>
+		<hitTime>0</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34104" toLevel="1" name="CD Circle">
+		<!-- replace skills C-D -->
+		<icon>icon.skill7029</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>1200</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<effectPoint>1</effectPoint>
+		<hitTime>0</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34105" toLevel="1" name="DA Circle">
+		<!-- replace skills D-A -->
+		<icon>icon.skill7029</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>1200</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<effectPoint>1</effectPoint>
+		<hitTime>0</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34106" toLevel="1" name="AC Circle and Priority">
+		<!-- replace skills A-C -->
+		<icon>icon.skill7029</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>1200</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<effectPoint>1</effectPoint>
+		<hitTime>0</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34107" toLevel="1" name="Block replace">
+		<!-- replace skill A Block -->
+		<icon>icon.skill7029</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>1200</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<effectPoint>1</effectPoint>
+		<hitTime>0</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34108" toLevel="1" name="Blade of Souls">
+		<!-- Common. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SQUARE</affectScope>
+		<attributeType>DARK</attributeType>
+		<attributeValue>2000</attributeValue>
+		<castRange>400</castRange>
+		<coolTime>600</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>400</effectRange>
+		<fanRange>0;0;500;500</fanRange>
+		<hitTime>1300</hitTime>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>127</magicLevel>
+		<reuseDelay>1000</reuseDelay> 
+		<effects>
+			<effect name="MagicalDamage">
+				<power>28000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34109" toLevel="1" name="Blade Temptation">
+		<!-- Pulls enemies around the target stunning them. -->
+		<icon>icon.skill0100</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>4</abnormalLevel>
+		<abnormalTime>6</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>70</activateRate>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>150</affectRange>
+		<affectRange>500</affectRange>
+		<affectScope>RANGE</affectScope>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>2000</castRange>
+		<coolTime>1200</coolTime>
+		<effectPoint>-711</effectPoint>
+		<effectRange>2000</effectRange>
+		<hitCancelTime>1</hitCancelTime>
+		<hitTime>5000</hitTime>
+		<isDebuff>true</isDebuff>
+		<lvlBonusRate>20</lvlBonusRate>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>127</magicLevel>
+		<nextAction>ATTACK</nextAction>
+		<reuseDelay>10000</reuseDelay>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>158600000</power>
+				<overHit>true</overHit>
+				<criticalChance>100</criticalChance>
+			</effect>
+			<effect name="KnockBack">
+				<speed>400</speed>
+				<distance>150</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SHOCK>100</SHOCK>
+				<AIRBIND>100</AIRBIND>
+				<SLEEP>100</SLEEP>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34110" toLevel="1" name="Price for Temptation">
+		<!-- Immediately after pulling. -->
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>1</abnormalTime>
+		<activateRate>900</activateRate>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>400</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>DARK</attributeType>
+		<attributeValue>2000</attributeValue>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>800</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitCancelTime>1</hitCancelTime>
+		<hitTime>2000</hitTime>
+		<isMagic>7</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>105</magicLevel>
+		<magicLevel>127</magicLevel>
+		<reuseDelay>5000</reuseDelay>
+		<trait>SHOCK</trait>
+			<effects>
+			<effect name="PhysicalDamage">
+				<power>9800000</power>
+				<overHit>true</overHit>
+				<criticalChance>
+					<value fromLevel="1" toLevel="9">9</value>
+					<value fromLevel="1" toLevel="9" fromSubLevel="2001" toSubLevel="2020">{base + (base / 100 * subIndex)}</value>
+				</criticalChance>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34111" toLevel="2" name="Teleport">
+		<!-- Level 1: Presentation skill for starting teleportation. -->
+		<!-- Level 2: Presentation skill for finishing teleportation. -->
+		<icon>icon.skill10516</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>60</activateRate>
+		<activateRate>900</activateRate>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>2000</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<coolTime>1000</coolTime>
+		<effectRange>400</effectRange>
+		<hitTime>0</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>120</magicLevel>
+		<reuseDelay>0</reuseDelay>
+		<trait>PULL</trait>
+		<effects>
+			<effect name="PullBack">
+				<speed>600</speed>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34112" toLevel="1" name="World End">
+		<!-- Deals great and even fatal damage to nearby enemies knocking them back. The effect cannot be removed or resisted. -->
+		<icon>icon.skill1072</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>10</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<coolTime>1000</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>10000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34113" toLevel="1" name="Dark Wave Spray">
+		<!-- A wave moves in all directions dealing AoE damage and knocking down. The effect cannot be removed or resisted. -->
+		<icon>icon.skill3080</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>7</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>60</activateRate>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>1100</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<attributeType>DARK</attributeType>
+		<attributeValue>2000</attributeValue>
+		<basicProperty>NONE</basicProperty>
+		<castRange>1000</castRange>
+		<coolTime>1100</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>5500</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>127</magicLevel>
+		<reuseDelay>10000</reuseDelay>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>158600000</power>
+				<overHit>true</overHit>
+				<criticalChance>
+					<value fromLevel="1" toLevel="9">9</value>
+					<value fromLevel="1" toLevel="9" fromSubLevel="2001" toSubLevel="2020">{base + (base / 100 * subIndex)}</value>
+				</criticalChance>
+			</effect>
+			<effect name="KnockBack">
+				<speed>400</speed>
+				<distance>150</distance>
+			<knockDown>true</knockDown>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SHOCK>100</SHOCK>
+				<AIRBIND>100</AIRBIND>
+				<SLEEP>100</SLEEP>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34114" toLevel="1" name="Gate of Thousand Flashes">
+		<!-- Deals great damage to nearby enemies knocking them down. The effect cannot be removed or resisted. -->
+		<icon>icon.skill3080</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>10</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<coolTime>1000</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>4000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34115" toLevel="1" name="Tear to Shreds">
+		<!-- Dark energy deals great damage to enemy and knocks them down. The effect cannot be removed or resisted. -->
+		<icon>icon.skill33915</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>KNOCKDOWN</abnormalType>
+		<abnormalVisualEffect>KNOCKDOWN</abnormalVisualEffect>
+		<activateRate>50</activateRate>
+		<activateRate>70</activateRate>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>SQUARE</affectScope>
+		<attributeType>DARK</attributeType>
+		<attributeValue>2000</attributeValue>
+		<basicProperty>PHYSICAL</basicProperty>
+		<castRange>500</castRange>
+		<coolTime>1200</coolTime>
+		<effectPoint>-716</effectPoint>
+		<effectRange>2600</effectRange>
+		<fanRange>0;0;1400;250</fanRange>
+		<hitCancelTime>1</hitCancelTime>
+		<hitTime>2600</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>0</isMagic>
+		<magicCriticalRate>50</magicCriticalRate>
+		<magicLevel>127</magicLevel>
+		<reuseDelay>5000</reuseDelay>
+		<trait>KNOCKDOWN</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>169600000</power>
+				<overHit>true</overHit>
+				<criticalChance>
+					<value fromLevel="1" toLevel="9">9</value>
+					<value fromLevel="1" toLevel="9" fromSubLevel="2001" toSubLevel="2020">{base + (base / 100 * subIndex)}</value>
+				</criticalChance>
+			</effect>
+			<effect name="KnockBack">
+				<speed>400</speed>
+				<distance>250</distance>
+				<knockDown>true</knockDown>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<KNOCKDOWN>100</KNOCKDOWN>
+				<SHOCK>100</SHOCK>
+				<AIRBIND>100</AIRBIND>
+				<SLEEP>100</SLEEP>
+				<KNOCKBACK>100</KNOCKBACK>
+				<CHANGEBODY>100</CHANGEBODY>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34116" toLevel="1" name="Dark Shadow Clash">
+		<!-- Deals great damage to nearby enemies knocking them down. The more enemies in the area of attack, the more damage they receive. -->
+		<icon>icon.skill1064</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>2</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<activateRate>900</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>POINT_BLANK</affectScope>
+		<coolTime>500</coolTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>6000</hitTime>
+		<isMagic>7</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>105</magicLevel>
+		<reuseDelay>8000</reuseDelay>
+	</skill>
+	<skill id="34117" toLevel="1" name="Dark Protection">
+		<!-- Dark energy protects you. Strikes attacking enemies with Dark Attack knocking them down. -->
+		<icon>icon.skill32522</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>10</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+		<hitTime>0</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<mpConsume>1</mpConsume>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34118" toLevel="1" name="Dark Attack">
+		<!-- A powerful attack that knocks the target down. -->
+		<icon>icon.skill6441</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalTime>20</abnormalTime>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>RANGE</affectScope>
+		<castRange>2000</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>0</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34119" toLevel="1" name="Dark Energy Change">
+		<!-- Eigis' dark energy swirls around you granting resistance to World End. -->
+		<icon>icon.skill32570</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>15</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+		<hitTime>0</hitTime>
+		<isMagic>4</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<mpConsume>1</mpConsume>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34120" toLevel="1" name="Remove Invincibility">
+		<!-- Removes the invincibility effect and prevents from applying it again. -->
+		<icon>icon.skill0535</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>3</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<castRange>-1</castRange>
+		<effectPoint>-100</effectPoint>
+		<hitTime>0</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<conditions>
+			<condition name="OpTargetPc" />
+		</conditions>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>DISARM;INVINCIBILITY_SPECIAL;INVINCIBILITY;ABNORMAL_INVINCIBILITY;RACE_ORC1;RACE_ORC2</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>INVINCIBILITY_SPECIAL</slot>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>INVINCIBILITY</slot>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>ABNORMAL_INVINCIBILITY</slot>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>RACE_ORC1</slot>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>RACE_ORC2</slot>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>0</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34121" toLevel="1" name="Test Effect night">
+		<!-- At night combat abilities are enhanced. Test data. P. Atk./ M. Atk./ P. Def./ M. Def. +100%, Max HP/ MP/ CP +1000, M. Accuracy +50, Atk. Spd./ Casting Spd./ Speed +50, LUC/ CHA +10, Attribute Attack 100, Attribute Resistance +25. -->
+		<icon>icon.skill1343</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="34122" toLevel="1" name="Moonlit Night of Conquest">
+		<!-- At night P. Accuracy and M. Accuracy are increased. Also increases P. Atk./ M. Atk./ P. Def./ M. Def., Attribute Attack/ Resistance. -->
+		<icon>icon.skill1343</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="NightStatModify">
+				<stat>ACCURACY_COMBAT</stat>
+				<amount>8</amount>
+			</effect>
+			<effect name="NightStatModify">
+				<stat>ACCURACY_MAGIC</stat>
+				<amount>8</amount>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>200</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>200</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>200</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>200</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AttackAttributeAdd">
+				<amount>1000</amount>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>1000</amount>
+				<attribute>FIRE,WATER,WIND,EARTH,DARK,HOLY</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34123" toLevel="1" name="Shadowy Night of Conquest">
+		<!-- At night P. Accuracy and M. Accuracy are increased. Also increases P. Atk./ M. Atk./ P. Def./ M. Def., Attribute Attack/ Resistance. -->
+		<icon>icon.skill1343</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="NightStatModify">
+				<stat>ACCURACY_COMBAT</stat>
+				<amount>8</amount>
+			</effect>
+			<effect name="NightStatModify">
+				<stat>ACCURACY_MAGIC</stat>
+				<amount>8</amount>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>200</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>200</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>200</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>200</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AttackAttributeAdd">
+				<amount>1000</amount>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>1000</amount>
+				<attribute>FIRE,WATER,WIND,EARTH,DARK,HOLY</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34124" toLevel="1" name="Gloomy Night of Conquest">
+		<!-- At night P. Accuracy and M. Accuracy are increased. Also greatly increases P. Atk./ M. Atk./ P. Def./ M. Def., Attribute Attack/ Resistance. -->
+		<icon>icon.skill1343</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="34125" toLevel="1" name="Dark Night of Conquest">
+		<!-- At night P. Accuracy and M. Accuracy are increased. Also greatly increases P. Atk./ M. Atk./ P. Def./ M. Def., Attribute Attack/ Resistance. -->
+		<icon>icon.skill1343</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="34126" toLevel="1" name="Darkest Night of Conquest">
+		<!-- At night P. Accuracy and M. Accuracy are increased. Also greatly increases P. Atk./ M. Atk./ P. Def./ M. Def., Attribute Attack/ Resistance. -->
+		<icon>icon.skill1343</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="34127" toLevel="1" name="Light Strike">
+		<!-- An attack skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34128" toLevel="1" name="Destruction of Light">
+		<!-- A mass skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>100</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>7000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34129" toLevel="1" name="Light Strike">
+		<!-- An attack skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34130" toLevel="1" name="Destruction of Light">
+		<!-- A mass skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>100</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>7000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34131" toLevel="1" name="Docile Rush">
+		<!-- An animal is approaching. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34132" toLevel="1" name="Docile Attack">
+		<!-- An animal is attacking. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34133" toLevel="1" name="Asa's Life Force Rush">
+		<!-- Charge. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34134" toLevel="1" name="Asa's Life Force Attack">
+		<!-- Attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>200</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34135" toLevel="1" name="Asa's Life Force Destruction">
+		<!-- An AoE attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>100</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>7000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34136" toLevel="1" name="Asa's Energy Spike">
+		<!-- A basic magic skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34137" toLevel="1" name="Asa's Energy Crash">
+		<!-- A magic attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34138" toLevel="1" name="Asa's Energy Blast">
+		<!-- An AoE magic skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>100</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34139" toLevel="1" name="Asa's Powerful Shot">
+		<!-- A ranged attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1100</effectRange>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>28833</power> <!-- Fix: Retail Missed -->
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34140" toLevel="1" name="Asa's Multishot">
+		<!-- An AoE ranged attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>FAN</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1100</effectRange>
+		<fanRange>0;0;900;90</fanRange>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34141" toLevel="1" name="Light Docile Rush">
+		<!-- An animal is approaching. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34142" toLevel="1" name="Light Docile Attack">
+		<!-- An animal is attacking. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34143" toLevel="1" name="Light Docile Crash">
+		<!-- Because of great damage, P. Atk./ M. Atk./ P. Def./ M. Def. -25%. Inflicted status: Debilitation. -->
+		<icon>icon.skill1092</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>200</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34144" toLevel="1" name="Asa's Advanced Life Force Rush">
+		<!-- Charge. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34145" toLevel="1" name="Asa's Advanced Life Force Attack">
+		<!-- Attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>200</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34146" toLevel="1" name="Asa's Advanced Life Force Destruction">
+		<!-- Your armor is cracked, P./ M. Def. -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill30851</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>200</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34147" toLevel="1" name="Asa's Advanced Energy Spike">
+		<!-- A basic magic skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34148" toLevel="1" name="Asa's Advanced Energy Crash">
+		<!-- A magic attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34149" toLevel="1" name="Asa's Advanced Energy Blast">
+		<!-- Your weapon is cracked, P./ M. Atk. -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill0485</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34150" toLevel="1" name="Asa's Advanced Powerful Shot">
+		<!-- A ranged attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>FAN</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1100</effectRange>
+		<fanRange>0;0;900;90</fanRange>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34151" toLevel="1" name="Asa's Advanced Multishot">
+		<!-- You are seriously wounded from a bow attack, Atk. Spd. -1000, Casting Spd. -1500. Inflicted status: Debilitation. -->
+		<icon>icon.skill0101</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;0;400;90</fanRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttackSpeed">
+				<amount>-1000</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>-1500</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34152" toLevel="1" name="Soft Docile Rush">
+		<!-- An animal is approaching. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34153" toLevel="1" name="Soft Docile Attack">
+		<!-- Because of great damage, P. Atk./ M. Atk./ P. Def./ M. Def. -25%. Inflicted status: Debilitation. -->
+		<icon>icon.skill1092</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34154" toLevel="1" name="Soft Docile Crash">
+		<!-- The changed appearance inflicts Fear on enemies. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill11351</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>TURN_FLEE</abnormalType>
+		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<trait>DERANGEMENT</trait>
+		<effects>
+			<effect name="BlockControl" />
+			<effect name="Fear" />
+		</effects>
+	</skill>
+	<skill id="34155" toLevel="1" name="Asa's Grand Life Force Rush">
+		<!-- Charge. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34156" toLevel="1" name="Asa's Grand Life Force Attack">
+		<!-- Your armor is cracked, P./ M. Def. -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill30851</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>200</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34157" toLevel="1" name="Asa's Grand Life Force Destruction">
+		<!-- A powerful explosion makes you lose concentration and knocks you down for 5 sec. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill0516</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RANGE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>15</reuseDelay>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34158" toLevel="1" name="Asa's Grand Energy Spike">
+		<!-- A basic magic skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34159" toLevel="1" name="Asa's Grand Energy Crash">
+		<!-- Your weapon is cracked, P./ M. Atk. -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill0485</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34160" toLevel="1" name="Asa's Grand Energy Blast">
+		<!-- Dark energy lifts you in the air for 5 sec. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill0518</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalResists>STUN;TURN_FLEE</abnormalResists>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<trait>AIRBIND</trait>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>100</HOLD>
+				<SLEEP>100</SLEEP>
+				<DERANGEMENT>100</DERANGEMENT>
+				<CHANGEBODY>100</CHANGEBODY>
+				<SHOCK>100</SHOCK>
+				<AIRBIND>100</AIRBIND>
+				<KNOCKBACK>100</KNOCKBACK>
+				<KNOCKDOWN>100</KNOCKDOWN>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34161" toLevel="1" name="Asa's Grand Powerful Shot">
+		<!-- The arrow pierces flesh cutting nerves. For 10 sec., Critical Rate for basic attacks and P./ M. skills -70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill0101</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>28833</power> <!-- Fix: Retail Missed -->
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34162" toLevel="1" name="Asa's Grand Multishot">
+		<!-- A powerful arrow shot stuns for 5 sec. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill0036</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WIND</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1500</effectRange>
+		<fanRange>0;0;400;90</fanRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34163" toLevel="1" name="Docile Rush">
+		<!-- An animal is approaching. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34164" toLevel="1" name="Docile Attack">
+		<!-- An animal is attacking. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34165" toLevel="1" name="Nox' Life Force Rush">
+		<!-- Charge. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34166" toLevel="1" name="Nox' Life Force Attack">
+		<!-- Attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>200</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34167" toLevel="1" name="Nox's Life Force Destruction">
+		<!-- An AoE attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>100</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>7000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34168" toLevel="1" name="Nox' Energy Spike">
+		<!-- A basic magic skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34169" toLevel="1" name="Nox's Energy Crash">
+		<!-- A magic attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34169" toLevel="1" name="Nox's Energy Crash">
+		<!-- A magic attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34170" toLevel="1" name="Nox' Energy Blast">
+		<!-- An AoE magic skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>100</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34171" toLevel="1" name="Nox' Powerful Shot">
+		<!-- A ranged attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>FAN</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1100</effectRange>
+		<fanRange>0;0;900;90</fanRange>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34172" toLevel="1" name="Nox' Multishot">
+		<!-- An AoE ranged attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>FAN</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1100</effectRange>
+		<fanRange>0;0;900;90</fanRange>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>0</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34173" toLevel="1" name="Light Docile Rush">
+		<!-- An animal is approaching. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34174" toLevel="1" name="Light Docile Attack">
+		<!-- An animal is attacking. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34175" toLevel="1" name="Light Docile Crash">
+		<!-- Because of great damage, P. Atk./ M. Atk./ P. Def./ M. Def. -25%. Inflicted status: Debilitation. -->
+		<icon>icon.skill0122</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>200</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34176" toLevel="1" name="Nox' Advanced Life Force Rush">
+		<!-- Charge. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34177" toLevel="1" name="Nox' Advanced Life Force Attack">
+		<!-- Attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>200</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34178" toLevel="1" name="Nox's Advanced Life Force Destruction">
+		<!-- Your armor is cracked, P./ M. Def. -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill0122</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>200</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34179" toLevel="1" name="Nox' Advanced Energy Spike">
+		<!-- A basic magic skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34180" toLevel="1" name="Nox's Advanced Energy Crash">
+		<!-- A magic attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34181" toLevel="1" name="Nox' Advanced Energy Blast">
+		<!-- Your weapon is cracked, P./ M. Atk. -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill4037</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<effectRange>200</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34182" toLevel="1" name="Nox' Advanced Powerful Shot">
+		<!-- A ranged attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>900</affectRange>
+		<affectScope>FAN</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1100</effectRange>
+		<fanRange>0;0;900;90</fanRange>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>500000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34183" toLevel="1" name="Nox' Advanced Multishot">
+		<!-- You are seriously wounded from a bow attack, Atk. Spd. -1000, Casting Spd. -1500. Inflicted status: Debilitation. -->
+		<icon>icon.skill32498</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<fanRange>0;0;400;90</fanRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttackSpeed">
+				<amount>-1000</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>-1500</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34184" toLevel="1" name="Soft Docile Rush">
+		<!-- An animal is approaching. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34185" toLevel="1" name="Soft Docile Attack">
+		<!-- Because of great damage, P. Atk./ M. Atk./ P. Def./ M. Def. -25%. Inflicted status: Debilitation. -->
+		<icon>icon.skill0122</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>200</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>0</reuseDelay>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-25</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34186" toLevel="1" name="Soft Docile Crash">
+		<!-- The changed appearance inflicts Fear on enemies. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill0122</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>TURN_FLEE</abnormalType>
+		<abnormalVisualEffect>TURN_FLEE</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>POINT_BLANK</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>0</reuseDelay>
+		<trait>DERANGEMENT</trait>
+		<effects>
+			<effect name="BlockControl" />
+			<effect name="Fear" />
+		</effects>
+	</skill>
+	<skill id="34187" toLevel="1" name="Nox' Grand Life Force Rush">
+		<!-- Charge. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34188" toLevel="1" name="Nox' Grand Life Force Attack">
+		<!-- Your armor is cracked, P./ M. Def. -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill0122</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>200</effectRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34189" toLevel="1" name="Nox's Grand Life Force Destruction">
+		<!-- A powerful explosion makes you lose concentration and knocks you down for 5 sec. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill0122</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY_ONLY</targetType>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>200</affectRange>
+		<affectScope>RANGE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>15</reuseDelay>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34190" toLevel="1" name="Nox' Grand Energy Spike">
+		<!-- A basic magic skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34191" toLevel="1" name="Nox's Grand Energy Crash">
+		<!-- Your weapon is cracked, P./ M. Atk. -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill4037</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalTime>10</abnormalTime>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5</reuseDelay>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>-50</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34192" toLevel="1" name="Nox' Grand Energy Blast">
+		<!-- Dark energy lifts you in the air for 5 sec. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill4037</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalResists>STUN;TURN_FLEE</abnormalResists>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>AIRBIND</abnormalType>
+		<abnormalVisualEffect>AIRBIND</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>0</reuseDelay>
+		<trait>AIRBIND</trait>
+		<effects>
+			<effect name="AirBind" />
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+			<effect name="DefenceTrait">
+				<HOLD>5</HOLD>
+				<SLEEP>5</SLEEP>
+				<DERANGEMENT>5</DERANGEMENT>
+				<CHANGEBODY>5</CHANGEBODY>
+				<SHOCK>5</SHOCK>
+				<AIRBIND>5</AIRBIND>
+				<KNOCKBACK>5</KNOCKBACK>
+				<KNOCKDOWN>5</KNOCKDOWN>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34193" toLevel="1" name="Nox' Grand Powerful Shot">
+		<!-- The arrow pierces flesh cutting nerves. For 10 sec., Critical Rate for basic attacks and P./ M. skills -70%. Inflicted status: Debilitation. -->
+		<icon>icon.skill32498</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>10</abnormalTime>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>0</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34194" toLevel="1" name="Nox' Grand Multishot">
+		<!-- A powerful arrow shot stuns for 5 sec. Inflicted status: Confusion (Fear, Aerial Yoke, Faint, Charm, Stun, Paralysis, Knockback, Knockdown). -->
+		<icon>icon.skill32498</icon>
+		<operateType>A2</operateType>
+		<targetType>ENEMY</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>STUN</abnormalType>
+		<abnormalVisualEffect>STUN</abnormalVisualEffect>
+		<activateRate>150</activateRate>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WIND</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<effectRange>1500</effectRange>
+		<fanRange>0;0;400;90</fanRange>
+		<hitTime>1000</hitTime>
+		<isDebuff>true</isDebuff>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>0</reuseDelay>
+		<trait>SHOCK</trait>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>999</power>
+				<overHit>true</overHit>
+			</effect>
+			<effect name="BlockActions">
+				<allowedSkills>10279;10517;10025;10776;11770;1904;11264;11093;13314;1912;7002;18721;18722;28203;30516;35190</allowedSkills>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34195" toLevel="1" name="Docile Rush">
+		<!-- An animal is approaching. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34196" toLevel="1" name="Docile Attack">
+		<!-- An animal is attacking. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>80</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34197" toLevel="1" name="Anima's Life Force Rush">
+		<!-- Charge. -->
+		<icon>icon.skill0000</icon>
+		<operateType>DA2</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>500</hitTime>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+	</skill>
+	<skill id="34198" toLevel="1" name="Anima's Life Force Attack">
+		<!-- Attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>200</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="PhysicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="34199" toLevel="1" name="Anima's Life Force Destruction">
+		<!-- An AoE attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectLimit>5-12</affectLimit>
+		<affectObject>NOT_FRIEND</affectObject>
+		<affectRange>100</affectRange>
+		<affectScope>RANGE</affectScope>
+		<attributeType>WATER</attributeType> <!-- TODO: Find the proper one -->
+		<attributeValue>600</attributeValue>
+		<castRange>1100</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-1</magicLevel>
+		<reuseDelay>10</reuseDelay>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>10000</power>
+			</effect>
+		</effects>
+	</skill>
+</list>

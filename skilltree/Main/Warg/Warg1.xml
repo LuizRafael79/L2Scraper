@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="256" parentClassId="255">
+		<!-- Actives -->
+		<skill skillName="Warg's Red Alert" skillId="31472" skillLevel="1" getLevel="20" />
+	</skillTree>
+</list>

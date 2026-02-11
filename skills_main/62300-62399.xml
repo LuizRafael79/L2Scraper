@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="62300" toLevel="1" name="Kasha's Avatar Atrus">
+		<!-- A High Orc once, Atrus was unable to withstand the temptation of the Chaos power and lost his way. Now he serves only Kasha. <Bonus stats>. Max received damage is fixed at 1,250,000. Received damage from basic attacks -30%, Accuracy/ Evasion +200. <Attack info>. Skills that can be evaded: Greatly decreases Weapon P./ M. Atk. after 3 hits. Kasha's Direct Attack: Triggers the Kasha's Blunt Weapon effect that makes the target unable to attack. Kasha's Despair (Stormer): Grants invincibility when Chaotic Seal is destroyed. In case of failure, the enemy dies immediately, and Atrus' HP are recovered. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62301" toLevel="1" name="Kasha's Destruction (Blunt Weapon)">
+		<!-- A basic attack (1 hit). -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>4000</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62302" toLevel="1" name="Kasha's Destruction (Blunt Weapon)">
+		<!-- An activated basic attack at the front. -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>4000</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62303" toLevel="1" name="Kasha's Destruction (Blunt Weapon)">
+		<!-- An activated basic attack at the back. -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>4000</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62304" toLevel="1" name="Kasha's Frontal Wave (Blunt Weapon)">
+		<!-- A debuff, Obstruction at the front/ i_call. -->
+		<icon>icon.skill33916</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62305" toLevel="1" name="Kasha's Backward Wave (Blunt Weapon)">
+		<!-- A debuff, Obstruction at the back/ i_call. -->
+		<icon>icon.skill33916</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62306" toLevel="1" name="Kasha's Direct Attack (Blunt Weapon)">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>5000</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="62307" toLevel="1" name="Kasha's Fray (Blunt Weapon)">
+		<!-- Ignores defense, damage x20. -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62308" toLevel="1" name="Kasha's Destruction (Stormer)">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>4000</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62309" toLevel="1" name="Kasha's Punishment (Stormer)">
+		<!-- A debuff, invisibility after 2 basic attacks/ i_call. -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>2500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62310" toLevel="1" name="Kasha's Severe Punishment (Stormer)">
+		<!-- A debuff, invisibility, destruction/ i_call -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>2500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62311" toLevel="1" name="Chaos Stone Call">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="62312" toLevel="1" name="Kasha's Despair (Stormer)">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>15000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62313" toLevel="1" name="Chaotic Defense">
+		<!-- Uses the power of Chaotic Seal to block Atrus' skill: Kasha's Despair (Stormer). -->
+		<icon>icon.skill1389</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<coolTime>500</coolTime>
+		<mpConsume>1</mpConsume>
+	</skill>
+	<skill id="62314" toLevel="1" name="Kasha's Invincibility">
+		<!-- The Chaos Power grants invincibility. -->
+		<icon>icon.skill32522</icon>
+		<operateType>A1</operateType>
+		<castRange>1500</castRange>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="62315" toLevel="1" name="Kasha's Conversion">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>800</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="62316" toLevel="1" name="Chaos Edge">
+		<!-- The War Spirits' summoning ritual has upset a delicate balance between life and death, and all living creatures can feel a cold breath of the underworld. Skill cooldown +150%. P. Atk./ M. Atk./ P. Def./ M. Def. -50%. All Critical Rate/ Damage -50%. Received damage +300% -->
+		<icon>BranchSys3.Icon.g_skill23388</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+		<castRange>900</castRange>
+	</skill>
+	<skill id="62317" toLevel="1" name="Chaos Cure">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>5000</castRange>
+		<hitTime>13000</hitTime>
+	</skill>
+	<skill id="62318" toLevel="1" name="Chaotic Seal">
+		<!-- A crystal imbued with the Chaos Power. Recovers Atrus' HP. If all crystals are destroyed and Atrus cannot recover HP, the converted Chaos Power is transferred to the crystal's destroyer. <Bonus stats>. Max received damage is fixed at 5,000,000. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62319" toLevel="1" name="Summon War Spirit">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>5000</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="62320" toLevel="3" name="Kasha's Chaos Vulnerability - Lv. 1">
+		<!-- Level 1: Debilitation when dealing damage to Atrus. Cannot be removed. -->
+		<!-- Level 2: Debilitation when dealing damage to Atrus. Cannot be removed. -->
+		<!-- Level 3: The Chaos Power decreases combat abilities and Weapon P./ M. Atk. Cannot be removed. -->
+		<icon>icon.skill4336_new</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62321" toLevel="1" name="Kasha's Chaos Silence">
+		<!-- Atrus' Chaos Power blocks basic attacks and P./ M. skills. Cannot be removed. -->
+		<icon>icon.skill1064</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62322" toLevel="1" name="Chaos Power Presentation">
+		<!-- Presentation Skill. -->
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62323" toLevel="1" name="Frog Prince - Curse">
+		<!-- The prince is still under the curse. Sad frog croaking is resonating with your flute's sounds. -->
+		<icon>icon.s_curse_of_shilen</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62324" toLevel="1" name="Frog Prince - Curse Weakened">
+		<!-- Something has changed. The curse is weakening, and the prince's memories are starting to return. -->
+		<icon>icon.curse_of_shilen</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62325" toLevel="1" name="Frog Prince - Curse Cancelled">
+		<!-- The curse is finally lifted. The prince is back, and the sun is shining brightly above the Rainbow Pond. Princess Bluebonnet, your time has come! -->
+		<icon>icon.s_saint_recovery</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62326" toLevel="1" name="Heat, Go Away!">
+		<!-- Heat, leave Aden immediately!. With a certain chance, triggers Water Bomb on killing common monsters. -->
+		<icon>icon.s_water_stigma2</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62327" toLevel="1" name="Water Bomb">
+		<!-- Water Bombs will send the Heat flying!. P./ M. Accuracy +100, all Critical Rate +30%, all attack power +30%. Water Bomb explodes on a basic attack and when using P./ M. skills. -->
+		<icon>icon.s_owner_of_water</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<reuseDelay>10000</reuseDelay>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62328" toLevel="1" name="Water Bomb">
+		<!-- Water Bomb! Triggered on a basic attack. -->
+		<icon>icon.s_owner_of_water</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62329" toLevel="1" name="Water Bomb">
+		<!-- Water Bomb! Triggered when using a skill. -->
+		<icon>icon.s_owner_of_water</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62330" toLevel="1" name="Water Bomb">
+		<!-- Water Bomb! Triggered on a basic attack_target. -->
+		<icon>icon.s_owner_of_water</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62331" toLevel="1" name="Water Bomb">
+		<!-- Water Bomb! Triggered when using a skill_target. -->
+		<icon>icon.s_owner_of_water</icon>
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62332" toLevel="1" name="Baluan's Creature">
+		<!-- A result of Baluan's crazy experiments on breeding the strongest of monsters. <Bonus stats>. P./ M. Accuracy +100, P./ M. Evasion +100. With a certain chance, applies a Debilitation debuff on the target. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62333" toLevel="1" name="Baluan's Physical Weakness">
+		<!-- With a certain chance on attack, applies a Debilitation debuff that decreases the target's Critical Rate for basic attacks and P./ M. skills. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62334" toLevel="1" name="Baluan's Magic Debilitation">
+		<!-- With a certain chance on attack, applies a Debilitation debuff that increases the target's P./ M. Skill Cooldown. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62335" toLevel="1" name="Baluan's Focus Reduction">
+		<!-- For 5 sec., the target's Critical Rate for basic attacks and P./ M. skills -50%. Inflicted status: Debilitation. -->
+		<icon>icon.skill1248</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<castRange>1000</castRange>
+	</skill>
+	<skill id="62336" toLevel="1" name="Baluan's Cooldown Increase">
+		<!-- For 5 sec., the target's P./ M. Skill Cooldown +100%. Inflicted status: Debilitation. -->
+		<icon>icon.skill1242</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<isDebuff>true</isDebuff>
+		<castRange>1000</castRange>
+	</skill>
+	<skill id="62337" toLevel="1" name="Ignel's Power Shot">
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62338" toLevel="1" name="Ignel's Bomber">
+		<operateType>A1</operateType>
+		<castRange>80</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62339" toLevel="1" name="Ignel's Thorn">
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+	</skill>
+	<skill id="62340" toLevel="1" name="Ignel's Power Attack">
+		<operateType>A1</operateType>
+		<castRange>80</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+	</skill>
+	<skill id="62341" toLevel="1" name="Calderis' Power Shot">
+		<operateType>A1</operateType>
+		<castRange>600</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62342" toLevel="1" name="Calderis' Bomber">
+		<operateType>A1</operateType>
+		<castRange>80</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62343" toLevel="1" name="Calderis' Thorn">
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>600</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+	</skill>
+	<skill id="62344" toLevel="1" name="Calderis' Power Attack">
+		<operateType>A1</operateType>
+		<castRange>80</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+	</skill>
+	<skill id="62345" toLevel="1" name="Kasha Orcs' Debuff Resistance">
+		<!-- Debilitation Resistance +500. Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +1000 -->
+		<icon>icon.skill0335</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62346" toLevel="1" name="Baluan's Debuff Resistance">
+		<!-- Debilitation Resistance +500. Confusion/ Obstruction/ Stupor/ Infection/ Petrification/ Pull/ Danger Zone Resistance +1000 -->
+		<icon>icon.skill0335</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62347" toLevel="1" name="Arbiter's Sting">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>2000</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>200</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62348" toLevel="1" name="Arbiter's Wave">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-700</effectPoint>
+	</skill>
+	<skill id="62349" toLevel="1" name="Arbiter's Wave">
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-700</effectPoint>
+	</skill>
+	<skill id="62350" toLevel="1" name="Time to Choose">
+		<!-- Stuns for 3 sec. if the incorrect answer is chosen. Cannot be removed. -->
+		<icon>icon.s_curse_of_shilen</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>7000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="62351" toLevel="1" name="Time to Choose">
+		<!-- Stuns for 3 sec. if the incorrect answer is chosen. Cannot be removed. -->
+		<icon>icon.s_curse_of_shilen</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>7000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="62352" toLevel="1" name="Arbiter's Fire Zone">
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62353" toLevel="1" name="Arbiter's Ice Zone">
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62354" toLevel="1" name="Fire Answer">
+		<!-- Immunity to the Baluan's Fire Question effects. -->
+		<icon>icon.s_ev_fire_false</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62355" toLevel="1" name="Ice Answer">
+		<!-- Immunity to the Baluan's Ice Question effects. -->
+		<icon>icon.s_ev_ice_true</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62356" toLevel="1" name="Arbiter Baluan">
+		<!-- Baluan returns for a while to help his creations. <Bonus stats>. Received damage limit: 222,222. When using dual swords/ dual daggers/ dual blunt weapons/ fist weapons, received damage from basic attacks limit: 111,111. <Spawn requirements>. During the event, appears on the Baluan Battleground once an hour for 20 min. <Quest reward requirements>. Total damage dealt has to be at least 0.5% of the boss' Max HP. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62357" toLevel="1" name="Arbiter's Invincibility">
+		<!-- Makes you invincible while choosing the answer. -->
+		<icon>icon.skill32522</icon>
+		<operateType>A1</operateType>
+		<castRange>1500</castRange>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="62358" toLevel="1" name="Arbiter's Invincibility">
+		<!-- Makes you invincible while choosing the answer. -->
+		<icon>icon.skill32522</icon>
+		<operateType>A1</operateType>
+		<castRange>1500</castRange>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="62359" toLevel="1" name="Arbiter's Invincibility">
+		<!-- Makes you invincible while choosing the answer. -->
+		<icon>icon.skill32522</icon>
+		<operateType>A1</operateType>
+		<castRange>1500</castRange>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="62360" toLevel="1" name="Baluan's Advent">
+		<!-- The coming of Baluan is accompanied by a discharge of unknown energy. All Critical Rate +5%, damage +10%, acquired XP/ SP +15%, received damage -10%. -->
+		<icon>icon.ev_fire_ice_crystal</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62361" toLevel="1" name="Sweet Tasty Lollipops">
+		<!-- It is time to gorge on sweet candy!. With a small chance, grants Sweet Accessory Pack when killing monsters in the following hunting zones:. Solo hunting zones up to Lv. 120 (Silent Valley, Desert Quarry, Beleth's Magic Circle);. Party hunting zones up to Lv. 116;. Session zones up to Lv. 110 (Fioren's Crystal Prison, Jamoa's Camp, Pantheon's Museum, Ravaged Innadril, Time Rift, Spirit Forest). With a higher chance, grants Sweet Accessory Pack when killing monsters in the following hunting zones:. Solo hunting zones Lv. 120+;. Party hunting zones Lv. 116+;. Session zones Lv. 115+ (Fioren's Crystal Prison, Jamoa's Camp, Pantheon's Museum, Ravaged Innadril, Time Rift, Spirit Forest);. Invasion zones;. Conquest;. Tower of Insolence.. During the event killing monsters triggers a special visual effect. -->
+		<icon>icon.s_ev_lollipop_buff</icon>
+		<operateType>A1</operateType>
+		<isMagic>3</isMagic> <!-- Dance Skill -->
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62362" toLevel="1" name="Candy Time!">
+		<!-- Effect on receiving the item_self -->
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62363" toLevel="1" name="Candy Time!">
+		<!-- Effect when killing a target_target -->
+		<operateType>A1</operateType>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62364" toLevel="1" name="NPC Candy Accessory">
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62365" toLevel="3" name="Presentation Skill - Level-Up (Green)">
+		<!-- Level 1: For the presentation of Level-Up according to the points (Green), distribution of the additional reward item. -->
+		<!-- Level 2: For the presentation of Level-Up according to the points (Yellow), distribution of the additional reward item. -->
+		<!-- Level 3: For the presentation of Level-Up according to the points (Red), distribution of the additional reward item. -->
+		<operateType>A1</operateType>
+		<castRange>1500</castRange>
+	</skill>
+	<skill id="62366" toLevel="1" name="Presentation Skill - Green Tree">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62367" toLevel="1" name="Presentation Skill - Ginkgo">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62368" toLevel="1" name="Presentation Skill - Maple">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62369" toLevel="1" name="Presentation Skill - Golden Tree">
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62370" toLevel="2" name="Bonus time - Presentation">
+		<!-- Level 1: Bonus time - Presentation -->
+		<!-- Level 2: Bonus Time Rewards Distribution -->
+		<operateType>A1</operateType>
+		<castRange>1500</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62371" toLevel="1" name="Time to Return">
+		<!-- When the time expires, a notification will appear and the Nymph will return to her <font color="FF6666">initial state</font>: the Yellow Nymph will become Green Nymph, and the Green Nymph will disappear. -->
+		<icon>icon.s_ev_22nd_timelimit</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<hitTime>7000</hitTime>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62372" toLevel="1" name="Lucky Star">
+		<!-- The Nymph is shrouded in mysterious light, and a shining star rises above her head. If you choose the correct color of the paint during this time, <font color="FFFB99">the number of received points is doubled</font>. -->
+		<icon>icon.s_ev_22nd_star_buff</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62373" toLevel="1" name="Circular Movement">
+		<!-- If you fail to paint the Nymph the correct color, applies <font color="999999">Fear</font> for 2 seconds, and decreases the number of <font color="FF0000">points</font>. Cannot be removed. -->
+		<icon>icon.skill1551</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>1500</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62374" toLevel="3" name="World in Green">
+		<!-- Level 1: For presentation of the screen of Colorful Nymphs - Lv. 1-5, icons are not displayed. -->
+		<!-- Level 2: For presentation of the screen of Colorful Nymphs - Lv. 6-12, icons are not displayed. -->
+		<!-- Level 3: For presentation of the screen of Colorful Nymphs - Lv. 13-20, icons are not displayed. -->
+		<icon>
+			<value level="1">icon.s_ev_22nd_green_buff</value>
+			<value level="2">icon.s_ev_22nd_ginkgo_buff</value>
+			<value level="3">icon.s_ev_22nd_maple_buff</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>1500</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62375" toLevel="1" name="Golden Nymph's Appearance">
+		<!-- The amazing <font color="FED7A0">Golden Nymph</font> appears!. If you paint <font color="FED7A0">Golden Nymph</font> in any color, you will receive bonus points and adena. <font color="ECECEC"><Available skills></font>. Yellow Color Splash. Red Color Splash. Autumn Tapestry -->
+		<icon>icon.s_ev_22nd_adena_buff</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>1500</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62376" toLevel="20" name="Colorful Nymphs Lv. 1">
+		<!-- Level 1: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">1 to 50</font> points. Applies Colorful Nymphs Lv. 1. The effect's max level: 20. For 24 h., acquired XP/ SP +1%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 2: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">51 to 100</font> points. Applies Colorful Nymphs Lv. 2. The effect's max level: 20. For 24 h., acquired XP/ SP +2%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 3: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">101 to 150</font> points. Applies Colorful Nymphs Lv. 3. The effect's max level: 20. For 24 h., acquired XP/ SP +3%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 4: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">151 to 200</font> points. Applies Colorful Nymphs Lv. 4. The effect's max level: 20. For 24 h., acquired XP/ SP +4%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 5: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">201 to 300</font> points. Applies Colorful Nymphs Lv. 5. The effect's max level: 20. For 24 h., acquired XP/ SP +5%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 6: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">301 to 400</font> points. Applies Colorful Nymphs Lv. 6. The effect's max level: 20. For 24 h., acquired XP/ SP +6%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 7: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">401 to 500</font> points. Applies Colorful Nymphs Lv. 7. The effect's max level: 20. For 24 h., acquired XP/ SP +7%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 8: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">501 to 600</font> points. Applies Colorful Nymphs Lv. 8. The effect's max level: 20. For 24 h., acquired XP/ SP +8%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 9: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">601 to 700</font> points. Applies Colorful Nymphs Lv. 9. The effect's max level: 20. For 24 h., acquired XP/ SP +9%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 10: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">701 to 850</font> points. Applies Colorful Nymphs Lv. 10. The effect's max level: 20. For 24 h., acquired XP/ SP +10%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 11: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">851 to 1000</font> points. Applies Colorful Nymphs Lv. 11. The effect's max level: 20. For 24 h., acquired XP/ SP +20%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 12: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">1001 to 1150</font> points. Applies Colorful Nymphs Lv. 12. The effect's max level: 20. For 24 h., acquired XP/ SP +30%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 13: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">1151 to 1300</font> points. Applies Colorful Nymphs Lv. 13. The effect's max level: 20. For 24 h., acquired XP/ SP +50%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 14: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">1301 to 1500</font> points. Applies Colorful Nymphs Lv. 14. The effect's max level: 20. For 24 h., acquired XP/ SP +100%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 15: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">1501 to 1700</font> points. Applies Colorful Nymphs Lv. 15. The effect's max level: 20. For 24 h., acquired XP/ SP +105%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 16: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">1701 to 1900</font> points. Applies Colorful Nymphs Lv. 16. The effect's max level: 20. For 24 h., acquired XP/ SP +110%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 17: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">1901 to 2100</font> points. Applies Colorful Nymphs Lv. 17. The effect's max level: 20. For 24 h., acquired XP/ SP +115%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 18: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">2101 to 2300</font> points. Applies Colorful Nymphs Lv. 18. The effect's max level: 20. For 24 h., acquired XP/ SP +120%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 19: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">2301 to 2700</font> points. Applies Colorful Nymphs Lv. 19. The effect's max level: 20. For 24 h., acquired XP/ SP +150%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<!-- Level 20: For painting Nymphs in the autumn colors, you receive <font color="ECECEC">2701+</font> points. Applies Colorful Nymphs Lv. 20. The effect's max level: 20. For 24 h., acquired XP/ SP +200%. <font color="ECECEC">Note!</font>. The effect is removed upon entering the Nymph Garden instance zone through the event NPC Annie. -->
+		<icon>
+			<value level="1">icon.s_ev_22nd_green_buff</value>
+			<value level="2">icon.s_ev_22nd_green_buff</value>
+			<value level="3">icon.s_ev_22nd_green_buff</value>
+			<value level="4">icon.s_ev_22nd_green_buff</value>
+			<value level="5">icon.s_ev_22nd_green_buff</value>
+			<value level="6">icon.s_ev_22nd_ginkgo_buff</value>
+			<value level="7">icon.s_ev_22nd_ginkgo_buff</value>
+			<value level="8">icon.s_ev_22nd_ginkgo_buff</value>
+			<value level="9">icon.s_ev_22nd_ginkgo_buff</value>
+			<value level="10">icon.s_ev_22nd_ginkgo_buff</value>
+			<value level="11">icon.s_ev_22nd_ginkgo_buff</value>
+			<value level="12">icon.s_ev_22nd_ginkgo_buff</value>
+			<value level="13">icon.s_ev_22nd_maple_buff</value>
+			<value level="14">icon.s_ev_22nd_maple_buff</value>
+			<value level="15">icon.s_ev_22nd_maple_buff</value>
+			<value level="16">icon.s_ev_22nd_maple_buff</value>
+			<value level="17">icon.s_ev_22nd_maple_buff</value>
+			<value level="18">icon.s_ev_22nd_maple_buff</value>
+			<value level="19">icon.s_ev_22nd_maple_buff</value>
+			<value level="20">icon.s_ev_22nd_maple_buff</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>1500</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62377" toLevel="15" name="Golden Compass' Trial Lv. 1">
+		<!-- Level 1: P./ M. Atk. -10% -->
+		<!-- Level 2: P./ M. Atk. -30% -->
+		<!-- Level 3: P./ M. Atk. -50% -->
+		<!-- Level 4: P./ M. Atk. -50%, all Critical Damage -10% -->
+		<!-- Level 5: P./ M. Atk. -50%, all Critical Damage -30% -->
+		<!-- Level 6: P./ M. Atk. -50%, all Critical Damage -50% -->
+		<!-- Level 7: P./ M. Atk. -50%, all Critical Damage -50%, all attack power -10% -->
+		<!-- Level 8: P./ M. Atk. -50%, all Critical Damage -50%, all attack power -30% -->
+		<!-- Level 9: P./ M. Atk. -50%, all Critical Damage -50%, all attack power -50% -->
+		<!-- Level 10: P./ M. Atk. -50%, all Critical Damage -50%, all attack power -50%, damage -10% -->
+		<!-- Level 11: P./ M. Atk. -50%, all Critical Damage -50%, all attack power -50%, damage -30% -->
+		<!-- Level 12: P./ M. Atk. -50%, all Critical Damage -50%, all attack power -50%, damage -50% -->
+		<!-- Level 13: P./ M. Atk. -50%, all Critical Damage -50%, all attack power -50%, damage -50%, skill cooldown +30% -->
+		<!-- Level 14: P./ M. Atk. -50%, all Critical Damage -50%, all attack power -50%, damage -50%, skill cooldown +50% -->
+		<!-- Level 15: P./ M. Atk. -50%, all Critical Damage -50%, all attack power -50%, damage -50%, skill cooldown +100% -->
+		<icon>icon.s_ev_22nd_timelimit</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<isDebuff>true</isDebuff>
+		<castRange>3000</castRange>
+	</skill>
+	<skill id="62378" toLevel="1" name="Golden Compass' Trial (-1 Point)">
+		<!-- Artisan's Skill -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>80</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62379" toLevel="1" name="Golden Compass' Trial (-1 Point)">
+		<!-- Scavenger's Skill -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>80</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62380" toLevel="1" name="Golden Compass' Trial (-1 Point)">
+		<!-- Dwarven Defender's Skill -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>80</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62381" toLevel="1" name="Golden Compass' Trial (-1 Point)">
+		<!-- Dwarven Hunter's Skill -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>600</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62382" toLevel="1" name="Golden Compass' Trial (-1 Point)">
+		<!-- Dwarven Berserker's Skill -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>80</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62383" toLevel="1" name="Golden Compass' Trial (-1 Point)">
+		<!-- Dwarven Mage's Skill -->
+		<operateType>A1</operateType>
+		<isMagic>7</isMagic>
+		<castRange>600</castRange>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62384" toLevel="1" name="Golden Compass' Trial (-10 Points)">
+		<!-- Battle Demolisher's Skill -->
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>80</castRange>
+		<hitTime>800</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62385" toLevel="1" name="Golden Compass' Trial - Confusion (5 sec.)">
+		<!-- Lurin's attack inflicts Stun for 5 sec. -->
+		<icon>icon.skill1072</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62386" toLevel="5" name="Golden Compass' Trial - Artisan">
+		<!-- Level 1: <Base effect>. All received Critical Damage -90%, received damage -50% -->
+		<!-- Level 2: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100 -->
+		<!-- Level 3: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100 -->
+		<!-- Level 4: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100 -->
+		<!-- Level 5: <Base effect>. All received Critical Damage -90%, received damage -90%, all Critical Rate -90%, all Evasion +200 -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62387" toLevel="5" name="Golden Compass' Trial - Scavenger">
+		<!-- Level 1: <Base effect>. All received Critical Damage -90%, received damage -50% -->
+		<!-- Level 2: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100 -->
+		<!-- Level 3: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100 -->
+		<!-- Level 4: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100 -->
+		<!-- Level 5: <Base effect>. All received Critical Damage -90%, received damage -90%, all Critical Rate -90%, all Evasion +200 -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62388" toLevel="5" name="Golden Compass' Trial - Dwarven Defender">
+		<!-- Level 1: <Base effect>. All received Critical Damage -90%, received damage -50%. <Special effect>. Creates a defensive barrier on receiving damage. -->
+		<!-- Level 2: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Creates a defensive barrier on receiving damage. -->
+		<!-- Level 3: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Creates a defensive barrier on receiving damage. -->
+		<!-- Level 4: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Creates a defensive barrier on receiving damage. -->
+		<!-- Level 5: <Base effect>. All received Critical Damage -90%, received damage -90%, all Critical Rate -90%, all Evasion +200. <Special effect>. Creates a defensive barrier on receiving damage. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62389" toLevel="5" name="Golden Compass' Trial - Dwarven Hunter">
+		<!-- Level 1: <Base effect>. All received Critical Damage -90%, received damage -50%. <Special effect>. Immunity to long-range attacks. -->
+		<!-- Level 2: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Immunity to long-range attacks. -->
+		<!-- Level 3: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Immunity to long-range attacks. -->
+		<!-- Level 4: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Immunity to long-range attacks. -->
+		<!-- Level 5: <Base effect>. All received Critical Damage -90%, received damage -90%, all Critical Rate -90%, all Evasion +200. <Special effect>. Immunity to long-range attacks. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62390" toLevel="5" name="Golden Compass' Trial - Dwarven Berserker">
+		<!-- Level 1: <Base effect>. All received Critical Damage -90%, received damage -50%. <Special effect>. Received damage limit. -->
+		<!-- Level 2: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Received damage limit. -->
+		<!-- Level 3: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Received damage limit. -->
+		<!-- Level 4: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Received damage limit. -->
+		<!-- Level 5: <Base effect>. All received Critical Damage -90%, received damage -90%, all Critical Rate -90%, all Evasion +200. <Special effect>. Received damage limit. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62391" toLevel="5" name="Golden Compass' Trial - Dwarven Mage">
+		<!-- Level 1: <Base effect>. All received Critical Damage -90%, received damage -50%. <Special effect>. Immunity to long-range attacks. -->
+		<!-- Level 2: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Immunity to long-range attacks. -->
+		<!-- Level 3: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Immunity to long-range attacks. -->
+		<!-- Level 4: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Immunity to long-range attacks. -->
+		<!-- Level 5: <Base effect>. All received Critical Damage -90%, received damage -90%, all Critical Rate -90%, all Evasion +200. <Special effect>. Immunity to long-range attacks. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62392" toLevel="5" name="Golden Compass' Trial - Battle Demolisher">
+		<!-- Level 1: <Base effect>. All received Critical Damage -90%, received damage -50%. <Special effect>. Deals a lot of damage and disappears. -->
+		<!-- Level 2: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Deals a lot of damage and disappears. -->
+		<!-- Level 3: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Deals a lot of damage and disappears. -->
+		<!-- Level 4: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Deals a lot of damage and disappears. -->
+		<!-- Level 5: <Base effect>. All received Critical Damage -90%, received damage -90%, all Critical Rate -90%, all Evasion +200. <Special effect>. Deals a lot of damage and disappears. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62393" toLevel="5" name="Golden Compass' Trial - Lurin">
+		<!-- Level 1: <Base effect>. All received Critical Damage -90%, received damage -50%. <Special effect>. Attacks, applies Confusion and disappears. -->
+		<!-- Level 2: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Attacks, applies Confusion and disappears. -->
+		<!-- Level 3: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Attacks, applies Confusion and disappears. -->
+		<!-- Level 4: <Base effect>. All received Critical Damage -90%, received damage -70%, all Critical Rate -50%, all Evasion +100. <Special effect>. Attacks, applies Confusion and disappears. -->
+		<!-- Level 5: <Base effect>. All received Critical Damage -90%, received damage -90%, all Critical Rate -90%, all Evasion +200. <Special effect>. Attacks, applies Confusion and disappears. -->
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62394" toLevel="1" name="I am a Nymph!">
+		<icon>icon.skillraid</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62395" toLevel="1" name="Stun Immunity">
+		<!-- Full immunity. -->
+		<icon>icon.skill32522</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62396" toLevel="2" name="Golden Compass' Trial - Barrier">
+		<!-- Grants invincibility when hit. -->
+		<icon>icon.skill1514</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62397" toLevel="1" name="Test Invincibility 1">
+		<!-- Removes all debuffs. For 10 sec., protects from basic attacks, skills and debuffs. Speed +30%. -->
+		<icon>icon.skill14766</icon>
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="62398" toLevel="1" name="Test Invincibility 2">
+		<!-- Removes all debuffs. For 10 sec., protects from basic attacks, skills and debuffs. Speed +30%. -->
+		<icon>icon.skill10279</icon>
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="62399" toLevel="1" name="Get Gift">
+		<icon>icon.ev_17th_logo_2</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<effectPoint>1</effectPoint>
+	</skill>
+</list>

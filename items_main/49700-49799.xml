@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="49783" name="Fairy's Lucky Coin" additionalName="Event" type="EtcItem">
+		<!-- Can be exchanged through the Festival Fairy for various items. -->
+		<set name="icon" val="icon.etc_coins_gold_i00" />
+		<set name="material" val="PAPER" />
+		<set name="is_stackable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_tradable" val="false" />
+		<set name="is_questitem" val="false" />
+		<set name="is_depositable" val="true" />
+	</item>
+	<item id="49798" name="Cheer Pompoms" additionalName="Event" type="Weapon">
+		<!-- A fan's memento. Can be used for cheering for your favorite athletes. Enables the Inspiring Crackers skills. -->
+		<set name="icon" val="icon.ev_12th_weapon" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="DUAL" />
+		<set name="bodypart" val="lrhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="150" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<stats>
+			<stat type="pAtk">12</stat>
+			<stat type="mAtk">12</stat>
+			<stat type="rCrit">8</stat>
+			<stat type="pAtkSpd">200</stat>
+			<stat type="randomDamage">1</stat>
+			<stat type="pAtkRange">40</stat>
+		</stats>
+		<skills>
+			<skill id="39169" level="1" /> <!-- Inspiring Crackers -->
+		</skills>
+	</item>
+</list>

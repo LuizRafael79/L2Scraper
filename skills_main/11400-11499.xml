@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="11400" toLevel="31" name="Forgotten Power - Physical Attack">
+		<!-- Level 1: P. Atk. +1%. -->
+		<!-- Level 2: P. Atk. +1%. -->
+		<!-- Level 3: P. Atk. +2%. -->
+		<!-- Level 4: P. Atk. +2%. -->
+		<!-- Level 5: P. Atk. +3%. -->
+		<!-- Level 6: P. Atk. +3%. -->
+		<!-- Level 7: P. Atk. +4%. -->
+		<!-- Level 8: P. Atk. +4%. -->
+		<!-- Level 9: P. Atk. +5%. -->
+		<!-- Level 10: P. Atk. +5%. -->
+		<!-- Level 11: P. Atk. +6%, P. Critical Damage for basic attacks +1%. -->
+		<!-- Level 12: P. Atk. +6%, P. Critical Damage for basic attacks +1%. -->
+		<!-- Level 13: P. Atk. +7%, P. Critical Damage for basic attacks +1%. -->
+		<!-- Level 14: P. Atk. +7%, P. Critical Damage for basic attacks +2%. -->
+		<!-- Level 15: P. Atk. +8%, P. Critical Damage for basic attacks +2%. -->
+		<!-- Level 16: P. Atk. +8%, P. Critical Damage for basic attacks +3%. -->
+		<!-- Level 17: P. Atk. +9%, P. Critical Damage for basic attacks +3%. -->
+		<!-- Level 18: P. Atk. +9%, P. Critical Damage for basic attacks +4%. -->
+		<!-- Level 19: P. Atk. +10%, P. Critical Damage for basic attacks +4%. -->
+		<!-- Level 20: P. Atk. +10%, P. Critical Damage for basic attacks +5%. -->
+		<!-- Level 21: P. Atk. +11%, Critical Damage for basic attacks +6%, P. Skill Power +1%. -->
+		<!-- Level 22: P. Atk. +12%, Critical Damage for basic attacks +7%, P. Skill Power +2%. -->
+		<!-- Level 23: P. Atk. +13%, Critical Damage for basic attacks +8%, P. Skill Power +3%. -->
+		<!-- Level 24: P. Atk. +14%, Critical Damage for basic attacks +9%, P. Skill Power +4%. -->
+		<!-- Level 25: P. Atk. +15%, Critical Damage for basic attacks +10%, P. Skill Power +5%. -->
+		<!-- Level 26: P. Atk. +16%, Critical Damage for basic attacks +11%, P. Skill Power +6%. -->
+		<!-- Level 27: P. Atk. +17%, Critical Damage for basic attacks +12%, P. Skill Power +7%. -->
+		<!-- Level 28: P. Atk. +18%, Critical Damage for basic attacks +13%, P. Skill Power +8%. -->
+		<!-- Level 29: P. Atk. +19%, Critical Damage for basic attacks +14%, P. Skill Power +9%. -->
+		<!-- Level 30: P. Atk. +20%, Critical Damage for basic attacks +15%, P. Skill Power +10%. -->
+		<!-- Level 31: Damage +10%, P. Atk. +20%, Critical Damage for basic attacks +15%, P. Skill Power +10%. -->
+		<icon>icon.skill11400</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">2</value>
+					<value level="5">3</value>
+					<value level="6">3</value>
+					<value level="7">4</value>
+					<value level="8">4</value>
+					<value level="9">5</value>
+					<value level="10">5</value>
+					<value level="11">6</value>
+					<value level="12">6</value>
+					<value level="13">7</value>
+					<value level="14">7</value>
+					<value level="15">8</value>
+					<value level="16">8</value>
+					<value level="17">9</value>
+					<value level="18">9</value>
+					<value level="19">10</value>
+					<value level="20">10</value>
+					<value level="21">11</value>
+					<value level="22">12</value>
+					<value level="23">13</value>
+					<value level="24">14</value>
+					<value level="25">15</value>
+					<value level="26">16</value>
+					<value level="27">17</value>
+					<value level="28">18</value>
+					<value level="29">19</value>
+					<value level="30">20</value>
+					<value level="31">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="11">1</value>
+					<value level="12">1</value>
+					<value level="13">1</value>
+					<value level="14">2</value>
+					<value level="15">2</value>
+					<value level="16">3</value>
+					<value level="17">3</value>
+					<value level="18">4</value>
+					<value level="19">4</value>
+					<value level="20">5</value>
+					<value level="21">6</value>
+					<value level="22">7</value>
+					<value level="23">8</value>
+					<value level="24">9</value>
+					<value level="25">10</value>
+					<value level="26">11</value>
+					<value level="27">12</value>
+					<value level="28">13</value>
+					<value level="29">14</value>
+					<value level="30">15</value>
+					<value level="31">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11401" toLevel="31" name="Forgotten Power - Magic Attack">
+		<!-- Level 1: M. Atk. +1%. -->
+		<!-- Level 2: M. Atk. +1%. -->
+		<!-- Level 3: M. Atk. +2%. -->
+		<!-- Level 4: M. Atk. +2%. -->
+		<!-- Level 5: M. Atk. +3%. -->
+		<!-- Level 6: M. Atk. +3%. -->
+		<!-- Level 7: M. Atk. +4%. -->
+		<!-- Level 8: M. Atk. +4%. -->
+		<!-- Level 9: M. Atk. +5%. -->
+		<!-- Level 10: M. Atk. +5%. -->
+		<!-- Level 11: M. Atk. +6%, M. Skill Power +1%. -->
+		<!-- Level 12: M. Atk. +6%, M. Skill Power +1%. -->
+		<!-- Level 13: M. Atk. +7%, M. Skill Power +1%. -->
+		<!-- Level 14: M. Atk. +7%, M. Skill Power +2%. -->
+		<!-- Level 15: M. Atk. +8%, M. Skill Power +2%. -->
+		<!-- Level 16: M. Atk. +8%, M. Skill Power +3%. -->
+		<!-- Level 17: M. Atk. +9%, M. Skill Power +3%. -->
+		<!-- Level 18: M. Atk. +9%, M. Skill Power +4%. -->
+		<!-- Level 19: M. Atk. +10%, M. Skill Power +4%. -->
+		<!-- Level 20: M. Atk. +10%, M. Skill Power +5%. -->
+		<!-- Level 21: M. Atk. +11%, M. Skill Power +6%, M. Skill Critical Damage +1%. -->
+		<!-- Level 22: M. Atk. +12%, M. Skill Power +7%, M. Skill Critical Damage +2%. -->
+		<!-- Level 23: M. Atk. +13%, M. Skill Power +8%, M. Skill Critical Damage +3%. -->
+		<!-- Level 24: M. Atk. +14%, M. Skill Power +9%, M. Skill Critical Damage +4%. -->
+		<!-- Level 25: M. Atk. +15%, M. Skill Power +10%, M. Skill Critical Damage +5%. -->
+		<!-- Level 26: M. Atk. +16%, M. Skill Power +11%, M. Skill Critical Damage +6%. -->
+		<!-- Level 27: M. Atk. +17%, M. Skill Power +12%, M. Skill Critical Damage +7%. -->
+		<!-- Level 28: M. Atk. +18%, M. Skill Power +13%, M. Skill Critical Damage +8%. -->
+		<!-- Level 29: M. Atk. +19%, M. Skill Power +14%, M. Skill Critical Damage +9%. -->
+		<!-- Level 30: M. Atk. +20%, M. Skill Power +15%, M. Skill Critical Damage +10%. -->
+		<!-- Level 31: Damage +10%, M. Atk. +20%, M. Skill Power +15%, M. Skill Critical Damage +10%. -->
+		<icon>icon.skill11401</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">2</value>
+					<value level="5">3</value>
+					<value level="6">3</value>
+					<value level="7">4</value>
+					<value level="8">4</value>
+					<value level="9">5</value>
+					<value level="10">5</value>
+					<value level="11">6</value>
+					<value level="12">6</value>
+					<value level="13">7</value>
+					<value level="14">7</value>
+					<value level="15">8</value>
+					<value level="16">8</value>
+					<value level="17">9</value>
+					<value level="18">9</value>
+					<value level="19">10</value>
+					<value level="20">10</value>
+					<value level="21">11</value>
+					<value level="22">12</value>
+					<value level="23">13</value>
+					<value level="24">14</value>
+					<value level="25">15</value>
+					<value level="26">16</value>
+					<value level="27">17</value>
+					<value level="28">18</value>
+					<value level="29">19</value>
+					<value level="30">20</value>
+					<value level="31">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value level="11">1</value>
+					<value level="12">1</value>
+					<value level="13">1</value>
+					<value level="14">2</value>
+					<value level="15">2</value>
+					<value level="16">3</value>
+					<value level="17">3</value>
+					<value level="18">4</value>
+					<value level="19">4</value>
+					<value level="20">5</value>
+					<value level="21">6</value>
+					<value level="22">7</value>
+					<value level="23">8</value>
+					<value level="24">9</value>
+					<value level="25">10</value>
+					<value level="26">11</value>
+					<value level="27">12</value>
+					<value level="28">13</value>
+					<value level="29">14</value>
+					<value level="30">15</value>
+					<value level="31">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveRaidMagicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11402" toLevel="31" name="Forgotten Power - Armor Defense">
+		<!-- Level 1: P./ M. Def. +1%. -->
+		<!-- Level 2: P./ M. Def. +1%. -->
+		<!-- Level 3: P./ M. Def. +2%. -->
+		<!-- Level 4: P./ M. Def. +2%. -->
+		<!-- Level 5: P./ M. Def. +3%. -->
+		<!-- Level 6: P./ M. Def. +3%. -->
+		<!-- Level 7: P./ M. Def. +4%. -->
+		<!-- Level 8: P./ M. Def. +4%. -->
+		<!-- Level 9: P./ M. Def. +5%. -->
+		<!-- Level 10: P./ M. Def. +5%. -->
+		<!-- Level 11: P./ M. Def. +6%, received damage when immobilized -1%. -->
+		<!-- Level 12: P./ M. Def. +6%, received damage when immobilized -1%. -->
+		<!-- Level 13: P./ M. Def. +7%, received damage when immobilized -1%. -->
+		<!-- Level 14: P./ M. Def. +7%, received damage when immobilized -2%. -->
+		<!-- Level 15: P./ M. Def. +8%, received damage when immobilized -2%. -->
+		<!-- Level 16: P./ M. Def. +8%, received damage when immobilized -3%. -->
+		<!-- Level 17: P./ M. Def. +9%, received damage when immobilized -3%. -->
+		<!-- Level 18: P./ M. Def. +9%, received damage when immobilized -4%. -->
+		<!-- Level 19: P./ M. Def. +10%, received damage when immobilized -4%. -->
+		<!-- Level 20: P./ M. Def. +10%, received damage when immobilized -5%. -->
+		<!-- Level 21: P./ M. Def. +11%, received damage when immobilized -6%, skill cooldown -1%. -->
+		<!-- Level 22: P./ M. Def. +12%, received damage when immobilized -7%, skill cooldown -2%. -->
+		<!-- Level 23: P./ M. Def. +13%, received damage when immobilized -8%, skill cooldown -3%. -->
+		<!-- Level 24: P./ M. Def. +14%, received damage when immobilized -9%, skill cooldown -4%. -->
+		<!-- Level 25: P./ M. Def. +15%, received damage when immobilized -10%, skill cooldown -5%. -->
+		<!-- Level 26: P./ M. Def. +16%, received damage when immobilized -11%, skill cooldown -6%. -->
+		<!-- Level 27: P./ M. Def. +17%, received damage when immobilized -12%, skill cooldown -7%. -->
+		<!-- Level 28: P./ M. Def. +18%, received damage when immobilized -13%, skill cooldown -8%. -->
+		<!-- Level 29: P./ M. Def. +19%, received damage when immobilized -14%, skill cooldown -9%. -->
+		<!-- Level 30: P./ M. Def. +20%, received damage when immobilized -15%, skill cooldown -10%. -->
+		<!-- Level 31: P./ M. Def. +20%, received damage when immobilized -15%, skill cooldown -10%, received damage -15%. -->
+		<icon>icon.skill11402</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">2</value>
+					<value level="5">3</value>
+					<value level="6">3</value>
+					<value level="7">4</value>
+					<value level="8">4</value>
+					<value level="9">5</value>
+					<value level="10">5</value>
+					<value level="11">6</value>
+					<value level="12">6</value>
+					<value level="13">7</value>
+					<value level="14">7</value>
+					<value level="15">8</value>
+					<value level="16">8</value>
+					<value level="17">9</value>
+					<value level="18">9</value>
+					<value level="19">10</value>
+					<value level="20">10</value>
+					<value level="21">11</value>
+					<value level="22">12</value>
+					<value level="23">13</value>
+					<value level="24">14</value>
+					<value level="25">15</value>
+					<value level="26">16</value>
+					<value level="27">17</value>
+					<value level="28">18</value>
+					<value level="29">19</value>
+					<value level="31">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">2</value>
+					<value level="5">3</value>
+					<value level="6">3</value>
+					<value level="7">4</value>
+					<value level="8">4</value>
+					<value level="9">5</value>
+					<value level="10">5</value>
+					<value level="11">6</value>
+					<value level="12">6</value>
+					<value level="13">7</value>
+					<value level="14">7</value>
+					<value level="15">8</value>
+					<value level="16">8</value>
+					<value level="17">9</value>
+					<value level="18">9</value>
+					<value level="19">10</value>
+					<value level="20">10</value>
+					<value level="21">11</value>
+					<value level="22">12</value>
+					<value level="23">13</value>
+					<value level="24">14</value>
+					<value level="25">15</value>
+					<value level="26">16</value>
+					<value level="27">17</value>
+					<value level="28">18</value>
+					<value level="29">19</value>
+					<value level="30">20</value>
+					<value level="31">20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ImmobileDamageResist">
+				<amount>
+					<value level="11">-1</value>
+					<value level="12">-1</value>
+					<value level="13">-1</value>
+					<value level="14">-2</value>
+					<value level="15">-2</value>
+					<value level="16">-3</value>
+					<value level="17">-3</value>
+					<value level="18">-4</value>
+					<value level="19">-4</value>
+					<value level="20">-5</value>
+					<value level="21">-6</value>
+					<value level="22">-7</value>
+					<value level="23">-8</value>
+					<value level="24">-9</value>
+					<value level="25">-10</value>
+					<value level="26">-11</value>
+					<value level="27">-12</value>
+					<value level="28">-13</value>
+					<value level="29">-14</value>
+					<value level="30">-15</value>
+					<value level="31">-15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="21">-1</value>
+					<value level="22">-2</value>
+					<value level="23">-3</value>
+					<value level="24">-4</value>
+					<value level="25">-5</value>
+					<value level="26">-6</value>
+					<value level="27">-7</value>
+					<value level="28">-8</value>
+					<value level="29">-9</value>
+					<value level="30">-10</value>
+					<value level="31">-10</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="21">-1</value>
+					<value level="22">-2</value>
+					<value level="23">-3</value>
+					<value level="24">-4</value>
+					<value level="25">-5</value>
+					<value level="26">-6</value>
+					<value level="27">-7</value>
+					<value level="28">-8</value>
+					<value level="29">-9</value>
+					<value level="30">-10</value>
+					<value level="31">-10</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>
+					<value level="21">-1</value>
+					<value level="22">-2</value>
+					<value level="23">-3</value>
+					<value level="24">-4</value>
+					<value level="25">-5</value>
+					<value level="26">-6</value>
+					<value level="27">-7</value>
+					<value level="28">-8</value>
+					<value level="29">-9</value>
+					<value level="30">-10</value>
+					<value level="31">-10</value>
+				</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">15</value>
+				</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>
+					<value fromLevel="1" toLevel="30">0</value>
+					<value level="31">15</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11403" toLevel="31" name="Forgotten Power - Vitalizing">
+		<!-- Level 1: Vitality bonus +1%. -->
+		<!-- Level 2: Vitality bonus +1%. -->
+		<!-- Level 3: Vitality bonus +2%. -->
+		<!-- Level 4: Vitality bonus +2%. -->
+		<!-- Level 5: Vitality bonus +3%. -->
+		<!-- Level 6: Vitality bonus +3%. -->
+		<!-- Level 7: Vitality bonus +4%. -->
+		<!-- Level 8: Vitality bonus +4%. -->
+		<!-- Level 9: Vitality bonus +5%. -->
+		<!-- Level 10: Vitality bonus +5%. -->
+		<!-- Level 11: Vitality bonus +6%, Vitality Consumption -1%. -->
+		<!-- Level 12: Vitality bonus +6%, Vitality Consumption -1%. -->
+		<!-- Level 13: Vitality bonus +7%, Vitality Consumption -1%. -->
+		<!-- Level 14: Vitality bonus +7%, Vitality Consumption -2%. -->
+		<!-- Level 15: Vitality bonus +8%, Vitality Consumption -2%. -->
+		<!-- Level 16: Vitality bonus +8%, Vitality Consumption -3%. -->
+		<!-- Level 17: Vitality bonus +9%, Vitality Consumption -3%. -->
+		<!-- Level 18: Vitality bonus +9%, Vitality Consumption -4%. -->
+		<!-- Level 19: Vitality bonus +10%, Vitality Consumption -4%. -->
+		<!-- Level 20: Vitality bonus +10%, Vitality Consumption -5%. -->
+		<!-- Level 21: Vitality bonus +11%, Vitality Consumption -6%, acquired XP/ SP +1%. -->
+		<!-- Level 22: Vitality bonus +12%, Vitality Consumption -7%, acquired XP/ SP +2%. -->
+		<!-- Level 23: Vitality bonus +13%, Vitality Consumption -8%, acquired XP/ SP +3%. -->
+		<!-- Level 24: Vitality bonus +14%, Vitality Consumption -9%, acquired XP/ SP +4%. -->
+		<!-- Level 25: Vitality bonus +15%, Vitality Consumption -10%, acquired XP/ SP +5%. -->
+		<!-- Level 26: Vitality bonus +16%, Vitality Consumption -11%, acquired XP/ SP +6%. -->
+		<!-- Level 27: Vitality bonus +17%, Vitality Consumption -12%, acquired XP/ SP +7%. -->
+		<!-- Level 28: Vitality bonus +18%, Vitality Consumption -13%, acquired XP/ SP +8%. -->
+		<!-- Level 29: Vitality bonus +19%, Vitality Consumption -14%, acquired XP/ SP +9%. -->
+		<!-- Level 30: Vitality bonus +20%, Vitality Consumption -15%, acquired XP/ SP +10%. -->
+		<!-- Level 31: Vitality bonus +20%, Vitality Consumption -15%, acquired XP/ SP +40%. -->
+		<icon>icon.skill11403</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">1</value>
+					<value level="3">2</value>
+					<value level="4">2</value>
+					<value level="5">3</value>
+					<value level="6">3</value>
+					<value level="7">4</value>
+					<value level="8">4</value>
+					<value level="9">5</value>
+					<value level="10">5</value>
+					<value level="11">6</value>
+					<value level="12">6</value>
+					<value level="13">7</value>
+					<value level="14">7</value>
+					<value level="15">8</value>
+					<value level="16">8</value>
+					<value level="17">9</value>
+					<value level="18">9</value>
+					<value level="19">10</value>
+					<value level="20">10</value>
+					<value level="21">11</value>
+					<value level="22">12</value>
+					<value level="23">13</value>
+					<value level="24">14</value>
+					<value level="25">15</value>
+					<value level="26">16</value>
+					<value level="27">17</value>
+					<value level="28">18</value>
+					<value level="29">19</value>
+					<value level="30">20</value>
+					<value level="31">20</value>
+				</amount>
+			</effect>
+			<effect name="VitalityPointsRate">
+				<amount>
+					<value level="11">-1</value>
+					<value level="12">-1</value>
+					<value level="13">-1</value>
+					<value level="14">-2</value>
+					<value level="15">-2</value>
+					<value level="16">-3</value>
+					<value level="17">-3</value>
+					<value level="18">-4</value>
+					<value level="19">-4</value>
+					<value level="20">-5</value>
+					<value level="21">-6</value>
+					<value level="22">-7</value>
+					<value level="23">-8</value>
+					<value level="24">-9</value>
+					<value level="25">-10</value>
+					<value level="26">-11</value>
+					<value level="27">-12</value>
+					<value level="28">-13</value>
+					<value level="29">-14</value>
+					<value level="30">-15</value>
+					<value level="31">-15</value>
+				</amount>
+			</effect>
+			<effect name="ExpModify">
+				<amount>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">40</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11404" toLevel="31" name="Forgotten Power - Elemental Guard">
+		<!-- Level 1: Attribute Resistance +5. -->
+		<!-- Level 2: Attribute Resistance +10. -->
+		<!-- Level 3: Attribute Resistance +15. -->
+		<!-- Level 4: Attribute Resistance +20. -->
+		<!-- Level 5: Attribute Resistance +25. -->
+		<!-- Level 6: Attribute Resistance +30. -->
+		<!-- Level 7: Attribute Resistance +35. -->
+		<!-- Level 8: Attribute Resistance +40. -->
+		<!-- Level 9: Attribute Resistance +45. -->
+		<!-- Level 10: Attribute Resistance +50. -->
+		<!-- Level 11: Attribute Resistance +55, Attribute Attack +5. -->
+		<!-- Level 12: Attribute Resistance +60, Attribute Attack +10. -->
+		<!-- Level 13: Attribute Resistance +65, Attribute Attack +15. -->
+		<!-- Level 14: Attribute Resistance +70, Attribute Attack +20. -->
+		<!-- Level 15: Attribute Resistance +75, Attribute Attack +25. -->
+		<!-- Level 16: Attribute Resistance +80, Attribute Attack +30. -->
+		<!-- Level 17: Attribute Resistance +85, Attribute Attack +35. -->
+		<!-- Level 18: Attribute Resistance +90, Attribute Attack +40. -->
+		<!-- Level 19: Attribute Resistance +95, Attribute Attack +45. -->
+		<!-- Level 20: Attribute Resistance +100, Attribute Attack +50. -->
+		<!-- Level 21: Attribute Resistance +105, Attribute Attack +55, Max HP/ MP +1%. -->
+		<!-- Level 22: Attribute Resistance +110, Attribute Attack +60, Max HP/ MP +2%. -->
+		<!-- Level 23: Attribute Resistance +115, Attribute Attack +65, Max HP/ MP +3%. -->
+		<!-- Level 24: Attribute Resistance +120, Attribute Attack +70, Max HP/ MP +4%. -->
+		<!-- Level 25: Attribute Resistance +125, Attribute Attack +75, Max HP/ MP +5%. -->
+		<!-- Level 26: Attribute Resistance +130, Attribute Attack +80, Max HP/ MP +6%. -->
+		<!-- Level 27: Attribute Resistance +135, Attribute Attack +85, Max HP/ MP +7%. -->
+		<!-- Level 28: Attribute Resistance +140, Attribute Attack +90, Max HP/ MP +8%. -->
+		<!-- Level 29: Attribute Resistance +145, Attribute Attack +95, Max HP/ MP +9%. -->
+		<!-- Level 30: Attribute Resistance +150, Attribute Attack +100, Max HP/ MP +10%. -->
+		<!-- Level 31: Attribute Resistance +220, Attribute Attack +170, Max HP/ MP +15%. -->
+		<icon>icon.skill11404</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+					<value level="7">35</value>
+					<value level="8">40</value>
+					<value level="9">45</value>
+					<value level="10">50</value>
+					<value level="11">55</value>
+					<value level="12">60</value>
+					<value level="13">65</value>
+					<value level="14">70</value>
+					<value level="15">75</value>
+					<value level="16">80</value>
+					<value level="17">85</value>
+					<value level="18">90</value>
+					<value level="19">95</value>
+					<value level="20">100</value>
+					<value level="21">105</value>
+					<value level="22">110</value>
+					<value level="23">115</value>
+					<value level="24">120</value>
+					<value level="25">125</value>
+					<value level="26">130</value>
+					<value level="27">135</value>
+					<value level="28">140</value>
+					<value level="29">145</value>
+					<value level="30">150</value>
+					<value level="31">220</value>
+				</amount>
+				<mode>DIFF</mode>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+					<value level="7">35</value>
+					<value level="8">40</value>
+					<value level="9">45</value>
+					<value level="10">50</value>
+					<value level="11">55</value>
+					<value level="12">60</value>
+					<value level="13">65</value>
+					<value level="14">70</value>
+					<value level="15">75</value>
+					<value level="16">80</value>
+					<value level="17">85</value>
+					<value level="18">90</value>
+					<value level="19">95</value>
+					<value level="20">100</value>
+					<value level="21">105</value>
+					<value level="22">110</value>
+					<value level="23">115</value>
+					<value level="24">120</value>
+					<value level="25">125</value>
+					<value level="26">130</value>
+					<value level="27">135</value>
+					<value level="28">140</value>
+					<value level="29">145</value>
+					<value level="30">150</value>
+					<value level="31">220</value>
+				</amount>
+				<mode>DIFF</mode>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+					<value level="7">35</value>
+					<value level="8">40</value>
+					<value level="9">45</value>
+					<value level="10">50</value>
+					<value level="11">55</value>
+					<value level="12">60</value>
+					<value level="13">65</value>
+					<value level="14">70</value>
+					<value level="15">75</value>
+					<value level="16">80</value>
+					<value level="17">85</value>
+					<value level="18">90</value>
+					<value level="19">95</value>
+					<value level="20">100</value>
+					<value level="21">105</value>
+					<value level="22">110</value>
+					<value level="23">115</value>
+					<value level="24">120</value>
+					<value level="25">125</value>
+					<value level="26">130</value>
+					<value level="27">135</value>
+					<value level="28">140</value>
+					<value level="29">145</value>
+					<value level="30">150</value>
+					<value level="31">220</value>
+				</amount>
+				<mode>DIFF</mode>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+					<value level="7">35</value>
+					<value level="8">40</value>
+					<value level="9">45</value>
+					<value level="10">50</value>
+					<value level="11">55</value>
+					<value level="12">60</value>
+					<value level="13">65</value>
+					<value level="14">70</value>
+					<value level="15">75</value>
+					<value level="16">80</value>
+					<value level="17">85</value>
+					<value level="18">90</value>
+					<value level="19">95</value>
+					<value level="20">100</value>
+					<value level="21">105</value>
+					<value level="22">110</value>
+					<value level="23">115</value>
+					<value level="24">120</value>
+					<value level="25">125</value>
+					<value level="26">130</value>
+					<value level="27">135</value>
+					<value level="28">140</value>
+					<value level="29">145</value>
+					<value level="30">150</value>
+					<value level="31">220</value>
+				</amount>
+				<mode>DIFF</mode>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+					<value level="7">35</value>
+					<value level="8">40</value>
+					<value level="9">45</value>
+					<value level="10">50</value>
+					<value level="11">55</value>
+					<value level="12">60</value>
+					<value level="13">65</value>
+					<value level="14">70</value>
+					<value level="15">75</value>
+					<value level="16">80</value>
+					<value level="17">85</value>
+					<value level="18">90</value>
+					<value level="19">95</value>
+					<value level="20">100</value>
+					<value level="21">105</value>
+					<value level="22">110</value>
+					<value level="23">115</value>
+					<value level="24">120</value>
+					<value level="25">125</value>
+					<value level="26">130</value>
+					<value level="27">135</value>
+					<value level="28">140</value>
+					<value level="29">145</value>
+					<value level="30">150</value>
+					<value level="31">220</value>
+				</amount>
+				<mode>DIFF</mode>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">5</value>
+					<value level="2">10</value>
+					<value level="3">15</value>
+					<value level="4">20</value>
+					<value level="5">25</value>
+					<value level="6">30</value>
+					<value level="7">35</value>
+					<value level="8">40</value>
+					<value level="9">45</value>
+					<value level="10">50</value>
+					<value level="11">55</value>
+					<value level="12">60</value>
+					<value level="13">65</value>
+					<value level="14">70</value>
+					<value level="15">75</value>
+					<value level="16">80</value>
+					<value level="17">85</value>
+					<value level="18">90</value>
+					<value level="19">95</value>
+					<value level="20">100</value>
+					<value level="21">105</value>
+					<value level="22">110</value>
+					<value level="23">115</value>
+					<value level="24">120</value>
+					<value level="25">125</value>
+					<value level="26">130</value>
+					<value level="27">135</value>
+					<value level="28">140</value>
+					<value level="29">145</value>
+					<value level="31">220</value>
+				</amount>
+				<mode>DIFF</mode>
+				<attribute>DARK</attribute>
+			</effect>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="11">5</value>
+					<value level="12">10</value>
+					<value level="13">15</value>
+					<value level="14">20</value>
+					<value level="15">25</value>
+					<value level="16">30</value>
+					<value level="17">35</value>
+					<value level="18">40</value>
+					<value level="19">45</value>
+					<value level="20">50</value>
+					<value level="21">55</value>
+					<value level="22">60</value>
+					<value level="23">65</value>
+					<value level="24">70</value>
+					<value level="25">75</value>
+					<value level="26">80</value>
+					<value level="27">85</value>
+					<value level="28">90</value>
+					<value level="29">95</value>
+					<value level="30">100</value>
+					<value level="31">170</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MaxHp">
+				<amount>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>
+					<value level="21">1</value>
+					<value level="22">2</value>
+					<value level="23">3</value>
+					<value level="24">4</value>
+					<value level="25">5</value>
+					<value level="26">6</value>
+					<value level="27">7</value>
+					<value level="28">8</value>
+					<value level="29">9</value>
+					<value level="30">10</value>
+					<value level="31">15</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11496" toLevel="2" name="Summoner Boss Penalty">
+		<!-- Level 1: Decreases P. Atk. Toward bosses by 20%. -->
+		<!-- Level 2: Decreases P. Atk. Toward bosses by 30%. -->
+		<icon>icon.skill0217</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>-20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11497" toLevel="1" name="Summoner's Unique Skill - Passive">
+		<icon>icon.skill0217</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+	</skill>
+	<skill id="11498" toLevel="1" name="Summoner's Unique Skill">
+		<!-- For 5 sec., P. Atk., M. Atk., Critical Rate for basic attacks, Critical Damage for basic attacks +10%. -->
+		<icon>icon.skill1543</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>5</abnormalTime>
+		<abnormalType>SUMMON_CONDITION</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<effectPoint>1</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isMagic>4</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<reuseDelay>5000</reuseDelay>
+		<reuseDelayGroup>11259</reuseDelayGroup>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="11499" toLevel="1" name="Extra Hit">
+		<!-- Strikes the enemy with a powerful blow. -->
+		<icon>icon.skill10317</icon>
+		<operateType>A1</operateType>
+		<targetType>ENEMY</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>800</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>-687</effectPoint>
+		<effectRange>1400</effectRange>
+		<hitTime>2000</hitTime>
+		<isMagic>1</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>57</mpConsume>
+		<mpInitialConsume>14</mpInitialConsume>
+		<reuseDelay>10000</reuseDelay>
+		<conditions>
+			<condition name="OpCheckAbnormal">
+				<type>AIRBIND</type>
+				<level>1</level>
+				<hasAbnormal>true</hasAbnormal>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="MagicalDamage">
+				<power>184</power>
+			</effect>
+		</effects>
+	</skill>
+</list>

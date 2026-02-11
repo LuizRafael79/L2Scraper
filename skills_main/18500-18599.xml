@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="18500" toLevel="1" name="Aden Vanguard Supply Box">
+		<!-- Random Prize. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18501" toLevel="1" name="System Control Room Key">
+		<!-- Key to get to Core in the Cruma Tower. Key to the System Control Room. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>150</castRange>
+		<effectPoint>-1</effectPoint>
+		<hitTime>3000</hitTime>
+		<reuseDelay>3000</reuseDelay>
+	</skill>
+	<skill id="18502" toLevel="1" name="Scroll: Enchant Shadow Weapon">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="18503" toLevel="1" name="Blessed Zodiac Agathion Pack (30-day)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46369</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>10</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="8.333333333333333">
+						<item id="46357" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46358" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46359" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46360" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46361" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46362" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46363" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46364" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46365" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46366" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46367" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+					<item chance="8.333333333333333">
+						<item id="46368" count="1" /> <!-- Superior Seed Bracelet Pack - 30-day -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18504" toLevel="1" name="Emergency Whistle - Aden Vanguard">
+		<!-- Summons one of the five Aden Vanguard Members to help in the battle with Burnstein. Duration: 30 min. Can only be used while in the Command Post instance zone. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<effectPoint>0</effectPoint>
+		<hitTime>1000</hitTime>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18505" toLevel="1" name="Mr. K's Gift Basket">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18506" toLevel="1" name="Angel Cat's Energy">
+		<!-- For 30 min., P. Atk. +5%, M. Atk. +20%, P. Def. +5%, M. Def. +5%, Atk. Spd. +5%, Casting Spd. +5%, Max HP/ MP +5%, acquired XP/ SP while hunting +30%. -->
+		<icon>icon.skilltransform4</icon>
+		<operateType>A2</operateType>
+		<effectPoint>1</effectPoint>
+		<isMagic>4</isMagic>
+		<reuseDelay>900000</reuseDelay>
+	</skill>
+	<skill id="18507" toLevel="1" name="MOPP Ally Identification Amulet">
+		<!-- STR/ INT/ CON/ DEX/ WIT/ MEN/ LUC/ CHA +1. -->
+		<icon>BranchSys3.lcon.g_rune_itemdrop_up</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18508" toLevel="1" name="Harp's Reward Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18509" toLevel="1" name="Divine Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18510" toLevel="1" name="Heine's Treasure Chest">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18511" toLevel="1" name="Zodiac Agathion Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18513" toLevel="1" name="Summon Fire Flower">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>1500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46554</itemConsumeId> <!-- Flame Flower -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>3000</reuseDelay>
+	</skill>
+	<skill id="18514" toLevel="1" name="Seal Altar of Earth">
+		<!-- Engraved on an ancient holy artifact that protects your castle. -->
+		<icon>icon.skill0246</icon>
+		<operateType>A1</operateType>
+		<targetType>HOLYTHING</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>100</castRange>
+		<effectRange>400</effectRange>
+		<hitTime>60000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>30</magicLevel>
+		<reuseDelay>5000</reuseDelay>
+		<conditions>
+			<condition name="PossessHolything" />
+		</conditions>
+		<effects>
+			<effect name="TakeCastle">
+				<side>NEUTRAL</side>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18515" toLevel="3" name="P. Def. Reduction">
+		<!-- Level 1: P./ M. Def. -10%. -->
+		<!-- Level 2: P./ M. Def. -30%. -->
+		<!-- Level 3: P./ M. Def. +50%. -->
+		<icon>icon.skill1042</icon>
+		<operateType>A2</operateType>
+		<targetType>TARGET</targetType>
+		<abnormalLevel>5</abnormalLevel>
+		<abnormalTime>60</abnormalTime>
+		<abnormalType>PD_DOWN</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>500</castRange>
+		<effectPoint>-692</effectPoint>
+		<isDebuff>true</isDebuff>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-30</value>
+					<value level="3">-50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">-10</value>
+					<value level="2">-30</value>
+					<value level="3">-50</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CallSkill">
+				<skillId>16571</skillId> <!-- P. Def. Reduction -->
+				<skillLevel>1</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18516" toLevel="1" name="Seal Wind Altar">
+		<!-- Engraved on an ancient holy artifact that protects your castle. -->
+		<icon>icon.skill0246</icon>
+		<operateType>A1</operateType>
+		<targetType>HOLYTHING</targetType>
+		<affectScope>SINGLE</affectScope>
+		<castRange>100</castRange>
+		<effectRange>400</effectRange>
+		<hitTime>60000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>30</magicLevel>
+		<reuseDelay>5000</reuseDelay>
+		<conditions>
+			<condition name="PossessHolything" />
+		</conditions>
+		<effects>
+			<effect name="TakeCastle">
+				<side>NEUTRAL</side>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18517" toLevel="1" name="Top-grade Love Elixir - Party">
+		<!-- For 15 sec., P./ M. Atk. and Atk. Spd./ Casting Spd. are increased. A strange power changes the appearance of your weapon. The effect does not stack with Battle Rhapsody. -->
+		<icon>icon.love_potion_party</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>4</abnormalLevel>
+		<abnormalTime>15</abnormalTime>
+		<abnormalType>MULTI_BUFF_A</abnormalType>
+		<abnormalVisualEffect>CHANGE_VALENTINE</abnormalVisualEffect>
+		<affectObject>FRIEND</affectObject>
+		<affectRange>1000</affectRange>
+		<affectScope>PARTY</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<effectPoint>100</effectPoint>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>100</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>600000</reuseDelay>
+		<reuseDelayGroup>17917</reuseDelayGroup>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="DispelBySlotProbability">
+				<dispel>RHAPSODY</dispel>
+				<rate>100</rate>
+			</effect>
+			<effect name="BlockAbnormalSlot">
+				<slot>RHAPSODY</slot>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>150</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>150</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>150</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>150</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18518" toLevel="1" name="Flash Grenade">
+		<!-- Fires a flash grenade that shows hidden opponents around you and deals them damage. -->
+		<icon>icon.etc_fairy_fire_i00</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectObject>INVISIBLE</affectObject>
+		<affectRange>300</affectRange>
+		<affectScope>RANGE</affectScope>
+		<coolTime>300</coolTime>
+		<hitTime>1200</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>48283</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<reuseDelay>5000</reuseDelay>
+		<effects>
+			<effect name="Detection" />
+			<effect name="TrapRemove">
+				<power>99</power>
+			</effect>
+			<effect name="DispelBySlot">
+				<dispel>HIDE,9</dispel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18522" toLevel="1" name="Flash Grenade">
+		<!-- Creates Flash Grenade via the alchemical transformation. Grade: Novice. -->
+		<icon>icon.etc_fairy_fire_i00</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18523" toLevel="1" name="Hansel's Weapon Crafting Potion">
+		<!-- Use to change the appearance of your weapon into that of a White Day weapon for 1 h. -->
+		<icon>icon.etc_whiteday_herb</icon>
+		<operateType>A2</operateType>
+		<effectPoint>100</effectPoint>
+		<hitTime>100</hitTime>
+		<reuseDelay>2000</reuseDelay>
+	</skill>
+	<skill id="18524" toLevel="1" name="Gretel's Friend Summon Candy">
+		<!-- Use to summon a friend. -->
+		<icon>icon.etc_summon_aga_agit_i00</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1000</effectPoint>
+		<hitTime>5000</hitTime>
+		<reuseDelay>1800000</reuseDelay>
+	</skill>
+	<skill id="18531" toLevel="1" name="Rare Accessory Pack">
+		<!-- Double-click to obtain one of the following 7-day accessories: Antharas' Blessed Earring, Valakas' Blessed Necklace, Tauti's Ring, Earth Wyrm's Ring, Immortal Zaken's Earring. Cannot be used in the Olympiad. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46535</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="20">
+						<item id="37732" count="1" /> <!-- Antharas' Blessed Earring - 7-day -->
+					</item>
+					<item chance="20">
+						<item id="37733" count="1" /> <!-- Valakas' Blessed Necklace - 7-day -->
+					</item>
+					<item chance="20">
+						<item id="37734" count="1" /> <!-- Tauti's Ring - 7-day -->
+					</item>
+					<item chance="20">
+						<item id="37735" count="1" /> <!-- Earth Wyrm's Ring - 7-day -->
+					</item>
+					<item chance="20">
+						<item id="37736" count="1" /> <!-- Immortal Zaken's Earring - 7-day -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18532" toLevel="1" name="Expertise Rune Pack">
+		<!-- Double click to receive one of the following: Expertise Rune Pack R, R95, or R99. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46536</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="33.33333333333333">
+						<item id="38410" count="1" /> <!-- Expertise Rune Pack - R -->
+					</item>
+					<item chance="33.33333333333333">
+						<item id="38412" count="1" /> <!-- Expertise Rune Pack - R95 -->
+					</item>
+					<item chance="33.33333333333333">
+						<item id="38414" count="1" /> <!-- Expertise Rune Pack - R99 -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18534" toLevel="1" name="Scroll of Escape: Mystic Tavern">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>1000</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46564</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<conditions>
+			<condition name="OpAlignment">
+				<affectType>CASTER</affectType>
+				<alignment>LAWFUL</alignment>
+			</condition>
+			<condition name="OpCanEscape" />
+		</conditions>
+		<effects>
+			<effect name="Teleport">
+				<x>-49743</x>
+				<y>-148045</y>
+				<z>-14152</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18535" toLevel="1" name="Epic Tale Pouch">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18536" toLevel="1" name="Epic Tale Pouch">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18537" toLevel="1" name="Epic Tale Pouch">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18538" toLevel="1" name="Appearance Stone: Tauti's Helmet">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18539" toLevel="1" name="Appearance Stone: Tauti's Breastplate">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18540" toLevel="1" name="Appearance Stone: Tauti's Gaiters">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18541" toLevel="1" name="Appearance Stone: Tauti's Gauntlets">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18542" toLevel="1" name="Appearance Stone: Tauti's Boots">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18543" toLevel="1" name="Appearance Stone: Kelbim's Leather Helmet">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18544" toLevel="1" name="Appearance Stone: Kelbim's Leather Armor">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18545" toLevel="1" name="Appearance Stone: Kelbim's Leather Leggings">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18546" toLevel="1" name="Appearance Stone: Kelbim's Leather Gloves">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18547" toLevel="1" name="Appearance Stone: Kelbim's Leather Boots">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18548" toLevel="1" name="Appearance Stone: Freya's Circlet">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18549" toLevel="1" name="Appearance Stone: Freya's Tunic">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18550" toLevel="1" name="Appearance Stone: Freya's Stockings">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18551" toLevel="1" name="Appearance Stone: Freya's Gloves">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18552" toLevel="1" name="Appearance Stone: Freya's Shoes">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18553" toLevel="1" name="Leona's High-grade Reward Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18554" toLevel="1" name="Leona's Reward Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18555" toLevel="1" name="Curtis' Reward Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46560</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<item chance="5">
+						<item id="36554" count="1" /> <!-- Corroded High-grade Armor Fragment -->
+					</item>
+					<item chance="10">
+						<item id="36553" count="1" /> <!-- Corroded Mid-grade Armor Fragment -->
+					</item>
+					<item chance="5">
+						<item id="36549" count="1" /> <!-- Corroded High-grade Weapon Fragment -->
+					</item>
+					<item chance="10">
+						<item id="36548" count="1" /> <!-- Corroded Mid-grade Weapon Fragment -->
+					</item>
+					<item chance="10">
+						<item id="9555" count="1" /> <!-- Wind Crystal -->
+					</item>
+					<item chance="10">
+						<item id="9556" count="1" /> <!-- Dark Crystal -->
+					</item>
+					<item chance="10">
+						<item id="9553" count="1" /> <!-- Water Crystal -->
+					</item>
+					<item chance="10">
+						<item id="9557" count="1" /> <!-- Holy Crystal -->
+					</item>
+					<item chance="10">
+						<item id="9552" count="1" /> <!-- Fire Crystal -->
+					</item>
+					<item chance="10">
+						<item id="9554" count="1" /> <!-- Earth Crystal -->
+					</item>
+					<item chance="4">
+						<item id="17527" count="1" /> <!-- Scroll: Enchant R-grade Armor -->
+					</item>
+					<item chance="3">
+						<item id="17526" count="1" /> <!-- Scroll: Enchant R-grade Weapon -->
+					</item>
+					<item chance="2">
+						<item id="19448" count="1" /> <!-- Blessed Scroll: Enchant R-grade Armor -->
+					</item>
+					<item chance="1">
+						<item id="19447" count="1" /> <!-- Blessed Scroll: Enchant R-grade Weapon -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18556" toLevel="1" name="Appearance Stone: Blue Dynasty Armor">
+		<!-- An appearance stone that changes armor appearance to that of Blue Dynasty Armor. Can be used on upper and full-body armor. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18557" toLevel="1" name="Appearance Stone: Red Zubei's Armor">
+		<!-- An appearance stone that changes armor appearance to that of Red Zubei. Can be used on upper and full-body armor. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18558" toLevel="1" name="Appearance Stone: Light Assassin Outfit">
+		<!-- An appearance stone that changes the armor appearance to that of Light Assassin Outfit. Can be used on upper and full-body armor. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>ITEM</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+	</skill>
+	<skill id="18559" toLevel="1" name="Extra Pass: Nightmare Kamaloka">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46625</itemConsumeId> <!-- Extra Pass: Nightmare Kamaloka -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>1440000</reuseDelay>
+		<effects>
+			<effect name="ResetInstanceEntry">
+				<instanceId>258;313</instanceId>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18560" toLevel="1" name="Extra Pass: Embryo Command Post">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>28400</itemConsumeId> <!-- Extra Pass: Embryo Command Post -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>1440000</reuseDelay>
+		<effects>
+			<effect name="ResetInstanceEntry">
+				<instanceId>259</instanceId>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18561" toLevel="1" name="Assistant Roa's Gift">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18562" toLevel="1" name="Extra Pass: Crystal Caverns">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="18563" toLevel="5" name="Red Libra's Supplies Lv. 5">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18564" toLevel="2" name="Shadai's Shiny Jewelry Box">
+		<icon>
+			<value level="1">icon.etc_bm_jewelbox_main_i00</value>
+			<value level="2">icon.etc_bm_jewelbox_shhadai</value>
+		</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46689</itemConsumeId>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>10</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="RestorationRandom">
+				<items>
+					<value level="1">
+						<item chance="20.0">
+							<item id="26491" count="1" /> <!-- La Vie En Rose's Vital Stone Pack - Not available -->
+						</item>
+						<item chance="20.0">
+							<item id="26492" count="1" /> <!-- La Vie En Rose's Garnet Pack - Not available -->
+						</item>
+						<item chance="20.0">
+							<item id="26493" count="1" /> <!-- La Vie En Rose's Tanzanite Pack - Not available -->
+						</item>
+						<item chance="20.0">
+							<item id="26507" count="1" /> <!-- La Vie En Rose's Cat's Eye Pack -->
+						</item>
+						<item chance="20.0">
+							<item id="26508" count="1" /> <!-- La Vie En Rose's Amethyst Pack -->
+						</item>
+					</value>
+					<value level="2"> <!-- Copy from level 1 -->
+						<item chance="20.0">
+							<item id="26491" count="1" /> <!-- La Vie En Rose's Vital Stone Pack - Not available -->
+						</item>
+						<item chance="20.0">
+							<item id="26492" count="1" /> <!-- La Vie En Rose's Garnet Pack - Not available -->
+						</item>
+						<item chance="20.0">
+							<item id="26493" count="1" /> <!-- La Vie En Rose's Tanzanite Pack - Not available -->
+						</item>
+						<item chance="20.0">
+							<item id="26507" count="1" /> <!-- La Vie En Rose's Cat's Eye Pack -->
+						</item>
+						<item chance="20.0">
+							<item id="26508" count="1" /> <!-- La Vie En Rose's Amethyst Pack -->
+						</item>
+					</value>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18565" toLevel="20" name="Tanzanite - Barrier">
+		<!-- Level 1: Creates a barrier that absorbs 5000 damage for 5 sec. -->
+		<!-- Level 2: Creates a barrier that absorbs 10,000 damage for 5 sec. -->
+		<!-- Level 3: Creates a barrier that absorbs 15,000 damage for 10 sec. -->
+		<!-- Level 4: Creates a barrier that absorbs 30,000 damage for 10 sec. -->
+		<!-- Level 5: Creates a barrier that absorbs 50,000 damage for 15 sec. -->
+		<!-- Level 6: Creates a barrier that absorbs 50,000 damage for 15 sec., and momentarily recovers 15% of Max HP. -->
+		<!-- Level 7: Creates a barrier that absorbs 55,000 damage for 15 sec., and momentarily recovers 15% of Max HP. -->
+		<!-- Level 8: Creates a barrier that absorbs 60,000 damage for 15 sec., and momentarily recovers 15% of Max HP. -->
+		<!-- Level 9: Creates a barrier that absorbs 65,000 damage for 15 sec., and momentarily recovers 15% of Max HP. -->
+		<!-- Level 10: Creates a barrier that absorbs 70,000 damage for 15 sec., and momentarily recovers 15% of Max HP. -->
+		<!-- Level 11: Creates a barrier that absorbs 70,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 12: Creates a barrier that absorbs 75,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 13: Creates a barrier that absorbs 80,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 14: Creates a barrier that absorbs 85,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 15: Creates a barrier that absorbs 90,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 16: Creates a barrier that absorbs 95,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 17: Creates a barrier that absorbs 100,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 18: Creates a barrier that absorbs 105,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 19: Creates a barrier that absorbs 110,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 20: Creates a barrier that absorbs 115,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 21: Tanzanite barrier empowered by wind. Creates a barrier that absorbs :122,000 damage for 15 sec, and momentarily recovers 20% of Max HP. -->
+		<!-- Level 22: Tanzanite barrier empowered by wind. Creates a barrier that absorbs 129,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 23: Tanzanite barrier empowered by wind. Creates a barrier that absorbs 136,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 24: Tanzanite barrier empowered by wind. Creates a barrier that absorbs 143,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<!-- Level 25: Tanzanite barrier empowered by wind. Creates a barrier that absorbs 150,000 damage for 15 sec., and momentarily recovers 20% of Max HP. -->
+		<icon>
+			<value level="1">icon.etc_bm_jewel_tanzanite</value>
+			<value level="2">icon.etc_bm_jewel_tanzanite</value>
+			<value level="3">icon.etc_bm_jewel_tanzanite</value>
+			<value level="4">icon.etc_bm_jewel_tanzanite</value>
+			<value level="5">icon.etc_bm_jewel_tanzanite</value>
+			<value level="6">icon.bm_jewel_tanzanite_high_lv1_lavianrose</value>
+			<value level="7">icon.bm_jewel_tanzanite_high_lv1_lavianrose</value>
+			<value level="8">icon.bm_jewel_tanzanite_high_lv1_lavianrose</value>
+			<value level="9">icon.bm_jewel_tanzanite_high_lv1_lavianrose</value>
+			<value level="10">icon.bm_jewel_tanzanite_high_lv1_lavianrose</value>
+			<value level="11">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+			<value level="12">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+			<value level="13">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+			<value level="14">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+			<value level="15">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+			<value level="16">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+			<value level="17">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+			<value level="18">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+			<value level="19">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+			<value level="20">icon.bm_jewel_tanzanite_lv1_lavianrose_high2</value>
+		</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalTime>
+			<value level="1">5</value>
+			<value level="2">5</value>
+			<value level="3">10</value>
+			<value level="4">10</value>
+			<value level="5">15</value>
+			<value level="6">15</value>
+			<value level="7">15</value>
+			<value level="8">15</value>
+			<value level="9">15</value>
+			<value level="10">15</value>
+			<value level="11">15</value>
+			<value level="12">15</value>
+			<value level="13">15</value>
+			<value level="14">15</value>
+			<value level="15">15</value>
+			<value level="16">15</value>
+			<value level="17">15</value>
+			<value level="18">15</value>
+			<value level="19">15</value>
+			<value level="20">15</value>
+		</abnormalTime>
+		<coolTime>100</coolTime>
+		<effectPoint>1000</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>2</isMagic>
+		<reuseDelay>30000</reuseDelay>
+		<effects>
+			<effect name="AbsorbDamage">
+				<damage>
+					<value level="1">5000</value>
+					<value level="2">10000</value>
+					<value level="3">15000</value>
+					<value level="4">30000</value>
+					<value level="5">50000</value>
+					<value level="6">50000</value>
+					<value level="7">55000</value>
+					<value level="8">60000</value>
+					<value level="9">65000</value>
+					<value level="10">70000</value>
+					<value level="11">70000</value>
+					<value level="12">75000</value>
+					<value level="13">80000</value>
+					<value level="14">85000</value>
+					<value level="15">90000</value>
+					<value level="16">95000</value>
+					<value level="17">100000</value>
+					<value level="18">105000</value>
+					<value level="19">110000</value>
+					<value level="20">115000</value>
+				</damage>
+			</effect>
+			<effect name="HealPercent" fromLevel="6" toLevel="10">
+				<power>15</power>
+			</effect>
+			<effect name="HealPercent" fromLevel="11" toLevel="20">
+				<power>20</power>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18566" toLevel="20" name="Garnet">
+		<!-- Level 1: Debuff Resistance +3%. -->
+		<!-- Level 2: Debuff Resistance +6%. -->
+		<!-- Level 3: Debuff Resistance +12%. -->
+		<!-- Level 4: Debuff Resistance +20%. -->
+		<!-- Level 5: Debuff Resistance +30%. -->
+		<!-- Level 6: Debuff Resistance +30%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. -->
+		<!-- Level 7: Debuff Resistance +30%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +3%. -->
+		<!-- Level 8: Debuff Resistance +30%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +6%. -->
+		<!-- Level 9: Debuff Resistance +30%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +9%. -->
+		<!-- Level 10: Debuff Resistance +30%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +15%. -->
+		<!-- Level 11: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +15%. -->
+		<!-- Level 12: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +16%. -->
+		<!-- Level 13: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +17%. -->
+		<!-- Level 14: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +18%. -->
+		<!-- Level 15: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +20%. -->
+		<!-- Level 16: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +21%. -->
+		<!-- Level 17: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +22%. -->
+		<!-- Level 18: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +23%. -->
+		<!-- Level 19: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +24%. -->
+		<!-- Level 20: Debuff Resistance +35%. Removes Stun/ Silence of Confusion/ Obstruction debuff types when damage is taken in PvP. Cooldown: 15 sec. Damage Reflection Resistance +25%. -->
+		<icon>
+			<value level="1">icon.etc_bm_jewel_garnet</value>
+			<value level="2">icon.etc_bm_jewel_garnet</value>
+			<value level="3">icon.etc_bm_jewel_garnet</value>
+			<value level="4">icon.etc_bm_jewel_garnet</value>
+			<value level="5">icon.etc_bm_jewel_garnet</value>
+			<value level="6">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
+			<value level="7">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
+			<value level="8">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
+			<value level="9">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
+			<value level="10">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
+			<value level="11">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+			<value level="12">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+			<value level="13">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+			<value level="14">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+			<value level="15">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+			<value level="16">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+			<value level="17">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+			<value level="18">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+			<value level="19">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+			<value level="20">icon.bm_jewel_garnet_lv1_lavianrose_high2</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ResistAbnormalByCategory">
+				<amount>
+					<value level="1">-3</value>
+					<value level="2">-6</value>
+					<value level="3">-12</value>
+					<value level="4">-20</value>
+					<value fromLevel="5" toLevel="10">-30</value>
+					<value fromLevel="11" toLevel="20">-35</value>
+				</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+			<effect name="DamageShieldResist">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">3</value>
+					<value level="8">6</value>
+					<value level="9">9</value>
+					<value level="10">15</value>
+					<value level="11">15</value>
+					<value level="12">16</value>
+					<value level="13">17</value>
+					<value level="14">18</value>
+					<value level="15">20</value>
+					<value level="16">21</value>
+					<value level="17">22</value>
+					<value level="18">23</value>
+					<value level="19">24</value>
+					<value level="20">25</value>
+				</amount>
+			</effect>
+			<effect name="TriggerSkillByDamageReceived" fromLevel="6" toLevel="20">
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<skillId>18721</skillId> <!-- Greater Garnet - Cancel Stun/ Silence -->
+			</effect>
+			<effect name="TriggerSkillByDamageReceived" fromLevel="11" toLevel="20">
+				<allowSkillAttack>true</allowSkillAttack>
+				<allowNormalAttack>true</allowNormalAttack>
+				<skillId>18721</skillId> <!-- Greater Garnet - Cancel Stun/ Silence -->
+				<skillLevel>2</skillLevel>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18567" toLevel="3" name="Garnet - Purify">
+		<!-- Removes debuffs from you. -->
+		<icon>
+			<value level="1">icon.etc_bm_jewel_garnet</value>
+			<value level="2">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
+			<value level="3">icon.bm_jewel_garnet_high_lv1_lavianrose</value>
+		</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>
+			<value level="1">2</value>
+			<value level="2">3</value>
+			<value level="3">4</value> <!-- FIXME: AUTO GENERATED LEVEL -->
+		</abnormalLevel>
+		<abnormalTime>7</abnormalTime>
+		<abnormalType>
+			<value level="1">SKILL_IGNORE</value>
+			<value level="2">ABNORMAL_INVINCIBILITY</value>
+			<value level="3">ABNORMAL_INVINCIBILITY</value> <!-- FIXME: AUTO GENERATED LEVEL -->
+		</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitTime>1000</hitTime>
+		<reuseDelay>30000</reuseDelay>
+		<staticReuse>true</staticReuse>
+		<effects>
+			<effect name="DispelByCategory" fromLevel="1" toLevel="3">
+				<slot>DEBUFF</slot>
+				<rate>100</rate>
+				<max>10</max>
+			</effect>
+			<effect name="DebuffBlock" fromLevel="2" toLevel="3" />
+		</effects>
+	</skill>
+	<skill id="18568" toLevel="20" name="Vital Stone">
+		<!-- Level 1: Vitality bonus +3%. -->
+		<!-- Level 2: Vitality bonus +6%. -->
+		<!-- Level 3: Vitality bonus +12%. -->
+		<!-- Level 4: Vitality bonus +25%, Vitality Consumption -7%. -->
+		<!-- Level 5: Vitality bonus +50%, Vitality Consumption -15%. -->
+		<!-- Level 6: Vitality bonus +50%, Vitality Consumption -15%, acquired XP +10%. -->
+		<!-- Level 7: Vitality bonus +52%, Vitality Consumption -16%, acquired XP +10%. -->
+		<!-- Level 8: Vitality bonus +54%, Vitality Consumption -17%, acquired XP +10%. -->
+		<!-- Level 9: Vitality bonus +56%, Vitality Consumption -18%, acquired XP +10%. -->
+		<!-- Level 10: Vitality bonus +60%, Vitality Consumption -20%, acquired XP +10%. -->
+		<!-- Level 11: Vitality bonus +61%, Vitality Consumption -20%, acquired XP +15%. -->
+		<!-- Level 12: Vitality bonus +62%, Vitality Consumption -20%, acquired XP +15%. -->
+		<!-- Level 13: Vitality bonus +63%, Vitality Consumption -20%, acquired XP +15%. -->
+		<!-- Level 14: Vitality bonus +64%, Vitality Consumption -20%, acquired XP +15%. -->
+		<!-- Level 15: Vitality bonus +65%, Vitality Consumption -20%, acquired XP +15%. -->
+		<!-- Level 16: Vitality bonus +66%, Vitality Consumption -20%, acquired XP +15%. -->
+		<!-- Level 17: Vitality bonus +67%, Vitality Consumption -20%, acquired XP +15%. -->
+		<!-- Level 18: Vitality bonus +68%, Vitality Consumption -20%, acquired XP +15%. -->
+		<!-- Level 19: Vitality bonus +69%, Vitality Consumption -20%, acquired XP +15%. -->
+		<!-- Level 20: Vitality bonus +70%, Vitality Consumption -20%, acquired XP +15%. -->
+		<icon>
+			<value level="1">icon.etc_bm_jewel_vital</value>
+			<value level="2">icon.etc_bm_jewel_vital</value>
+			<value level="3">icon.etc_bm_jewel_vital</value>
+			<value level="4">icon.etc_bm_jewel_vital</value>
+			<value level="5">icon.etc_bm_jewel_vital</value>
+			<value level="6">icon.bm_jewel_vital_high_lv1_lavianrose</value>
+			<value level="7">icon.bm_jewel_vital_high_lv1_lavianrose</value>
+			<value level="8">icon.bm_jewel_vital_high_lv1_lavianrose</value>
+			<value level="9">icon.bm_jewel_vital_high_lv1_lavianrose</value>
+			<value level="10">icon.bm_jewel_vital_high_lv1_lavianrose</value>
+			<value level="11">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+			<value level="12">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+			<value level="13">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+			<value level="14">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+			<value level="15">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+			<value level="16">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+			<value level="17">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+			<value level="18">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+			<value level="19">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+			<value level="20">icon.bm_jewel_vital_lv1_lavianrose_high2</value>
+		</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">12</value>
+					<value level="4">25</value>
+					<value level="5">50</value>
+					<value level="6">50</value>
+					<value level="7">52</value>
+					<value level="8">54</value>
+					<value level="9">56</value>
+					<value level="10">60</value>
+					<value level="11">61</value>
+					<value level="12">62</value>
+					<value level="13">63</value>
+					<value level="14">64</value>
+					<value level="15">65</value>
+					<value level="16">66</value>
+					<value level="17">67</value>
+					<value level="18">68</value>
+					<value level="19">69</value>
+					<value level="20">70</value>
+				</amount>
+			</effect>
+			<effect name="VitalityPointsRate">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">-7</value>
+					<value level="5">-15</value>
+					<value level="6">-15</value>
+					<value level="7">-16</value>
+					<value level="8">-17</value>
+					<value level="9">-18</value>
+					<value level="10">-20</value>
+					<value level="11">-20</value>
+					<value level="12">-20</value>
+					<value level="13">-20</value>
+					<value level="14">-20</value>
+					<value level="15">-20</value>
+					<value level="16">-20</value>
+					<value level="17">-20</value>
+					<value level="18">-20</value>
+					<value level="19">-20</value>
+					<value level="20">-20</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>
+					<value level="1">0</value>
+					<value level="2">0</value>
+					<value level="3">0</value>
+					<value level="4">0</value>
+					<value level="5">0</value>
+					<value level="6">10</value>
+					<value level="7">10</value>
+					<value level="8">10</value>
+					<value level="9">10</value>
+					<value level="10">10</value>
+					<value level="11">15</value>
+					<value level="12">15</value>
+					<value level="13">15</value>
+					<value level="14">15</value>
+					<value level="15">15</value>
+					<value level="16">15</value>
+					<value level="17">15</value>
+					<value level="18">15</value>
+					<value level="19">15</value>
+					<value level="20">15</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18569" toLevel="1" name="Reward Fishing Rod Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18570" toLevel="1" name="Scroll: Energy of Harmony">
+		<!-- Increases XP and SP acquisition by 50% for 30 min. -->
+		<icon>icon.etc_london_olympic_scroll_i01</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="18571" toLevel="1" name="Warrior Basics I">
+		<!-- Acquired XP/ SP +3%. -->
+		<icon>icon.skill18571</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>3</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>3</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18572" toLevel="1" name="Warrior Basics II">
+		<!-- Acquired XP/ SP +7%. -->
+		<icon>icon.skill18572</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>7</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>7</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18573" toLevel="1" name="Warrior Basics III">
+		<!-- Acquired XP/ SP +3%, P. Atk. +3%, M. Atk. +3%, P. Def. +3%, M. Def. +3%. -->
+		<icon>icon.skill18573</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="ExpModify">
+				<amount>3</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>3</amount>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18574" toLevel="1" name="Peaceful Town of Giran">
+		<!-- Vitality is replenished in peaceful zones. -->
+		<icon>icon.skill18574</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityPointUp">
+				<value>140000</value>
+			</effect>
+			<effect name="VitalityPointsRate">
+				<amount>-1</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18575" toLevel="1" name="Call to Hunt I">
+		<!-- P. Atk. +5%, M. Atk. +5%, Critical Rate for basic attacks +2%, M. Skill Critical Rate +2%, bow/ crossbow attack range +100. -->
+		<icon>icon.skill18575</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>20</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalAttackRange">
+				<amount>100</amount>
+				<mode>DIFF</mode>
+				<weaponType>
+					<item>BOW</item>
+					<item>CROSSBOW</item>
+					<item>TWOHANDCROSSBOW</item>
+				</weaponType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18576" toLevel="1" name="Call to Hunt II">
+		<!-- P. Def. +10%, M. Def. +10%, Bow/ Crossbow Resistance +10%. -->
+		<icon>icon.skill18576</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceTrait">
+				<BOW>10</BOW>
+				<CROSSBOW>10</CROSSBOW>
+				<TWOHANDCROSSBOW>10</TWOHANDCROSSBOW>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18577" toLevel="1" name="Call to Battle">
+		<!-- Received PvP damage -5%, Debuff Resistance +10%. -->
+		<icon>icon.skill18577</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ResistAbnormalByCategory">
+				<amount>-10</amount>
+				<slot>DEBUFF</slot>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18578" toLevel="1" name="The World's Next Top Singer">
+		<!-- World Chat Points +20. -->
+		<icon>icon.skill18578</icon>
+		<operateType>P</operateType>
+	</skill>
+	<skill id="18579" toLevel="1" name="Extra Pass: Embryo Command Post">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>28431</itemConsumeId> <!-- Extra Pass: Embryo Command Post -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>1440000</reuseDelay>
+		<effects>
+			<effect name="ResetInstanceEntry">
+				<instanceId>259</instanceId>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18580" toLevel="1" name="Extra Pass: Nightmare Kamaloka">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitCancelTime>0</hitCancelTime>
+		<isMagic>2</isMagic>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>46708</itemConsumeId> <!-- Extra Pass: Nightmare Kamaloka -->
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>1</magicLevel>
+		<reuseDelay>1440000</reuseDelay>
+		<effects>
+			<effect name="ResetInstanceEntry">
+				<instanceId>258;313</instanceId>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18581" toLevel="1" name="Pa'agrio's Help">
+		<!-- For 30 min., Max HP/ MP/ CP +10%, P. Atk. +20%, M. Atk. +30%, P./ M. Def. +10%, P. Accuracy +4, M. Accuracy +4, Atk. Spd./ Casting Spd. +10%, Speed +10, Attribute Attack +100, Skill MP Consumption -10%. The effect remains after death. -->
+		<icon>icon.nshop_bless_of_paagrio</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+		<hitTime>1000</hitTime>
+		<isMagic>4</isMagic>
+		<reuseDelay>300000</reuseDelay>
+	</skill>
+	<skill id="18582" toLevel="7" name="Scroll of Escape: Giant's Cave">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<hitTime>1500</hitTime>
+		<isMagic>2</isMagic> <!-- Static Skill -->
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">46729</value>
+			<value level="2">46730</value>
+			<value level="3">46732</value>
+			<value level="4">46731</value>
+			<value level="5">46733</value>
+			<value level="6">46734</value>
+			<value level="7">46763</value>
+		</itemConsumeId>
+		<magicLevel>1</magicLevel>
+		<conditions msgId="113" addName="1">
+			<and>
+				<player canEscape="true" />
+				<not>
+					<player insideZoneId="10501, 10502, 10503, 10504, 10505, 10506, 10507, 10508" />
+				</not>
+			</and>
+		</conditions>
+		<effects>
+			<effect name="Teleport" fromLevel="1" toLevel="1">
+				<x>147491</x>
+				<y>-56633</y>
+				<z>-2776</z>
+			</effect>
+			<effect name="Teleport" fromLevel="2" toLevel="2">
+				<x>125740</x>
+				<y>-40864</y>
+				<z>-3736</z>
+			</effect>
+			<effect name="Teleport" fromLevel="3" toLevel="3">
+				<x>146718</x>
+				<y>-67185</y>
+				<z>-3652</z>
+			</effect>
+			<effect name="Teleport" fromLevel="4" toLevel="4">
+				<x>147491</x>
+				<y>-56633</y>
+				<z>-2776</z>
+			</effect>
+			<effect name="Teleport" fromLevel="5" toLevel="5"> <!-- Teleport to Giran near NPC Jeronin -->
+				<x>84015</x>
+				<y>147219</y>
+				<z>-3395</z>
+			</effect>
+			<effect name="Teleport" fromLevel="6" toLevel="6">
+				<x>72090</x>
+				<y>116824</y>
+				<z>-3688</z>
+			</effect>
+			<effect name="Teleport" fromLevel="7" toLevel="7">
+				<x>181737</x>
+				<y>46469</y>
+				<z>-4271</z>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18583" toLevel="1" name="Inject Shining Energy">
+		<!-- The energy of the Shine Stone is injected into the Root of the Lesser Giant to trigger evolution. -->
+		<icon>icon.etc_energy_stone_i00</icon>
+		<operateType>A1</operateType>
+		<castRange>300</castRange>
+		<hitTime>1500</hitTime>
+		<reuseDelay>20000</reuseDelay>
+	</skill>
+	<skill id="18584" toLevel="1" name="Steel Armor Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18585" toLevel="1" name="Schumadriba's Reward Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18586" toLevel="1" name="Schumadriba's Top-grade Reward Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18587" toLevel="1" name="Giant's Evolution">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>2000</hitTime>
+		<reuseDelay>40000</reuseDelay>
+	</skill>
+	<skill id="18588" toLevel="13" name="Fortune Pack: Tanzanite">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18589" toLevel="1" name="Vitality Replenishing Potion (Pride Quest)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="18590" toLevel="1" name="Equipment Enchant Pack (Pride Quest)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18591" toLevel="1" name="Skill Enchant Pack (Pride Quest)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18592" toLevel="1" name="Lucky Pack (Pride Quest)">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18593" toLevel="1" name="Mentor's Harmony">
+		<!-- With your mentor's help, P. Atk. +22%, M. Atk. +40%, P. Def. +45%, M. Def. +15%, Critical Rate for basic attacks and M. skills +100%, Critical Damage for basic attacks +70%, Atk. Spd. +10%, Casting Spd. +15%, Shield Defense Rate +30%, Shield Defense +22%0, skill cooldown -22%1, Skill MP Consumption -22%2. The effect is active only when your mentor is online and for 5 min. after they have logged out. -->
+		<icon>icon.skill11524</icon>
+		<operateType>A2</operateType>
+		<targetType>SELF</targetType>
+		<abnormalLevel>0</abnormalLevel>
+		<abnormalTime>-1</abnormalTime>
+		<abnormalType>BUFF_SPECIAL_CLASS</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<canBeDispelled>false</canBeDispelled>
+		<effectPoint>1</effectPoint>
+		<irreplaceableBuff>true</irreplaceableBuff>
+		<isMagic>1</isMagic>
+		<isMentoring>true</isMentoring>
+		<magicCriticalRate>5</magicCriticalRate>
+		<magicLevel>-2</magicLevel>
+		<specialLevel>-2</specialLevel>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>22</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>45</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalRate">
+				<amount>100</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicCriticalRate">
+				<amount>100</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>35</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttackSpeed">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttackSpeed">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="MagicMpCost">
+				<amount>-15</amount>
+				<mode>PER</mode>
+				<magicType>3</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>0</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>1</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>3</magicType>
+			</effect>
+			<effect name="Reuse">
+				<amount>-20</amount>
+				<mode>PER</mode>
+				<magicType>22</magicType>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18594" toLevel="1" name="Mentor's Art of Seduction">
+		<!-- For 2 h., Max HP/ MP/ CP +15%, P. Def. +15%, M. Def. +15%, P. Atk. +10%, M. Atk. +10%, Speed +10 for a selected mentee. -->
+		<icon>icon.bm_freya_rose_red_i00</icon>
+		<operateType>A2</operateType>
+		<targetType>TARGET</targetType>
+		<abnormalLevel>1</abnormalLevel>
+		<abnormalTime>7200</abnormalTime>
+		<abnormalType>BR_EVENT_BUF1</abnormalType>
+		<affectScope>SINGLE</affectScope>
+		<basicProperty>NONE</basicProperty>
+		<blockedInOlympiad>true</blockedInOlympiad>
+		<castRange>900</castRange>
+		<coolTime>300</coolTime>
+		<effectPoint>687</effectPoint>
+		<effectRange>1400</effectRange>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>700</hitTime>
+		<magicCriticalRate>-5</magicCriticalRate>
+		<magicLevel>85</magicLevel>
+		<mpConsume>112</mpConsume>
+		<mpInitialConsume>28</mpInitialConsume>
+		<reuseDelay>2000</reuseDelay>
+		<specialLevel>-3</specialLevel>
+		<conditions>
+			<condition name="TargetMyMentee" />
+		</conditions>
+		<effects>
+			<effect name="MaxHp">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxMp">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MaxCp">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>15</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="Speed">
+				<amount>10</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="18595" toLevel="1" name="Blue Dynasty Transformation">
+		<!-- Armor is transformed into the Blue Dynasty for 1 h. -->
+		<icon>icon.general_stone_i01</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>60000</reuseDelay>
+	</skill>
+	<skill id="18596" toLevel="1" name="Red Zubei Transformation">
+		<!-- Armor is transformed into the Red Zubei for 1 h. -->
+		<icon>icon.general_stone_i00</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<reuseDelay>60000</reuseDelay>
+	</skill>
+	<skill id="18597" toLevel="7" name="Paulina's D-grade Equipment Set">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<reuseDelay>10000</reuseDelay>
+	</skill>
+	<skill id="18598" toLevel="5" name="Jewelry Box">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<coolTime>500</coolTime>
+		<hitTime>500</hitTime>
+	</skill>
+	<skill id="18599" toLevel="3" name="Large Supply Pack">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<targetType>SELF</targetType>
+		<affectScope>SINGLE</affectScope>
+		<coolTime>500</coolTime>
+		<hitCancelTime>0</hitCancelTime>
+		<hitTime>500</hitTime>
+		<itemConsumeCount>1</itemConsumeCount>
+		<itemConsumeId>
+			<value level="1">47172</value> <!-- Basic Supply Box -->
+			<value level="2">47173</value> <!-- Intermediate Supply Box -->
+			<value level="3">47174</value> <!-- Advanced Supply Box -->
+		</itemConsumeId>
+		<conditions>
+			<condition name="OpEncumbered">
+				<weightPercent>20</weightPercent>
+				<slotsPercent>10</slotsPercent>
+			</condition>
+		</conditions>
+		<effects>
+			<effect name="Restoration">
+				<itemId>47256</itemId> <!-- Demon Crystal -->
+				<itemCount>
+					<value level="1">3</value>
+					<value level="2">6</value>
+					<value level="3">9</value>
+				</itemCount>
+			</effect>
+			<effect name="Restoration">
+				<itemId>37893</itemId> <!-- Bloodied Demonic Tome -->
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="Restoration" level="3">
+				<itemId>37791</itemId> <!-- Sealed Demonic Tome -->
+				<itemCount>1</itemCount>
+			</effect>
+			<effect name="RestorationRandom" fromLevel="1" toLevel="2">
+				<items>
+					<item chance="50">
+						<item id="37791" count="1" /> <!-- Sealed Demonic Tome -->
+					</item>
+					<item chance="50">
+						<item id="37893" count="1" /> <!-- Bloodied Demonic Tome -->
+					</item>
+				</items>
+			</effect>
+			<effect name="RestorationRandom" level="3">
+				<items>
+					<item chance="35">
+						<item id="37791" count="1" /> <!-- Sealed Demonic Tome -->
+					</item>
+					<item chance="30">
+						<item id="37791" count="2" /> <!-- Sealed Demonic Tome -->
+					</item>
+					<item chance="35">
+						<item id="37893" count="1" /> <!-- Bloodied Demonic Tome -->
+					</item>
+				</items>
+			</effect>
+		</effects>
+	</skill>
+</list>

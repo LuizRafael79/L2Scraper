@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="227" parentClassId="226">
+		<skill skillName="Potion Mastery" skillId="45184" skillLevel="1" getLevel="40">
+			<item id="90045,98423" count="5" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Blow" skillId="87301" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Shadow Attack" skillId="87304" skillLevel="1" getLevel="40" levelUpSp="80" />
+		<skill skillName="Forward Move" skillId="87321" skillLevel="1" getLevel="40" levelUpSp="80" />
+		<skill skillName="Forward Move" skillId="87321" skillLevel="2" getLevel="40" levelUpSp="80">
+			<item id="105275,105276,105277,105278" count="1" /> <!-- Enhanced Spellbook -->
+		</skill>
+		<skill skillName="Dagger Expert" skillId="87391" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Light Armor Expert" skillId="87392" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Might" skillId="87461" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Shield" skillId="87462" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Empower" skillId="87463" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Magic Barrier" skillId="87464" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Haste" skillId="87465" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Acumen" skillId="87466" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Berserker Spirit" skillId="87468" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Focus" skillId="87469" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Death Whisper" skillId="87470" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Wild Magic" skillId="87471" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Clarity" skillId="87472" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="HP Recovery" skillId="87473" skillLevel="2" getLevel="40" levelUpSp="80">
+			<item id="90045,98423" count="5" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="MP Recovery" skillId="87474" skillLevel="2" getLevel="40" levelUpSp="80">
+			<item id="90045,98423" count="5" /> <!-- Magic Tablet -->
+		</skill>
+		
+		<skill skillName="Assassin's Secret Notes - 1st Page" skillId="54243" skillLevel="1" getLevel="45" autoGet="true" />
+		
+		<skill skillName="Dagger Expert" skillId="87391" skillLevel="4" getLevel="47" levelUpSp="200" />
+		<skill skillName="Light Armor Expert" skillId="87392" skillLevel="4" getLevel="47" levelUpSp="200" />
+		
+		<skill skillName="Potion Mastery" skillId="45184" skillLevel="2" getLevel="50">
+			<item id="90045,98423" count="10" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Blow" skillId="87301" skillLevel="4" getLevel="50" levelUpSp="300" />
+		<skill skillName="Sharp Blade" skillId="87367" skillLevel="1" getLevel="50" levelUpSp="300" />
+		
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="300">
+			<item id="8618,95495" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 1 -->
+		</skill>
+		
+		<skill skillName="Dagger Expert" skillId="87391" skillLevel="5" getLevel="54" levelUpSp="400" />
+		<skill skillName="Light Armor Expert" skillId="87392" skillLevel="5" getLevel="54" levelUpSp="400" />
+		
+		<skill skillName="Shadow Attack" skillId="87304" skillLevel="2" getLevel="55" levelUpSp="400" />
+		
+		<skill skillName="Blow" skillId="87301" skillLevel="5" getLevel="56" levelUpSp="500" />
+		
+		<skill skillName="Potion Mastery" skillId="45184" skillLevel="3" getLevel="60">
+			<item id="90045,98423" count="15" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Assassin's Secret Notes - 2nd Page" skillId="54244" skillLevel="1" getLevel="60" autoGet="true" />
+		<skill skillName="Erosion" skillId="87361" skillLevel="1" getLevel="60" levelUpSp="700">
+			<item id="90045,98423" count="3" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Murder Attempt" skillId="87362" skillLevel="1" getLevel="60" levelUpSp="700">
+			<item id="90045,98423" count="3" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="HP Recovery" skillId="87473" skillLevel="3" getLevel="60" levelUpSp="700">
+			<item id="90045,98423" count="23" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="MP Recovery" skillId="87474" skillLevel="3" getLevel="60" levelUpSp="700">
+			<item id="90045,98423" count="23" /> <!-- Magic Tablet -->
+		</skill>
+		
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="2" getLevel="61" levelUpSp="700">
+			<item id="8619,95496" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 2 -->
+		</skill>
+		<skill skillName="Dagger Expert" skillId="87391" skillLevel="6" getLevel="61" levelUpSp="700" />
+		<skill skillName="Light Armor Expert" skillId="87392" skillLevel="6" getLevel="61" levelUpSp="700" />
+		
+		<skill skillName="Blow" skillId="87301" skillLevel="6" getLevel="62" levelUpSp="800" />
+		
+		<skill skillName="Shadow Attack" skillId="87304" skillLevel="3" getLevel="65" levelUpSp="1000" />
+		
+		<skill skillName="Blow" skillId="87301" skillLevel="7" getLevel="66" levelUpSp="1200" />
+		
+		<skill skillName="Dagger Expert" skillId="87391" skillLevel="7" getLevel="68" levelUpSp="1600" />
+		<skill skillName="Light Armor Expert" skillId="87392" skillLevel="7" getLevel="68" levelUpSp="1600" />
+		
+		<skill skillName="Assassin's Secret Notes - 3rd Page" skillId="54245" skillLevel="1" getLevel="70" autoGet="true" />
+		<skill skillName="Blow" skillId="87301" skillLevel="8" getLevel="70" levelUpSp="2000" />
+		<skill skillName="Shadow Attack" skillId="87304" skillLevel="4" getLevel="70" levelUpSp="2000" />
+		
+		<skill skillName="Blow" skillId="87301" skillLevel="9" getLevel="72" levelUpSp="2200" />
+		
+		<skill skillName="Dagger Expert" skillId="87391" skillLevel="8" getLevel="73" levelUpSp="2200" />
+		<skill skillName="Light Armor Expert" skillId="87392" skillLevel="8" getLevel="73" levelUpSp="2200" />
+		
+		<skill skillName="Blow" skillId="87301" skillLevel="10" getLevel="74" levelUpSp="2200" />
+		
+		<skill skillName="Shadow Attack" skillId="87304" skillLevel="5" getLevel="75" levelUpSp="2200" />
+	</skillTree>
+</list>

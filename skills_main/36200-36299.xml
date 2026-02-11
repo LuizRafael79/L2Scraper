@@ -1,0 +1,4924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="36200" toLevel="3" name="Shield Augmentation: P. Evasion">
+		<!-- Level 1: P. Evasion +1 -->
+		<!-- Level 2: P. Evasion +2 -->
+		<!-- Level 3: P. Evasion +3 -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36201" toLevel="3" name="Shield Augmentation: M. Evasion">
+		<!-- Level 1: M. Evasion +1 -->
+		<!-- Level 2: M. Evasion +2 -->
+		<!-- Level 3: M. Evasion +3 -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalEvasion">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36202" toLevel="9" name="Shield Augmentation: P. Def.">
+		<!-- Level 1: P. Def. +282 -->
+		<!-- Level 2: P. Def. +288 -->
+		<!-- Level 3: P. Def. +293 -->
+		<!-- Level 4: P. Def. +299 -->
+		<!-- Level 5: P. Def. +305 -->
+		<!-- Level 6: P. Def. +311 -->
+		<!-- Level 7: P. Def. +1% -->
+		<!-- Level 8: P. Def. +2% -->
+		<!-- Level 9: P. Def. +3% -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">282</value>
+					<value level="2">288</value>
+					<value level="3">293</value>
+					<value level="4">299</value>
+					<value level="5">305</value>
+					<value level="6">311</value>
+					<value fromLevel="7" toLevel="9">0</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36203" toLevel="9" name="Shield Augmentation: M. Def.">
+		<!-- Level 1: M. Def. +151 -->
+		<!-- Level 2: M. Def. +155 -->
+		<!-- Level 3: M. Def. +159 -->
+		<!-- Level 4: M. Def. +163 -->
+		<!-- Level 5: M. Def. +167 -->
+		<!-- Level 6: M. Def. +171 -->
+		<!-- Level 7: M. Def. +1% -->
+		<!-- Level 8: M. Def. +2% -->
+		<!-- Level 9: M. Def. +3% -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">151</value>
+					<value level="2">155</value>
+					<value level="3">159</value>
+					<value level="4">163</value>
+					<value level="5">167</value>
+					<value level="6">171</value>
+					<value fromLevel="7" toLevel="9">0</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36204" toLevel="8" name="Shield Augmentation: Attribute Resistance">
+		<!-- Level 1: Attribute Resistance +4 -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +6 -->
+		<!-- Level 4: Attribute Resistance +7 -->
+		<!-- Level 5: Attribute Resistance +10 -->
+		<!-- Level 6: Attribute Resistance +15 -->
+		<!-- Level 7: Attribute Resistance +30 -->
+		<!-- Level 8: Attribute Resistance +50 -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36205" toLevel="2" name="Shield Augmentation: Received PvE Damage Reduction">
+		<!-- Level 1: Received PvE damage -1% -->
+		<!-- Level 2: Received PvE damage -2% -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36206" toLevel="2" name="Shield Augmentation: Received PvP Damage Reduction">
+		<!-- Level 1: Received PvP damage -1% -->
+		<!-- Level 2: Received PvP damage -2% -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36207" toLevel="3" name="Shield Augmentation: P. Accuracy">
+		<!-- Level 1: P. Accuracy +1 -->
+		<!-- Level 2: P. Accuracy +2 -->
+		<!-- Level 3: P. Accuracy +3 -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Accuracy">
+				<value level="1">1</value>
+				<value level="2">2</value>
+				<value level="3">3</value>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36208" toLevel="3" name="Shield Augmentation: M. Accuracy">
+		<!-- Level 1: M. Accuracy +1 -->
+		<!-- Level 2: M. Accuracy +2 -->
+		<!-- Level 3: M. Accuracy +3 -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicAccuracy">
+				<value level="1">1</value>
+				<value level="2">2</value>
+				<value level="3">3</value>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36209" toLevel="9" name="Shield Augmentation: P. Atk.">
+		<!-- Level 1: P. Atk. +763 -->
+		<!-- Level 2: P. Atk. +786 -->
+		<!-- Level 3: P. Atk. +809 -->
+		<!-- Level 4: P. Atk. +834 -->
+		<!-- Level 5: P. Atk. +859 -->
+		<!-- Level 6: P. Atk. +884 -->
+		<!-- Level 7: P. Atk. +1% -->
+		<!-- Level 8: P. Atk. +2% -->
+		<!-- Level 9: P. Atk. +3% -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">763</value>
+					<value level="2">786</value>
+					<value level="3">809</value>
+					<value level="4">834</value>
+					<value level="5">859</value>
+					<value level="6">884</value>
+					<value fromLevel="7" toLevel="9">0</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36210" toLevel="9" name="Shield Augmentation: M. Atk.">
+		<!-- Level 1: M. Atk. +443 -->
+		<!-- Level 2: M. Atk. +457 -->
+		<!-- Level 3: M. Atk. +470 -->
+		<!-- Level 4: M. Atk. +484 -->
+		<!-- Level 5: M. Atk. +499 -->
+		<!-- Level 6: M. Atk. +514 -->
+		<!-- Level 7: M. Atk. +1% -->
+		<!-- Level 8: M. Atk. +2% -->
+		<!-- Level 9: M. Atk. +3% -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">443</value>
+					<value level="2">457</value>
+					<value level="3">470</value>
+					<value level="4">484</value>
+					<value level="5">499</value>
+					<value level="6">514</value>
+					<value fromLevel="7" toLevel="9">0</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36211" toLevel="8" name="Shield Augmentation: Attribute Attack">
+		<!-- Level 1: Attribute Attack +4 -->
+		<!-- Level 2: Attribute Attack +5 -->
+		<!-- Level 3: Attribute Attack +6 -->
+		<!-- Level 4: Attribute Attack +7 -->
+		<!-- Level 5: Attribute Attack +10 -->
+		<!-- Level 6: Attribute Attack +15 -->
+		<!-- Level 7: Attribute Attack +30 -->
+		<!-- Level 8: Attribute Attack +50 -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36212" toLevel="2" name="Shield Augmentation: PvE Damage Up">
+		<!-- Level 1: PvE damage +1% -->
+		<!-- Level 2: PvE damage +2% -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36213" toLevel="2" name="Shield Augmentation: PvP Damage Up">
+		<!-- Level 1: PvP damage +1% -->
+		<!-- Level 2: PvP damage +2% -->
+		<icon>icon.weapon_r110_shield</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36214" toLevel="3" name="Sigil Augmentation: P. Evasion">
+		<!-- Level 1: P. Evasion +1 -->
+		<!-- Level 2: P. Evasion +2 -->
+		<!-- Level 3: P. Evasion +3 -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalEvasion">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36215" toLevel="3" name="Sigil Augmentation: M. Evasion">
+		<!-- Level 1: M. Evasion +1 -->
+		<!-- Level 2: M. Evasion +2 -->
+		<!-- Level 3: M. Evasion +3 -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalEvasion">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36216" toLevel="9" name="Sigil Augmentation: P. Def.">
+		<!-- Level 1: P. Def. +282 -->
+		<!-- Level 2: P. Def. +288 -->
+		<!-- Level 3: P. Def. +293 -->
+		<!-- Level 4: P. Def. +299 -->
+		<!-- Level 5: P. Def. +305 -->
+		<!-- Level 6: P. Def. +311 -->
+		<!-- Level 7: P. Def. +1% -->
+		<!-- Level 8: P. Def. +2% -->
+		<!-- Level 9: P. Def. +3% -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">282</value>
+					<value level="2">288</value>
+					<value level="3">293</value>
+					<value level="4">299</value>
+					<value level="5">305</value>
+					<value level="6">311</value>
+					<value fromLevel="7" toLevel="9">0</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36217" toLevel="9" name="Sigil Augmentation: M. Def.">
+		<!-- Level 1: M. Def. +151 -->
+		<!-- Level 2: M. Def. +155 -->
+		<!-- Level 3: M. Def. +159 -->
+		<!-- Level 4: M. Def. +163 -->
+		<!-- Level 5: M. Def. +167 -->
+		<!-- Level 6: M. Def. +171 -->
+		<!-- Level 7: M. Def. +1% -->
+		<!-- Level 8: M. Def. +2% -->
+		<!-- Level 9: M. Def. +3% -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">151</value>
+					<value level="2">155</value>
+					<value level="3">159</value>
+					<value level="4">163</value>
+					<value level="5">167</value>
+					<value level="6">171</value>
+					<value fromLevel="7" toLevel="9">0</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36218" toLevel="8" name="Sigil Augmentation: Attribute Resistance">
+		<!-- Level 1: Attribute Resistance +4 -->
+		<!-- Level 2: Attribute Resistance +5 -->
+		<!-- Level 3: Attribute Resistance +6 -->
+		<!-- Level 4: Attribute Resistance +7 -->
+		<!-- Level 5: Attribute Resistance +10 -->
+		<!-- Level 6: Attribute Resistance +15 -->
+		<!-- Level 7: Attribute Resistance +30 -->
+		<!-- Level 8: Attribute Resistance +50 -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>HOLY</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+				<attribute>DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36219" toLevel="2" name="Sigil Augmentation: Received PvE Damage Reduction">
+		<!-- Level 1: Received PvE damage -1% -->
+		<!-- Level 2: Received PvE damage -2% -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36220" toLevel="2" name="Sigil Augmentation: Received PvP Damage Reduction">
+		<!-- Level 1: Received PvP damage -1% -->
+		<!-- Level 2: Received PvP damage -2% -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36221" toLevel="3" name="Sigil Augmentation: P. Accuracy">
+		<!-- Level 1: P. Accuracy +1 -->
+		<!-- Level 2: P. Accuracy +2 -->
+		<!-- Level 3: P. Accuracy +3 -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="Accuracy">
+				<value level="1">1</value>
+				<value level="2">2</value>
+				<value level="3">3</value>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36222" toLevel="3" name="Sigil Augmentation: M. Accuracy">
+		<!-- Level 1: M. Accuracy +1 -->
+		<!-- Level 2: M. Accuracy +2 -->
+		<!-- Level 3: M. Accuracy +3 -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicAccuracy">
+				<value level="1">1</value>
+				<value level="2">2</value>
+				<value level="3">3</value>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36223" toLevel="9" name="Sigil Augmentation: P. Atk.">
+		<!-- Level 1: P. Atk. +763 -->
+		<!-- Level 2: P. Atk. +786 -->
+		<!-- Level 3: P. Atk. +809 -->
+		<!-- Level 4: P. Atk. +834 -->
+		<!-- Level 5: P. Atk. +859 -->
+		<!-- Level 6: P. Atk. +884 -->
+		<!-- Level 7: P. Atk. +1% -->
+		<!-- Level 8: P. Atk. +2% -->
+		<!-- Level 9: P. Atk. +3% -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">763</value>
+					<value level="2">786</value>
+					<value level="3">809</value>
+					<value level="4">834</value>
+					<value level="5">859</value>
+					<value level="6">884</value>
+					<value fromLevel="7" toLevel="9">0</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36224" toLevel="9" name="Sigil Augmentation: M. Atk.">
+		<!-- Level 1: M. Atk. +443 -->
+		<!-- Level 2: M. Atk. +457 -->
+		<!-- Level 3: M. Atk. +470 -->
+		<!-- Level 4: M. Atk. +484 -->
+		<!-- Level 5: M. Atk. +499 -->
+		<!-- Level 6: M. Atk. +514 -->
+		<!-- Level 7: M. Atk. +1% -->
+		<!-- Level 8: M. Atk. +2% -->
+		<!-- Level 9: M. Atk. +3% -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">443</value>
+					<value level="2">457</value>
+					<value level="3">470</value>
+					<value level="4">484</value>
+					<value level="5">499</value>
+					<value level="6">514</value>
+					<value fromLevel="7" toLevel="9">0</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">2</value>
+					<value level="9">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36225" toLevel="8" name="Sigil Augmentation: Attribute Attack">
+		<!-- Level 1: Attribute Attack +4 -->
+		<!-- Level 2: Attribute Attack +5 -->
+		<!-- Level 3: Attribute Attack +6 -->
+		<!-- Level 4: Attribute Attack +7 -->
+		<!-- Level 5: Attribute Attack +10 -->
+		<!-- Level 6: Attribute Attack +15 -->
+		<!-- Level 7: Attribute Attack +30 -->
+		<!-- Level 8: Attribute Attack +50 -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>
+					<value level="1">4</value>
+					<value level="2">5</value>
+					<value level="3">6</value>
+					<value level="4">7</value>
+					<value level="5">10</value>
+					<value level="6">15</value>
+					<value level="7">30</value>
+					<value level="8">50</value>
+				</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36226" toLevel="2" name="Sigil Augmentation: PvE Damage Up">
+		<!-- Level 1: PvE damage +1% -->
+		<!-- Level 2: PvE damage +2% -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<type>ENEMY_ALL</type>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36227" toLevel="2" name="Sigil Augmentation: PvP Damage Up">
+		<!-- Level 1: PvP damage +1% -->
+		<!-- Level 2: PvP damage +2% -->
+		<icon>icon.weapon_r110_sigil</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36228" toLevel="10" name="Helmet - Might: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36229" toLevel="10" name="Helmet - Empower: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36230" toLevel="10" name="Helmet - Death: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, Critical Damage for basic attacks +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, Critical Damage for basic attacks +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36231" toLevel="10" name="Helmet - Fire: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36232" toLevel="10" name="Helmet - Mystic: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36233" toLevel="10" name="Upper Armor - Might: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36234" toLevel="10" name="Upper Armor - Empower: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36235" toLevel="10" name="Upper Armor - Death: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, Critical Damage for basic attacks +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, Critical Damage for basic attacks +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36236" toLevel="10" name="Upper Armor - Fire: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36237" toLevel="10" name="Upper Armor - Mystic: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36238" toLevel="10" name="Lower Armor - Might: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36239" toLevel="10" name="Lower Armor - Empower: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36240" toLevel="10" name="Lower Armor - Death: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, Critical Damage for basic attacks +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, Critical Damage for basic attacks +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36241" toLevel="10" name="Lower Armor - Fire: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36242" toLevel="10" name="Lower Armor - Mystic: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36243" toLevel="10" name="Gloves - Might: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36244" toLevel="10" name="Gloves - Empower: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36245" toLevel="10" name="Gloves - Death: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, Critical Damage for basic attacks +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, Critical Damage for basic attacks +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36246" toLevel="10" name="Gloves - Fire: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36247" toLevel="10" name="Gloves - Mystic: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36248" toLevel="10" name="Boots - Might: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36249" toLevel="10" name="Boots - Empower: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36250" toLevel="10" name="Boots - Death: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, Critical Damage for basic attacks +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, Critical Damage for basic attacks +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36251" toLevel="10" name="Boots - Fire: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36252" toLevel="10" name="Boots - Mystic: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36253" toLevel="10" name="Sigil - Might: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36254" toLevel="10" name="Sigil - Empower: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36255" toLevel="10" name="Sigil - Death: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, Critical Damage for basic attacks +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, Critical Damage for basic attacks +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36256" toLevel="10" name="Sigil - Fire: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36257" toLevel="10" name="Sigil - Mystic: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36258" toLevel="10" name="Shield - Might: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36259" toLevel="10" name="Shield - Empower: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Atk. +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Atk. +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Atk. +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36260" toLevel="10" name="Shield - Death: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, Critical Damage for basic attacks +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, Critical Damage for basic attacks +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, Critical Damage for basic attacks +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36261" toLevel="10" name="Shield - Fire: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, P. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, P. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, P. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36262" toLevel="10" name="Shield - Mystic: Tersi's Soul Crystal - Lv. 1">
+		<!-- Level 1: P. Def. +400 -->
+		<!-- Level 2: P. Def. +600 -->
+		<!-- Level 3: P. Def. +800 -->
+		<!-- Level 4: P. Def. +1000 -->
+		<!-- Level 5: P. Def. +1200 and additionally +1% -->
+		<!-- Level 6: P. Def. +1200 and additionally +1%, received PvP damage -1% -->
+		<!-- Level 7: P. Def. +1200 and additionally +2%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 8: P. Def. +1200 and additionally +3%, received PvP damage -1%, M. Skill Critical Damage +1% -->
+		<!-- Level 9: P. Def. +1200 and additionally +4%, received PvP damage -2%, M. Skill Critical Damage +2% -->
+		<!-- Level 10: P. Def. +1200 and additionally +5%, received PvP damage -3%, M. Skill Critical Damage +3% -->
+		<icon>icon.ensoul_stone_tersi</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">400</value>
+					<value level="2">600</value>
+					<value level="3">800</value>
+					<value level="4">1000</value>
+					<value level="5">1200</value>
+					<value level="6">1200</value>
+					<value level="7">1200</value>
+					<value level="8">1200</value>
+					<value level="9">1200</value>
+					<value level="10">1200</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">1</value>
+					<value level="7">2</value>
+					<value level="8">3</value>
+					<value level="9">4</value>
+					<value level="10">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value level="6">1</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value fromLevel="1" toLevel="6">0</value>
+					<value level="7">1</value>
+					<value level="8">1</value>
+					<value level="9">2</value>
+					<value level="10">3</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36263" toLevel="1" name="Collection_7_2009">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36264" toLevel="1" name="Collection_7_2010">
+		<!-- P./ M. Def. +3%, acquired XP/ SP +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="ExpModify">
+				<amount>7</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>7</amount>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36265" toLevel="1" name="Collection_7_2011">
+		<!-- P./ M. Atk. +3%, Vitality bonus +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="VitalityExpRate">
+				<amount>7</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36266" toLevel="1" name="Collection_7_2012">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +5%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36267" toLevel="1" name="Artifact - Received Damage Decrease">
+		<!-- Received damage -11% -->
+		<icon>icon.artifact_a_upgrade_2</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDefenceBonus">
+				<amount>11</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDefenceBonus">
+				<amount>11</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDefenceBonus">
+				<amount>11</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpMagicalSkillDefenceBonus">
+				<amount>11</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDefenceBonus">
+				<amount>11</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDefenceBonus">
+				<amount>11</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36268" toLevel="1" name="Einhasad's Blessing">
+		<!-- Critical Damage for basic attacks and P./ M. skills +5%, all attack power +5%, received damage -10% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AutoAttackDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="CriticalDamage">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36269" toLevel="1" name="Collection_6_168">
+		<!-- Damage +1%, received damage -1%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PvpMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvpPhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AutoAttackDamageBonus">
+				<amount>1</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-1</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36270" toLevel="1" name="Collection_6_169">
+		<!-- Attribute Attack/ Resistance +30 -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>30</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>30</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36271" toLevel="1" name="Collection_6_170">
+		<!-- P. Atk./ M. Atk./ P. Def./ M. Def. +3%. -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>3</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36272" toLevel="1" name="Collection_6_171">
+		<!-- Resistance to All Weapons +3% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceTrait">
+				<SWORD>3</SWORD>
+				<BLUNT>3</BLUNT>
+				<DUAL>3</DUAL>
+				<DUALBLUNT>3</DUALBLUNT>
+				<DAGGER>3</DAGGER>
+				<DUALDAGGER>3</DUALDAGGER>
+				<DUALFIST>3</DUALFIST>
+				<POLE>3</POLE>
+				<BOW>3</BOW>
+				<CROSSBOW>3</CROSSBOW>
+				<TWOHANDCROSSBOW>3</TWOHANDCROSSBOW>
+				<ANCIENTSWORD>3</ANCIENTSWORD>
+				<RAPIER>3</RAPIER>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36273" toLevel="1" name="Collection_6_172">
+		<!-- Damage to monsters in the Tower of Insolence +10%, received damage from monsters in the Tower of Insolence -10% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36274" toLevel="1" name="Baium's Challenger">
+		<!-- On the Tower of Insolence's top floor: PvE damage +10%, all received Critical Damage -20%. -->
+		<icon>icon.skill1442</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="PveMagicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalAttackDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PvePhysicalSkillDamageBonus">
+				<amount>10</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceCriticalDamage">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefenceMagicCriticalDamage">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DefencePhysicalSkillCriticalDamage">
+				<amount>20</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36275" toLevel="1" name="Collection_7_2014">
+		<!-- Attribute Attack/ Resistance +150, damage +5%, acquired XP/ SP +10%, received damage -5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttributeAdd">
+				<amount>150</amount>
+				<mode>DIFF</mode>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>150</amount>
+				<attribute>FIRE</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>150</amount>
+				<attribute>WATER</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>150</amount>
+				<attribute>WIND</attribute>
+			</effect>
+			<effect name="DefenceAttribute">
+				<amount>150</amount>
+				<attribute>EARTH</attribute>
+			</effect>
+			<effect name="ExpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="SpModify">
+				<amount>10</amount>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-5</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-5</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36276" toLevel="1" name="Collection_7_2015">
+		<!-- Critical Damage for basic attacks and P./ M. skills +5%, all attack power +5%, received damage -10% -->
+		<icon>icon.skill0000</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicCriticalDamage">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AutoAttackDamageBonus">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>5</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>PK</type>
+			</effect>
+			<effect name="DamageByAttack">
+				<amount>-10</amount>
+				<type>ENEMY_ALL</type>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36277" toLevel="11" name="+1 Heavenly Talisman: Enchant Effect">
+		<!-- Level 2: Fixed Damage Resistance +2% -->
+		<!-- Level 3: Fixed Damage Resistance/ Damage Reflection Resistance +2% -->
+		<!-- Level 4: Fixed Damage Resistance/ Damage Reflection Resistance +3%, P./ M. Def. +1% -->
+		<!-- Level 5: Fixed Damage Resistance/ Damage Reflection Resistance +4%, P. Atk./ M. Atk./ P. Def./ M. Def. +1% -->
+		<!-- Level 6: Fixed Damage/ Damage Reflection Resistance +5%, P. Atk./ M. Atk./ P. Def./ M. Def. +3%, adena drop rate +5% -->
+		<!-- Level 7: Fixed Damage/ Damage Reflection Resistance +6%, P. Atk./ M. Atk./ P. Def./ M. Def. +4%, adena drop rate +5% -->
+		<!-- Level 8: Fixed Damage/ Damage Reflection Resistance +7%, P. Atk./ M. Atk./ P. Def./ M. Def. +5%, adena drop rate +5% -->
+		<!-- Level 9: Fixed Damage/ Damage Reflection Resistance +8%, P. Atk./ M. Atk./ P. Def./ M. Def. +6%, adena drop rate +5% -->
+		<!-- Level 10: Fixed Damage/ Damage Reflection Resistance +10%, P. Atk./ M. Atk./ P. Def./ M. Def. +7%, adena drop rate +5%, all attack power +3% -->
+		<!-- Level 11: Fixed Damage/ Damage Reflection Resistance +10%, P. Atk./ M. Atk./ P. Def./ M. Def. +7%, adena drop rate +5%, all attack power +7% -->
+		<icon>icon.accessory_heaven_talisman</icon>
+		<operateType>P</operateType>
+		<magicCriticalRate>5</magicCriticalRate>
+		<effects>
+			<effect name="RealDamageResist">
+				<amount>
+					<value level="1">0</value>
+					<value fromLevel="2" toLevel="3">2</value>
+					<value level="4">3</value>
+					<value level="5">4</value>
+					<value level="6">5</value>
+					<value level="7">6</value>
+					<value level="8">7</value>
+					<value level="9">8</value>
+					<value fromLevel="10" toLevel="11">10</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="3">0</value>
+					<value fromLevel="4" toLevel="5">1</value>
+					<value level="6">3</value>
+					<value level="7">4</value>
+					<value level="8">5</value>
+					<value level="9">6</value>
+					<value fromLevel="10" toLevel="11">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalDefence">
+				<amount>
+					<value fromLevel="1" toLevel="3">0</value>
+					<value fromLevel="4" toLevel="5">1</value>
+					<value level="6">3</value>
+					<value level="7">4</value>
+					<value level="8">5</value>
+					<value level="9">6</value>
+					<value fromLevel="10" toLevel="11">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">3</value>
+					<value level="7">4</value>
+					<value level="8">5</value>
+					<value level="9">6</value>
+					<value fromLevel="10" toLevel="11">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalAttack">
+				<amount>
+					<value fromLevel="1" toLevel="4">0</value>
+					<value level="5">1</value>
+					<value level="6">3</value>
+					<value level="7">4</value>
+					<value level="8">5</value>
+					<value level="9">6</value>
+					<value fromLevel="10" toLevel="11">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="BonusDropAdena">
+				<amount>
+					<value fromLevel="1" toLevel="5">0</value>
+					<value fromLevel="6" toLevel="11">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="AutoAttackDamageBonus">
+				<amount>
+					<value fromLevel="1" toLevel="9">0</value>
+					<value level="10">3</value>
+					<value level="11">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="MagicalSkillPower">
+				<amount>
+					<value fromLevel="1" toLevel="9">0</value>
+					<value level="10">3</value>
+					<value level="11">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+			<effect name="PhysicalSkillPower">
+				<amount>
+					<value fromLevel="1" toLevel="9">0</value>
+					<value level="10">3</value>
+					<value level="11">7</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36278" toLevel="10" name="Superior Seed Bracelet Augmentation: Attribute Attack">
+		<!-- Level 1: Attribute Attack +10 -->
+		<!-- Level 2: Attribute Attack +20 -->
+		<!-- Level 3: Attribute Attack +30 -->
+		<!-- Level 4: Attribute Attack +40 -->
+		<!-- Level 5: Attribute Attack +50 -->
+		<!-- Level 6: Attribute Attack +60 -->
+		<!-- Level 7: Attribute Attack +70 -->
+		<!-- Level 8: Attribute Attack +80 -->
+		<!-- Level 9: Attribute Attack +90 -->
+		<!-- Level 10: Attribute Attack +100 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="AttackAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+					<value level="6">60</value>
+					<value level="7">70</value>
+					<value level="8">80</value>
+					<value level="9">90</value>
+					<value level="10">100</value>
+				</amount>
+				<attribute>FIRE,WATER,WIND,EARTH,HOLY,DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36279" toLevel="10" name="Superior Seed Bracelet Augmentation: Attribute Resistance">
+		<!-- Level 1: Attribute Resistance +10 -->
+		<!-- Level 2: Attribute Resistance +20 -->
+		<!-- Level 3: Attribute Resistance +30 -->
+		<!-- Level 4: Attribute Resistance +40 -->
+		<!-- Level 5: Attribute Resistance +50 -->
+		<!-- Level 6: Attribute Resistance +60 -->
+		<!-- Level 7: Attribute Resistance +70 -->
+		<!-- Level 8: Attribute Resistance +80 -->
+		<!-- Level 9: Attribute Resistance +90 -->
+		<!-- Level 10: Attribute Resistance +100 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="DefenceAttribute">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">30</value>
+					<value level="4">40</value>
+					<value level="5">50</value>
+					<value level="6">60</value>
+					<value level="7">70</value>
+					<value level="8">80</value>
+					<value level="9">90</value>
+					<value level="10">100</value>
+				</amount>
+				<attribute>FIRE,WATER,WIND,EARTH,HOLY,DARK</attribute>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36280" toLevel="1" name="Superior Seed Bracelet Augmentation: STR">
+		<!-- STR +1 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>STR</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36281" toLevel="1" name="Superior Seed Bracelet Augmentation: DEX">
+		<!-- DEX +1 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>DEX</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36282" toLevel="1" name="Superior Seed Bracelet Augmentation: CON">
+		<!-- CON +1 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>CON</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36283" toLevel="1" name="Superior Seed Bracelet Augmentation: INT">
+		<!-- INT +1 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>INT</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36284" toLevel="1" name="Superior Seed Bracelet Augmentation: WIT">
+		<!-- WIT +1 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>WIT</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36285" toLevel="1" name="Superior Seed Bracelet Augmentation: MEN">
+		<!-- MEN +1 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>MEN</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36286" toLevel="1" name="Superior Seed Bracelet Augmentation: LUC">
+		<!-- LUC +1 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>LUC</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36287" toLevel="1" name="Superior Seed Bracelet Augmentation: CHA">
+		<!-- CHA +1 -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="StatUp">
+				<amount>1</amount>
+				<stat>CHA</stat>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36288" toLevel="5" name="Superior Seed Bracelet Augmentation: Vitality Bonus">
+		<!-- Level 1: Vitality bonus +1% -->
+		<!-- Level 2: Vitality bonus +2% -->
+		<!-- Level 3: Vitality bonus +3% -->
+		<!-- Level 4: Vitality bonus +4% -->
+		<!-- Level 5: Vitality bonus +5% -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<effects>
+			<effect name="VitalityExpRate">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">3</value>
+					<value level="4">4</value>
+					<value level="5">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36289" toLevel="3" name="Superior Seed Bracelet Augmentation: Aquarius">
+		<!-- Level 1: When Agathion Charm: Aquarius is equipped, M. Atk. +1%. -->
+		<!-- Level 2: When Agathion Charm: Aquarius is equipped, M. Atk. +2%. -->
+		<!-- Level 3: When Agathion Charm: Aquarius is equipped, M. Atk. +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48056</item> <!-- Agathion Charm : Aquarius -->
+					<item>80944</item> <!-- Greater Agathion Charm : Aquarius -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36290" toLevel="3" name="Superior Seed Bracelet Augmentation: Pisces">
+		<!-- Level 1: When Agathion Charm: Pisces is equipped, Casting Spd. +1%. -->
+		<!-- Level 2: When Agathion Charm: Pisces is equipped, Casting Spd. +2%. -->
+		<!-- Level 3: When Agathion Charm: Pisces is equipped, Casting Spd. +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48057</item> <!-- Agathion Charm : Pisces -->
+					<item>80945</item> <!-- Greater Agathion Charm : Pisces -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicalAttackSpeed">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36291" toLevel="3" name="Superior Seed Bracelet Augmentation: Aries">
+		<!-- Level 1: When Agathion Charm: Aries is equipped, P. Skill Critical Damage +1%. -->
+		<!-- Level 2: When Agathion Charm: Aries is equipped, P. Skill Critical Damage +2%. -->
+		<!-- Level 3: When Agathion Charm: Aries is equipped, P. Skill Critical Damage +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48051</item> <!-- Agathion Charm : Aries -->
+					<item>80939</item> <!-- Greater Agathion Charm : Aries -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalSkillCriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36292" toLevel="3" name="Superior Seed Bracelet Augmentation: Taurus">
+		<!-- Level 1: When Agathion Charm: Taurus is equipped, P. Def. +1%. -->
+		<!-- Level 2: When Agathion Charm: Taurus is equipped, P. Def. +2%. -->
+		<!-- Level 3: When Agathion Charm: Taurus is equipped, P. Def. +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48052</item> <!-- Agathion Charm : Taurus -->
+					<item>80940</item> <!-- Greater Agathion Charm : Taurus -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36293" toLevel="3" name="Superior Seed Bracelet Augmentation: Gemini">
+		<!-- Level 1: When Agathion Charm: Gemini is equipped, M. Def. +1%. -->
+		<!-- Level 2: When Agathion Charm: Gemini is equipped, M. Def. +2%. -->
+		<!-- Level 3: When Agathion Charm: Gemini is equipped, M. Def. +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48054</item> <!-- Agathion Charm : Gemini -->
+					<item>80942</item> <!-- Greater Agathion Charm : Gemini -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicalDefence">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36294" toLevel="3" name="Superior Seed Bracelet Augmentation: Cancer">
+		<!-- Level 1: When Agathion Charm: Cancer is equipped, P. Skill Critical Rate +1%. -->
+		<!-- Level 2: When Agathion Charm: Cancer is equipped, P. Skill Critical Rate +2%. -->
+		<!-- Level 3: When Agathion Charm: Cancer is equipped, P. Skill Critical Rate +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48059</item> <!-- Agathion Charm : Cancer -->
+					<item>80947</item> <!-- Greater Agathion Charm : Cancer -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalSkillCriticalRate">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36295" toLevel="3" name="Superior Seed Bracelet Augmentation: Leo">
+		<!-- Level 1: When Agathion Charm: Leo is equipped, P. Atk. +1%. -->
+		<!-- Level 2: When Agathion Charm: Leo is equipped, P. Atk. +2%. -->
+		<!-- Level 3: When Agathion Charm: Leo is equipped, P. Atk. +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48053</item> <!-- Agathion Charm : Leo -->
+					<item>80941</item> <!-- Greater Agathion Charm : Leo -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalAttack">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36296" toLevel="3" name="Superior Seed Bracelet Augmentation: Virgo">
+		<!-- Level 1: When Agathion Charm: Virgo is equipped, Critical Rate for basic attacks +10. -->
+		<!-- Level 2: When Agathion Charm: Virgo is equipped, Critical Rate for basic attacks +20. -->
+		<!-- Level 3: When Agathion Charm: Virgo is equipped, Critical Rate for basic attacks +50. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48048</item> <!-- Agathion Charm : Virgo -->
+					<item>80936</item> <!-- Greater Agathion Charm : Virgo -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="CriticalRate">
+				<amount>
+					<value level="1">10</value>
+					<value level="2">20</value>
+					<value level="3">50</value>
+				</amount>
+				<mode>DIFF</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36297" toLevel="3" name="Superior Seed Bracelet Augmentation: Libra">
+		<!-- Level 1: When Agathion Charm: Libra is equipped, M. Skill Critical Damage +1%. -->
+		<!-- Level 2: When Agathion Charm: Libra is equipped, M. Skill Critical Damage +2%. -->
+		<!-- Level 3: When Agathion Charm: Libra is equipped, M. Skill Critical Damage +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48050</item> <!-- Agathion Charm : Libra -->
+					<item>80938</item> <!-- Greater Agathion Charm : Libra -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="MagicCriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36298" toLevel="3" name="Superior Seed Bracelet Augmentation: Scorpio">
+		<!-- Level 1: When Agathion Charm: Scorpio is equipped, Critical Damage for basic attacks +1%. -->
+		<!-- Level 2: When Agathion Charm: Scorpio is equipped, Critical Damage for basic attacks +2%. -->
+		<!-- Level 3: When Agathion Charm: Scorpio is equipped, Critical Damage for basic attacks +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48055</item> <!-- Agathion Charm : Scorpio -->
+					<item>80943</item> <!-- Greater Agathion Charm : Scorpio -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="CriticalDamage">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+	<skill id="36299" toLevel="3" name="Superior Seed Bracelet Augmentation: Sagittarius">
+		<!-- Level 1: When Agathion Charm: Sagittarius is equipped, Atk. Spd. +1%. -->
+		<!-- Level 2: When Agathion Charm: Sagittarius is equipped, Atk. Spd. +2%. -->
+		<!-- Level 3: When Agathion Charm: Sagittarius is equipped, Atk. Spd. +5%. -->
+		<icon>icon.bm_renewal_mineral_lbracelet_charm</icon>
+		<operateType>P</operateType>
+		<passiveConditions>
+			<condition name="OpEquipItem">
+				<itemIds>
+					<item>48058</item> <!-- Agathion Charm : Sagittarius -->
+					<item>80946</item> <!-- Greater Agathion Charm : Sagittarius -->
+				</itemIds>
+				<affectType>CASTER</affectType>
+			</condition>
+		</passiveConditions>
+		<effects>
+			<effect name="PhysicalAttackSpeed">
+				<amount>
+					<value level="1">1</value>
+					<value level="2">2</value>
+					<value level="3">5</value>
+				</amount>
+				<mode>PER</mode>
+			</effect>
+		</effects>
+	</skill>
+</list>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/skillTrees.xsd">
+	<skillTree type="classSkillTree" classId="249" parentClassId="248">
+		<skill skillName="Shield" skillId="1040" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Might" skillId="1068" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Acumen" skillId="45104" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Empower" skillId="45105" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Wild Magic" skillId="45106" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Magic Barrier" skillId="45108" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Focus" skillId="45109" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Death Whisper" skillId="45110" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="Haste" skillId="45111" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Berserker Spirit" skillId="45112" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Clarity" skillId="45113" skillLevel="3" getLevel="40" levelUpSp="80" />
+		<skill skillName="HP Recovery" skillId="45176" skillLevel="2" getLevel="40" levelUpSp="80">
+			<item id="90045,98423" count="5" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="MP Recovery" skillId="45177" skillLevel="2" getLevel="40" levelUpSp="80">
+			<item id="90045,98423" count="5" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Potion Mastery" skillId="45184" skillLevel="1" getLevel="40">
+			<item id="90045,98423" count="5" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="5" getLevel="40" levelUpSp="80" />
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="1" getLevel="40" levelUpSp="80" />
+		<skill skillName="Quick Dash" skillId="88404" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Weapon Mastery" skillId="88451" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Armor Mastery" skillId="88452" skillLevel="2" getLevel="40" levelUpSp="80" />
+		<skill skillName="Unleashed Potential" skillId="88453" skillLevel="1" getLevel="40" autoGet="true" />
+		<skill skillName="Howling" skillId="88474" skillLevel="1" getLevel="40" levelUpSp="80" />
+		
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="6" getLevel="44" levelUpSp="120" />
+		
+		<skill skillName="Young Moon's Grace" skillId="88477" skillLevel="1" getLevel="45" autoGet="true" />
+		
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="2" getLevel="46" levelUpSp="120" />
+		
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="7" getLevel="48" levelUpSp="200" />
+		
+		<skill skillName="Potion Mastery" skillId="45184" skillLevel="2" getLevel="50">
+			<item id="90045,98423" count="10" /> <!-- Magic Tablet -->
+		</skill>
+		
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="1" getLevel="52" levelUpSp="300">
+			<item id="8618,95495" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 1 -->
+		</skill>
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="8" getLevel="52" levelUpSp="300" />
+		
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="3" getLevel="54" levelUpSp="400" />
+		
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="9" getLevel="56" levelUpSp="500" />
+		
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="4" getLevel="58" levelUpSp="500" />
+		
+		<skill skillName="MP Recovery" skillId="45177" skillLevel="3" getLevel="60" levelUpSp="700">
+			<item id="90045,98423" count="23" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Potion Mastery" skillId="45184" skillLevel="3" getLevel="60">
+			<item id="90045,98423" count="15" /> <!-- Magic Tablet -->
+		</skill>
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="10" getLevel="60" levelUpSp="700" />
+		<skill skillName="Quick Dash" skillId="88404" skillLevel="3" getLevel="60" levelUpSp="700" />
+		<skill skillName="Moon's Grace" skillId="88478" skillLevel="1" getLevel="60" autoGet="true" />
+		
+		<skill skillName="Divine Inspiration" skillId="1405" skillLevel="2" getLevel="61" levelUpSp="700">
+			<item id="8619,95496" count="1" /> <!-- Spellbook: Divine Inspiration Lv. 2 -->
+		</skill>
+		
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="5" getLevel="62" levelUpSp="800" />
+		
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="11" getLevel="63" levelUpSp="800" />
+		<skill skillName="Weapon Mastery" skillId="88451" skillLevel="3" getLevel="63" levelUpSp="800" />
+		<skill skillName="Armor Mastery" skillId="88452" skillLevel="3" getLevel="63" levelUpSp="800" />
+		
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="6" getLevel="64" levelUpSp="1000" />
+		
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="12" getLevel="66" levelUpSp="1200" />
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="7" getLevel="66" levelUpSp="1200" />
+		
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="8" getLevel="68" levelUpSp="1600" />
+		
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="13" getLevel="69" levelUpSp="1600" />
+		
+		<skill skillName="Quick Dash" skillId="88404" skillLevel="4" getLevel="70" levelUpSp="2000" />
+		<skill skillName="Weapon Mastery" skillId="88451" skillLevel="4" getLevel="70" levelUpSp="2000" />
+		<skill skillName="Armor Mastery" skillId="88452" skillLevel="4" getLevel="70" levelUpSp="2000" />
+		<skill skillName="Full Moon's Grace" skillId="88479" skillLevel="1" getLevel="70" autoGet="true" />
+		
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="9" getLevel="71" levelUpSp="2000" />
+		
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="14" getLevel="72" levelUpSp="2200" />
+		
+		<skill skillName="Upward Strike" skillId="88402" skillLevel="10" getLevel="74" levelUpSp="2200" />
+		
+		<skill skillName="Direct Strike" skillId="88401" skillLevel="15" getLevel="75" levelUpSp="2200" />
+		<skill skillName="Quick Dash" skillId="88404" skillLevel="5" getLevel="75" levelUpSp="2200" />
+	</skillTree>
+</list>
